@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="y" parser="y" wsd="n" srl="y" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="20世纪后期，陕西凤雏村出土了刻有“凤”字的甲骨四片，这些 “凤”字的形体大致相同，均为头上带有象征神权或王权的抽象化了的毛角的短尾鸟。">
+                <word id="0" cont="20" pos="m" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="世纪" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="后期" pos="nd" ne="O" parent="6" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="陕西" pos="ns" ne="B-Ns" parent="5" relate="ATT" />
+                <word id="5" cont="凤雏村" pos="ns" ne="E-Ns" parent="6" relate="SBV" />
+                <word id="6" cont="出土" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="3" />
+                    <arg id="1" type="A0" beg="4" end="5" />
+                    <arg id="2" type="A1" beg="10" end="15" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="刻" pos="v" ne="O" parent="9" relate="SBV" />
+                <word id="9" cont="有" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="A1" beg="10" end="14" />
+                </word>
+                <word id="10" cont="“" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="11" cont="凤" pos="n" ne="O" parent="13" relate="ATT" />
+                <word id="12" cont="”" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="13" cont="字" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="14" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="15" cont="甲骨四片" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="17" cont="这些" pos="r" ne="O" parent="23" relate="ATT" />
+                <word id="18" cont="“" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="19" cont="凤" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="20" cont="”" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="21" cont="字" pos="n" ne="O" parent="23" relate="ATT" />
+                <word id="22" cont="的" pos="u" ne="O" parent="21" relate="RAD" />
+                <word id="23" cont="形体" pos="n" ne="O" parent="25" relate="SBV" />
+                <word id="24" cont="大致" pos="d" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="相同" pos="a" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="A0" beg="17" end="23" />
+                    <arg id="1" type="ADV" beg="24" end="24" />
+                </word>
+                <word id="26" cont="，" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="27" cont="均" pos="d" ne="O" parent="28" relate="ADV" />
+                <word id="28" cont="为" pos="v" ne="O" parent="25" relate="COO">
+                    <arg id="0" type="A0" beg="17" end="23" />
+                    <arg id="1" type="ADV" beg="27" end="27" />
+                    <arg id="2" type="A1" beg="29" end="42" />
+                </word>
+                <word id="29" cont="头" pos="n" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="上" pos="nd" ne="O" parent="31" relate="ADV" />
+                <word id="31" cont="带有" pos="v" ne="O" parent="40" relate="ATT">
+                    <arg id="0" type="A0" beg="29" end="30" />
+                </word>
+                <word id="32" cont="象征" pos="v" ne="O" parent="31" relate="VOB" />
+                <word id="33" cont="神权" pos="n" ne="O" parent="32" relate="VOB" />
+                <word id="34" cont="或" pos="c" ne="O" parent="35" relate="LAD" />
+                <word id="35" cont="王权" pos="n" ne="O" parent="33" relate="COO" />
+                <word id="36" cont="的" pos="u" ne="O" parent="31" relate="RAD" />
+                <word id="37" cont="抽象化" pos="v" ne="O" parent="40" relate="ATT" />
+                <word id="38" cont="了" pos="u" ne="O" parent="37" relate="RAD" />
+                <word id="39" cont="的" pos="u" ne="O" parent="37" relate="RAD" />
+                <word id="40" cont="毛角" pos="n" ne="O" parent="42" relate="ATT" />
+                <word id="41" cont="的" pos="u" ne="O" parent="40" relate="RAD" />
+                <word id="42" cont="短尾鸟" pos="n" ne="O" parent="28" relate="VOB" />
+                <word id="43" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="1" cont="东汉许筷《说文解字》云:“鸑鷟，凤属，神鸟也。">
+                <word id="0" cont="东汉" pos="nt" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="许筷" pos="nh" ne="S-Nh" parent="3" relate="SBV" />
+                <word id="2" cont="《" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="3" cont="说" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="5" end="16" />
+                </word>
+                <word id="4" cont="文" pos="n" ne="O" parent="3" relate="VOB" />
+                <word id="5" cont="解" pos="v" ne="O" parent="3" relate="VOB" />
+                <word id="6" cont="字" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="7" cont="》" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="8" cont="云" pos="v" ne="O" parent="5" relate="COO" />
+                <word id="9" cont=":" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="“" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="11" cont="鸑鷟" pos="i" ne="O" parent="8" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="13" cont="凤属" pos="i" ne="O" parent="11" relate="COO" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="15" cont="神鸟" pos="n" ne="O" parent="11" relate="COO" />
+                <word id="16" cont="也" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="2" cont="……">
+                <word id="0" cont="……" pos="wp" ne="O" parent="-1" relate="HED" />
+            </sent>
+            <sent id="3" cont="江中有鸑鷟，似凫而大，赤目。”">
+                <word id="0" cont="江" pos="n" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="中" pos="nd" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="有" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="3" end="3" />
+                </word>
+                <word id="3" cont="鸑鷟" pos="n" ne="O" parent="2" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="5" cont="似" pos="v" ne="O" parent="8" relate="ADV" />
+                <word id="6" cont="凫" pos="n" ne="O" parent="5" relate="POB" />
+                <word id="7" cont="而" pos="c" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="大" pos="a" ne="O" parent="2" relate="COO" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="赤目" pos="i" ne="O" parent="8" relate="COO" />
+                <word id="11" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="12" cont="”" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="4" cont="据此，古代传说中鸣于岐山、兆示周王朝兴起的神鸟凤凰，其原型应该是一种形象普通、类似水鸭的短尾水鸟。">
+                <word id="0" cont="据此" pos="d" ne="O" parent="4" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="古代" pos="nt" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="传说" pos="n" ne="O" parent="4" relate="SBV" />
+                <word id="4" cont="中鸣" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="5" cont="于" pos="p" ne="O" parent="10" relate="ADV">
+                    <arg id="0" type="A1" beg="6" end="9" />
+                </word>
+                <word id="6" cont="岐山" pos="ns" ne="S-Ns" parent="5" relate="POB" />
+                <word id="7" cont="、" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="8" cont="兆示周" pos="nt" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="王朝" pos="n" ne="O" parent="6" relate="COO" />
+                <word id="10" cont="兴起" pos="v" ne="O" parent="13" relate="ATT">
+                    <arg id="0" type="LOC" beg="5" end="9" />
+                </word>
+                <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="12" cont="神鸟" pos="n" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="凤凰" pos="n" ne="O" parent="4" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="15" cont="其" pos="r" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="原型" pos="n" ne="O" parent="18" relate="SBV" />
+                <word id="17" cont="应该" pos="v" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="是" pos="v" ne="O" parent="4" relate="COO">
+                    <arg id="0" type="A0" beg="15" end="16" />
+                    <arg id="1" type="A1" beg="19" end="28" />
+                </word>
+                <word id="19" cont="一" pos="m" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="种" pos="q" ne="O" parent="28" relate="ATT" />
+                <word id="21" cont="形象" pos="n" ne="O" parent="22" relate="SBV" />
+                <word id="22" cont="普通" pos="a" ne="O" parent="28" relate="ATT">
+                    <arg id="0" type="C-A0" beg="21" end="21" />
+                </word>
+                <word id="23" cont="、" pos="wp" ne="O" parent="24" relate="WP" />
+                <word id="24" cont="类似" pos="a" ne="O" parent="25" relate="ATT" />
+                <word id="25" cont="水鸭" pos="n" ne="O" parent="22" relate="COO" />
+                <word id="26" cont="的" pos="u" ne="O" parent="22" relate="RAD" />
+                <word id="27" cont="短尾" pos="n" ne="O" parent="28" relate="ATT" />
+                <word id="28" cont="水鸟" pos="n" ne="O" parent="18" relate="VOB" />
+                <word id="29" cont="。" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>
