@@ -14,20 +14,20 @@ case class Para(id: String, sent: Seq[Sent])
 
 case class Sent(id: String, cont: String, words: Seq[Word])
 
-case class Word(id: String, cont: String, pos: String, ne: String, parent: String, relate: String, args: Seq[Arg])
+case class Word(id: String, cont: String, pos: String, ne: String, parent: String, relate: String, args: Option[Seq[Arg]])
 
 case class Arg(id: String, `type`: String, beg: String, end: String)
 
 object Xml4Nlp {
   implicit val reader: XmlReader[Xml4Nlp] = (
-    (__ \ "note").read[Note].default(Nil) and
-      (__ \ "doc").read[Doc].optional
+    (__ \ "note").read[Note] and
+      (__ \ "doc").read[Doc]
     ) (apply _)
 }
 
 object Note {
   implicit val reader: XmlReader[Note] = (
-    attribute[String](name = "name") and
+    attribute[String](name = "sent") and
       attribute[String](name = "word") and
       attribute[String](name = "pos") and
       attribute[String](name = "ne") and
@@ -39,7 +39,7 @@ object Note {
 
 
 object Doc {
-  implicit val reader: XmlReader[Doc] = (__ \ "send").read(seq[Para]).default(Nil) map (apply _)
+  implicit val reader: XmlReader[Doc] = (__ \ "para").read(seq[Para]).default(Nil) map (apply _)
 }
 
 object Para {
@@ -66,9 +66,10 @@ object Word {
       attribute[String](name = "id") and
         attribute[String](name = "cont") and
         attribute[String](name = "pos") and
+        attribute[String](name = "ne") and
         attribute[String](name = "parent") and
         attribute[String](name = "relate") and
-        (__ \ "arg").read(seq[Arg]).default(Nil).optional
+        (__ \ "arg").read(seq[Arg]).optional
       ) (apply _)
 }
 
