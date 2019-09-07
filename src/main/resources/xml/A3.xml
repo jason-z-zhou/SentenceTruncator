@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="y" parser="y" wsd="n" srl="y" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="1927年，第五届索尔维物理学会议在布鲁塞尔召开，激烈的辩论很快就变成了一场爱因斯坦与玻尔之间的“决斗”。">
+                <word id="0" cont="1927年" pos="nt" ne="O" parent="8" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="第五" pos="m" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="届" pos="q" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="索尔维物理学" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="会议" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="6" cont="在" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="7" cont="布鲁塞尔" pos="ns" ne="S-Ns" parent="6" relate="POB" />
+                <word id="8" cont="召开" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="2" end="5" />
+                    <arg id="2" type="LOC" beg="6" end="7" />
+                </word>
+                <word id="9" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="激烈" pos="a" ne="O" parent="12" relate="ATT" />
+                <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="12" cont="辩论" pos="v" ne="O" parent="15" relate="SBV" />
+                <word id="13" cont="很快" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="14" cont="就" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="15" cont="变成" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A1" beg="10" end="12" />
+                    <arg id="1" type="ADV" beg="13" end="13" />
+                    <arg id="2" type="ADV" beg="14" end="14" />
+                </word>
+                <word id="16" cont="了" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="一" pos="m" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="场" pos="q" ne="O" parent="25" relate="ATT" />
+                <word id="19" cont="爱因斯坦" pos="nh" ne="S-Nh" parent="22" relate="ATT" />
+                <word id="20" cont="与" pos="p" ne="O" parent="21" relate="LAD" />
+                <word id="21" cont="玻尔" pos="n" ne="O" parent="19" relate="COO" />
+                <word id="22" cont="之间" pos="nd" ne="O" parent="25" relate="ATT" />
+                <word id="23" cont="的" pos="u" ne="O" parent="22" relate="RAD" />
+                <word id="24" cont="“" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="25" cont="决斗" pos="v" ne="O" parent="15" relate="VOB" />
+                <word id="26" cont="”" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="27" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="1" cont="这场辩论在三年后的第六届索尔维会议上战火再续，玻尔获得胜利，他所代表的哥本哈根学派因此获得了大多数物理学家的认同，他们对量子力学的解释也被奉为正统解释。">
+                <word id="0" cont="这" pos="r" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="场" pos="q" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="辩论" pos="v" ne="O" parent="14" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" parent="14" relate="ADV" />
+                <word id="4" cont="三" pos="m" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="年" pos="q" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="后" pos="nd" ne="O" parent="10" relate="ATT" />
+                <word id="7" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="第六" pos="m" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="届" pos="q" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="索尔维会议" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="上" pos="nd" ne="O" parent="3" relate="POB" />
+                <word id="12" cont="战火" pos="n" ne="O" parent="14" relate="SBV" />
+                <word id="13" cont="再" pos="d" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="续" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="0" end="2" />
+                    <arg id="1" type="LOC" beg="3" end="11" />
+                    <arg id="2" type="A1" beg="12" end="12" />
+                    <arg id="3" type="ADV" beg="13" end="13" />
+                </word>
+                <word id="15" cont="，" pos="wp" ne="O" parent="14" relate="WP" />
+                <word id="16" cont="玻尔" pos="nh" ne="S-Nh" parent="17" relate="SBV" />
+                <word id="17" cont="获得" pos="v" ne="O" parent="14" relate="COO">
+                    <arg id="0" type="A0" beg="16" end="16" />
+                    <arg id="1" type="A1" beg="18" end="18" />
+                </word>
+                <word id="18" cont="胜利" pos="v" ne="O" parent="17" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="20" cont="他" pos="r" ne="O" parent="22" relate="SBV" />
+                <word id="21" cont="所" pos="u" ne="O" parent="22" relate="LAD" />
+                <word id="22" cont="代表" pos="v" ne="O" parent="25" relate="ATT">
+                    <arg id="0" type="A0" beg="20" end="20" />
+                </word>
+                <word id="23" cont="的" pos="u" ne="O" parent="22" relate="RAD" />
+                <word id="24" cont="哥本哈根" pos="ns" ne="S-Ns" parent="25" relate="ATT" />
+                <word id="25" cont="学派" pos="n" ne="O" parent="27" relate="SBV" />
+                <word id="26" cont="因此" pos="c" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="获得" pos="v" ne="O" parent="17" relate="COO">
+                    <arg id="0" type="DIS" beg="26" end="26" />
+                    <arg id="1" type="A1" beg="29" end="32" />
+                </word>
+                <word id="28" cont="了" pos="u" ne="O" parent="27" relate="RAD" />
+                <word id="29" cont="大多数" pos="m" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="物理学家" pos="n" ne="O" parent="32" relate="ATT" />
+                <word id="31" cont="的" pos="u" ne="O" parent="30" relate="RAD" />
+                <word id="32" cont="认同" pos="v" ne="O" parent="27" relate="VOB" />
+                <word id="33" cont="，" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="34" cont="他们" pos="r" ne="O" parent="38" relate="ATT" />
+                <word id="35" cont="对" pos="p" ne="O" parent="38" relate="ATT" />
+                <word id="36" cont="量子力学" pos="i" ne="O" parent="35" relate="POB" />
+                <word id="37" cont="的" pos="u" ne="O" parent="35" relate="RAD" />
+                <word id="38" cont="解释" pos="v" ne="O" parent="41" relate="FOB" />
+                <word id="39" cont="也" pos="d" ne="O" parent="41" relate="ADV" />
+                <word id="40" cont="被" pos="p" ne="O" parent="41" relate="ADV" />
+                <word id="41" cont="奉" pos="v" ne="O" parent="27" relate="COO">
+                    <arg id="0" type="A1" beg="34" end="38" />
+                    <arg id="1" type="ADV" beg="39" end="39" />
+                    <arg id="2" type="A2" beg="43" end="44" />
+                </word>
+                <word id="42" cont="为" pos="v" ne="O" parent="41" relate="CMP" />
+                <word id="43" cont="正统" pos="a" ne="O" parent="44" relate="ATT" />
+                <word id="44" cont="解释" pos="v" ne="O" parent="42" relate="VOB" />
+                <word id="45" cont="。" pos="wp" ne="O" parent="14" relate="WP" />
+            </sent>
+            <sent id="2" cont="这次辩论就是著名的“爱因斯坦一玻尔论战”，有人称之为物理学史上的“巅峰对决”。">
+                <word id="0" cont="这" pos="r" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="次" pos="q" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="辩论" pos="v" ne="O" parent="4" relate="SBV" />
+                <word id="3" cont="就" pos="d" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="2" />
+                    <arg id="1" type="ADV" beg="3" end="3" />
+                    <arg id="2" type="A1" beg="5" end="10" />
+                </word>
+                <word id="5" cont="著名" pos="a" ne="O" parent="9" relate="ATT" />
+                <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="“" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="8" cont="爱因斯坦" pos="nh" ne="S-Nh" parent="9" relate="SBV" />
+                <word id="9" cont="一玻尔论战" pos="i" ne="O" parent="4" relate="VOB" />
+                <word id="10" cont="”" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="11" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="12" cont="有人" pos="r" ne="O" parent="13" relate="SBV" />
+                <word id="13" cont="称之为" pos="v" ne="O" parent="4" relate="COO" />
+                <word id="14" cont="物理学史" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="上" pos="nd" ne="O" parent="19" relate="ATT">
+                    <arg id="0" type="A0" beg="12" end="12" />
+                    <arg id="1" type="A0" beg="14" end="14" />
+                </word>
+                <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="“" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="18" cont="巅峰" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="19" cont="对决" pos="v" ne="O" parent="13" relate="VOB">
+                    <arg id="0" type="A0" beg="12" end="12" />
+                    <arg id="1" type="A0" beg="18" end="18" />
+                </word>
+                <word id="20" cont="”" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="21" cont="。" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="爱因斯坦和玻尔这两位科学巨人的背后，是现代物理学的两大基础理论一相对论和量予力学。">
+                <word id="0" cont="爱因斯坦" pos="nh" ne="S-Nh" parent="7" relate="ATT" />
+                <word id="1" cont="和" pos="c" ne="O" parent="2" relate="LAD" />
+                <word id="2" cont="玻尔" pos="nh" ne="S-Nh" parent="0" relate="COO" />
+                <word id="3" cont="这" pos="r" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="两" pos="m" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="位" pos="q" ne="O" parent="7" relate="ATT" />
+                <word id="6" cont="科学" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="巨人" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="背后" pos="nd" ne="O" parent="11" relate="SBV" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="11" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="2" />
+                    <arg id="1" type="A1" beg="12" end="21" />
+                </word>
+                <word id="12" cont="现代" pos="nt" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="物理学" pos="n" ne="O" parent="17" relate="ATT" />
+                <word id="14" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="15" cont="两" pos="m" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="大" pos="a" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="基础理论" pos="i" ne="O" parent="19" relate="ATT" />
+                <word id="18" cont="一" pos="m" ne="O" parent="19" relate="ATT" />
+                <word id="19" cont="相对论" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="20" cont="和" pos="c" ne="O" parent="21" relate="LAD" />
+                <word id="21" cont="量予力学" pos="n" ne="O" parent="19" relate="COO" />
+                <word id="22" cont="。" pos="wp" ne="O" parent="11" relate="WP" />
+            </sent>
+            <sent id="1" cont="他们的争论旷日持久，几乎所有理论物理学家都被吸引并参与进来，乐此不疲。">
+                <word id="0" cont="他们" pos="r" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="争论" pos="v" ne="O" parent="3" relate="SBV" />
+                <word id="3" cont="旷日持久" pos="i" ne="O" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="几乎" pos="d" ne="O" parent="8" relate="ATT" />
+                <word id="6" cont="所有" pos="b" ne="O" parent="8" relate="ATT" />
+                <word id="7" cont="理论" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="物理学家" pos="n" ne="O" parent="11" relate="FOB" />
+                <word id="9" cont="都" pos="d" ne="O" parent="11" relate="ADV" />
+                <word id="10" cont="被" pos="p" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="吸引" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A1" beg="5" end="8" />
+                    <arg id="1" type="ADV" beg="9" end="9" />
+                </word>
+                <word id="12" cont="并" pos="c" ne="O" parent="13" relate="ADV" />
+                <word id="13" cont="参与" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="A1" beg="5" end="8" />
+                    <arg id="1" type="ADV" beg="9" end="9" />
+                </word>
+                <word id="14" cont="进来" pos="v" ne="O" parent="13" relate="CMP" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="16" cont="乐此不疲" pos="i" ne="O" parent="11" relate="COO" />
+                <word id="17" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="2" cont="尽管两人的科学理论和思想观点始终没能调和，但他们却结下了长达数十年的友谊。">
+                <word id="0" cont="尽管" pos="c" ne="O" parent="12" relate="ADV" />
+                <word id="1" cont="两" pos="m" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="人" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="科学" pos="a" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="理论" pos="n" ne="O" parent="12" relate="SBV" />
+                <word id="6" cont="和" pos="c" ne="O" parent="8" relate="LAD" />
+                <word id="7" cont="思想" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="观点" pos="n" ne="O" parent="5" relate="COO" />
+                <word id="9" cont="始终" pos="d" ne="O" parent="11" relate="ADV" />
+                <word id="10" cont="没" pos="d" ne="O" parent="11" relate="ADV">
+                    <arg id="0" type="A0" beg="1" end="8" />
+                    <arg id="1" type="ADV" beg="9" end="9" />
+                </word>
+                <word id="11" cont="能" pos="v" ne="O" parent="12" relate="ADV">
+                    <arg id="0" type="ADV" beg="9" end="9" />
+                </word>
+                <word id="12" cont="调和" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="DIS" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="1" end="8" />
+                    <arg id="2" type="ADV" beg="9" end="9" />
+                </word>
+                <word id="13" cont="，" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="14" cont="但" pos="c" ne="O" parent="17" relate="ADV" />
+                <word id="15" cont="他们" pos="r" ne="O" parent="17" relate="SBV" />
+                <word id="16" cont="却" pos="d" ne="O" parent="17" relate="ADV" />
+                <word id="17" cont="结" pos="v" ne="O" parent="12" relate="COO">
+                    <arg id="0" type="DIS" beg="14" end="14" />
+                    <arg id="1" type="A0" beg="15" end="15" />
+                    <arg id="2" type="DIS" beg="16" end="16" />
+                    <arg id="3" type="A0" beg="20" end="25" />
+                </word>
+                <word id="18" cont="下" pos="v" ne="O" parent="17" relate="CMP" />
+                <word id="19" cont="了" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="20" cont="长" pos="a" ne="O" parent="21" relate="ADV" />
+                <word id="21" cont="达" pos="v" ne="O" parent="25" relate="ATT">
+                    <arg id="0" type="ADV" beg="20" end="20" />
+                    <arg id="1" type="A1" beg="22" end="22" />
+                </word>
+                <word id="22" cont="数十" pos="m" ne="O" parent="23" relate="ATT" />
+                <word id="23" cont="年" pos="q" ne="O" parent="21" relate="VOB" />
+                <word id="24" cont="的" pos="u" ne="O" parent="21" relate="RAD" />
+                <word id="25" cont="友谊" pos="n" ne="O" parent="17" relate="VOB" />
+                <word id="26" cont="。" pos="wp" ne="O" parent="12" relate="WP" />
+            </sent>
+            <sent id="3" cont="玻尔高度评价他与爱因斯坦的学术之争，认为它是自己“许多新思想产生的源泉”。">
+                <word id="0" cont="玻尔" pos="nh" ne="S-Nh" parent="2" relate="SBV" />
+                <word id="1" cont="高度" pos="d" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="评价" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                    <arg id="2" type="A1" beg="3" end="9" />
+                </word>
+                <word id="3" cont="他" pos="r" ne="O" parent="9" relate="SBV" />
+                <word id="4" cont="与" pos="p" ne="O" parent="9" relate="ADV" />
+                <word id="5" cont="爱因斯坦" pos="nh" ne="S-Nh" parent="7" relate="ATT" />
+                <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="学术" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="8" cont="之" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="争" pos="v" ne="O" parent="2" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="11" cont="认为" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="12" end="22" />
+                </word>
+                <word id="12" cont="它" pos="r" ne="O" parent="13" relate="SBV" />
+                <word id="13" cont="是" pos="v" ne="O" parent="11" relate="VOB">
+                    <arg id="0" type="A0" beg="12" end="12" />
+                    <arg id="1" type="A1" beg="14" end="22" />
+                </word>
+                <word id="14" cont="自己" pos="r" ne="O" parent="21" relate="ATT" />
+                <word id="15" cont="“" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="16" cont="许多" pos="m" ne="O" parent="18" relate="ATT" />
+                <word id="17" cont="新" pos="a" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="思想" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="19" cont="产生" pos="v" ne="O" parent="21" relate="ATT">
+                    <arg id="0" type="A1" beg="16" end="18" />
+                </word>
+                <word id="20" cont="的" pos="u" ne="O" parent="19" relate="RAD" />
+                <word id="21" cont="源泉" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="22" cont="”" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="23" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="4" cont="爱因斯坦也称赞说：“很少有谁像玻尔那样，对隐秘的事物具有如此敏锐的直觉，同时又兼有如此强有力的批判能力。">
+                <word id="0" cont="爱因斯坦" pos="nh" ne="S-Nh" parent="2" relate="SBV" />
+                <word id="1" cont="也" pos="d" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="称赞" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="1" end="1" />
+                </word>
+                <word id="3" cont="说" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                </word>
+                <word id="4" cont="：" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="“" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="6" cont="很" pos="d" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="少" pos="a" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="有" pos="v" ne="O" parent="3" relate="VOB">
+                    <arg id="0" type="ADV" beg="6" end="7" />
+                </word>
+                <word id="9" cont="谁" pos="r" ne="O" parent="8" relate="DBL" />
+                <word id="10" cont="像" pos="p" ne="O" parent="18" relate="ADV">
+                    <arg id="0" type="A0" beg="9" end="9" />
+                    <arg id="1" type="A1" beg="11" end="11" />
+                    <arg id="2" type="A1" beg="12" end="12" />
+                </word>
+                <word id="11" cont="玻尔" pos="nh" ne="S-Nh" parent="10" relate="POB" />
+                <word id="12" cont="那样" pos="r" ne="O" parent="10" relate="RAD" />
+                <word id="13" cont="，" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="14" cont="对" pos="p" ne="O" parent="18" relate="ADV" />
+                <word id="15" cont="隐秘" pos="n" ne="O" parent="17" relate="ATT" />
+                <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="事物" pos="n" ne="O" parent="14" relate="POB" />
+                <word id="18" cont="具有" pos="v" ne="O" parent="8" relate="VOB">
+                    <arg id="0" type="A1" beg="19" end="22" />
+                </word>
+                <word id="19" cont="如此" pos="r" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="敏锐" pos="a" ne="O" parent="22" relate="ATT">
+                    <arg id="0" type="ADV" beg="19" end="19" />
+                </word>
+                <word id="21" cont="的" pos="u" ne="O" parent="20" relate="RAD" />
+                <word id="22" cont="直觉" pos="n" ne="O" parent="18" relate="VOB" />
+                <word id="23" cont="，" pos="wp" ne="O" parent="18" relate="WP" />
+                <word id="24" cont="同时" pos="c" ne="O" parent="27" relate="ADV" />
+                <word id="25" cont="又" pos="d" ne="O" parent="27" relate="ADV" />
+                <word id="26" cont="兼" pos="v" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="有" pos="v" ne="O" parent="18" relate="COO">
+                    <arg id="0" type="ADV" beg="24" end="24" />
+                    <arg id="1" type="ADV" beg="25" end="25" />
+                    <arg id="2" type="ADV" beg="26" end="26" />
+                    <arg id="3" type="A1" beg="28" end="32" />
+                </word>
+                <word id="28" cont="如此" pos="r" ne="O" parent="29" relate="ADV" />
+                <word id="29" cont="强有力" pos="i" ne="O" parent="32" relate="ATT">
+                    <arg id="0" type="ADV" beg="28" end="28" />
+                </word>
+                <word id="30" cont="的" pos="u" ne="O" parent="29" relate="RAD" />
+                <word id="31" cont="批判" pos="v" ne="O" parent="32" relate="ATT" />
+                <word id="32" cont="能力" pos="n" ne="O" parent="27" relate="VOB" />
+                <word id="33" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="5" cont="他是我们时代科学领域伟大的发现者之一。”">
+                <word id="0" cont="他" pos="r" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="9" />
+                </word>
+                <word id="2" cont="我们" pos="r" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="时代" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="科学" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="领域" pos="n" ne="O" parent="6" relate="SBV" />
+                <word id="6" cont="伟大" pos="a" ne="O" parent="8" relate="ATT">
+                    <arg id="0" type="C-A0" beg="2" end="5" />
+                </word>
+                <word id="7" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="发现者" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="之一" pos="r" ne="O" parent="1" relate="VOB" />
+                <word id="10" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="11" cont="”" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="与爱因斯坦更个性化的独自研究不同，玻尔周围聚集着许多杰出的理论物理学家。">
+                <word id="0" cont="与" pos="p" ne="O" parent="3" relate="ADV" />
+                <word id="1" cont="爱因斯坦" pos="nh" ne="S-Nh" parent="0" relate="POB" />
+                <word id="2" cont="更" pos="d" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="个性化" pos="v" ne="O" parent="6" relate="ATT">
+                    <arg id="0" type="A1" beg="0" end="1" />
+                    <arg id="1" type="ADV" beg="2" end="2" />
+                </word>
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="独自" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="6" cont="研究" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="7" cont="不同" pos="a" ne="O" parent="6" relate="VOB">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                </word>
+                <word id="8" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="9" cont="玻尔" pos="n" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="周围" pos="nd" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="聚集" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="A1" beg="9" end="10" />
+                    <arg id="1" type="A1" beg="13" end="17" />
+                </word>
+                <word id="12" cont="着" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="许多" pos="m" ne="O" parent="17" relate="ATT" />
+                <word id="14" cont="杰出" pos="a" ne="O" parent="17" relate="ATT" />
+                <word id="15" cont="的" pos="u" ne="O" parent="14" relate="RAD" />
+                <word id="16" cont="理论" pos="n" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="物理学家" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="1" cont="他不但有革新的勇气，更是一位伟大的伯乐。">
+                <word id="0" cont="他" pos="r" ne="O" parent="2" relate="SBV" />
+                <word id="1" cont="不但" pos="c" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="有" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="DIS" beg="1" end="1" />
+                    <arg id="2" type="A1" beg="3" end="5" />
+                </word>
+                <word id="3" cont="革新" pos="v" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="勇气" pos="n" ne="O" parent="2" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="7" cont="更" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="是" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="7" end="7" />
+                    <arg id="2" type="A1" beg="9" end="13" />
+                </word>
+                <word id="9" cont="一" pos="m" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="位" pos="q" ne="O" parent="13" relate="ATT">
+                    <arg id="0" type="A1" beg="11" end="12" />
+                </word>
+                <word id="11" cont="伟大" pos="a" ne="O" parent="13" relate="ATT" />
+                <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="伯乐" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="14" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="2" cont="他为量子物理学培养和组织了一支创新发展的队伍，人们称之为“哥本哈根学派”。">
+                <word id="0" cont="他" pos="r" ne="O" parent="4" relate="SBV" />
+                <word id="1" cont="为" pos="p" ne="O" parent="4" relate="ADV" />
+                <word id="2" cont="量子" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="物理学" pos="n" ne="O" parent="1" relate="POB" />
+                <word id="4" cont="培养" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="BNF" beg="1" end="3" />
+                    <arg id="2" type="A1" beg="8" end="13" />
+                </word>
+                <word id="5" cont="和" pos="c" ne="O" parent="6" relate="LAD" />
+                <word id="6" cont="组织" pos="v" ne="O" parent="4" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="BNF" beg="1" end="3" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="8" cont="一" pos="m" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="支" pos="q" ne="O" parent="13" relate="ATT" />
+                <word id="10" cont="创新" pos="v" ne="O" parent="11" relate="SBV" />
+                <word id="11" cont="发展" pos="v" ne="O" parent="13" relate="ATT" />
+                <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="队伍" pos="n" ne="O" parent="4" relate="VOB" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="15" cont="人们" pos="n" ne="O" parent="16" relate="SBV" />
+                <word id="16" cont="称之为" pos="v" ne="O" parent="4" relate="COO">
+                    <arg id="0" type="A0" beg="15" end="15" />
+                    <arg id="1" type="A1" beg="17" end="20" />
+                </word>
+                <word id="17" cont="“" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="18" cont="哥本哈根" pos="ns" ne="S-Ns" parent="19" relate="ATT" />
+                <word id="19" cont="学派" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="20" cont="”" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="21" cont="。" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+            <sent id="3" cont="后来的诺贝尔物理学奖获得者玻恩、海森伯、泡利以及狄拉克等都曾是其主要成员。">
+                <word id="0" cont="后来" pos="nt" ne="O" parent="5" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="诺贝尔" pos="nh" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="物理学奖" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="获得者" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="玻恩" pos="nh" ne="S-Nh" parent="15" relate="SBV" />
+                <word id="6" cont="、" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="7" cont="海森伯" pos="n" ne="O" parent="5" relate="COO" />
+                <word id="8" cont="、" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="9" cont="泡利" pos="n" ne="O" parent="5" relate="COO" />
+                <word id="10" cont="以及" pos="c" ne="O" parent="11" relate="LAD" />
+                <word id="11" cont="狄拉克" pos="nh" ne="S-Nh" parent="5" relate="COO" />
+                <word id="12" cont="等" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="13" cont="都" pos="d" ne="O" parent="15" relate="ADV">
+                    <arg id="0" type="A0" beg="0" end="12" />
+                </word>
+                <word id="14" cont="曾" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="15" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="12" />
+                    <arg id="1" type="ADV" beg="13" end="13" />
+                    <arg id="2" type="ADV" beg="14" end="14" />
+                    <arg id="3" type="A1" beg="16" end="18" />
+                </word>
+                <word id="16" cont="其" pos="r" ne="O" parent="18" relate="ATT" />
+                <word id="17" cont="主要" pos="b" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="成员" pos="n" ne="O" parent="15" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" parent="15" relate="WP" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="哥本哈根学派活动的大本营就是哥本哈根理论物理研究所。">
+                <word id="0" cont="哥本哈根" pos="ns" ne="S-Ns" parent="1" relate="ATT" />
+                <word id="1" cont="学派" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="活动" pos="v" ne="O" parent="4" relate="ATT" />
+                <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="大本营" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="5" cont="就是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="4" />
+                    <arg id="1" type="A1" beg="6" end="9" />
+                </word>
+                <word id="6" cont="哥本哈根" pos="ns" ne="B-Ni" parent="9" relate="ATT" />
+                <word id="7" cont="理论" pos="n" ne="I-Ni" parent="9" relate="ATT" />
+                <word id="8" cont="物理" pos="n" ne="I-Ni" parent="9" relate="ATT" />
+                <word id="9" cont="研究所" pos="n" ne="E-Ni" parent="5" relate="VOB" />
+                <word id="10" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="1" cont="该所是玻尔在1917年申请，并于l921年正式成立的。">
+                <word id="0" cont="该所" pos="r" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="5" />
+                    <arg id="2" type="A1" beg="13" end="13" />
+                </word>
+                <word id="2" cont="玻尔" pos="nh" ne="S-Nh" parent="5" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" parent="5" relate="ADV" />
+                <word id="4" cont="1917年" pos="nt" ne="O" parent="3" relate="POB" />
+                <word id="5" cont="申请" pos="v" ne="O" parent="1" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="7" cont="并" pos="c" ne="O" parent="12" relate="ADV" />
+                <word id="8" cont="于" pos="p" ne="O" parent="12" relate="ADV" />
+                <word id="9" cont="l921" pos="m" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="年" pos="q" ne="O" parent="8" relate="POB" />
+                <word id="11" cont="正式" pos="a" ne="O" parent="12" relate="ADV" />
+                <word id="12" cont="成立" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="TMP" beg="8" end="10" />
+                    <arg id="1" type="ADV" beg="11" end="11" />
+                </word>
+                <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="2" cont="他以著名科学家的身份为研究所作担保，筹集了大量资金。">
+                <word id="0" cont="他" pos="r" ne="O" parent="8" relate="SBV" />
+                <word id="1" cont="以" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="2" cont="著名" pos="a" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="科学家" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="身份" pos="n" ne="O" parent="1" relate="POB" />
+                <word id="6" cont="为" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="7" cont="研究所" pos="n" ne="O" parent="6" relate="POB" />
+                <word id="8" cont="作" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="MNR" beg="1" end="5" />
+                    <arg id="2" type="BNF" beg="6" end="7" />
+                    <arg id="3" type="A1" beg="9" end="9" />
+                </word>
+                <word id="9" cont="担保" pos="v" ne="O" parent="8" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="11" cont="筹集" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="MNR" beg="1" end="5" />
+                    <arg id="2" type="A1" beg="13" end="14" />
+                </word>
+                <word id="12" cont="了" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="大量" pos="m" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="资金" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="3" cont="在任所长的40年间，他以特有的人格魅力，吸引了世界各地的青年才俊，使研究所成为当时全世界最重要、最活跃的量子力学研究中心。">
+                <word id="0" cont="在" pos="p" ne="O" parent="15" relate="ADV" />
+                <word id="1" cont="任" pos="v" ne="O" parent="5" relate="ATT" />
+                <word id="2" cont="所长" pos="n" ne="O" parent="1" relate="VOB" />
+                <word id="3" cont="的" pos="u" ne="O" parent="1" relate="RAD" />
+                <word id="4" cont="40" pos="m" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="年" pos="q" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="间" pos="nd" ne="O" parent="0" relate="POB" />
+                <word id="7" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="8" cont="他" pos="r" ne="O" parent="15" relate="SBV" />
+                <word id="9" cont="以" pos="p" ne="O" parent="15" relate="ADV" />
+                <word id="10" cont="特有" pos="b" ne="O" parent="13" relate="ATT" />
+                <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="12" cont="人格" pos="n" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="魅力" pos="n" ne="O" parent="9" relate="POB" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="15" cont="吸引" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="7" />
+                    <arg id="1" type="A0" beg="8" end="8" />
+                    <arg id="2" type="MNR" beg="9" end="14" />
+                    <arg id="3" type="A1" beg="17" end="21" />
+                </word>
+                <word id="16" cont="了" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="世界" pos="n" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="各地" pos="r" ne="O" parent="21" relate="ATT" />
+                <word id="19" cont="的" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="青年" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="才俊" pos="n" ne="O" parent="15" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="23" cont="使" pos="v" ne="O" parent="15" relate="COO">
+                    <arg id="0" type="TMP" beg="0" end="7" />
+                    <arg id="1" type="A0" beg="8" end="8" />
+                    <arg id="2" type="A1" beg="24" end="24" />
+                    <arg id="3" type="A2" beg="25" end="36" />
+                </word>
+                <word id="24" cont="研究所" pos="n" ne="O" parent="23" relate="DBL" />
+                <word id="25" cont="成为" pos="v" ne="O" parent="23" relate="VOB">
+                    <arg id="0" type="A1" beg="26" end="36" />
+                </word>
+                <word id="26" cont="当时" pos="nt" ne="O" parent="29" relate="ADV" />
+                <word id="27" cont="全世界" pos="n" ne="O" parent="29" relate="SBV" />
+                <word id="28" cont="最" pos="d" ne="O" parent="29" relate="ADV" />
+                <word id="29" cont="重要" pos="a" ne="O" parent="36" relate="ATT">
+                    <arg id="0" type="TMP" beg="26" end="26" />
+                    <arg id="1" type="LOC" beg="27" end="27" />
+                    <arg id="2" type="ADV" beg="28" end="28" />
+                </word>
+                <word id="30" cont="、" pos="wp" ne="O" parent="32" relate="WP" />
+                <word id="31" cont="最" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="32" cont="活跃" pos="a" ne="O" parent="29" relate="COO">
+                    <arg id="0" type="TMP" beg="26" end="26" />
+                    <arg id="1" type="ADV" beg="31" end="31" />
+                </word>
+                <word id="33" cont="的" pos="u" ne="O" parent="29" relate="RAD" />
+                <word id="34" cont="量子力学" pos="i" ne="O" parent="36" relate="ATT" />
+                <word id="35" cont="研究" pos="v" ne="O" parent="36" relate="ATT" />
+                <word id="36" cont="中心" pos="n" ne="O" parent="25" relate="VOB" />
+                <word id="37" cont="。" pos="wp" ne="O" parent="15" relate="WP" />
+            </sent>
+            <sent id="4" cont="这里先后培养了600多名物理学家。">
+                <word id="0" cont="这里" pos="r" ne="O" parent="2" relate="SBV" />
+                <word id="1" cont="先后" pos="d" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="培养" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="LOC" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                    <arg id="2" type="A1" beg="4" end="7" />
+                </word>
+                <word id="3" cont="了" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="600" pos="m" ne="O" parent="6" relate="ATT" />
+                <word id="5" cont="多" pos="m" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="名" pos="q" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="物理学家" pos="n" ne="O" parent="2" relate="VOB" />
+                <word id="8" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="5" cont="玻尔使这个科学家群体中的每个个体的力量发挥到极致，形成了以集体讨论和自由探索为特征的研究风格。">
+                <word id="0" cont="玻尔" pos="nh" ne="S-Nh" parent="1" relate="SBV" />
+                <word id="1" cont="使" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="10" />
+                    <arg id="2" type="A2" beg="11" end="13" />
+                </word>
+                <word id="2" cont="这个" pos="r" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="科学家" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="群体" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="中" pos="nd" ne="O" parent="10" relate="ATT" />
+                <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="每个" pos="r" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="个体" pos="n" ne="O" parent="10" relate="ATT" />
+                <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="力量" pos="n" ne="O" parent="1" relate="DBL" />
+                <word id="11" cont="发挥" pos="v" ne="O" parent="1" relate="VOB">
+                    <arg id="0" type="A1" beg="13" end="13" />
+                </word>
+                <word id="12" cont="到" pos="v" ne="O" parent="11" relate="CMP" />
+                <word id="13" cont="极致" pos="n" ne="O" parent="12" relate="POB" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="15" cont="形成" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="A2" beg="27" end="27" />
+                </word>
+                <word id="16" cont="了" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="以" pos="p" ne="O" parent="23" relate="ADV" />
+                <word id="18" cont="集体" pos="n" ne="O" parent="19" relate="ATT" />
+                <word id="19" cont="讨论" pos="v" ne="O" parent="17" relate="POB" />
+                <word id="20" cont="和" pos="c" ne="O" parent="22" relate="LAD" />
+                <word id="21" cont="自由" pos="a" ne="O" parent="22" relate="ATT" />
+                <word id="22" cont="探索" pos="v" ne="O" parent="19" relate="COO" />
+                <word id="23" cont="为" pos="v" ne="O" parent="26" relate="ATT">
+                    <arg id="0" type="A2" beg="17" end="22" />
+                    <arg id="1" type="A1" beg="24" end="24" />
+                    <arg id="2" type="A0" beg="27" end="27" />
+                </word>
+                <word id="24" cont="特征" pos="n" ne="O" parent="23" relate="VOB" />
+                <word id="25" cont="的" pos="u" ne="O" parent="23" relate="RAD" />
+                <word id="26" cont="研究" pos="v" ne="O" parent="15" relate="VOB" />
+                <word id="27" cont="风格" pos="n" ne="O" parent="26" relate="VOB" />
+                <word id="28" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="6" cont="他还经常在此举办非公开的小型年会，邀请各国著名的物理学家出席，相互学习，启发交流。">
+                <word id="0" cont="他" pos="r" ne="O" parent="5" relate="SBV" />
+                <word id="1" cont="还" pos="d" ne="O" parent="5" relate="ADV" />
+                <word id="2" cont="经常" pos="d" ne="O" parent="5" relate="ADV" />
+                <word id="3" cont="在" pos="p" ne="O" parent="5" relate="ADV" />
+                <word id="4" cont="此" pos="r" ne="O" parent="3" relate="POB" />
+                <word id="5" cont="举办" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                    <arg id="2" type="ADV" beg="2" end="2" />
+                    <arg id="3" type="LOC" beg="3" end="4" />
+                    <arg id="4" type="A1" beg="6" end="9" />
+                </word>
+                <word id="6" cont="非公开" pos="b" ne="O" parent="9" relate="ATT" />
+                <word id="7" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="小型" pos="b" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="年会" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="11" cont="邀请" pos="v" ne="O" parent="5" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                    <arg id="2" type="ADV" beg="2" end="2" />
+                    <arg id="3" type="A1" beg="12" end="15" />
+                    <arg id="4" type="A2" beg="16" end="22" />
+                </word>
+                <word id="12" cont="各国" pos="r" ne="O" parent="15" relate="ATT" />
+                <word id="13" cont="著名" pos="a" ne="O" parent="15" relate="ATT" />
+                <word id="14" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="15" cont="物理学家" pos="n" ne="O" parent="11" relate="DBL" />
+                <word id="16" cont="出席" pos="v" ne="O" parent="11" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="18" cont="相互" pos="d" ne="O" parent="19" relate="ADV" />
+                <word id="19" cont="学习" pos="v" ne="O" parent="16" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="18" end="18" />
+                </word>
+                <word id="20" cont="，" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="21" cont="启发" pos="v" ne="O" parent="19" relate="COO">
+                    <arg id="0" type="A1" beg="22" end="22" />
+                </word>
+                <word id="22" cont="交流" pos="v" ne="O" parent="21" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="7" cont="这里没有论资排辈，只有挑战与争鸣，形成了富有激情和活力、不断进取的学术精神，人们誉之为“哥本哈根精神”，这种精神至今仍在科学研究领域受到推崇。">
+                <word id="0" cont="这里" pos="r" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="没有" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="0" end="0" />
+                    <arg id="1" type="A0" beg="2" end="2" />
+                </word>
+                <word id="2" cont="论资排辈" pos="i" ne="O" parent="1" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="4" cont="只有" pos="c" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="挑战" pos="v" ne="O" parent="1" relate="COO" />
+                <word id="6" cont="与" pos="c" ne="O" parent="7" relate="LAD" />
+                <word id="7" cont="争鸣" pos="v" ne="O" parent="5" relate="COO" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="9" cont="形成" pos="v" ne="O" parent="1" relate="COO" />
+                <word id="10" cont="了" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="11" cont="富有" pos="v" ne="O" parent="20" relate="ATT">
+                    <arg id="0" type="A1" beg="12" end="14" />
+                </word>
+                <word id="12" cont="激情" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="13" cont="和" pos="c" ne="O" parent="14" relate="LAD" />
+                <word id="14" cont="活力" pos="n" ne="O" parent="12" relate="COO" />
+                <word id="15" cont="、" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="16" cont="不断" pos="d" ne="O" parent="17" relate="ADV" />
+                <word id="17" cont="进取" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="ADV" beg="16" end="16" />
+                </word>
+                <word id="18" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="19" cont="学术" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="精神" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="22" cont="人们" pos="n" ne="O" parent="23" relate="SBV" />
+                <word id="23" cont="誉" pos="v" ne="O" parent="1" relate="COO" />
+                <word id="24" cont="之" pos="r" ne="O" parent="23" relate="VOB" />
+                <word id="25" cont="为" pos="v" ne="O" parent="23" relate="CMP">
+                    <arg id="0" type="A1" beg="26" end="29" />
+                </word>
+                <word id="26" cont="“" pos="wp" ne="O" parent="28" relate="WP" />
+                <word id="27" cont="哥本哈根" pos="ns" ne="S-Ns" parent="28" relate="ATT" />
+                <word id="28" cont="精神" pos="n" ne="O" parent="25" relate="VOB" />
+                <word id="29" cont="”" pos="wp" ne="O" parent="28" relate="WP" />
+                <word id="30" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="31" cont="这种" pos="r" ne="O" parent="32" relate="ATT" />
+                <word id="32" cont="精神" pos="n" ne="O" parent="39" relate="SBV" />
+                <word id="33" cont="至今" pos="d" ne="O" parent="39" relate="ADV" />
+                <word id="34" cont="仍" pos="d" ne="O" parent="39" relate="ADV" />
+                <word id="35" cont="在" pos="p" ne="O" parent="39" relate="ADV" />
+                <word id="36" cont="科学" pos="n" ne="O" parent="37" relate="FOB" />
+                <word id="37" cont="研究" pos="v" ne="O" parent="38" relate="ATT" />
+                <word id="38" cont="领域" pos="n" ne="O" parent="35" relate="POB" />
+                <word id="39" cont="受到" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="A0" beg="31" end="32" />
+                    <arg id="1" type="TMP" beg="33" end="33" />
+                    <arg id="2" type="ADV" beg="34" end="34" />
+                    <arg id="3" type="LOC" beg="35" end="38" />
+                    <arg id="4" type="A1" beg="40" end="40" />
+                </word>
+                <word id="40" cont="推崇" pos="v" ne="O" parent="39" relate="VOB" />
+                <word id="41" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="8" cont="量子力学每前进一步，或多或少都与这个学派科学家的合作研究有关。">
+                <word id="0" cont="量子力学" pos="i" ne="O" parent="2" relate="SBV" />
+                <word id="1" cont="每" pos="r" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="前进" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                </word>
+                <word id="3" cont="一" pos="m" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="步" pos="q" ne="O" parent="2" relate="CMP" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="6" cont="或多或少" pos="d" ne="O" parent="13" relate="ADV" />
+                <word id="7" cont="都" pos="d" ne="O" parent="13" relate="ADV" />
+                <word id="8" cont="与" pos="p" ne="O" parent="13" relate="ADV" />
+                <word id="9" cont="这个" pos="r" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="学派" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="科学家" pos="n" ne="O" parent="8" relate="POB" />
+                <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="合作" pos="v" ne="O" parent="2" relate="COO" />
+                <word id="14" cont="研究" pos="v" ne="O" parent="15" relate="SBV" />
+                <word id="15" cont="有关" pos="v" ne="O" parent="13" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="6" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                    <arg id="3" type="A1" beg="8" end="12" />
+                </word>
+                <word id="16" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="9" cont="可以说，玻尔领导的哥本哈根学派具备了一个科学学派应有的优秀特质。">
+                <word id="0" cont="可以" pos="v" ne="O" parent="1" relate="ADV" />
+                <word id="1" cont="说" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="3" end="16" />
+                </word>
+                <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="3" cont="玻尔" pos="nh" ne="S-Nh" parent="4" relate="ATT" />
+                <word id="4" cont="领导" pos="n" ne="O" parent="7" relate="ATT">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                </word>
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="哥本哈根" pos="ns" ne="S-Ns" parent="7" relate="ATT" />
+                <word id="7" cont="学派" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="8" cont="具备" pos="v" ne="O" parent="1" relate="VOB">
+                    <arg id="0" type="A0" beg="3" end="7" />
+                    <arg id="1" type="A1" beg="10" end="16" />
+                </word>
+                <word id="9" cont="了" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="一个" pos="m" ne="O" parent="12" relate="ATT" />
+                <word id="11" cont="科学" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="学派" pos="n" ne="O" parent="13" relate="SBV" />
+                <word id="13" cont="应有" pos="v" ne="O" parent="16" relate="ATT">
+                    <arg id="0" type="A0" beg="10" end="12" />
+                </word>
+                <word id="14" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="15" cont="优秀" pos="a" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="特质" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="17" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="希特勒上台后，玻尔以访问德国为名，暗地调查德国科学家的安全情况，然后设法把可能受到迫害的犹太科学家转移到安全地方。">
+                <word id="0" cont="希特勒" pos="nh" ne="S-Nh" parent="1" relate="SBV" />
+                <word id="1" cont="上台" pos="v" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="后" pos="nd" ne="O" parent="8" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="玻尔" pos="nh" ne="S-Nh" parent="8" relate="SBV" />
+                <word id="5" cont="以" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="6" cont="访问" pos="v" ne="O" parent="5" relate="POB">
+                    <arg id="0" type="A1" beg="7" end="7" />
+                </word>
+                <word id="7" cont="德国" pos="ns" ne="S-Ns" parent="6" relate="VOB" />
+                <word id="8" cont="为名" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="3" />
+                    <arg id="1" type="A0" beg="4" end="4" />
+                    <arg id="2" type="A1" beg="5" end="7" />
+                </word>
+                <word id="9" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="暗地" pos="n" ne="O" parent="11" relate="SBV" />
+                <word id="11" cont="调查" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="TMP" beg="0" end="3" />
+                    <arg id="1" type="A0" beg="4" end="4" />
+                    <arg id="2" type="A0" beg="10" end="10" />
+                    <arg id="3" type="A1" beg="12" end="16" />
+                </word>
+                <word id="12" cont="德国" pos="ns" ne="S-Ns" parent="13" relate="ATT" />
+                <word id="13" cont="科学家" pos="n" ne="O" parent="16" relate="ATT" />
+                <word id="14" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="15" cont="安全" pos="a" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="情况" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="18" cont="然后" pos="c" ne="O" parent="22" relate="ADV" />
+                <word id="19" cont="设法" pos="v" ne="O" parent="22" relate="ADV">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="TMP" beg="18" end="18" />
+                    <arg id="2" type="A1" beg="20" end="20" />
+                </word>
+                <word id="20" cont="把" pos="p" ne="O" parent="22" relate="ADV" />
+                <word id="21" cont="可能" pos="v" ne="O" parent="22" relate="ADV" />
+                <word id="22" cont="受到" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="A0" beg="23" end="26" />
+                </word>
+                <word id="23" cont="迫害" pos="v" ne="O" parent="26" relate="ATT" />
+                <word id="24" cont="的" pos="u" ne="O" parent="23" relate="RAD" />
+                <word id="25" cont="犹太" pos="nz" ne="O" parent="26" relate="ATT" />
+                <word id="26" cont="科学家" pos="n" ne="O" parent="22" relate="DBL" />
+                <word id="27" cont="转移" pos="v" ne="O" parent="22" relate="VOB">
+                    <arg id="0" type="A1" beg="23" end="26" />
+                    <arg id="1" type="A2" beg="29" end="30" />
+                </word>
+                <word id="28" cont="到" pos="v" ne="O" parent="27" relate="CMP" />
+                <word id="29" cont="安全" pos="a" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="地方" pos="n" ne="O" parent="28" relate="POB" />
+                <word id="31" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="1" cont="他还积极创立和参加丹麦救援组织，尽力帮助逃到哥本哈根的科学家与其他难民。">
+                <word id="0" cont="他" pos="r" ne="O" parent="3" relate="SBV" />
+                <word id="1" cont="还" pos="d" ne="O" parent="3" relate="ADV" />
+                <word id="2" cont="积极" pos="a" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="创立" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                    <arg id="2" type="ADV" beg="2" end="2" />
+                </word>
+                <word id="4" cont="和" pos="c" ne="O" parent="5" relate="LAD" />
+                <word id="5" cont="参加" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                    <arg id="2" type="ADV" beg="2" end="2" />
+                    <arg id="3" type="A1" beg="6" end="8" />
+                </word>
+                <word id="6" cont="丹麦" pos="ns" ne="S-Ns" parent="8" relate="ATT" />
+                <word id="7" cont="救援" pos="v" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="组织" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="10" cont="尽力" pos="d" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="帮助" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="10" end="10" />
+                    <arg id="2" type="A1" beg="12" end="19" />
+                </word>
+                <word id="12" cont="逃" pos="v" ne="O" parent="16" relate="ATT" />
+                <word id="13" cont="到" pos="v" ne="O" parent="12" relate="CMP" />
+                <word id="14" cont="哥本哈根" pos="ns" ne="S-Ns" parent="13" relate="POB" />
+                <word id="15" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="16" cont="科学家" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="17" cont="与" pos="p" ne="O" parent="19" relate="LAD" />
+                <word id="18" cont="其他" pos="r" ne="O" parent="19" relate="ATT" />
+                <word id="19" cont="难民" pos="n" ne="O" parent="16" relate="COO" />
+                <word id="20" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+        </para>
+        <para id="5">
+            <sent id="0" cont="德国纳粹控制丹麦后，玻尔起初留在国内，与抗敌组织保持密切联系。">
+                <word id="0" cont="德国" pos="ns" ne="S-Ns" parent="1" relate="ATT" />
+                <word id="1" cont="纳粹" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="2" cont="控制" pos="v" ne="O" parent="4" relate="ATT">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="3" end="3" />
+                </word>
+                <word id="3" cont="丹麦" pos="ns" ne="S-Ns" parent="2" relate="VOB" />
+                <word id="4" cont="后" pos="nd" ne="O" parent="8" relate="ADV" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="6" cont="玻尔" pos="nh" ne="S-Nh" parent="8" relate="SBV" />
+                <word id="7" cont="起初" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="留" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="5" />
+                    <arg id="1" type="A0" beg="6" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                    <arg id="3" type="A1" beg="9" end="10" />
+                </word>
+                <word id="9" cont="在" pos="p" ne="O" parent="8" relate="CMP" />
+                <word id="10" cont="国内" pos="nl" ne="O" parent="9" relate="POB" />
+                <word id="11" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="12" cont="与" pos="p" ne="O" parent="16" relate="ADV" />
+                <word id="13" cont="抗" pos="v" ne="B-Ni" parent="15" relate="ATT" />
+                <word id="14" cont="敌" pos="n" ne="I-Ni" parent="13" relate="VOB" />
+                <word id="15" cont="组织" pos="n" ne="E-Ni" parent="12" relate="POB" />
+                <word id="16" cont="保持" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="TMP" beg="0" end="5" />
+                    <arg id="1" type="A0" beg="6" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                    <arg id="3" type="A0" beg="12" end="15" />
+                    <arg id="4" type="A1" beg="17" end="18" />
+                </word>
+                <word id="17" cont="密切" pos="a" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="联系" pos="v" ne="O" parent="16" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="1" cont="他一贯的不合作态度，令纳粹非常恼火。">
+                <word id="0" cont="他" pos="r" ne="O" parent="5" relate="ATT" />
+                <word id="1" cont="一贯" pos="b" ne="O" parent="5" relate="ATT" />
+                <word id="2" cont="的" pos="u" ne="O" parent="1" relate="RAD" />
+                <word id="3" cont="不" pos="d" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="合作" pos="v" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="态度" pos="n" ne="O" parent="7" relate="SBV" />
+                <word id="6" cont="，" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="7" cont="令" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="6" />
+                    <arg id="1" type="A1" beg="8" end="8" />
+                    <arg id="2" type="A2" beg="9" end="10" />
+                </word>
+                <word id="8" cont="纳粹" pos="n" ne="O" parent="7" relate="DBL" />
+                <word id="9" cont="非常" pos="d" ne="O" parent="10" relate="ADV" />
+                <word id="10" cont="恼火" pos="a" ne="O" parent="7" relate="VOB">
+                    <arg id="0" type="ADV" beg="9" end="9" />
+                </word>
+                <word id="11" cont="。" pos="wp" ne="O" parent="7" relate="WP" />
+            </sent>
+            <sent id="2" cont="1943年玻尔受到纳粹分子的威胁，他冒险出逃，历尽艰险，辗转到达美国。">
+                <word id="0" cont="1943年" pos="nt" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="玻尔" pos="nh" ne="S-Nh" parent="2" relate="SBV" />
+                <word id="2" cont="受到" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="3" end="6" />
+                </word>
+                <word id="3" cont="纳粹" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="分子" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="威胁" pos="v" ne="O" parent="2" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="8" cont="他" pos="r" ne="O" parent="9" relate="SBV" />
+                <word id="9" cont="冒险" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A0" beg="8" end="8" />
+                </word>
+                <word id="10" cont="出逃" pos="v" ne="O" parent="9" relate="COO" />
+                <word id="11" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="12" cont="历尽" pos="v" ne="O" parent="9" relate="COO" />
+                <word id="13" cont="艰险" pos="a" ne="O" parent="12" relate="VOB">
+                    <arg id="0" type="A0" beg="8" end="8" />
+                </word>
+                <word id="14" cont="，" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="15" cont="辗转" pos="v" ne="O" parent="12" relate="COO" />
+                <word id="16" cont="到达" pos="v" ne="O" parent="15" relate="COO">
+                    <arg id="0" type="A0" beg="8" end="8" />
+                    <arg id="1" type="A1" beg="17" end="17" />
+                </word>
+                <word id="17" cont="美国" pos="ns" ne="S-Ns" parent="16" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="3" cont="在美期间，为抗击法西斯，他曾参加原子弹的研制工作。">
+                <word id="0" cont="在" pos="p" ne="O" parent="10" relate="ADV" />
+                <word id="1" cont="美" pos="j" ne="S-Ns" parent="2" relate="ATT" />
+                <word id="2" cont="期间" pos="nd" ne="O" parent="0" relate="POB" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="4" cont="为" pos="p" ne="O" parent="10" relate="ADV" />
+                <word id="5" cont="抗击" pos="v" ne="O" parent="4" relate="POB" />
+                <word id="6" cont="法西斯" pos="nz" ne="O" parent="5" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="8" cont="他" pos="r" ne="O" parent="10" relate="SBV" />
+                <word id="9" cont="曾" pos="d" ne="O" parent="10" relate="ADV" />
+                <word id="10" cont="参加" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="3" />
+                    <arg id="1" type="PRP" beg="4" end="7" />
+                    <arg id="2" type="A0" beg="8" end="8" />
+                    <arg id="3" type="ADV" beg="9" end="9" />
+                    <arg id="4" type="A1" beg="13" end="14" />
+                </word>
+                <word id="11" cont="原子弹" pos="n" ne="O" parent="10" relate="VOB" />
+                <word id="12" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="13" cont="研制" pos="v" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="工作" pos="v" ne="O" parent="10" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" parent="10" relate="WP" />
+            </sent>
+            <sent id="4" cont="在研制过程中，他就考虑到这一研究成果对未来世界的影响，并曾多次接触英美首脑，建议他们及早与苏联达成控制原子武器的协议，但没有成功。">
+                <word id="0" cont="在" pos="p" ne="O" parent="7" relate="ADV" />
+                <word id="1" cont="研制" pos="v" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="过程" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="中" pos="nd" ne="O" parent="0" relate="POB" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="5" cont="他" pos="r" ne="O" parent="7" relate="SBV" />
+                <word id="6" cont="就" pos="d" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="考虑" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="LOC" beg="0" end="4" />
+                    <arg id="1" type="A0" beg="5" end="5" />
+                    <arg id="2" type="ADV" beg="6" end="6" />
+                    <arg id="3" type="A1" beg="9" end="17" />
+                </word>
+                <word id="8" cont="到" pos="v" ne="O" parent="7" relate="CMP" />
+                <word id="9" cont="这" pos="r" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="一" pos="m" ne="O" parent="12" relate="ATT" />
+                <word id="11" cont="研究" pos="v" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="成果" pos="n" ne="O" parent="17" relate="ATT" />
+                <word id="13" cont="对" pos="p" ne="O" parent="17" relate="ATT" />
+                <word id="14" cont="未来" pos="nt" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="世界" pos="n" ne="O" parent="13" relate="POB" />
+                <word id="16" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="17" cont="影响" pos="v" ne="O" parent="7" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="19" cont="并" pos="c" ne="O" parent="22" relate="ADV" />
+                <word id="20" cont="曾" pos="d" ne="O" parent="22" relate="ADV" />
+                <word id="21" cont="多次" pos="m" ne="O" parent="22" relate="ADV" />
+                <word id="22" cont="接触" pos="v" ne="O" parent="7" relate="COO">
+                    <arg id="0" type="LOC" beg="0" end="4" />
+                    <arg id="1" type="A0" beg="5" end="5" />
+                    <arg id="2" type="ADV" beg="19" end="19" />
+                    <arg id="3" type="ADV" beg="20" end="20" />
+                    <arg id="4" type="ADV" beg="21" end="21" />
+                    <arg id="5" type="A0" beg="23" end="25" />
+                </word>
+                <word id="23" cont="英" pos="j" ne="S-Ns" parent="25" relate="ATT" />
+                <word id="24" cont="美" pos="j" ne="S-Ns" parent="23" relate="COO" />
+                <word id="25" cont="首脑" pos="n" ne="O" parent="22" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="27" cont="建议" pos="v" ne="O" parent="7" relate="COO">
+                    <arg id="0" type="TMP" beg="0" end="4" />
+                    <arg id="1" type="A0" beg="5" end="5" />
+                    <arg id="2" type="A1" beg="28" end="41" />
+                </word>
+                <word id="28" cont="他们" pos="r" ne="O" parent="32" relate="SBV" />
+                <word id="29" cont="及早" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="30" cont="与" pos="p" ne="O" parent="32" relate="ADV" />
+                <word id="31" cont="苏联" pos="ns" ne="S-Ns" parent="30" relate="POB" />
+                <word id="32" cont="达成" pos="v" ne="O" parent="27" relate="VOB">
+                    <arg id="0" type="A0" beg="28" end="28" />
+                    <arg id="1" type="ADV" beg="29" end="29" />
+                    <arg id="2" type="A0" beg="30" end="31" />
+                    <arg id="3" type="A1" beg="33" end="37" />
+                </word>
+                <word id="33" cont="控制" pos="v" ne="O" parent="37" relate="ATT">
+                    <arg id="0" type="A1" beg="34" end="35" />
+                </word>
+                <word id="34" cont="原子" pos="n" ne="O" parent="35" relate="ATT" />
+                <word id="35" cont="武器" pos="n" ne="O" parent="33" relate="VOB" />
+                <word id="36" cont="的" pos="u" ne="O" parent="33" relate="RAD" />
+                <word id="37" cont="协议" pos="n" ne="O" parent="32" relate="VOB" />
+                <word id="38" cont="，" pos="wp" ne="O" parent="32" relate="WP" />
+                <word id="39" cont="但" pos="c" ne="O" parent="41" relate="ADV" />
+                <word id="40" cont="没有" pos="d" ne="O" parent="41" relate="ADV" />
+                <word id="41" cont="成功" pos="a" ne="O" parent="32" relate="COO">
+                    <arg id="0" type="DIS" beg="39" end="39" />
+                    <arg id="1" type="ADV" beg="40" end="40" />
+                </word>
+                <word id="42" cont="。" pos="wp" ne="O" parent="7" relate="WP" />
+            </sent>
+        </para>
+        <para id="6">
+            <sent id="0" cont="二战后，玻尔积极倡导和实施国际间的科学合作。">
+                <word id="0" cont="二战" pos="j" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="后" pos="nd" ne="O" parent="5" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="3" cont="玻尔" pos="nh" ne="S-Nh" parent="5" relate="SBV" />
+                <word id="4" cont="积极" pos="a" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="倡导" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="2" />
+                    <arg id="1" type="A0" beg="3" end="3" />
+                    <arg id="2" type="ADV" beg="4" end="4" />
+                    <arg id="3" type="A1" beg="8" end="12" />
+                </word>
+                <word id="6" cont="和" pos="c" ne="O" parent="7" relate="LAD" />
+                <word id="7" cont="实施" pos="v" ne="O" parent="5" relate="COO">
+                    <arg id="0" type="TMP" beg="0" end="2" />
+                    <arg id="1" type="A0" beg="3" end="3" />
+                    <arg id="2" type="ADV" beg="4" end="4" />
+                    <arg id="3" type="A1" beg="8" end="12" />
+                </word>
+                <word id="8" cont="国际" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="间" pos="nd" ne="O" parent="12" relate="ATT" />
+                <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="11" cont="科学" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="合作" pos="v" ne="O" parent="5" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="1" cont="l957年，美国福特基金会将第一届“原子为了和平”奖授予玻尔，以表彰他“在全世界迫切需要的原则上，以友好的精神进行科学探索，在和平利用原子能以满足人类需要方面作出了榜样”。">
+                <word id="0" cont="l957" pos="m" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="年" pos="q" ne="O" parent="15" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="3" cont="美国" pos="ns" ne="B-Ni" parent="5" relate="ATT" />
+                <word id="4" cont="福特" pos="nz" ne="I-Ni" parent="5" relate="ATT" />
+                <word id="5" cont="基金会" pos="n" ne="E-Ni" parent="15" relate="SBV" />
+                <word id="6" cont="将" pos="p" ne="O" parent="15" relate="ADV" />
+                <word id="7" cont="第一" pos="m" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="届" pos="q" ne="O" parent="15" relate="ADV" />
+                <word id="9" cont="“" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="10" cont="原子" pos="n" ne="O" parent="15" relate="SBV" />
+                <word id="11" cont="为了" pos="p" ne="O" parent="15" relate="ADV" />
+                <word id="12" cont="和平" pos="n" ne="O" parent="11" relate="POB" />
+                <word id="13" cont="”" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="14" cont="奖" pos="n" ne="O" parent="11" relate="POB" />
+                <word id="15" cont="授予" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="0" />
+                    <arg id="1" type="A0" beg="3" end="5" />
+                    <arg id="2" type="A1" beg="10" end="10" />
+                    <arg id="3" type="PRP" beg="11" end="14" />
+                    <arg id="4" type="A1" beg="16" end="16" />
+                </word>
+                <word id="16" cont="玻尔" pos="nh" ne="S-Nh" parent="15" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="18" cont="以" pos="c" ne="O" parent="19" relate="ADV" />
+                <word id="19" cont="表彰" pos="v" ne="O" parent="15" relate="COO">
+                    <arg id="0" type="TMP" beg="0" end="0" />
+                    <arg id="1" type="A0" beg="3" end="5" />
+                    <arg id="2" type="A1" beg="35" end="36" />
+                </word>
+                <word id="20" cont="他" pos="r" ne="O" parent="34" relate="SBV" />
+                <word id="21" cont="“" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="22" cont="在" pos="p" ne="O" parent="34" relate="ADV" />
+                <word id="23" cont="全世界" pos="n" ne="O" parent="22" relate="POB" />
+                <word id="24" cont="迫切" pos="a" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="需要" pos="v" ne="O" parent="27" relate="ATT">
+                    <arg id="0" type="A0" beg="23" end="23" />
+                    <arg id="1" type="ADV" beg="24" end="24" />
+                </word>
+                <word id="26" cont="的" pos="u" ne="O" parent="25" relate="RAD" />
+                <word id="27" cont="原则" pos="n" ne="O" parent="28" relate="ATT" />
+                <word id="28" cont="上" pos="nd" ne="O" parent="22" relate="POB" />
+                <word id="29" cont="，" pos="wp" ne="O" parent="22" relate="WP" />
+                <word id="30" cont="以" pos="p" ne="O" parent="34" relate="ADV" />
+                <word id="31" cont="友好" pos="a" ne="O" parent="33" relate="ATT" />
+                <word id="32" cont="的" pos="u" ne="O" parent="31" relate="RAD" />
+                <word id="33" cont="精神" pos="n" ne="O" parent="30" relate="POB" />
+                <word id="34" cont="进行" pos="v" ne="O" parent="19" relate="VOB">
+                    <arg id="0" type="A0" beg="3" end="5" />
+                    <arg id="1" type="A0" beg="20" end="20" />
+                    <arg id="2" type="LOC" beg="22" end="29" />
+                    <arg id="3" type="MNR" beg="30" end="33" />
+                    <arg id="4" type="A1" beg="35" end="36" />
+                </word>
+                <word id="35" cont="科学" pos="a" ne="O" parent="36" relate="ADV" />
+                <word id="36" cont="探索" pos="v" ne="O" parent="34" relate="VOB" />
+                <word id="37" cont="，" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="38" cont="在" pos="p" ne="O" parent="40" relate="ADV" />
+                <word id="39" cont="和平" pos="a" ne="O" parent="40" relate="ADV" />
+                <word id="40" cont="利用" pos="v" ne="O" parent="34" relate="COO">
+                    <arg id="0" type="LOC" beg="38" end="38" />
+                    <arg id="1" type="ADV" beg="39" end="39" />
+                    <arg id="2" type="A1" beg="41" end="41" />
+                </word>
+                <word id="41" cont="原子能" pos="n" ne="O" parent="47" relate="SBV" />
+                <word id="42" cont="以" pos="c" ne="O" parent="47" relate="ADV" />
+                <word id="43" cont="满足" pos="v" ne="O" parent="42" relate="POB">
+                    <arg id="0" type="A2" beg="44" end="46" />
+                </word>
+                <word id="44" cont="人类" pos="n" ne="O" parent="46" relate="ATT" />
+                <word id="45" cont="需要" pos="v" ne="O" parent="46" relate="ATT" />
+                <word id="46" cont="方面" pos="n" ne="O" parent="43" relate="VOB" />
+                <word id="47" cont="作出" pos="v" ne="O" parent="40" relate="VOB">
+                    <arg id="0" type="LOC" beg="38" end="38" />
+                    <arg id="1" type="MNR" beg="42" end="46" />
+                    <arg id="2" type="A1" beg="49" end="49" />
+                </word>
+                <word id="48" cont="了" pos="u" ne="O" parent="47" relate="RAD" />
+                <word id="49" cont="榜样" pos="n" ne="O" parent="47" relate="VOB" />
+                <word id="50" cont="”" pos="wp" ne="O" parent="47" relate="WP" />
+                <word id="51" cont="。" pos="wp" ne="O" parent="15" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

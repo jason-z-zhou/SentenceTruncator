@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="y" parser="y" wsd="n" srl="y" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="艺术品的接受在过去并不被看作是重要的美学问題，20世纪解释学兴起，一个名为“接受美学”的美学分支应运而生，于是研究艺术品的接受成为艺术美学中的显学。">
+                <word id="0" cont="艺术品" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="接受" pos="v" ne="O" parent="8" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="4" cont="过去" pos="nt" ne="O" parent="3" relate="POB" />
+                <word id="5" cont="并" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="6" cont="不" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="7" cont="被" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="看作" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="0" end="2" />
+                    <arg id="1" type="TMP" beg="3" end="4" />
+                    <arg id="2" type="ADV" beg="5" end="5" />
+                    <arg id="3" type="ADV" beg="6" end="6" />
+                    <arg id="4" type="A2" beg="10" end="14" />
+                </word>
+                <word id="9" cont="是" pos="v" ne="O" parent="8" relate="VOB">
+                    <arg id="0" type="A1" beg="10" end="14" />
+                </word>
+                <word id="10" cont="重要" pos="a" ne="O" parent="14" relate="ATT" />
+                <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="12" cont="美" pos="j" ne="S-Ns" parent="13" relate="ATT" />
+                <word id="13" cont="学问" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="題" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="16" cont="20" pos="m" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="世纪" pos="n" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="解释学" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="19" cont="兴起" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="A1" beg="16" end="18" />
+                </word>
+                <word id="20" cont="，" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="21" cont="一个" pos="m" ne="O" parent="22" relate="ATT" />
+                <word id="22" cont="名" pos="n" ne="O" parent="23" relate="SBV" />
+                <word id="23" cont="为" pos="v" ne="O" parent="19" relate="COO">
+                    <arg id="0" type="A0" beg="21" end="22" />
+                    <arg id="1" type="A1" beg="31" end="31" />
+                </word>
+                <word id="24" cont="“" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="25" cont="接受" pos="v" ne="O" parent="30" relate="ATT">
+                    <arg id="0" type="A1" beg="26" end="26" />
+                </word>
+                <word id="26" cont="美学" pos="n" ne="O" parent="25" relate="VOB" />
+                <word id="27" cont="”" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="28" cont="的" pos="u" ne="O" parent="25" relate="RAD" />
+                <word id="29" cont="美学" pos="n" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="分支" pos="n" ne="O" parent="23" relate="VOB" />
+                <word id="31" cont="应运而生" pos="i" ne="O" parent="23" relate="VOB">
+                    <arg id="0" type="A0" beg="21" end="22" />
+                    <arg id="1" type="A0" beg="24" end="30" />
+                </word>
+                <word id="32" cont="，" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="33" cont="于是" pos="c" ne="O" parent="34" relate="ADV" />
+                <word id="34" cont="研究" pos="v" ne="O" parent="37" relate="SBV" />
+                <word id="35" cont="艺术品" pos="n" ne="O" parent="34" relate="VOB" />
+                <word id="36" cont="的" pos="u" ne="O" parent="34" relate="RAD" />
+                <word id="37" cont="接受" pos="v" ne="O" parent="23" relate="COO">
+                    <arg id="0" type="DIS" beg="33" end="33" />
+                    <arg id="1" type="ADV" beg="36" end="36" />
+                    <arg id="2" type="A1" beg="39" end="43" />
+                </word>
+                <word id="38" cont="成为" pos="v" ne="O" parent="37" relate="VOB" />
+                <word id="39" cont="艺术" pos="n" ne="O" parent="40" relate="ATT" />
+                <word id="40" cont="美学" pos="n" ne="O" parent="41" relate="ATT" />
+                <word id="41" cont="中" pos="nd" ne="O" parent="43" relate="ATT" />
+                <word id="42" cont="的" pos="u" ne="O" parent="41" relate="RAD" />
+                <word id="43" cont="显学" pos="n" ne="O" parent="38" relate="VOB" />
+                <word id="44" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

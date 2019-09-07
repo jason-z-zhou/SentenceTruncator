@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="y" parser="y" wsd="n" srl="y" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="宋代的农业、手工业、商业在唐代的基础上又有了新的发展，特别是商品经济出现了空前的繁荣，在此背景下，宋代的货巾流通和信用进入迅速发展时期，开创了古代金融的新篇章。">
+                <word id="0" cont="宋代" pos="nt" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="农业" pos="n" ne="O" parent="13" relate="SBV" />
+                <word id="3" cont="、" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="4" cont="手工业" pos="n" ne="O" parent="2" relate="COO" />
+                <word id="5" cont="、" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="6" cont="商业" pos="n" ne="O" parent="2" relate="COO" />
+                <word id="7" cont="在" pos="p" ne="O" parent="13" relate="ADV" />
+                <word id="8" cont="唐代" pos="nt" ne="O" parent="10" relate="ATT" />
+                <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="基础" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="上" pos="nd" ne="O" parent="7" relate="POB" />
+                <word id="12" cont="又" pos="d" ne="O" parent="13" relate="ADV" />
+                <word id="13" cont="有" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="6" />
+                    <arg id="1" type="LOC" beg="7" end="11" />
+                    <arg id="2" type="ADV" beg="12" end="12" />
+                    <arg id="3" type="A1" beg="15" end="17" />
+                </word>
+                <word id="14" cont="了" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="15" cont="新" pos="a" ne="O" parent="17" relate="ATT" />
+                <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="发展" pos="v" ne="O" parent="13" relate="VOB" />
+                <word id="18" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="19" cont="特别" pos="d" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="是" pos="v" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="商品经济" pos="n" ne="O" parent="22" relate="SBV" />
+                <word id="22" cont="出现" pos="v" ne="O" parent="13" relate="COO">
+                    <arg id="0" type="A0" beg="19" end="21" />
+                    <arg id="1" type="A1" beg="24" end="26" />
+                </word>
+                <word id="23" cont="了" pos="u" ne="O" parent="22" relate="RAD" />
+                <word id="24" cont="空前" pos="a" ne="O" parent="26" relate="ATT" />
+                <word id="25" cont="的" pos="u" ne="O" parent="24" relate="RAD" />
+                <word id="26" cont="繁荣" pos="a" ne="O" parent="22" relate="VOB" />
+                <word id="27" cont="，" pos="wp" ne="O" parent="22" relate="WP" />
+                <word id="28" cont="在" pos="p" ne="O" parent="36" relate="ADV" />
+                <word id="29" cont="此" pos="r" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="背景" pos="n" ne="O" parent="31" relate="ATT" />
+                <word id="31" cont="下" pos="nd" ne="O" parent="28" relate="POB" />
+                <word id="32" cont="，" pos="wp" ne="O" parent="28" relate="WP" />
+                <word id="33" cont="宋代" pos="nt" ne="O" parent="35" relate="ATT" />
+                <word id="34" cont="的" pos="u" ne="O" parent="33" relate="RAD" />
+                <word id="35" cont="货巾" pos="n" ne="O" parent="36" relate="SBV" />
+                <word id="36" cont="流通" pos="v" ne="O" parent="22" relate="COO" />
+                <word id="37" cont="和" pos="c" ne="O" parent="38" relate="LAD" />
+                <word id="38" cont="信用" pos="n" ne="O" parent="36" relate="COO" />
+                <word id="39" cont="进入" pos="v" ne="O" parent="36" relate="COO">
+                    <arg id="0" type="LOC" beg="28" end="32" />
+                    <arg id="1" type="A1" beg="40" end="42" />
+                </word>
+                <word id="40" cont="迅速" pos="a" ne="O" parent="41" relate="ADV" />
+                <word id="41" cont="发展" pos="v" ne="O" parent="42" relate="ATT">
+                    <arg id="0" type="ADV" beg="40" end="40" />
+                </word>
+                <word id="42" cont="时期" pos="n" ne="O" parent="39" relate="VOB" />
+                <word id="43" cont="，" pos="wp" ne="O" parent="22" relate="WP" />
+                <word id="44" cont="开创" pos="v" ne="O" parent="22" relate="COO">
+                    <arg id="0" type="A1" beg="46" end="49" />
+                </word>
+                <word id="45" cont="了" pos="u" ne="O" parent="44" relate="RAD" />
+                <word id="46" cont="古代" pos="nt" ne="O" parent="47" relate="ATT" />
+                <word id="47" cont="金融" pos="n" ne="O" parent="49" relate="ATT" />
+                <word id="48" cont="的" pos="u" ne="O" parent="47" relate="RAD" />
+                <word id="49" cont="新篇章" pos="n" ne="O" parent="44" relate="VOB" />
+                <word id="50" cont="。" pos="wp" ne="O" parent="13" relate="WP" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="宋代在信用形式和信用工具方面都呈现出新的特点。">
+                <word id="0" cont="宋代" pos="nt" ne="O" parent="9" relate="SBV" />
+                <word id="1" cont="在" pos="p" ne="O" parent="9" relate="ADV" />
+                <word id="2" cont="信用" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="形式" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="4" cont="和" pos="c" ne="O" parent="6" relate="LAD" />
+                <word id="5" cont="信用" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="工具" pos="n" ne="O" parent="3" relate="COO" />
+                <word id="7" cont="方面" pos="n" ne="O" parent="1" relate="POB" />
+                <word id="8" cont="都" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="呈现" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="0" />
+                    <arg id="1" type="LOC" beg="1" end="7" />
+                    <arg id="2" type="ADV" beg="8" end="8" />
+                    <arg id="3" type="A1" beg="11" end="13" />
+                </word>
+                <word id="10" cont="出" pos="v" ne="O" parent="9" relate="CMP" />
+                <word id="11" cont="新" pos="a" ne="O" parent="13" relate="ATT" />
+                <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="特点" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="14" cont="。" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+            <sent id="1" cont="信用形式有借贷、质、押、典、赊买赊卖等多种形式。">
+                <word id="0" cont="信用" pos="n" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="形式" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="2" cont="有" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="3" end="14" />
+                </word>
+                <word id="3" cont="借贷" pos="n" ne="O" parent="16" relate="ATT" />
+                <word id="4" cont="、" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="5" cont="质" pos="n" ne="O" parent="3" relate="COO" />
+                <word id="6" cont="、" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="7" cont="押" pos="v" ne="O" parent="3" relate="COO" />
+                <word id="8" cont="、" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="9" cont="典" pos="n" ne="O" parent="3" relate="COO" />
+                <word id="10" cont="、" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="11" cont="赊" pos="v" ne="O" parent="3" relate="COO" />
+                <word id="12" cont="买" pos="v" ne="O" parent="11" relate="COO" />
+                <word id="13" cont="赊卖" pos="v" ne="O" parent="11" relate="COO" />
+                <word id="14" cont="等" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="15" cont="多种" pos="m" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="形式" pos="n" ne="O" parent="2" relate="VOB" />
+                <word id="17" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="2" cont="借贷分为政府借贷和私人借贷。">
+                <word id="0" cont="借贷" pos="v" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="分为" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="0" end="0" />
+                    <arg id="1" type="A2" beg="2" end="6" />
+                </word>
+                <word id="2" cont="政府" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="3" cont="借贷" pos="v" ne="O" parent="1" relate="VOB" />
+                <word id="4" cont="和" pos="c" ne="O" parent="5" relate="LAD" />
+                <word id="5" cont="私人" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="借贷" pos="v" ne="O" parent="3" relate="COO" />
+                <word id="7" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="3" cont="政府借贷主要表现为赈贷的形式，在紧急情况下通过贷给百姓粮食或种子的方式，帮助他们度过困境。">
+                <word id="0" cont="政府" pos="n" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="借贷" pos="v" ne="O" parent="3" relate="SBV" />
+                <word id="2" cont="主要" pos="d" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="表现" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="ADV" beg="2" end="2" />
+                    <arg id="2" type="A1" beg="7" end="7" />
+                </word>
+                <word id="4" cont="为" pos="v" ne="O" parent="3" relate="CMP">
+                    <arg id="0" type="A1" beg="7" end="7" />
+                </word>
+                <word id="5" cont="赈贷" pos="v" ne="O" parent="4" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="形式" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="9" cont="在" pos="p" ne="O" parent="23" relate="ADV" />
+                <word id="10" cont="紧急" pos="a" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="情况" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="下" pos="nd" ne="O" parent="9" relate="POB" />
+                <word id="13" cont="通过" pos="p" ne="O" parent="23" relate="ADV" />
+                <word id="14" cont="贷" pos="v" ne="O" parent="13" relate="POB" />
+                <word id="15" cont="给" pos="p" ne="O" parent="23" relate="ADV" />
+                <word id="16" cont="百姓" pos="n" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="粮食" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="18" cont="或" pos="c" ne="O" parent="19" relate="LAD" />
+                <word id="19" cont="种子" pos="n" ne="O" parent="17" relate="COO" />
+                <word id="20" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="21" cont="方式" pos="n" ne="O" parent="15" relate="POB" />
+                <word id="22" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="23" cont="帮助" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="LOC" beg="9" end="12" />
+                    <arg id="1" type="MNR" beg="13" end="14" />
+                    <arg id="2" type="A1" beg="24" end="24" />
+                    <arg id="3" type="A2" beg="25" end="26" />
+                </word>
+                <word id="24" cont="他们" pos="r" ne="O" parent="23" relate="DBL" />
+                <word id="25" cont="度过" pos="v" ne="O" parent="23" relate="VOB">
+                    <arg id="0" type="A1" beg="26" end="26" />
+                </word>
+                <word id="26" cont="困境" pos="n" ne="O" parent="25" relate="VOB" />
+                <word id="27" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="4" cont="私人借贷多为高利贷，它可以解决社会分化和“钱荒”带来的平民百姓资金严重不足的问题，满足特殊支付和燃眉之急的需要。">
+                <word id="0" cont="私人" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="1" cont="借贷" pos="v" ne="O" parent="3" relate="SBV" />
+                <word id="2" cont="多" pos="a" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="为" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="1" end="1" />
+                    <arg id="1" type="ADV" beg="2" end="2" />
+                    <arg id="2" type="A1" beg="4" end="4" />
+                </word>
+                <word id="4" cont="高利贷" pos="n" ne="O" parent="3" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="6" cont="它" pos="r" ne="O" parent="8" relate="SBV" />
+                <word id="7" cont="可以" pos="v" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="解决" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="6" end="6" />
+                    <arg id="1" type="A1" beg="9" end="23" />
+                </word>
+                <word id="9" cont="社会" pos="n" ne="O" parent="10" relate="SBV" />
+                <word id="10" cont="分化" pos="v" ne="O" parent="15" relate="SBV" />
+                <word id="11" cont="和" pos="c" ne="O" parent="13" relate="LAD" />
+                <word id="12" cont="“" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="13" cont="钱荒" pos="n" ne="O" parent="10" relate="COO" />
+                <word id="14" cont="”" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="15" cont="带来" pos="v" ne="O" parent="19" relate="ATT">
+                    <arg id="0" type="A0" beg="9" end="14" />
+                </word>
+                <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="平民" pos="n" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="百姓" pos="n" ne="O" parent="19" relate="ATT" />
+                <word id="19" cont="资金" pos="n" ne="O" parent="20" relate="SBV" />
+                <word id="20" cont="严重" pos="a" ne="O" parent="23" relate="ATT" />
+                <word id="21" cont="不足" pos="a" ne="O" parent="20" relate="COO" />
+                <word id="22" cont="的" pos="u" ne="O" parent="21" relate="RAD" />
+                <word id="23" cont="问题" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="24" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="25" cont="满足" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A1" beg="6" end="6" />
+                    <arg id="1" type="A2" beg="26" end="31" />
+                </word>
+                <word id="26" cont="特殊" pos="a" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="支付" pos="v" ne="O" parent="31" relate="ATT" />
+                <word id="28" cont="和" pos="c" ne="O" parent="29" relate="LAD" />
+                <word id="29" cont="燃眉之急" pos="i" ne="O" parent="27" relate="COO" />
+                <word id="30" cont="的" pos="u" ne="O" parent="27" relate="RAD" />
+                <word id="31" cont="需要" pos="n" ne="O" parent="25" relate="VOB" />
+                <word id="32" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="5" cont="质、押是借贷的担保形式，由质库、解库等机构经营。">
+                <word id="0" cont="质" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="1" cont="、" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="2" cont="押" pos="v" ne="O" parent="0" relate="COO" />
+                <word id="3" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="2" />
+                    <arg id="1" type="A1" beg="4" end="7" />
+                </word>
+                <word id="4" cont="借贷" pos="v" ne="O" parent="7" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="担保" pos="v" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="形式" pos="n" ne="O" parent="3" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="9" cont="由" pos="p" ne="O" parent="15" relate="ADV" />
+                <word id="10" cont="质库" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="11" cont="、" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="12" cont="解库" pos="n" ne="O" parent="10" relate="COO" />
+                <word id="13" cont="等" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="14" cont="机构" pos="n" ne="O" parent="9" relate="POB" />
+                <word id="15" cont="经营" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="9" end="14" />
+                </word>
+                <word id="16" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="6" cont="质属于动产担保，它必须转移动产的占有；">
+                <word id="0" cont="质" pos="n" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="属于" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="3" />
+                </word>
+                <word id="2" cont="动产" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="担保" pos="v" ne="O" parent="1" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="5" cont="它" pos="r" ne="O" parent="7" relate="SBV" />
+                <word id="6" cont="必须" pos="d" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="转移" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="A1" beg="5" end="5" />
+                    <arg id="1" type="A1" beg="10" end="10" />
+                </word>
+                <word id="8" cont="动产" pos="v" ne="O" parent="7" relate="VOB" />
+                <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="占有" pos="v" ne="O" parent="7" relate="VOB" />
+                <word id="11" cont="；" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="7" cont="押属于不动产担保，通常将抵押物的契约交付债权人即可。">
+                <word id="0" cont="押" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="2" end="3" />
+                </word>
+                <word id="1" cont="属于" pos="v" ne="O" parent="0" relate="VOB">
+                    <arg id="0" type="A1" beg="2" end="3" />
+                </word>
+                <word id="2" cont="不动产" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="担保" pos="v" ne="O" parent="1" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="5" cont="通常" pos="d" ne="O" parent="10" relate="ADV" />
+                <word id="6" cont="将" pos="p" ne="O" parent="10" relate="ADV" />
+                <word id="7" cont="抵押物" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="契约" pos="n" ne="O" parent="6" relate="POB" />
+                <word id="10" cont="交付" pos="v" ne="O" parent="0" relate="COO">
+                    <arg id="0" type="ADV" beg="5" end="5" />
+                    <arg id="1" type="A1" beg="7" end="9" />
+                    <arg id="2" type="A1" beg="11" end="11" />
+                </word>
+                <word id="11" cont="债权人" pos="n" ne="O" parent="10" relate="VOB" />
+                <word id="12" cont="即可" pos="v" ne="O" parent="10" relate="CMP">
+                    <arg id="0" type="A1" beg="7" end="9" />
+                </word>
+                <word id="13" cont="。" pos="wp" ne="O" parent="0" relate="WP" />
+            </sent>
+            <sent id="8" cont="债务人违约时，债权人可用变卖价款优先受偿。">
+                <word id="0" cont="债务人" pos="n" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="违约" pos="v" ne="O" parent="2" relate="ATT">
+                    <arg id="0" type="ADV" beg="0" end="0" />
+                </word>
+                <word id="2" cont="时" pos="n" ne="O" parent="5" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="债权人" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="5" cont="可用" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="3" />
+                    <arg id="1" type="A0" beg="4" end="4" />
+                    <arg id="2" type="A1" beg="7" end="7" />
+                </word>
+                <word id="6" cont="变卖" pos="v" ne="O" parent="9" relate="SBV" />
+                <word id="7" cont="价款" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="8" cont="优先" pos="v" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="受" pos="v" ne="O" parent="5" relate="COO">
+                    <arg id="0" type="TMP" beg="0" end="3" />
+                    <arg id="1" type="A0" beg="4" end="4" />
+                    <arg id="2" type="ADV" beg="8" end="8" />
+                    <arg id="3" type="A1" beg="10" end="10" />
+                </word>
+                <word id="10" cont="偿" pos="v" ne="O" parent="9" relate="VOB">
+                    <arg id="0" type="TMP" beg="0" end="3" />
+                    <arg id="1" type="A0" beg="4" end="4" />
+                    <arg id="2" type="ADV" beg="8" end="8" />
+                </word>
+                <word id="11" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="9" cont="典作为不动产转移的一种形式是在宋代形成和发展起来的。">
+                <word id="0" cont="典" pos="n" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="作为" pos="v" ne="O" parent="8" relate="SBV" />
+                <word id="2" cont="不动产" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="3" cont="转移" pos="v" ne="O" parent="7" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="一" pos="m" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="种" pos="q" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="形式" pos="n" ne="O" parent="1" relate="VOB" />
+                <word id="8" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="15" end="15" />
+                </word>
+                <word id="9" cont="在" pos="p" ne="O" parent="11" relate="ADV" />
+                <word id="10" cont="宋代" pos="nt" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="形成" pos="v" ne="O" parent="8" relate="VOB">
+                    <arg id="0" type="TMP" beg="9" end="9" />
+                </word>
+                <word id="12" cont="和" pos="c" ne="O" parent="13" relate="LAD" />
+                <word id="13" cont="发展" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="TMP" beg="9" end="9" />
+                </word>
+                <word id="14" cont="起来" pos="v" ne="O" parent="11" relate="CMP" />
+                <word id="15" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="16" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="10" cont="其特点是典权人向出典人支付典价后，在典期内就占有了出典人典产的使用权和收益支配权，出典人也不必向典权人支付利息。">
+                <word id="0" cont="其" pos="r" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="特点" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="2" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                </word>
+                <word id="3" cont="典权人" pos="n" ne="O" parent="6" relate="SBV" />
+                <word id="4" cont="向" pos="p" ne="O" parent="6" relate="ADV" />
+                <word id="5" cont="出典人" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="6" cont="支付" pos="v" ne="O" parent="8" relate="ATT">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                    <arg id="1" type="A2" beg="4" end="5" />
+                    <arg id="2" type="A1" beg="7" end="7" />
+                </word>
+                <word id="7" cont="典价" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="8" cont="后" pos="nd" ne="O" parent="14" relate="ADV" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="在" pos="p" ne="O" parent="14" relate="ADV" />
+                <word id="11" cont="典期" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="内" pos="nd" ne="O" parent="10" relate="POB" />
+                <word id="13" cont="就" pos="d" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="占有" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="TMP" beg="3" end="9" />
+                    <arg id="1" type="LOC" beg="10" end="12" />
+                    <arg id="2" type="ADV" beg="13" end="13" />
+                    <arg id="3" type="A1" beg="16" end="22" />
+                </word>
+                <word id="15" cont="了" pos="u" ne="O" parent="14" relate="RAD" />
+                <word id="16" cont="出典人" pos="n" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="典产" pos="n" ne="O" parent="19" relate="ATT" />
+                <word id="18" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="19" cont="使用权" pos="n" ne="O" parent="14" relate="VOB" />
+                <word id="20" cont="和" pos="c" ne="O" parent="22" relate="LAD" />
+                <word id="21" cont="收益" pos="n" ne="O" parent="22" relate="ATT" />
+                <word id="22" cont="支配权" pos="n" ne="O" parent="19" relate="COO" />
+                <word id="23" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="24" cont="出典人" pos="n" ne="O" parent="29" relate="SBV" />
+                <word id="25" cont="也" pos="d" ne="O" parent="29" relate="ADV" />
+                <word id="26" cont="不必" pos="d" ne="O" parent="29" relate="ADV" />
+                <word id="27" cont="向" pos="p" ne="O" parent="29" relate="ADV" />
+                <word id="28" cont="典权人" pos="n" ne="O" parent="27" relate="POB" />
+                <word id="29" cont="支付" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A0" beg="24" end="24" />
+                    <arg id="1" type="ADV" beg="25" end="25" />
+                    <arg id="2" type="ADV" beg="26" end="26" />
+                    <arg id="3" type="A2" beg="27" end="28" />
+                    <arg id="4" type="A1" beg="30" end="30" />
+                </word>
+                <word id="30" cont="利息" pos="n" ne="O" parent="29" relate="VOB" />
+                <word id="31" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="11" cont="宋代的商业贸易非 常发达，但存在着通货紧缩现象，故赊买赊卖行为也很普遍，几乎生产、流通、消费领 域的所有物品都能进行赊买赊卖。">
+                <word id="0" cont="宋代" pos="nt" ne="O" parent="3" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="商业" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="贸易" pos="v" ne="O" parent="5" relate="SBV" />
+                <word id="4" cont="非常" pos="d" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="发达" pos="a" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="3" />
+                    <arg id="1" type="ADV" beg="4" end="4" />
+                </word>
+                <word id="6" cont="，" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="7" cont="但" pos="c" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="存在" pos="v" ne="O" parent="5" relate="COO">
+                    <arg id="0" type="A1" beg="10" end="12" />
+                </word>
+                <word id="9" cont="着" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="通货" pos="n" ne="O" parent="11" relate="SBV" />
+                <word id="11" cont="紧缩" pos="v" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="现象" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="14" cont="故赊" pos="n" ne="O" parent="15" relate="SBV" />
+                <word id="15" cont="买" pos="v" ne="O" parent="20" relate="SBV">
+                    <arg id="0" type="A0" beg="14" end="14" />
+                    <arg id="1" type="A1" beg="17" end="17" />
+                </word>
+                <word id="16" cont="赊卖" pos="v" ne="O" parent="15" relate="CMP" />
+                <word id="17" cont="行为" pos="n" ne="O" parent="15" relate="VOB" />
+                <word id="18" cont="也" pos="d" ne="O" parent="20" relate="ADV" />
+                <word id="19" cont="很" pos="d" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="普遍" pos="a" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="ADV" beg="18" end="18" />
+                    <arg id="1" type="ADV" beg="19" end="19" />
+                </word>
+                <word id="21" cont="，" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="22" cont="几乎" pos="d" ne="O" parent="28" relate="ATT" />
+                <word id="23" cont="生产" pos="v" ne="O" parent="28" relate="ATT">
+                    <arg id="0" type="ADV" beg="22" end="22" />
+                </word>
+                <word id="24" cont="、" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="25" cont="流通" pos="v" ne="O" parent="23" relate="COO" />
+                <word id="26" cont="、" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="27" cont="消费" pos="v" ne="O" parent="23" relate="COO" />
+                <word id="28" cont="领域" pos="n" ne="O" parent="31" relate="ATT" />
+                <word id="29" cont="的" pos="u" ne="O" parent="28" relate="RAD" />
+                <word id="30" cont="所有" pos="b" ne="O" parent="31" relate="ATT" />
+                <word id="31" cont="物品" pos="n" ne="O" parent="34" relate="SBV" />
+                <word id="32" cont="都" pos="d" ne="O" parent="33" relate="ADV" />
+                <word id="33" cont="能" pos="v" ne="O" parent="34" relate="ADV" />
+                <word id="34" cont="进行" pos="v" ne="O" parent="20" relate="COO">
+                    <arg id="0" type="A1" beg="22" end="31" />
+                    <arg id="1" type="ADV" beg="32" end="32" />
+                </word>
+                <word id="35" cont="赊" pos="v" ne="O" parent="34" relate="VOB" />
+                <word id="36" cont="买" pos="v" ne="O" parent="35" relate="COO" />
+                <word id="37" cont="赊" pos="v" ne="O" parent="36" relate="COO" />
+                <word id="38" cont="卖" pos="v" ne="O" parent="37" relate="COO">
+                    <arg id="0" type="ADV" beg="32" end="32" />
+                </word>
+                <word id="39" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="12" cont="从实际效果看，它解决了军需、加强了流通，更重要的一点，它对束缚生产流通扩大和发展的高利贷构成了冲击。">
+                <word id="0" cont="从" pos="p" ne="O" parent="3" relate="ADV" />
+                <word id="1" cont="实际" pos="a" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="效果" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="3" cont="看" pos="v" ne="O" parent="6" relate="ADV">
+                    <arg id="0" type="DIR" beg="0" end="2" />
+                </word>
+                <word id="4" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="它" pos="r" ne="O" parent="6" relate="SBV" />
+                <word id="6" cont="解决" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="4" />
+                    <arg id="1" type="A0" beg="5" end="5" />
+                    <arg id="2" type="A1" beg="8" end="12" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="军需" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="9" cont="、" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="10" cont="加强" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="ADV" beg="0" end="4" />
+                    <arg id="1" type="A0" beg="5" end="5" />
+                    <arg id="2" type="A1" beg="12" end="12" />
+                </word>
+                <word id="11" cont="了" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="12" cont="流通" pos="v" ne="O" parent="10" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="14" cont="更" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="15" cont="重要" pos="a" ne="O" parent="17" relate="ATT">
+                    <arg id="0" type="ADV" beg="14" end="14" />
+                </word>
+                <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="一点" pos="m" ne="O" parent="29" relate="ADV">
+                    <arg id="0" type="ADV" beg="0" end="4" />
+                    <arg id="1" type="ADV" beg="16" end="16" />
+                </word>
+                <word id="18" cont="，" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="19" cont="它" pos="r" ne="O" parent="29" relate="SBV" />
+                <word id="20" cont="对" pos="p" ne="O" parent="29" relate="ADV" />
+                <word id="21" cont="束缚" pos="v" ne="O" parent="20" relate="POB">
+                    <arg id="0" type="A0" beg="22" end="28" />
+                </word>
+                <word id="22" cont="生产" pos="v" ne="O" parent="28" relate="ATT" />
+                <word id="23" cont="流通" pos="v" ne="O" parent="22" relate="COO" />
+                <word id="24" cont="扩大" pos="v" ne="O" parent="22" relate="COO" />
+                <word id="25" cont="和" pos="c" ne="O" parent="26" relate="LAD" />
+                <word id="26" cont="发展" pos="v" ne="O" parent="24" relate="COO" />
+                <word id="27" cont="的" pos="u" ne="O" parent="22" relate="RAD" />
+                <word id="28" cont="高利贷" pos="n" ne="O" parent="21" relate="VOB" />
+                <word id="29" cont="构成" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="ADV" beg="14" end="18" />
+                    <arg id="1" type="A0" beg="19" end="19" />
+                    <arg id="2" type="A1" beg="31" end="31" />
+                </word>
+                <word id="30" cont="了" pos="u" ne="O" parent="29" relate="RAD" />
+                <word id="31" cont="冲击" pos="v" ne="O" parent="29" relate="VOB" />
+                <word id="32" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="随着社会经济的发展，宋代商业贸易对货币的要求越来越高，但是社会中货币供给和流通状况不尽理想，表现为货币流通区域的割据性、货币供给数量的有限性，以及大量流通的铜铁钱细碎和不便携带的特性，其结果是抑制了经济发展。">
+                <word id="0" cont="随着" pos="p" ne="O" parent="14" relate="ADV" />
+                <word id="1" cont="社会" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="经济" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="发展" pos="v" ne="O" parent="0" relate="POB" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="6" cont="宋代" pos="nt" ne="O" parent="12" relate="ATT" />
+                <word id="7" cont="商业" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="贸易" pos="v" ne="O" parent="12" relate="ATT" />
+                <word id="9" cont="对" pos="p" ne="O" parent="12" relate="ATT" />
+                <word id="10" cont="货币" pos="n" ne="O" parent="9" relate="POB" />
+                <word id="11" cont="的" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="12" cont="要求" pos="n" ne="O" parent="14" relate="SBV" />
+                <word id="13" cont="越来越" pos="d" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="高" pos="a" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="5" />
+                    <arg id="1" type="A0" beg="6" end="12" />
+                    <arg id="2" type="ADV" beg="13" end="13" />
+                </word>
+                <word id="15" cont="，" pos="wp" ne="O" parent="14" relate="WP" />
+                <word id="16" cont="但是" pos="c" ne="O" parent="25" relate="ADV" />
+                <word id="17" cont="社会" pos="n" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="中" pos="nd" ne="O" parent="23" relate="ATT" />
+                <word id="19" cont="货币" pos="n" ne="O" parent="20" relate="SBV" />
+                <word id="20" cont="供给" pos="v" ne="O" parent="23" relate="ATT">
+                    <arg id="0" type="A1" beg="19" end="19" />
+                </word>
+                <word id="21" cont="和" pos="c" ne="O" parent="22" relate="LAD" />
+                <word id="22" cont="流通" pos="v" ne="O" parent="20" relate="COO" />
+                <word id="23" cont="状况" pos="n" ne="O" parent="25" relate="SBV" />
+                <word id="24" cont="不尽" pos="d" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="理想" pos="a" ne="O" parent="14" relate="COO">
+                    <arg id="0" type="DIS" beg="16" end="16" />
+                    <arg id="1" type="A0" beg="17" end="23" />
+                    <arg id="2" type="ADV" beg="24" end="24" />
+                </word>
+                <word id="26" cont="，" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="27" cont="表现" pos="v" ne="O" parent="25" relate="COO" />
+                <word id="28" cont="为" pos="v" ne="O" parent="27" relate="CMP">
+                    <arg id="0" type="A1" beg="29" end="38" />
+                </word>
+                <word id="29" cont="货币" pos="n" ne="O" parent="30" relate="SBV" />
+                <word id="30" cont="流通" pos="v" ne="O" parent="31" relate="ATT" />
+                <word id="31" cont="区域" pos="n" ne="O" parent="33" relate="ATT" />
+                <word id="32" cont="的" pos="u" ne="O" parent="31" relate="RAD" />
+                <word id="33" cont="割据性" pos="n" ne="O" parent="39" relate="ATT" />
+                <word id="34" cont="、" pos="wp" ne="O" parent="37" relate="WP" />
+                <word id="35" cont="货币" pos="n" ne="O" parent="36" relate="SBV" />
+                <word id="36" cont="供给" pos="v" ne="O" parent="37" relate="ATT" />
+                <word id="37" cont="数量" pos="n" ne="O" parent="33" relate="COO" />
+                <word id="38" cont="的" pos="u" ne="O" parent="33" relate="RAD" />
+                <word id="39" cont="有限性" pos="n" ne="O" parent="28" relate="VOB" />
+                <word id="40" cont="，" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="41" cont="以及" pos="c" ne="O" parent="52" relate="LAD" />
+                <word id="42" cont="大量" pos="m" ne="O" parent="43" relate="ADV" />
+                <word id="43" cont="流通" pos="v" ne="O" parent="46" relate="ATT">
+                    <arg id="0" type="ADV" beg="42" end="42" />
+                </word>
+                <word id="44" cont="的" pos="u" ne="O" parent="43" relate="RAD" />
+                <word id="45" cont="铜铁" pos="n" ne="O" parent="46" relate="ATT" />
+                <word id="46" cont="钱" pos="n" ne="O" parent="47" relate="SBV" />
+                <word id="47" cont="细碎" pos="a" ne="O" parent="52" relate="ATT">
+                    <arg id="0" type="A0" beg="42" end="46" />
+                </word>
+                <word id="48" cont="和" pos="c" ne="O" parent="50" relate="LAD" />
+                <word id="49" cont="不便" pos="a" ne="O" parent="50" relate="ADV" />
+                <word id="50" cont="携带" pos="v" ne="O" parent="47" relate="COO" />
+                <word id="51" cont="的" pos="u" ne="O" parent="50" relate="RAD" />
+                <word id="52" cont="特性" pos="n" ne="O" parent="25" relate="COO" />
+                <word id="53" cont="，" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="54" cont="其" pos="r" ne="O" parent="55" relate="ATT" />
+                <word id="55" cont="结果" pos="n" ne="O" parent="56" relate="SBV" />
+                <word id="56" cont="是" pos="v" ne="O" parent="14" relate="COO" />
+                <word id="57" cont="抑制" pos="v" ne="O" parent="56" relate="VOB">
+                    <arg id="0" type="A1" beg="59" end="60" />
+                </word>
+                <word id="58" cont="了" pos="u" ne="O" parent="57" relate="RAD" />
+                <word id="59" cont="经济" pos="n" ne="O" parent="60" relate="SBV" />
+                <word id="60" cont="发展" pos="v" ne="O" parent="57" relate="VOB" />
+                <word id="61" cont="。" pos="wp" ne="O" parent="14" relate="WP" />
+            </sent>
+            <sent id="1" cont="为了解决这类问题，在高度发达的造纸和印刷技术保障下，通过民间自发力量的作用和官府的强制推行，宋代社会陆续出如现了诸茶引、盐引、交子、关子和会子等新型纸质信用工具。">
+                <word id="0" cont="为了" pos="p" ne="O" parent="27" relate="ADV" />
+                <word id="1" cont="解决" pos="v" ne="O" parent="0" relate="POB">
+                    <arg id="0" type="A1" beg="2" end="4" />
+                </word>
+                <word id="2" cont="这" pos="r" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="类" pos="q" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="问题" pos="n" ne="O" parent="1" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="6" cont="在" pos="p" ne="O" parent="27" relate="ADV" />
+                <word id="7" cont="高度" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="发达" pos="a" ne="O" parent="13" relate="ATT">
+                    <arg id="0" type="ADV" beg="7" end="7" />
+                </word>
+                <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="造纸" pos="v" ne="O" parent="13" relate="ATT" />
+                <word id="11" cont="和" pos="c" ne="O" parent="12" relate="LAD" />
+                <word id="12" cont="印刷" pos="v" ne="O" parent="10" relate="COO" />
+                <word id="13" cont="技术" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="保障" pos="v" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="下" pos="nd" ne="O" parent="6" relate="POB" />
+                <word id="16" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="17" cont="通过" pos="p" ne="O" parent="27" relate="ATT" />
+                <word id="18" cont="民间" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="19" cont="自发" pos="b" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="力量" pos="n" ne="O" parent="22" relate="ATT" />
+                <word id="21" cont="的" pos="u" ne="O" parent="20" relate="RAD" />
+                <word id="22" cont="作用" pos="n" ne="O" parent="17" relate="POB" />
+                <word id="23" cont="和" pos="c" ne="O" parent="24" relate="LAD" />
+                <word id="24" cont="官府" pos="n" ne="O" parent="22" relate="COO" />
+                <word id="25" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="26" cont="强制" pos="v" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="推行" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="28" cont="，" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="29" cont="宋代" pos="nt" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="社会" pos="n" ne="O" parent="32" relate="SBV" />
+                <word id="31" cont="陆续" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="32" cont="出" pos="v" ne="O" parent="27" relate="COO" />
+                <word id="33" cont="如" pos="v" ne="O" parent="34" relate="ADV" />
+                <word id="34" cont="现" pos="v" ne="O" parent="32" relate="COO">
+                    <arg id="0" type="A0" beg="29" end="30" />
+                    <arg id="1" type="A1" beg="36" end="50" />
+                </word>
+                <word id="35" cont="了" pos="u" ne="O" parent="34" relate="RAD" />
+                <word id="36" cont="诸" pos="r" ne="O" parent="37" relate="ATT" />
+                <word id="37" cont="茶引" pos="n" ne="O" parent="50" relate="ATT" />
+                <word id="38" cont="、" pos="wp" ne="O" parent="39" relate="WP" />
+                <word id="39" cont="盐引" pos="n" ne="O" parent="37" relate="COO" />
+                <word id="40" cont="、" pos="wp" ne="O" parent="41" relate="WP" />
+                <word id="41" cont="交子" pos="n" ne="O" parent="37" relate="COO" />
+                <word id="42" cont="、" pos="wp" ne="O" parent="43" relate="WP" />
+                <word id="43" cont="关子" pos="n" ne="O" parent="37" relate="COO" />
+                <word id="44" cont="和" pos="c" ne="O" parent="45" relate="LAD" />
+                <word id="45" cont="会子" pos="n" ne="O" parent="37" relate="COO" />
+                <word id="46" cont="等" pos="u" ne="O" parent="37" relate="RAD" />
+                <word id="47" cont="新型" pos="b" ne="O" parent="50" relate="ATT" />
+                <word id="48" cont="纸质" pos="n" ne="O" parent="50" relate="ATT" />
+                <word id="49" cont="信用" pos="n" ne="O" parent="50" relate="ATT" />
+                <word id="50" cont="工具" pos="n" ne="O" parent="34" relate="VOB" />
+                <word id="51" cont="。" pos="wp" ne="O" parent="27" relate="WP" />
+            </sent>
+            <sent id="2" cont="茶引、盐引要求相关人员先用粮草或现钱的付出作为取得的条件，然后凭此类纸质信用工具异地兑取现钱或政府专卖货物。">
+                <word id="0" cont="茶引" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="1" cont="、" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="2" cont="盐引" pos="n" ne="O" parent="0" relate="COO" />
+                <word id="3" cont="要求" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="2" />
+                    <arg id="1" type="A1" beg="4" end="5" />
+                </word>
+                <word id="4" cont="相关" pos="v" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="人员" pos="n" ne="O" parent="3" relate="DBL" />
+                <word id="6" cont="先" pos="d" ne="O" parent="12" relate="ADV" />
+                <word id="7" cont="用" pos="p" ne="O" parent="12" relate="ADV" />
+                <word id="8" cont="粮草" pos="n" ne="O" parent="7" relate="POB" />
+                <word id="9" cont="或" pos="c" ne="O" parent="10" relate="LAD" />
+                <word id="10" cont="现钱" pos="n" ne="O" parent="8" relate="COO" />
+                <word id="11" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="12" cont="付出" pos="v" ne="O" parent="3" relate="VOB" />
+                <word id="13" cont="作为" pos="v" ne="O" parent="12" relate="VOB" />
+                <word id="14" cont="取得" pos="v" ne="O" parent="16" relate="ATT" />
+                <word id="15" cont="的" pos="u" ne="O" parent="14" relate="RAD" />
+                <word id="16" cont="条件" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="18" cont="然后" pos="c" ne="O" parent="19" relate="ADV" />
+                <word id="19" cont="凭" pos="p" ne="O" parent="12" relate="COO" />
+                <word id="20" cont="此类" pos="r" ne="O" parent="23" relate="ATT" />
+                <word id="21" cont="纸质" pos="n" ne="O" parent="23" relate="ATT" />
+                <word id="22" cont="信用" pos="n" ne="O" parent="23" relate="ATT" />
+                <word id="23" cont="工具" pos="n" ne="O" parent="24" relate="ATT" />
+                <word id="24" cont="异地" pos="n" ne="O" parent="26" relate="ATT" />
+                <word id="25" cont="兑取" pos="v" ne="O" parent="26" relate="ATT" />
+                <word id="26" cont="现钱" pos="n" ne="O" parent="19" relate="POB" />
+                <word id="27" cont="或" pos="c" ne="O" parent="29" relate="LAD" />
+                <word id="28" cont="政府" pos="n" ne="O" parent="29" relate="SBV" />
+                <word id="29" cont="专卖" pos="v" ne="O" parent="26" relate="COO">
+                    <arg id="0" type="ADV" beg="18" end="18" />
+                    <arg id="1" type="A1" beg="30" end="30" />
+                </word>
+                <word id="30" cont="货物" pos="n" ne="O" parent="29" relate="VOB" />
+                <word id="31" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="3" cont="这些信用工具的使用，除了可发挥信用功能外，也使得政府和商人在专卖货物领域能够共同获利，既有利于商人从政府专卖的货物中分得一份利益，又有利于政府实现增加收入、补给军需等目标。">
+                <word id="0" cont="这些" pos="r" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="信用" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="工具" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="使用" pos="v" ne="O" parent="14" relate="SBV" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="6" cont="除了" pos="p" ne="O" parent="14" relate="ADV" />
+                <word id="7" cont="可" pos="v" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="发挥" pos="v" ne="O" parent="11" relate="ATT">
+                    <arg id="0" type="A1" beg="9" end="10" />
+                </word>
+                <word id="9" cont="信用" pos="n" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="功能" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="11" cont="外" pos="nd" ne="O" parent="6" relate="POB" />
+                <word id="12" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="13" cont="也" pos="d" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="使得" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="5" />
+                    <arg id="1" type="ADV" beg="6" end="12" />
+                    <arg id="2" type="ADV" beg="13" end="13" />
+                    <arg id="3" type="A1" beg="15" end="17" />
+                    <arg id="4" type="A2" beg="18" end="24" />
+                </word>
+                <word id="15" cont="政府" pos="n" ne="O" parent="14" relate="DBL" />
+                <word id="16" cont="和" pos="c" ne="O" parent="17" relate="LAD" />
+                <word id="17" cont="商人" pos="n" ne="O" parent="15" relate="COO" />
+                <word id="18" cont="在" pos="p" ne="O" parent="24" relate="ADV" />
+                <word id="19" cont="专卖" pos="v" ne="O" parent="21" relate="ATT" />
+                <word id="20" cont="货物" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="领域" pos="n" ne="O" parent="18" relate="POB" />
+                <word id="22" cont="能够" pos="v" ne="O" parent="24" relate="ADV" />
+                <word id="23" cont="共同" pos="d" ne="O" parent="24" relate="ADV" />
+                <word id="24" cont="获利" pos="v" ne="O" parent="14" relate="VOB">
+                    <arg id="0" type="LOC" beg="18" end="21" />
+                    <arg id="1" type="ADV" beg="23" end="23" />
+                </word>
+                <word id="25" cont="，" pos="wp" ne="O" parent="14" relate="WP" />
+                <word id="26" cont="既" pos="c" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="有利于" pos="v" ne="O" parent="14" relate="COO">
+                    <arg id="0" type="A1" beg="28" end="51" />
+                </word>
+                <word id="28" cont="商人" pos="n" ne="O" parent="35" relate="SBV" />
+                <word id="29" cont="从" pos="p" ne="O" parent="35" relate="ADV" />
+                <word id="30" cont="政府" pos="n" ne="O" parent="31" relate="SBV" />
+                <word id="31" cont="专卖" pos="v" ne="O" parent="33" relate="ATT">
+                    <arg id="0" type="A0" beg="30" end="30" />
+                </word>
+                <word id="32" cont="的" pos="u" ne="O" parent="31" relate="RAD" />
+                <word id="33" cont="货物" pos="n" ne="O" parent="34" relate="ATT" />
+                <word id="34" cont="中" pos="nd" ne="O" parent="29" relate="POB" />
+                <word id="35" cont="分得" pos="v" ne="O" parent="27" relate="VOB">
+                    <arg id="0" type="A2" beg="29" end="34" />
+                    <arg id="1" type="A1" beg="36" end="38" />
+                </word>
+                <word id="36" cont="一" pos="m" ne="O" parent="37" relate="ATT" />
+                <word id="37" cont="份" pos="q" ne="O" parent="38" relate="ATT" />
+                <word id="38" cont="利益" pos="n" ne="O" parent="35" relate="VOB" />
+                <word id="39" cont="，" pos="wp" ne="O" parent="35" relate="WP" />
+                <word id="40" cont="又" pos="c" ne="O" parent="41" relate="ADV" />
+                <word id="41" cont="有利于" pos="v" ne="O" parent="35" relate="COO">
+                    <arg id="0" type="A1" beg="42" end="51" />
+                </word>
+                <word id="42" cont="政府" pos="n" ne="O" parent="43" relate="SBV" />
+                <word id="43" cont="实现" pos="v" ne="O" parent="41" relate="VOB">
+                    <arg id="0" type="A0" beg="42" end="42" />
+                    <arg id="1" type="A1" beg="44" end="51" />
+                </word>
+                <word id="44" cont="增加" pos="v" ne="O" parent="43" relate="VOB">
+                    <arg id="0" type="A1" beg="45" end="45" />
+                </word>
+                <word id="45" cont="收入" pos="n" ne="O" parent="44" relate="VOB" />
+                <word id="46" cont="、" pos="wp" ne="O" parent="47" relate="WP" />
+                <word id="47" cont="补" pos="v" ne="O" parent="44" relate="COO">
+                    <arg id="0" type="A1" beg="49" end="50" />
+                </word>
+                <word id="48" cont="给" pos="v" ne="O" parent="47" relate="CMP" />
+                <word id="49" cont="军需" pos="n" ne="O" parent="51" relate="ATT" />
+                <word id="50" cont="等" pos="u" ne="O" parent="49" relate="RAD" />
+                <word id="51" cont="目标" pos="n" ne="O" parent="48" relate="VOB" />
+                <word id="52" cont="。" pos="wp" ne="O" parent="14" relate="WP" />
+            </sent>
+            <sent id="4" cont="早期的交子、关子、会子要求相关人员先交纳现钱作为取得的条件，然后再根据需要持交子、关子、会子到指定的地区兑取现钱。">
+                <word id="0" cont="早期" pos="nt" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="交子" pos="n" ne="O" parent="7" relate="SBV" />
+                <word id="3" cont="、" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="4" cont="关子" pos="n" ne="O" parent="2" relate="COO" />
+                <word id="5" cont="、" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="6" cont="会子" pos="n" ne="O" parent="2" relate="COO" />
+                <word id="7" cont="要求" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="8" cont="相关" pos="v" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="人员" pos="n" ne="O" parent="7" relate="DBL" />
+                <word id="10" cont="先" pos="d" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="交纳" pos="v" ne="O" parent="7" relate="VOB">
+                    <arg id="0" type="ADV" beg="10" end="10" />
+                    <arg id="1" type="A1" beg="14" end="16" />
+                </word>
+                <word id="12" cont="现钱" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="13" cont="作为" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="ADV" beg="10" end="10" />
+                    <arg id="1" type="A2" beg="14" end="16" />
+                </word>
+                <word id="14" cont="取得" pos="v" ne="O" parent="16" relate="ATT" />
+                <word id="15" cont="的" pos="u" ne="O" parent="14" relate="RAD" />
+                <word id="16" cont="条件" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="18" cont="然后" pos="c" ne="O" parent="22" relate="ADV" />
+                <word id="19" cont="再" pos="d" ne="O" parent="22" relate="ADV" />
+                <word id="20" cont="根据" pos="p" ne="O" parent="22" relate="ADV">
+                    <arg id="0" type="A0" beg="0" end="6" />
+                    <arg id="1" type="ADV" beg="18" end="18" />
+                    <arg id="2" type="ADV" beg="19" end="19" />
+                </word>
+                <word id="21" cont="需要" pos="v" ne="O" parent="22" relate="ADV" />
+                <word id="22" cont="持" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="ADV" beg="18" end="18" />
+                    <arg id="1" type="ADV" beg="19" end="19" />
+                    <arg id="2" type="MNR" beg="20" end="20" />
+                </word>
+                <word id="23" cont="交子" pos="n" ne="O" parent="22" relate="VOB" />
+                <word id="24" cont="、" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="25" cont="关子" pos="n" ne="O" parent="23" relate="COO" />
+                <word id="26" cont="、" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="27" cont="会子" pos="n" ne="O" parent="23" relate="COO" />
+                <word id="28" cont="到" pos="v" ne="O" parent="22" relate="CMP" />
+                <word id="29" cont="指定" pos="v" ne="O" parent="31" relate="ATT" />
+                <word id="30" cont="的" pos="u" ne="O" parent="29" relate="RAD" />
+                <word id="31" cont="地区" pos="n" ne="O" parent="28" relate="POB" />
+                <word id="32" cont="兑取" pos="v" ne="O" parent="33" relate="ATT" />
+                <word id="33" cont="现钱" pos="n" ne="O" parent="28" relate="POB" />
+                <word id="34" cont="。" pos="wp" ne="O" parent="7" relate="WP" />
+            </sent>
+            <sent id="5" cont="这类信用工具携带方便且具有汇票性质，可以保障大宗交易、跨地区交易货款的顺利结算。">
+                <word id="0" cont="这" pos="r" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="类" pos="q" ne="O" parent="3" relate="ATT" />
+                <word id="2" cont="信用" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="工具" pos="n" ne="O" parent="7" relate="SBV" />
+                <word id="4" cont="携带" pos="v" ne="O" parent="7" relate="SBV" />
+                <word id="5" cont="方便" pos="a" ne="O" parent="4" relate="CMP" />
+                <word id="6" cont="且" pos="d" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="具有" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="3" />
+                    <arg id="1" type="ADV" beg="6" end="6" />
+                    <arg id="2" type="A1" beg="8" end="9" />
+                </word>
+                <word id="8" cont="汇票" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="性质" pos="n" ne="O" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="11" cont="可以" pos="v" ne="O" parent="12" relate="ADV" />
+                <word id="12" cont="保障" pos="v" ne="O" parent="7" relate="COO">
+                    <arg id="0" type="A1" beg="15" end="22" />
+                </word>
+                <word id="13" cont="大宗" pos="m" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="交易" pos="v" ne="O" parent="12" relate="VOB" />
+                <word id="15" cont="、" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="16" cont="跨" pos="v" ne="O" parent="19" relate="ATT" />
+                <word id="17" cont="地区" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="18" cont="交易" pos="v" ne="O" parent="19" relate="ATT" />
+                <word id="19" cont="货款" pos="n" ne="O" parent="22" relate="SBV" />
+                <word id="20" cont="的" pos="u" ne="O" parent="19" relate="RAD" />
+                <word id="21" cont="顺利" pos="a" ne="O" parent="22" relate="ADV" />
+                <word id="22" cont="结算" pos="v" ne="O" parent="14" relate="COO" />
+                <word id="23" cont="。" pos="wp" ne="O" parent="7" relate="WP" />
+            </sent>
+            <sent id="6" cont="它们的使用，弥补了货币的不足，节省了货币流通需求量。">
+                <word id="0" cont="它们" pos="r" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="使用" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="弥补" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A1" beg="6" end="8" />
+                </word>
+                <word id="5" cont="了" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="货币" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="7" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="不足" pos="a" ne="O" parent="4" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="10" cont="节省" pos="v" ne="O" parent="4" relate="COO">
+                    <arg id="0" type="A1" beg="12" end="14" />
+                </word>
+                <word id="11" cont="了" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="12" cont="货币" pos="n" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="流通" pos="v" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="需求量" pos="n" ne="O" parent="10" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="7" cont="此后这种交子、关子、会子逐步发展为纸币。">
+                <word id="0" cont="此后" pos="nt" ne="O" parent="8" relate="ADV" />
+                <word id="1" cont="这种" pos="r" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="交子" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="3" cont="、" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="4" cont="关子" pos="n" ne="O" parent="2" relate="COO" />
+                <word id="5" cont="、" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="6" cont="会子" pos="n" ne="O" parent="2" relate="COO" />
+                <word id="7" cont="逐步" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="发展" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="1" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                    <arg id="3" type="A3" beg="10" end="10" />
+                </word>
+                <word id="9" cont="为" pos="v" ne="O" parent="8" relate="CMP">
+                    <arg id="0" type="ADV" beg="0" end="0" />
+                    <arg id="1" type="A0" beg="1" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                    <arg id="3" type="A1" beg="10" end="10" />
+                </word>
+                <word id="10" cont="纸币" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="11" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="8" cont="可见，宋代新型信用工具的大量使用，是社会经济发展史中最具标志性意义的新生事物，它缓解或解决了交换过程中的诸多不便与矛盾，从而在很大程度上促进了绖济发展。">
+                <word id="0" cont="可见" pos="c" ne="O" parent="10" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="宋代" pos="nt" ne="O" parent="5" relate="ATT" />
+                <word id="3" cont="新型" pos="b" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="信用" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="工具" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="大量" pos="m" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="使用" pos="v" ne="O" parent="10" relate="SBV" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="1" />
+                    <arg id="1" type="A0" beg="2" end="9" />
+                    <arg id="2" type="A1" beg="11" end="20" />
+                </word>
+                <word id="11" cont="社会" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="经济" pos="n" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="发展史" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="中" pos="nd" ne="O" parent="16" relate="ADV" />
+                <word id="15" cont="最" pos="d" ne="O" parent="16" relate="ADV" />
+                <word id="16" cont="具" pos="v" ne="O" parent="20" relate="ATT">
+                    <arg id="0" type="LOC" beg="11" end="14" />
+                    <arg id="1" type="ADV" beg="15" end="15" />
+                    <arg id="2" type="A1" beg="17" end="18" />
+                </word>
+                <word id="17" cont="标志性" pos="n" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="意义" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="19" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="20" cont="新生事物" pos="i" ne="O" parent="10" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="22" cont="它" pos="r" ne="O" parent="23" relate="SBV" />
+                <word id="23" cont="缓解" pos="v" ne="O" parent="10" relate="COO">
+                    <arg id="0" type="A0" beg="22" end="22" />
+                    <arg id="1" type="A1" beg="27" end="33" />
+                </word>
+                <word id="24" cont="或" pos="c" ne="O" parent="25" relate="LAD" />
+                <word id="25" cont="解决" pos="v" ne="O" parent="23" relate="COO">
+                    <arg id="0" type="A0" beg="22" end="22" />
+                </word>
+                <word id="26" cont="了" pos="u" ne="O" parent="23" relate="RAD" />
+                <word id="27" cont="交换" pos="v" ne="O" parent="28" relate="ATT" />
+                <word id="28" cont="过程" pos="n" ne="O" parent="29" relate="ATT" />
+                <word id="29" cont="中" pos="nd" ne="O" parent="31" relate="ATT" />
+                <word id="30" cont="的" pos="u" ne="O" parent="29" relate="RAD" />
+                <word id="31" cont="诸多不便" pos="i" ne="O" parent="23" relate="VOB" />
+                <word id="32" cont="与" pos="c" ne="O" parent="33" relate="LAD" />
+                <word id="33" cont="矛盾" pos="a" ne="O" parent="31" relate="COO" />
+                <word id="34" cont="，" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="35" cont="从而" pos="c" ne="O" parent="41" relate="ADV" />
+                <word id="36" cont="在" pos="p" ne="O" parent="41" relate="ADV" />
+                <word id="37" cont="很" pos="d" ne="O" parent="38" relate="ADV" />
+                <word id="38" cont="大" pos="a" ne="O" parent="39" relate="ATT" />
+                <word id="39" cont="程度" pos="n" ne="O" parent="40" relate="ATT" />
+                <word id="40" cont="上" pos="nd" ne="O" parent="36" relate="POB" />
+                <word id="41" cont="促进" pos="v" ne="O" parent="23" relate="COO">
+                    <arg id="0" type="A0" beg="22" end="22" />
+                    <arg id="1" type="ADV" beg="35" end="35" />
+                    <arg id="2" type="LOC" beg="36" end="40" />
+                    <arg id="3" type="A1" beg="43" end="44" />
+                </word>
+                <word id="42" cont="了" pos="u" ne="O" parent="41" relate="RAD" />
+                <word id="43" cont="绖济" pos="v" ne="O" parent="44" relate="ADV" />
+                <word id="44" cont="发展" pos="v" ne="O" parent="41" relate="VOB" />
+                <word id="45" cont="。" pos="wp" ne="O" parent="10" relate="WP" />
+            </sent>
+            <sent id="9" cont="（摘编自王芳 《宋代信用的特点与影响》）">
+                <word id="0" cont="（" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="1" cont="摘编" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="2" cont="自" pos="p" ne="O" parent="1" relate="CMP" />
+                <word id="3" cont="王芳" pos="nh" ne="S-Nh" parent="8" relate="ATT" />
+                <word id="4" cont="《" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="5" cont="宋代" pos="nt" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="信用" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="7" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="特点" pos="n" ne="O" parent="2" relate="POB" />
+                <word id="9" cont="与" pos="c" ne="O" parent="10" relate="LAD" />
+                <word id="10" cont="影响" pos="v" ne="O" parent="8" relate="COO" />
+                <word id="11" cont="》" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="12" cont="）" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

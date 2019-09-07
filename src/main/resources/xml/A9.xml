@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="y" parser="y" wsd="n" srl="y" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="“黑箱”是控制论中的概念，意为在认识上主体对其内部情况全然不知的对象。">
+                <word id="0" cont="“" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="1" cont="黑箱" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="2" cont="”" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="3" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="2" />
+                    <arg id="1" type="A1" beg="4" end="7" />
+                </word>
+                <word id="4" cont="控制论" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="中" pos="nd" ne="O" parent="7" relate="ATT" />
+                <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="概念" pos="n" ne="O" parent="3" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="9" cont="意" pos="n" ne="O" parent="10" relate="SBV" />
+                <word id="10" cont="为" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="9" end="9" />
+                    <arg id="1" type="A1" beg="11" end="22" />
+                </word>
+                <word id="11" cont="在" pos="p" ne="O" parent="20" relate="ADV" />
+                <word id="12" cont="认识" pos="v" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="上" pos="nd" ne="O" parent="11" relate="POB" />
+                <word id="14" cont="主体" pos="n" ne="O" parent="20" relate="SBV" />
+                <word id="15" cont="对" pos="p" ne="O" parent="20" relate="ADV" />
+                <word id="16" cont="其" pos="r" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="内部" pos="nd" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="情况" pos="n" ne="O" parent="15" relate="POB" />
+                <word id="19" cont="全然" pos="d" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="不知" pos="v" ne="O" parent="22" relate="ATT">
+                    <arg id="0" type="LOC" beg="11" end="13" />
+                    <arg id="1" type="A0" beg="14" end="14" />
+                    <arg id="2" type="A1" beg="15" end="18" />
+                    <arg id="3" type="ADV" beg="19" end="19" />
+                </word>
+                <word id="21" cont="的" pos="u" ne="O" parent="20" relate="RAD" />
+                <word id="22" cont="对象" pos="n" ne="O" parent="10" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="1" cont="“科技黑箱“的含义与此有所不同，它是一种特殊的存贮知识、运行知识的设施或过程，使用者如同面对黑箱，不必打开，也不必理解和掌握其中的知识，只需按规则操作即可得到预期的结果。">
+                <word id="0" cont="“" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="1" cont="科技" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="黑箱" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="3" cont="“" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="4" cont="的" pos="u" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="含义" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="6" cont="与" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="7" cont="此" pos="r" ne="O" parent="6" relate="POB" />
+                <word id="8" cont="有所不同" pos="i" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="4" end="5" />
+                    <arg id="1" type="A0" beg="6" end="7" />
+                </word>
+                <word id="9" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="它" pos="r" ne="O" parent="11" relate="SBV" />
+                <word id="11" cont="是" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A0" beg="10" end="10" />
+                    <arg id="1" type="A1" beg="12" end="24" />
+                </word>
+                <word id="12" cont="一" pos="m" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="种" pos="q" ne="O" parent="22" relate="ATT" />
+                <word id="14" cont="特殊" pos="a" ne="O" parent="17" relate="ATT" />
+                <word id="15" cont="的" pos="u" ne="O" parent="14" relate="RAD" />
+                <word id="16" cont="存贮" pos="v" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="知识" pos="n" ne="O" parent="22" relate="ATT" />
+                <word id="18" cont="、" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="19" cont="运行" pos="v" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="知识" pos="n" ne="O" parent="17" relate="COO" />
+                <word id="21" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="22" cont="设施" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="23" cont="或" pos="c" ne="O" parent="24" relate="LAD" />
+                <word id="24" cont="过程" pos="n" ne="O" parent="22" relate="COO" />
+                <word id="25" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="26" cont="使用者" pos="n" ne="O" parent="28" relate="SBV" />
+                <word id="27" cont="如同" pos="v" ne="O" parent="28" relate="ADV" />
+                <word id="28" cont="面对" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A0" beg="26" end="26" />
+                    <arg id="1" type="A1" beg="29" end="29" />
+                </word>
+                <word id="29" cont="黑箱" pos="n" ne="O" parent="28" relate="VOB" />
+                <word id="30" cont="，" pos="wp" ne="O" parent="28" relate="WP" />
+                <word id="31" cont="不必" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="32" cont="打开" pos="v" ne="O" parent="28" relate="COO">
+                    <arg id="0" type="A0" beg="26" end="26" />
+                    <arg id="1" type="ADV" beg="31" end="31" />
+                </word>
+                <word id="33" cont="，" pos="wp" ne="O" parent="32" relate="WP" />
+                <word id="34" cont="也" pos="d" ne="O" parent="36" relate="ADV" />
+                <word id="35" cont="不必" pos="d" ne="O" parent="36" relate="ADV" />
+                <word id="36" cont="理解" pos="v" ne="O" parent="32" relate="COO">
+                    <arg id="0" type="A0" beg="26" end="26" />
+                    <arg id="1" type="ADV" beg="34" end="34" />
+                    <arg id="2" type="ADV" beg="35" end="35" />
+                    <arg id="3" type="A1" beg="39" end="41" />
+                </word>
+                <word id="37" cont="和" pos="c" ne="O" parent="38" relate="LAD" />
+                <word id="38" cont="掌握" pos="v" ne="O" parent="36" relate="COO">
+                    <arg id="0" type="ADV" beg="34" end="34" />
+                    <arg id="1" type="ADV" beg="35" end="35" />
+                    <arg id="2" type="A1" beg="39" end="41" />
+                </word>
+                <word id="39" cont="其中" pos="r" ne="O" parent="41" relate="ATT" />
+                <word id="40" cont="的" pos="u" ne="O" parent="39" relate="RAD" />
+                <word id="41" cont="知识" pos="n" ne="O" parent="36" relate="VOB" />
+                <word id="42" cont="，" pos="wp" ne="O" parent="36" relate="WP" />
+                <word id="43" cont="只" pos="d" ne="O" parent="44" relate="ADV" />
+                <word id="44" cont="需" pos="v" ne="O" parent="49" relate="ADV" />
+                <word id="45" cont="按" pos="p" ne="O" parent="49" relate="ADV" />
+                <word id="46" cont="规则" pos="n" ne="O" parent="45" relate="POB" />
+                <word id="47" cont="操作" pos="v" ne="O" parent="45" relate="POB" />
+                <word id="48" cont="即可" pos="v" ne="O" parent="49" relate="ADV" />
+                <word id="49" cont="得到" pos="v" ne="O" parent="32" relate="COO">
+                    <arg id="0" type="A0" beg="26" end="26" />
+                    <arg id="1" type="ADV" beg="43" end="43" />
+                    <arg id="2" type="MNR" beg="45" end="47" />
+                    <arg id="3" type="ADV" beg="48" end="48" />
+                    <arg id="4" type="A1" beg="50" end="52" />
+                </word>
+                <word id="50" cont="预期" pos="v" ne="O" parent="52" relate="ATT" />
+                <word id="51" cont="的" pos="u" ne="O" parent="50" relate="RAD" />
+                <word id="52" cont="结果" pos="n" ne="O" parent="49" relate="VOB" />
+                <word id="53" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="2" cont="例如电脑、手机、摄像机、芯片，以及药品等，可以说，几乎技术的全部中间和最终成果都是科技黑箱。">
+                <word id="0" cont="例如" pos="v" ne="O" parent="14" relate="ADV" />
+                <word id="1" cont="电脑" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="2" cont="、" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="3" cont="手机" pos="n" ne="O" parent="1" relate="COO" />
+                <word id="4" cont="、" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="摄像机" pos="n" ne="O" parent="1" relate="COO" />
+                <word id="6" cont="、" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="7" cont="芯片" pos="n" ne="O" parent="1" relate="COO" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="9" cont="以及" pos="c" ne="O" parent="10" relate="LAD" />
+                <word id="10" cont="药品" pos="n" ne="O" parent="1" relate="COO" />
+                <word id="11" cont="等" pos="u" ne="O" parent="1" relate="RAD" />
+                <word id="12" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="13" cont="可以" pos="v" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="说" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="16" end="27" />
+                </word>
+                <word id="15" cont="，" pos="wp" ne="O" parent="14" relate="WP" />
+                <word id="16" cont="几乎" pos="d" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="技术" pos="n" ne="O" parent="20" relate="ATT">
+                    <arg id="0" type="ADV" beg="19" end="19" />
+                </word>
+                <word id="18" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="19" cont="全部" pos="m" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="中间" pos="nd" ne="O" parent="25" relate="SBV" />
+                <word id="21" cont="和" pos="c" ne="O" parent="23" relate="LAD" />
+                <word id="22" cont="最终" pos="b" ne="O" parent="23" relate="ATT" />
+                <word id="23" cont="成果" pos="n" ne="O" parent="20" relate="COO" />
+                <word id="24" cont="都" pos="d" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="是" pos="v" ne="O" parent="14" relate="VOB">
+                    <arg id="0" type="A0" beg="16" end="23" />
+                    <arg id="1" type="ADV" beg="24" end="24" />
+                    <arg id="2" type="A1" beg="26" end="27" />
+                </word>
+                <word id="26" cont="科技" pos="n" ne="O" parent="27" relate="ATT" />
+                <word id="27" cont="黑箱" pos="n" ne="O" parent="25" relate="VOB" />
+                <word id="28" cont="。" pos="wp" ne="O" parent="14" relate="WP" />
+            </sent>
+            <sent id="3" cont="在科技黑箱的生产过程中，科学知识是基础，价值观和伦理道德则对科学知识进行选择。">
+                <word id="0" cont="在" pos="p" ne="O" parent="10" relate="ADV" />
+                <word id="1" cont="科技" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="黑箱" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="生产" pos="v" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="过程" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="中" pos="nd" ne="O" parent="0" relate="POB" />
+                <word id="7" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="8" cont="科学" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="知识" pos="n" ne="O" parent="10" relate="SBV" />
+                <word id="10" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="LOC" beg="0" end="7" />
+                    <arg id="1" type="A0" beg="8" end="9" />
+                    <arg id="2" type="A1" beg="11" end="11" />
+                </word>
+                <word id="11" cont="基础" pos="n" ne="O" parent="10" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="13" cont="价值观" pos="n" ne="O" parent="21" relate="SBV" />
+                <word id="14" cont="和" pos="c" ne="O" parent="16" relate="LAD" />
+                <word id="15" cont="伦理" pos="n" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="道德" pos="n" ne="O" parent="13" relate="COO" />
+                <word id="17" cont="则" pos="d" ne="O" parent="21" relate="ADV" />
+                <word id="18" cont="对" pos="p" ne="O" parent="21" relate="ADV" />
+                <word id="19" cont="科学" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="知识" pos="n" ne="O" parent="18" relate="POB" />
+                <word id="21" cont="进行" pos="v" ne="O" parent="10" relate="COO">
+                    <arg id="0" type="A1" beg="13" end="16" />
+                    <arg id="1" type="DIS" beg="17" end="17" />
+                    <arg id="2" type="A1" beg="22" end="22" />
+                </word>
+                <word id="22" cont="选择" pos="v" ne="O" parent="21" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" parent="10" relate="WP" />
+            </sent>
+            <sent id="4" cont="除此以外，科技黑箱中还整合了大量人文的、社会的知识，并且或多或少渗透了企业文化和理念。">
+                <word id="0" cont="除此以外" pos="i" ne="O" parent="6" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="科技" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="黑箱" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="中" pos="nd" ne="O" parent="6" relate="ADV" />
+                <word id="5" cont="还" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="6" cont="整合" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="1" />
+                    <arg id="1" type="LOC" beg="2" end="4" />
+                    <arg id="2" type="ADV" beg="5" end="5" />
+                    <arg id="3" type="A1" beg="8" end="14" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="大量" pos="m" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="人文" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="11" cont="、" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="12" cont="社会" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="知识" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="16" cont="并且" pos="c" ne="O" parent="18" relate="ADV" />
+                <word id="17" cont="或多或少" pos="d" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="渗透" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="DIS" beg="16" end="16" />
+                    <arg id="1" type="ADV" beg="17" end="17" />
+                    <arg id="2" type="A1" beg="20" end="23" />
+                </word>
+                <word id="19" cont="了" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="企业" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="文化" pos="n" ne="O" parent="18" relate="VOB" />
+                <word id="22" cont="和" pos="c" ne="O" parent="23" relate="LAD" />
+                <word id="23" cont="理念" pos="n" ne="O" parent="21" relate="COO" />
+                <word id="24" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="5" cont="这样，在电脑或手机中就集成了物理学、计算机科学、管理学、经济学、美学，以及对市场的调研和政府的相关政策等知识。">
+                <word id="0" cont="这样" pos="r" ne="O" parent="8" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="在" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="3" cont="电脑" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="4" cont="或" pos="c" ne="O" parent="5" relate="LAD" />
+                <word id="5" cont="手机" pos="n" ne="O" parent="3" relate="COO" />
+                <word id="6" cont="中" pos="nd" ne="O" parent="2" relate="POB" />
+                <word id="7" cont="就" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="集成" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="1" />
+                    <arg id="1" type="LOC" beg="2" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                    <arg id="3" type="A1" beg="10" end="19" />
+                </word>
+                <word id="9" cont="了" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="物理学" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="11" cont="、" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="12" cont="计算机" pos="n" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="科学" pos="n" ne="O" parent="10" relate="COO" />
+                <word id="14" cont="、" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="15" cont="管理学" pos="n" ne="O" parent="10" relate="COO" />
+                <word id="16" cont="、" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="17" cont="经济学" pos="n" ne="O" parent="15" relate="COO" />
+                <word id="18" cont="、" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="19" cont="美学" pos="n" ne="O" parent="10" relate="COO" />
+                <word id="20" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="21" cont="以及" pos="c" ne="O" parent="32" relate="LAD" />
+                <word id="22" cont="对" pos="p" ne="O" parent="25" relate="ATT" />
+                <word id="23" cont="市场" pos="n" ne="O" parent="22" relate="POB" />
+                <word id="24" cont="的" pos="u" ne="O" parent="22" relate="RAD" />
+                <word id="25" cont="调研" pos="v" ne="O" parent="32" relate="ATT" />
+                <word id="26" cont="和" pos="c" ne="O" parent="27" relate="LAD" />
+                <word id="27" cont="政府" pos="n" ne="O" parent="25" relate="COO" />
+                <word id="28" cont="的" pos="u" ne="O" parent="27" relate="RAD" />
+                <word id="29" cont="相关" pos="v" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="政策" pos="n" ne="O" parent="32" relate="ATT" />
+                <word id="31" cont="等" pos="u" ne="O" parent="30" relate="RAD" />
+                <word id="32" cont="知识" pos="n" ne="O" parent="8" relate="COO" />
+                <word id="33" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="科技黑箱是特殊的传播与共享知识的媒体，具有三大特点。">
+                <word id="0" cont="科技" pos="n" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="黑箱" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="2" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="3" end="10" />
+                </word>
+                <word id="3" cont="特殊" pos="a" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="传播" pos="v" ne="O" parent="10" relate="ATT" />
+                <word id="6" cont="与" pos="c" ne="O" parent="7" relate="LAD" />
+                <word id="7" cont="共享" pos="v" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="知识" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="9" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="10" cont="媒体" pos="n" ne="O" parent="2" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="12" cont="具有" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="13" end="15" />
+                </word>
+                <word id="13" cont="三" pos="m" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="大" pos="a" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="特点" pos="n" ne="O" parent="12" relate="VOB" />
+                <word id="16" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="1" cont="首先，它使得每一个使用者——不仅牛顿，都能直接“站在巨人的肩上”继续前进。">
+                <word id="0" cont="首先" pos="c" ne="O" parent="3" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="它" pos="r" ne="O" parent="3" relate="SBV" />
+                <word id="3" cont="使得" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="DIS" beg="0" end="1" />
+                    <arg id="1" type="A0" beg="2" end="2" />
+                    <arg id="2" type="A1" beg="4" end="6" />
+                    <arg id="3" type="A1" beg="9" end="10" />
+                </word>
+                <word id="4" cont="每" pos="r" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="一个" pos="m" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="使用者" pos="n" ne="O" parent="3" relate="DBL" />
+                <word id="7" cont="——" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="8" cont="不仅" pos="c" ne="O" parent="15" relate="ADV" />
+                <word id="9" cont="牛顿" pos="nh" ne="S-Nh" parent="15" relate="SBV" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="11" cont="都" pos="d" ne="O" parent="12" relate="ADV" />
+                <word id="12" cont="能" pos="v" ne="O" parent="15" relate="ADV" />
+                <word id="13" cont="直接" pos="a" ne="O" parent="15" relate="ADV" />
+                <word id="14" cont="“" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="15" cont="站" pos="v" ne="O" parent="3" relate="VOB">
+                    <arg id="0" type="ADV" beg="11" end="11" />
+                    <arg id="1" type="ADV" beg="13" end="13" />
+                    <arg id="2" type="A1" beg="16" end="19" />
+                </word>
+                <word id="16" cont="在" pos="p" ne="O" parent="15" relate="CMP" />
+                <word id="17" cont="巨人" pos="n" ne="O" parent="19" relate="ATT" />
+                <word id="18" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="19" cont="肩上" pos="nl" ne="O" parent="16" relate="POB" />
+                <word id="20" cont="”" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="21" cont="继续" pos="v" ne="O" parent="15" relate="COO">
+                    <arg id="0" type="ADV" beg="11" end="11" />
+                    <arg id="1" type="A1" beg="22" end="22" />
+                </word>
+                <word id="22" cont="前进" pos="v" ne="O" parent="21" relate="COO">
+                    <arg id="0" type="ADV" beg="11" end="11" />
+                </word>
+                <word id="23" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="2" cont="试想，如果要全世界的电脑使用者都透彻掌握电脑的工作原理，掌握芯片上的电子理论，那需要多少时间?">
+                <word id="0" cont="试想" pos="v" ne="O" parent="9" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="如果" pos="c" ne="O" parent="9" relate="ADV" />
+                <word id="3" cont="要" pos="v" ne="O" parent="9" relate="ADV">
+                    <arg id="0" type="DIS" beg="2" end="2" />
+                    <arg id="1" type="A0" beg="4" end="7" />
+                </word>
+                <word id="4" cont="全世界" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="电脑" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="使用者" pos="n" ne="O" parent="3" relate="DBL" />
+                <word id="8" cont="都" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="透彻" pos="a" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="DIS" beg="2" end="2" />
+                    <arg id="1" type="A0" beg="4" end="7" />
+                    <arg id="2" type="ADV" beg="8" end="8" />
+                </word>
+                <word id="10" cont="掌握" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="ADV" beg="8" end="8" />
+                    <arg id="1" type="A1" beg="11" end="14" />
+                </word>
+                <word id="11" cont="电脑" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="工作" pos="v" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="原理" pos="n" ne="O" parent="10" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="16" cont="掌握" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="ADV" beg="8" end="8" />
+                    <arg id="1" type="A1" beg="17" end="21" />
+                </word>
+                <word id="17" cont="芯片" pos="n" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="上" pos="nd" ne="O" parent="21" relate="ATT" />
+                <word id="19" cont="的" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="电子" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="理论" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="22" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="23" cont="那" pos="r" ne="O" parent="24" relate="SBV" />
+                <word id="24" cont="需要" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="A0" beg="23" end="23" />
+                    <arg id="1" type="A1" beg="25" end="26" />
+                </word>
+                <word id="25" cont="多少" pos="r" ne="O" parent="26" relate="ATT" />
+                <word id="26" cont="时间" pos="n" ne="O" parent="24" relate="VOB" />
+                <word id="27" cont="?" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+            <sent id="3" cont="知识正是通过科技黑箱这一途径而达到最大限度的共享。">
+                <word id="0" cont="知识" pos="n" ne="O" parent="9" relate="SBV" />
+                <word id="1" cont="正是" pos="v" ne="O" parent="9" relate="ADV">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                </word>
+                <word id="2" cont="通过" pos="p" ne="O" parent="9" relate="ADV" />
+                <word id="3" cont="科技" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="黑箱" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="5" cont="这" pos="r" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="一" pos="m" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="途径" pos="n" ne="O" parent="2" relate="POB" />
+                <word id="8" cont="而" pos="c" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="达到" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                    <arg id="2" type="MNR" beg="2" end="7" />
+                    <arg id="3" type="A1" beg="10" end="14" />
+                </word>
+                <word id="10" cont="最" pos="d" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="大" pos="a" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="限度" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="共享" pos="v" ne="O" parent="9" relate="VOB" />
+                <word id="15" cont="。" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+            <sent id="4" cont="如今，计算机天才、黑客的年龄越来越小，神童不断出现，他们未必理解计算机的制作过程就能编写软件、破译密码。">
+                <word id="0" cont="如今" pos="nt" ne="O" parent="9" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="计算机" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="天才" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="4" cont="、" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="5" cont="黑客" pos="n" ne="O" parent="3" relate="COO" />
+                <word id="6" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="7" cont="年龄" pos="n" ne="O" parent="9" relate="SBV" />
+                <word id="8" cont="越来越" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="小" pos="a" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="1" />
+                    <arg id="1" type="A0" beg="2" end="7" />
+                    <arg id="2" type="ADV" beg="8" end="8" />
+                </word>
+                <word id="10" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="11" cont="神童" pos="n" ne="O" parent="13" relate="SBV" />
+                <word id="12" cont="不断" pos="d" ne="O" parent="13" relate="ADV" />
+                <word id="13" cont="出现" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="A1" beg="11" end="11" />
+                    <arg id="1" type="ADV" beg="12" end="12" />
+                </word>
+                <word id="14" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="15" cont="他们" pos="r" ne="O" parent="17" relate="SBV" />
+                <word id="16" cont="未必" pos="d" ne="O" parent="17" relate="ADV" />
+                <word id="17" cont="理解" pos="v" ne="O" parent="13" relate="COO">
+                    <arg id="0" type="A0" beg="15" end="15" />
+                    <arg id="1" type="ADV" beg="16" end="16" />
+                    <arg id="2" type="A1" beg="18" end="21" />
+                </word>
+                <word id="18" cont="计算机" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="19" cont="的" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="制作" pos="v" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="过程" pos="n" ne="O" parent="24" relate="SBV" />
+                <word id="22" cont="就" pos="d" ne="O" parent="23" relate="ADV" />
+                <word id="23" cont="能" pos="v" ne="O" parent="24" relate="ADV" />
+                <word id="24" cont="编写" pos="v" ne="O" parent="17" relate="VOB">
+                    <arg id="0" type="ADV" beg="22" end="22" />
+                    <arg id="1" type="A1" beg="25" end="25" />
+                </word>
+                <word id="25" cont="软件" pos="n" ne="O" parent="24" relate="VOB" />
+                <word id="26" cont="、" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="27" cont="破译" pos="v" ne="O" parent="24" relate="COO">
+                    <arg id="0" type="A0" beg="15" end="15" />
+                    <arg id="1" type="ADV" beg="16" end="16" />
+                    <arg id="2" type="DIS" beg="22" end="22" />
+                    <arg id="3" type="A1" beg="28" end="28" />
+                </word>
+                <word id="28" cont="密码" pos="n" ne="O" parent="27" relate="VOB" />
+                <word id="29" cont="。" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+            <sent id="5" cont="每一代新科技黑箱的出现，就为相对“无知识”的年轻一代的崛起与赶超提供了机会。">
+                <word id="0" cont="每" pos="r" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="一" pos="m" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="代" pos="q" ne="O" parent="5" relate="ATT" />
+                <word id="3" cont="新" pos="a" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="科技" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="黑箱" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="出现" pos="v" ne="O" parent="23" relate="SBV" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="9" cont="就" pos="d" ne="O" parent="23" relate="ADV" />
+                <word id="10" cont="为" pos="p" ne="O" parent="23" relate="ADV" />
+                <word id="11" cont="相对" pos="v" ne="O" parent="18" relate="ATT" />
+                <word id="12" cont="“" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="13" cont="无" pos="v" ne="O" parent="18" relate="ATT">
+                    <arg id="0" type="A1" beg="14" end="14" />
+                </word>
+                <word id="14" cont="知识" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="15" cont="”" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="16" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="17" cont="年轻" pos="a" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="一代" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="19" cont="的" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="崛起" pos="v" ne="O" parent="10" relate="POB" />
+                <word id="21" cont="与" pos="p" ne="O" parent="22" relate="LAD" />
+                <word id="22" cont="赶超" pos="v" ne="O" parent="20" relate="COO" />
+                <word id="23" cont="提供" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="8" />
+                    <arg id="1" type="A2" beg="10" end="22" />
+                    <arg id="2" type="A1" beg="25" end="25" />
+                </word>
+                <word id="24" cont="了" pos="u" ne="O" parent="23" relate="RAD" />
+                <word id="25" cont="机会" pos="n" ne="O" parent="23" relate="VOB" />
+                <word id="26" cont="。" pos="wp" ne="O" parent="23" relate="WP" />
+            </sent>
+            <sent id="6" cont="其次，处在相对低端的科技黑箱往往与语境和主体无关，而处于高端的科技黑箱则需满足特定主体在特定场合乃至心理的需要。">
+                <word id="0" cont="其次" pos="c" ne="O" parent="13" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="处在" pos="v" ne="O" parent="13" relate="SBV" />
+                <word id="3" cont="相对" pos="d" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="低端" pos="b" ne="O" parent="7" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="科技" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="黑箱" pos="n" ne="O" parent="2" relate="VOB" />
+                <word id="8" cont="往往" pos="d" ne="O" parent="13" relate="ADV" />
+                <word id="9" cont="与" pos="p" ne="O" parent="13" relate="ADV" />
+                <word id="10" cont="语境" pos="n" ne="O" parent="9" relate="POB" />
+                <word id="11" cont="和" pos="c" ne="O" parent="12" relate="LAD" />
+                <word id="12" cont="主体" pos="n" ne="O" parent="10" relate="COO" />
+                <word id="13" cont="无关" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="3" end="7" />
+                    <arg id="1" type="ADV" beg="8" end="8" />
+                    <arg id="2" type="A0" beg="9" end="12" />
+                </word>
+                <word id="14" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="15" cont="而" pos="c" ne="O" parent="16" relate="ADV" />
+                <word id="16" cont="处于" pos="v" ne="O" parent="13" relate="COO">
+                    <arg id="0" type="A1" beg="17" end="18" />
+                </word>
+                <word id="17" cont="高端" pos="n" ne="O" parent="19" relate="ATT" />
+                <word id="18" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="19" cont="科技" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="黑箱" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="21" cont="则" pos="d" ne="O" parent="23" relate="ADV" />
+                <word id="22" cont="需" pos="v" ne="O" parent="23" relate="ADV" />
+                <word id="23" cont="满足" pos="v" ne="O" parent="16" relate="COO">
+                    <arg id="0" type="DIS" beg="15" end="15" />
+                    <arg id="1" type="A1" beg="17" end="20" />
+                    <arg id="2" type="DIS" beg="21" end="21" />
+                    <arg id="3" type="A2" beg="24" end="32" />
+                </word>
+                <word id="24" cont="特定" pos="b" ne="O" parent="25" relate="ATT" />
+                <word id="25" cont="主体" pos="n" ne="O" parent="26" relate="SBV" />
+                <word id="26" cont="在" pos="p" ne="O" parent="23" relate="CMP" />
+                <word id="27" cont="特定" pos="b" ne="O" parent="28" relate="ATT" />
+                <word id="28" cont="场合" pos="n" ne="O" parent="26" relate="POB" />
+                <word id="29" cont="乃至" pos="c" ne="O" parent="32" relate="ADV" />
+                <word id="30" cont="心理" pos="n" ne="O" parent="32" relate="ATT" />
+                <word id="31" cont="的" pos="u" ne="O" parent="30" relate="RAD" />
+                <word id="32" cont="需要" pos="n" ne="O" parent="28" relate="COO" />
+                <word id="33" cont="。" pos="wp" ne="O" parent="13" relate="WP" />
+            </sent>
+            <sent id="7" cont="人们很少能对一把锤子做什么改进，而使用一个月后的电脑则已经深深地打上了个人的印记，这就说明，在认识变得简单易行之时，实践变得复杂和重要。">
+                <word id="0" cont="人们" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="1" cont="很" pos="d" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="少" pos="a" ne="O" parent="8" relate="ADV">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                </word>
+                <word id="3" cont="能" pos="v" ne="O" parent="8" relate="ADV" />
+                <word id="4" cont="对" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="5" cont="一" pos="m" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="把" pos="q" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="锤子" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="8" cont="做" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="9" end="10" />
+                </word>
+                <word id="9" cont="什么" pos="r" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="改进" pos="v" ne="O" parent="8" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="12" cont="而" pos="c" ne="O" parent="13" relate="ADV" />
+                <word id="13" cont="使用" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="14" end="18" />
+                </word>
+                <word id="14" cont="一个" pos="m" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="月" pos="n" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="后" pos="nd" ne="O" parent="18" relate="ATT" />
+                <word id="17" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="18" cont="电脑" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="19" cont="则" pos="c" ne="O" parent="23" relate="ADV" />
+                <word id="20" cont="已经" pos="d" ne="O" parent="23" relate="ADV" />
+                <word id="21" cont="深深" pos="d" ne="O" parent="23" relate="ADV" />
+                <word id="22" cont="地" pos="u" ne="O" parent="21" relate="RAD" />
+                <word id="23" cont="打" pos="v" ne="O" parent="13" relate="COO">
+                    <arg id="0" type="DIS" beg="19" end="19" />
+                    <arg id="1" type="ADV" beg="20" end="20" />
+                    <arg id="2" type="ADV" beg="22" end="22" />
+                    <arg id="3" type="A1" beg="26" end="28" />
+                </word>
+                <word id="24" cont="上" pos="v" ne="O" parent="23" relate="CMP" />
+                <word id="25" cont="了" pos="u" ne="O" parent="23" relate="RAD" />
+                <word id="26" cont="个人" pos="n" ne="O" parent="28" relate="ATT" />
+                <word id="27" cont="的" pos="u" ne="O" parent="26" relate="RAD" />
+                <word id="28" cont="印记" pos="n" ne="O" parent="23" relate="VOB" />
+                <word id="29" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="30" cont="这" pos="r" ne="O" parent="32" relate="SBV" />
+                <word id="31" cont="就" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="32" cont="说明" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A0" beg="30" end="30" />
+                    <arg id="1" type="DIS" beg="31" end="31" />
+                    <arg id="2" type="A1" beg="34" end="48" />
+                </word>
+                <word id="33" cont="，" pos="wp" ne="O" parent="32" relate="WP" />
+                <word id="34" cont="在" pos="p" ne="O" parent="44" relate="ADV" />
+                <word id="35" cont="认识" pos="v" ne="O" parent="36" relate="SBV" />
+                <word id="36" cont="变" pos="v" ne="O" parent="41" relate="ATT">
+                    <arg id="0" type="A1" beg="35" end="35" />
+                </word>
+                <word id="37" cont="得" pos="u" ne="O" parent="36" relate="RAD" />
+                <word id="38" cont="简单" pos="a" ne="O" parent="36" relate="CMP">
+                    <arg id="0" type="ADV" beg="39" end="39" />
+                </word>
+                <word id="39" cont="易行" pos="a" ne="O" parent="38" relate="COO" />
+                <word id="40" cont="之" pos="u" ne="O" parent="38" relate="RAD" />
+                <word id="41" cont="时" pos="n" ne="O" parent="34" relate="POB" />
+                <word id="42" cont="，" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="43" cont="实践" pos="v" ne="O" parent="44" relate="SBV" />
+                <word id="44" cont="变" pos="v" ne="O" parent="32" relate="VOB">
+                    <arg id="0" type="TMP" beg="34" end="42" />
+                    <arg id="1" type="A1" beg="43" end="43" />
+                </word>
+                <word id="45" cont="得" pos="u" ne="O" parent="44" relate="RAD" />
+                <word id="46" cont="复杂" pos="a" ne="O" parent="44" relate="CMP">
+                    <arg id="0" type="TMP" beg="34" end="42" />
+                </word>
+                <word id="47" cont="和" pos="c" ne="O" parent="48" relate="LAD" />
+                <word id="48" cont="重要" pos="a" ne="O" parent="46" relate="COO">
+                    <arg id="0" type="TMP" beg="34" end="42" />
+                </word>
+                <word id="49" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="8" cont="最后，当科技为我们打开一扇又一扇门的时候，我们能拒绝它的诱惑不进去吗?">
+                <word id="0" cont="最后" pos="nd" ne="O" parent="18" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="当" pos="p" ne="O" parent="18" relate="ADV" />
+                <word id="3" cont="科技" pos="n" ne="O" parent="6" relate="SBV" />
+                <word id="4" cont="为" pos="p" ne="O" parent="6" relate="ADV" />
+                <word id="5" cont="我们" pos="r" ne="O" parent="4" relate="POB" />
+                <word id="6" cont="打开" pos="v" ne="O" parent="14" relate="ATT">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                    <arg id="1" type="BNF" beg="4" end="5" />
+                    <arg id="2" type="A1" beg="7" end="13" />
+                </word>
+                <word id="7" cont="一" pos="m" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="扇" pos="q" ne="O" parent="12" relate="ATT" />
+                <word id="9" cont="又" pos="d" ne="O" parent="12" relate="ATT" />
+                <word id="10" cont="一" pos="m" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="扇" pos="q" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="门" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="时候" pos="n" ne="O" parent="2" relate="POB" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="16" cont="我们" pos="r" ne="O" parent="18" relate="SBV" />
+                <word id="17" cont="能" pos="v" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="拒绝" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="1" />
+                    <arg id="1" type="TMP" beg="2" end="15" />
+                    <arg id="2" type="A0" beg="16" end="16" />
+                    <arg id="3" type="A1" beg="19" end="24" />
+                </word>
+                <word id="19" cont="它" pos="r" ne="O" parent="21" relate="ATT" />
+                <word id="20" cont="的" pos="u" ne="O" parent="19" relate="RAD" />
+                <word id="21" cont="诱惑" pos="v" ne="O" parent="18" relate="VOB" />
+                <word id="22" cont="不" pos="d" ne="O" parent="23" relate="ADV" />
+                <word id="23" cont="进去" pos="v" ne="O" parent="21" relate="CMP" />
+                <word id="24" cont="吗" pos="u" ne="O" parent="23" relate="RAD" />
+                <word id="25" cont="?" pos="wp" ne="O" parent="18" relate="WP" />
+            </sent>
+            <sent id="9" cont="而一旦进去，我们的行为能不受制于房间和走道的形状吗?">
+                <word id="0" cont="而" pos="c" ne="O" parent="2" relate="ADV" />
+                <word id="1" cont="一旦" pos="d" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="进去" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="1" end="1" />
+                </word>
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="我们" pos="r" ne="O" parent="6" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="行为" pos="n" ne="O" parent="9" relate="SBV" />
+                <word id="7" cont="能" pos="v" ne="O" parent="9" relate="ADV" />
+                <word id="8" cont="不" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="受" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="DIS" beg="0" end="0" />
+                    <arg id="1" type="A0" beg="4" end="6" />
+                    <arg id="2" type="ADV" beg="8" end="8" />
+                    <arg id="3" type="A1" beg="15" end="15" />
+                </word>
+                <word id="10" cont="制" pos="v" ne="O" parent="9" relate="VOB" />
+                <word id="11" cont="于" pos="p" ne="O" parent="16" relate="ATT" />
+                <word id="12" cont="房间" pos="n" ne="O" parent="11" relate="POB" />
+                <word id="13" cont="和" pos="c" ne="O" parent="14" relate="LAD" />
+                <word id="14" cont="走道" pos="n" ne="O" parent="12" relate="COO" />
+                <word id="15" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="16" cont="形状" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="17" cont="吗" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="18" cont="?" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="10" cont="表面上是使用者在支配科技黑箱，然而科技黑箱却正在使用者“不知情”的情况下，对使用者施加潜移默化的影响，也就是说使用者被生产方对象化了。">
+                <word id="0" cont="表面" pos="n" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="上" pos="nd" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="3" end="7" />
+                </word>
+                <word id="3" cont="使用者" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="4" cont="在" pos="p" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="支配" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                    <arg id="1" type="A1" beg="6" end="6" />
+                    <arg id="2" type="A1" beg="7" end="7" />
+                </word>
+                <word id="6" cont="科技" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="7" cont="黑箱" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="9" cont="然而" pos="c" ne="O" parent="21" relate="ADV" />
+                <word id="10" cont="科技" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="黑箱" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="12" cont="却" pos="d" ne="O" parent="21" relate="ADV" />
+                <word id="13" cont="正在" pos="d" ne="O" parent="20" relate="ATT" />
+                <word id="14" cont="使用者" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="15" cont="“" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="16" cont="不知" pos="v" ne="O" parent="20" relate="ATT">
+                    <arg id="0" type="A1" beg="17" end="17" />
+                </word>
+                <word id="17" cont="情" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="18" cont="”" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="19" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="20" cont="情况" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="下" pos="nd" ne="O" parent="25" relate="ADV" />
+                <word id="22" cont="，" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="23" cont="对" pos="p" ne="O" parent="25" relate="ADV" />
+                <word id="24" cont="使用者" pos="n" ne="O" parent="23" relate="POB" />
+                <word id="25" cont="施加" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="DIS" beg="9" end="9" />
+                    <arg id="1" type="A2" beg="23" end="24" />
+                    <arg id="2" type="A1" beg="26" end="28" />
+                </word>
+                <word id="26" cont="潜移默化" pos="i" ne="O" parent="28" relate="ATT" />
+                <word id="27" cont="的" pos="u" ne="O" parent="26" relate="RAD" />
+                <word id="28" cont="影响" pos="v" ne="O" parent="25" relate="VOB" />
+                <word id="29" cont="，" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="30" cont="也就是说" pos="i" ne="O" parent="34" relate="ADV" />
+                <word id="31" cont="使用者" pos="n" ne="O" parent="34" relate="FOB" />
+                <word id="32" cont="被" pos="p" ne="O" parent="34" relate="ADV" />
+                <word id="33" cont="生产方" pos="n" ne="O" parent="32" relate="POB" />
+                <word id="34" cont="对象化" pos="v" ne="O" parent="25" relate="COO">
+                    <arg id="0" type="A1" beg="31" end="31" />
+                    <arg id="1" type="A0" beg="33" end="33" />
+                </word>
+                <word id="35" cont="了" pos="u" ne="O" parent="34" relate="RAD" />
+                <word id="36" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="11" cont="值得注意的是，科技黑箱在使科技知识被使用者广泛共享之时，也往往使这部分知识因共享而贬值甚至被人遗忘。">
+                <word id="0" cont="值得" pos="v" ne="O" parent="3" relate="SBV">
+                    <arg id="0" type="A1" beg="1" end="1" />
+                </word>
+                <word id="1" cont="注意" pos="v" ne="O" parent="0" relate="VOB" />
+                <word id="2" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="3" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="2" end="2" />
+                    <arg id="1" type="A1" beg="5" end="31" />
+                </word>
+                <word id="4" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="科技" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="黑箱" pos="n" ne="O" parent="20" relate="SBV" />
+                <word id="7" cont="在" pos="p" ne="O" parent="20" relate="ADV" />
+                <word id="8" cont="使" pos="v" ne="O" parent="16" relate="ATT">
+                    <arg id="0" type="A1" beg="9" end="10" />
+                    <arg id="1" type="A2" beg="11" end="15" />
+                </word>
+                <word id="9" cont="科技" pos="n" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="知识" pos="n" ne="O" parent="8" relate="DBL" />
+                <word id="11" cont="被" pos="p" ne="O" parent="14" relate="ADV" />
+                <word id="12" cont="使用者" pos="n" ne="O" parent="11" relate="POB" />
+                <word id="13" cont="广泛" pos="a" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="共享" pos="v" ne="O" parent="8" relate="VOB">
+                    <arg id="0" type="A0" beg="12" end="12" />
+                    <arg id="1" type="ADV" beg="13" end="13" />
+                </word>
+                <word id="15" cont="之" pos="u" ne="O" parent="14" relate="RAD" />
+                <word id="16" cont="时" pos="n" ne="O" parent="7" relate="POB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="18" cont="也" pos="d" ne="O" parent="20" relate="ADV" />
+                <word id="19" cont="往往" pos="d" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="使" pos="v" ne="O" parent="3" relate="VOB">
+                    <arg id="0" type="A0" beg="5" end="6" />
+                    <arg id="1" type="TMP" beg="7" end="17" />
+                    <arg id="2" type="ADV" beg="18" end="18" />
+                    <arg id="3" type="ADV" beg="19" end="19" />
+                    <arg id="4" type="A1" beg="21" end="23" />
+                    <arg id="5" type="A2" beg="24" end="31" />
+                </word>
+                <word id="21" cont="这" pos="r" ne="O" parent="22" relate="ATT" />
+                <word id="22" cont="部分" pos="n" ne="O" parent="23" relate="ATT" />
+                <word id="23" cont="知识" pos="n" ne="O" parent="20" relate="DBL" />
+                <word id="24" cont="因" pos="p" ne="O" parent="31" relate="ADV" />
+                <word id="25" cont="共享" pos="v" ne="O" parent="24" relate="POB" />
+                <word id="26" cont="而" pos="c" ne="O" parent="31" relate="ADV" />
+                <word id="27" cont="贬值" pos="v" ne="O" parent="31" relate="FOB" />
+                <word id="28" cont="甚至" pos="d" ne="O" parent="31" relate="ADV" />
+                <word id="29" cont="被" pos="p" ne="O" parent="31" relate="ADV" />
+                <word id="30" cont="人" pos="n" ne="O" parent="29" relate="POB" />
+                <word id="31" cont="遗忘" pos="v" ne="O" parent="20" relate="VOB">
+                    <arg id="0" type="ADV" beg="28" end="28" />
+                    <arg id="1" type="A0" beg="30" end="30" />
+                </word>
+                <word id="32" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="12" cont="那么还要不要学习集成于科技黑箱中已经贬值的科技知识，例如电磁理论、牛顿力学，甚至四则运算?">
+                <word id="0" cont="那么" pos="c" ne="O" parent="4" relate="ADV" />
+                <word id="1" cont="还要" pos="v" ne="O" parent="4" relate="ADV" />
+                <word id="2" cont="不" pos="d" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="要" pos="v" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="学习" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="2" end="2" />
+                    <arg id="1" type="A1" beg="6" end="15" />
+                </word>
+                <word id="5" cont="集成" pos="v" ne="O" parent="4" relate="COO">
+                    <arg id="0" type="ADV" beg="1" end="1" />
+                    <arg id="1" type="A1" beg="6" end="15" />
+                </word>
+                <word id="6" cont="于" pos="p" ne="O" parent="12" relate="ADV" />
+                <word id="7" cont="科技" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="8" cont="黑" pos="a" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="箱" pos="n" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="中" pos="nd" ne="O" parent="6" relate="POB" />
+                <word id="11" cont="已经" pos="d" ne="O" parent="12" relate="ADV" />
+                <word id="12" cont="贬值" pos="v" ne="O" parent="15" relate="ATT">
+                    <arg id="0" type="LOC" beg="6" end="10" />
+                    <arg id="1" type="ADV" beg="11" end="11" />
+                </word>
+                <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="科技" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="知识" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="17" cont="例如" pos="v" ne="O" parent="27" relate="ADV" />
+                <word id="18" cont="电磁" pos="n" ne="O" parent="19" relate="ATT" />
+                <word id="19" cont="理论" pos="n" ne="O" parent="17" relate="POB">
+                    <arg id="0" type="A0" beg="18" end="18" />
+                </word>
+                <word id="20" cont="、" pos="wp" ne="O" parent="22" relate="WP" />
+                <word id="21" cont="牛顿" pos="nh" ne="S-Nh" parent="22" relate="ATT" />
+                <word id="22" cont="力学" pos="n" ne="O" parent="19" relate="COO" />
+                <word id="23" cont="，" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="24" cont="甚至" pos="d" ne="O" parent="27" relate="ADV" />
+                <word id="25" cont="四" pos="m" ne="O" parent="26" relate="ATT" />
+                <word id="26" cont="则" pos="q" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="运算" pos="v" ne="O" parent="4" relate="COO">
+                    <arg id="0" type="DIS" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="24" end="24" />
+                    <arg id="2" type="DIS" beg="25" end="26" />
+                </word>
+                <word id="28" cont="?" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+            <sent id="13" cont="这是一个很有意思的问题。">
+                <word id="0" cont="这" pos="r" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="6" />
+                </word>
+                <word id="2" cont="一个" pos="m" ne="O" parent="6" relate="ATT" />
+                <word id="3" cont="很" pos="d" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="有意思" pos="i" ne="O" parent="6" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="问题" pos="n" ne="O" parent="1" relate="VOB" />
+                <word id="7" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="14" cont="技术所构成的平台还有一个历史维度。">
+                <word id="0" cont="技术" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="1" cont="所" pos="u" ne="O" parent="2" relate="LAD" />
+                <word id="2" cont="构成" pos="v" ne="O" parent="4" relate="ATT">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                </word>
+                <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="平台" pos="n" ne="O" parent="6" relate="SBV" />
+                <word id="5" cont="还" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="6" cont="有" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="4" />
+                    <arg id="1" type="ADV" beg="5" end="5" />
+                    <arg id="2" type="A1" beg="7" end="9" />
+                </word>
+                <word id="7" cont="一个" pos="m" ne="O" parent="9" relate="ATT" />
+                <word id="8" cont="历史" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="维度" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="10" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="15" cont="时至今日，历史上的很多技术已经失传或过时，但是也有相当多的技术流传至今，例如中国的针灸，以及散落在各古老民族中的特殊技法等科技黑箱都是如此。">
+                <word id="0" cont="时至今日" pos="i" ne="O" parent="8" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="历史" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="上" pos="nd" ne="O" parent="6" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="很多" pos="m" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="技术" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="7" cont="已经" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="失传" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="1" />
+                    <arg id="1" type="A0" beg="2" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                </word>
+                <word id="9" cont="或" pos="c" ne="O" parent="10" relate="LAD" />
+                <word id="10" cont="过时" pos="a" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="ADV" beg="0" end="1" />
+                    <arg id="1" type="A0" beg="2" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                </word>
+                <word id="11" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="12" cont="但是" pos="c" ne="O" parent="14" relate="ADV" />
+                <word id="13" cont="也" pos="d" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="有" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="DIS" beg="12" end="12" />
+                    <arg id="1" type="ADV" beg="13" end="13" />
+                    <arg id="2" type="A1" beg="15" end="21" />
+                </word>
+                <word id="15" cont="相当" pos="d" ne="O" parent="16" relate="ADV" />
+                <word id="16" cont="多" pos="a" ne="O" parent="18" relate="ATT">
+                    <arg id="0" type="ADV" beg="15" end="15" />
+                </word>
+                <word id="17" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="18" cont="技术" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="19" cont="流传" pos="v" ne="O" parent="14" relate="VOB" />
+                <word id="20" cont="至" pos="p" ne="O" parent="19" relate="CMP" />
+                <word id="21" cont="今" pos="nt" ne="O" parent="20" relate="POB" />
+                <word id="22" cont="，" pos="wp" ne="O" parent="14" relate="WP" />
+                <word id="23" cont="例如" pos="v" ne="O" parent="42" relate="ADV" />
+                <word id="24" cont="中国" pos="ns" ne="S-Ns" parent="26" relate="ATT" />
+                <word id="25" cont="的" pos="u" ne="O" parent="24" relate="RAD" />
+                <word id="26" cont="针灸" pos="n" ne="O" parent="42" relate="SBV" />
+                <word id="27" cont="，" pos="wp" ne="O" parent="26" relate="WP" />
+                <word id="28" cont="以及" pos="c" ne="O" parent="40" relate="LAD" />
+                <word id="29" cont="散落" pos="v" ne="O" parent="40" relate="ATT">
+                    <arg id="0" type="LOC" beg="30" end="34" />
+                </word>
+                <word id="30" cont="在" pos="p" ne="O" parent="29" relate="CMP" />
+                <word id="31" cont="各" pos="r" ne="O" parent="33" relate="ATT" />
+                <word id="32" cont="古老" pos="a" ne="O" parent="33" relate="ATT" />
+                <word id="33" cont="民族" pos="n" ne="O" parent="34" relate="ATT" />
+                <word id="34" cont="中" pos="nd" ne="O" parent="30" relate="POB" />
+                <word id="35" cont="的" pos="u" ne="O" parent="29" relate="RAD" />
+                <word id="36" cont="特殊" pos="a" ne="O" parent="37" relate="ATT" />
+                <word id="37" cont="技法" pos="n" ne="O" parent="40" relate="ATT" />
+                <word id="38" cont="等" pos="u" ne="O" parent="37" relate="RAD" />
+                <word id="39" cont="科技" pos="n" ne="O" parent="40" relate="ATT" />
+                <word id="40" cont="黑箱" pos="n" ne="O" parent="26" relate="COO" />
+                <word id="41" cont="都" pos="d" ne="O" parent="42" relate="ADV" />
+                <word id="42" cont="是" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="DIS" beg="23" end="23" />
+                    <arg id="1" type="A0" beg="24" end="40" />
+                    <arg id="2" type="ADV" beg="41" end="41" />
+                    <arg id="3" type="A1" beg="43" end="43" />
+                </word>
+                <word id="43" cont="如此" pos="r" ne="O" parent="42" relate="VOB">
+                    <arg id="0" type="DIS" beg="23" end="23" />
+                    <arg id="1" type="A0" beg="24" end="40" />
+                    <arg id="2" type="ADV" beg="41" end="41" />
+                </word>
+                <word id="44" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="16" cont="这提示我们，对于历史上存在过的知识应予宽容。">
+                <word id="0" cont="这" pos="r" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="提示" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="2" />
+                    <arg id="2" type="A1" beg="4" end="13" />
+                </word>
+                <word id="2" cont="我们" pos="r" ne="O" parent="1" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="4" cont="对于" pos="p" ne="O" parent="12" relate="ADV" />
+                <word id="5" cont="历史" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="上" pos="nd" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="存在" pos="v" ne="O" parent="10" relate="ATT">
+                    <arg id="0" type="LOC" beg="5" end="6" />
+                </word>
+                <word id="8" cont="过" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="10" cont="知识" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="11" cont="应" pos="v" ne="O" parent="12" relate="ADV" />
+                <word id="12" cont="予" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="A2" beg="4" end="10" />
+                    <arg id="1" type="A1" beg="13" end="13" />
+                </word>
+                <word id="13" cont="宽容" pos="v" ne="O" parent="12" relate="VOB" />
+                <word id="14" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="17" cont="此外，由于使用者不必从头学起即可操作科技黑箱，于是就可能发生对科技黑箱的滥用。">
+                <word id="0" cont="此外" pos="c" ne="O" parent="6" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="由于" pos="c" ne="O" parent="6" relate="ADV" />
+                <word id="3" cont="使用者" pos="n" ne="O" parent="6" relate="SBV" />
+                <word id="4" cont="不必" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="5" cont="从头" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="6" cont="学" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                    <arg id="1" type="ADV" beg="4" end="4" />
+                    <arg id="2" type="ADV" beg="5" end="5" />
+                </word>
+                <word id="7" cont="起" pos="v" ne="O" parent="6" relate="CMP" />
+                <word id="8" cont="即可" pos="v" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="操作" pos="v" ne="O" parent="6" relate="VOB">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                    <arg id="1" type="ADV" beg="8" end="8" />
+                    <arg id="2" type="A1" beg="10" end="11" />
+                </word>
+                <word id="10" cont="科技" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="黑箱" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="13" cont="于是" pos="c" ne="O" parent="16" relate="ADV" />
+                <word id="14" cont="就" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="15" cont="可能" pos="v" ne="O" parent="16" relate="ADV" />
+                <word id="16" cont="发生" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="DIS" beg="0" end="1" />
+                    <arg id="1" type="PRP" beg="2" end="2" />
+                    <arg id="2" type="DIS" beg="13" end="13" />
+                    <arg id="3" type="DIS" beg="14" end="14" />
+                    <arg id="4" type="A0" beg="17" end="21" />
+                </word>
+                <word id="17" cont="对" pos="p" ne="O" parent="21" relate="ATT" />
+                <word id="18" cont="科技" pos="n" ne="O" parent="19" relate="ATT" />
+                <word id="19" cont="黑箱" pos="n" ne="O" parent="17" relate="POB" />
+                <word id="20" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="21" cont="滥用" pos="v" ne="O" parent="16" relate="VOB" />
+                <word id="22" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="18" cont="科学技术是一把双刃剑，科技黑箱无疑会使得双刃剑的哪一刃都变得更为锋利。">
+                <word id="0" cont="科学技术" pos="n" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="4" />
+                </word>
+                <word id="2" cont="一" pos="m" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="把" pos="q" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="双刃剑" pos="n" ne="O" parent="1" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="6" cont="科技" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="7" cont="黑" pos="a" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="箱" pos="n" ne="O" parent="11" relate="SBV" />
+                <word id="9" cont="无疑" pos="d" ne="O" parent="11" relate="ADV" />
+                <word id="10" cont="会" pos="v" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="使得" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="A0" beg="6" end="8" />
+                    <arg id="1" type="ADV" beg="9" end="9" />
+                    <arg id="2" type="A2" beg="12" end="21" />
+                </word>
+                <word id="12" cont="双刃剑" pos="n" ne="O" parent="16" relate="ATT" />
+                <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="哪" pos="r" ne="O" parent="16" relate="ATT" />
+                <word id="15" cont="一" pos="m" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="刃" pos="n" ne="O" parent="18" relate="SBV" />
+                <word id="17" cont="都" pos="d" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="变" pos="v" ne="O" parent="11" relate="VOB">
+                    <arg id="0" type="ADV" beg="17" end="17" />
+                    <arg id="1" type="A2" beg="20" end="21" />
+                </word>
+                <word id="19" cont="得" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="更为" pos="d" ne="O" parent="21" relate="ADV" />
+                <word id="21" cont="锋利" pos="a" ne="O" parent="18" relate="CMP">
+                    <arg id="0" type="ADV" beg="20" end="20" />
+                </word>
+                <word id="22" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

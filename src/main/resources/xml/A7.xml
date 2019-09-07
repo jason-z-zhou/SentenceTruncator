@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="y" parser="y" wsd="n" srl="y" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="人们常说“小说是讲故事的艺术”，但故事不等于小说，故事讲述人与小说家也不能混为一谈。">
+                <word id="0" cont="人们" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="1" cont="常" pos="d" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="说" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="ADV" beg="1" end="1" />
+                    <arg id="2" type="A1" beg="3" end="10" />
+                </word>
+                <word id="3" cont="“" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="4" cont="小说" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="5" cont="是" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="A0" beg="4" end="4" />
+                    <arg id="1" type="A1" beg="6" end="9" />
+                </word>
+                <word id="6" cont="讲" pos="v" ne="O" parent="9" relate="ATT">
+                    <arg id="0" type="A1" beg="7" end="7" />
+                </word>
+                <word id="7" cont="故事" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="8" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="9" cont="艺术" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="10" cont="”" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="11" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="12" cont="但" pos="c" ne="O" parent="15" relate="ADV" />
+                <word id="13" cont="故事" pos="n" ne="O" parent="15" relate="SBV" />
+                <word id="14" cont="不" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="15" cont="等于" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="DIS" beg="12" end="12" />
+                    <arg id="1" type="A0" beg="13" end="13" />
+                    <arg id="2" type="ADV" beg="14" end="14" />
+                    <arg id="3" type="A1" beg="16" end="16" />
+                </word>
+                <word id="16" cont="小说" pos="n" ne="O" parent="15" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="18" cont="故事" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="19" cont="讲述" pos="v" ne="O" parent="15" relate="COO">
+                    <arg id="0" type="A0" beg="18" end="18" />
+                    <arg id="1" type="A1" beg="20" end="22" />
+                </word>
+                <word id="20" cont="人" pos="n" ne="O" parent="19" relate="VOB" />
+                <word id="21" cont="与" pos="c" ne="O" parent="22" relate="LAD" />
+                <word id="22" cont="小说家" pos="n" ne="O" parent="20" relate="COO" />
+                <word id="23" cont="也" pos="d" ne="O" parent="25" relate="ADV" />
+                <word id="24" cont="不" pos="d" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="能" pos="v" ne="O" parent="26" relate="ADV" />
+                <word id="26" cont="混为一谈" pos="i" ne="O" parent="19" relate="VOB">
+                    <arg id="0" type="A0" beg="20" end="22" />
+                    <arg id="1" type="ADV" beg="23" end="23" />
+                    <arg id="2" type="ADV" beg="24" end="24" />
+                </word>
+                <word id="27" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="1" cont="就传统而言，讲故事的讲述亲身经历或道题听途说的故事，口耳相传，吧它们转化为听众的经验；">
+                <word id="0" cont="就" pos="p" ne="O" parent="7" relate="ADV" />
+                <word id="1" cont="传统" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="2" cont="而言" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="4" cont="讲" pos="v" ne="O" parent="7" relate="SBV">
+                    <arg id="0" type="A1" beg="5" end="5" />
+                    <arg id="1" type="A1" beg="8" end="14" />
+                </word>
+                <word id="5" cont="故事" pos="n" ne="O" parent="4" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="7" cont="讲述" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="8" cont="亲身" pos="b" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="经历" pos="n" ne="O" parent="14" relate="ATT">
+                    <arg id="0" type="ADV" beg="8" end="8" />
+                </word>
+                <word id="10" cont="或" pos="c" ne="O" parent="11" relate="LAD" />
+                <word id="11" cont="道" pos="v" ne="O" parent="9" relate="COO" />
+                <word id="12" cont="题听途说" pos="v" ne="O" parent="11" relate="VOB" />
+                <word id="13" cont="的" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="14" cont="故事" pos="n" ne="O" parent="7" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="16" cont="口" pos="n" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="耳" pos="n" ne="O" parent="18" relate="SBV" />
+                <word id="18" cont="相传" pos="v" ne="O" parent="7" relate="COO" />
+                <word id="19" cont="，" pos="wp" ne="O" parent="18" relate="WP" />
+                <word id="20" cont="吧" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="21" cont="它们" pos="r" ne="O" parent="22" relate="SBV" />
+                <word id="22" cont="转化" pos="v" ne="O" parent="18" relate="COO">
+                    <arg id="0" type="A1" beg="21" end="21" />
+                    <arg id="1" type="A2" beg="24" end="25" />
+                </word>
+                <word id="23" cont="为" pos="v" ne="O" parent="22" relate="CMP" />
+                <word id="24" cont="听众" pos="n" ne="O" parent="26" relate="ATT" />
+                <word id="25" cont="的" pos="u" ne="O" parent="24" relate="RAD" />
+                <word id="26" cont="经验" pos="n" ne="O" parent="23" relate="VOB" />
+                <word id="27" cont="；" pos="wp" ne="O" parent="7" relate="WP" />
+            </sent>
+            <sent id="2" cont="小说家则通常记录见闻传说，虚构故事，经过艺术处理，把它们变成小说交给读者。">
+                <word id="0" cont="小说家" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="1" cont="则" pos="c" ne="O" parent="3" relate="ADV" />
+                <word id="2" cont="通常" pos="d" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="记录" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="DIS" beg="1" end="1" />
+                    <arg id="2" type="ADV" beg="2" end="2" />
+                    <arg id="3" type="A1" beg="4" end="5" />
+                </word>
+                <word id="4" cont="见闻" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="传说" pos="v" ne="O" parent="3" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="7" cont="虚构" pos="v" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="故事" pos="n" ne="O" parent="16" relate="SBV" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="经过" pos="p" ne="O" parent="16" relate="ADV" />
+                <word id="11" cont="艺术" pos="n" ne="O" parent="12" relate="FOB" />
+                <word id="12" cont="处理" pos="v" ne="O" parent="10" relate="POB" />
+                <word id="13" cont="，" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="14" cont="把" pos="p" ne="O" parent="16" relate="ADV" />
+                <word id="15" cont="它们" pos="r" ne="O" parent="14" relate="POB" />
+                <word id="16" cont="变成" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="7" end="9" />
+                    <arg id="2" type="MNR" beg="10" end="13" />
+                    <arg id="3" type="A1" beg="15" end="15" />
+                    <arg id="4" type="A2" beg="17" end="17" />
+                </word>
+                <word id="17" cont="小说" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="18" cont="交给" pos="v" ne="O" parent="16" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="MNR" beg="10" end="13" />
+                    <arg id="2" type="A2" beg="19" end="19" />
+                </word>
+                <word id="19" cont="读者" pos="n" ne="O" parent="18" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="除流传形式上的简单差异外，早起小说和故事的本质区别并不明显，经历和见闻是它们的共同要素，在传统较为落后的过去，作为远行者的商人和税收最适合充当故事讲述人的角色，故事的丰富程度与远行者的游历成比。">
+                <word id="0" cont="除" pos="p" ne="O" parent="18" relate="ADV" />
+                <word id="1" cont="流传" pos="v" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="形式" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="上" pos="nd" ne="O" parent="6" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="简单" pos="a" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="差异" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="外" pos="nd" ne="O" parent="0" relate="POB" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="9" cont="早起" pos="v" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="小说" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="11" cont="和" pos="c" ne="O" parent="12" relate="LAD" />
+                <word id="12" cont="故事" pos="n" ne="O" parent="10" relate="COO" />
+                <word id="13" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="14" cont="本质" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="区别" pos="n" ne="O" parent="18" relate="SBV" />
+                <word id="16" cont="并" pos="d" ne="O" parent="18" relate="ADV" />
+                <word id="17" cont="不" pos="d" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="明显" pos="a" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="8" />
+                    <arg id="1" type="ADV" beg="16" end="16" />
+                    <arg id="2" type="ADV" beg="17" end="17" />
+                </word>
+                <word id="19" cont="，" pos="wp" ne="O" parent="18" relate="WP" />
+                <word id="20" cont="经历" pos="v" ne="O" parent="23" relate="SBV" />
+                <word id="21" cont="和" pos="c" ne="O" parent="22" relate="LAD" />
+                <word id="22" cont="见闻" pos="n" ne="O" parent="20" relate="COO" />
+                <word id="23" cont="是" pos="v" ne="O" parent="18" relate="COO">
+                    <arg id="0" type="ADV" beg="0" end="8" />
+                    <arg id="1" type="A0" beg="20" end="22" />
+                    <arg id="2" type="A1" beg="24" end="27" />
+                </word>
+                <word id="24" cont="它们" pos="r" ne="O" parent="27" relate="ATT" />
+                <word id="25" cont="的" pos="u" ne="O" parent="24" relate="RAD" />
+                <word id="26" cont="共同" pos="b" ne="O" parent="27" relate="ATT" />
+                <word id="27" cont="要素" pos="n" ne="O" parent="23" relate="VOB" />
+                <word id="28" cont="，" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="29" cont="在" pos="p" ne="O" parent="43" relate="ADV" />
+                <word id="30" cont="传统" pos="n" ne="O" parent="32" relate="SBV" />
+                <word id="31" cont="较为" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="32" cont="落后" pos="a" ne="O" parent="34" relate="ATT">
+                    <arg id="0" type="A0" beg="30" end="30" />
+                    <arg id="1" type="ADV" beg="31" end="31" />
+                </word>
+                <word id="33" cont="的" pos="u" ne="O" parent="32" relate="RAD" />
+                <word id="34" cont="过去" pos="nt" ne="O" parent="29" relate="POB" />
+                <word id="35" cont="，" pos="wp" ne="O" parent="29" relate="WP" />
+                <word id="36" cont="作为" pos="v" ne="O" parent="39" relate="ATT" />
+                <word id="37" cont="远行者" pos="n" ne="O" parent="36" relate="VOB" />
+                <word id="38" cont="的" pos="u" ne="O" parent="36" relate="RAD" />
+                <word id="39" cont="商人" pos="n" ne="O" parent="43" relate="SBV" />
+                <word id="40" cont="和" pos="c" ne="O" parent="41" relate="LAD" />
+                <word id="41" cont="税收" pos="n" ne="O" parent="39" relate="COO" />
+                <word id="42" cont="最" pos="d" ne="O" parent="43" relate="ADV" />
+                <word id="43" cont="适合" pos="v" ne="O" parent="23" relate="COO">
+                    <arg id="0" type="TMP" beg="29" end="35" />
+                    <arg id="1" type="A0" beg="36" end="41" />
+                    <arg id="2" type="ADV" beg="42" end="42" />
+                    <arg id="3" type="A1" beg="44" end="49" />
+                </word>
+                <word id="44" cont="充当" pos="v" ne="O" parent="43" relate="VOB" />
+                <word id="45" cont="故事" pos="n" ne="O" parent="44" relate="VOB" />
+                <word id="46" cont="讲述" pos="v" ne="O" parent="44" relate="COO">
+                    <arg id="0" type="A1" beg="47" end="49" />
+                </word>
+                <word id="47" cont="人" pos="n" ne="O" parent="49" relate="ATT" />
+                <word id="48" cont="的" pos="u" ne="O" parent="47" relate="RAD" />
+                <word id="49" cont="角色" pos="n" ne="O" parent="46" relate="VOB" />
+                <word id="50" cont="，" pos="wp" ne="O" parent="43" relate="WP" />
+                <word id="51" cont="故事" pos="n" ne="O" parent="54" relate="ATT" />
+                <word id="52" cont="的" pos="u" ne="O" parent="51" relate="RAD" />
+                <word id="53" cont="丰富" pos="a" ne="O" parent="54" relate="ATT" />
+                <word id="54" cont="程度" pos="n" ne="O" parent="59" relate="SBV" />
+                <word id="55" cont="与" pos="p" ne="O" parent="59" relate="ADV" />
+                <word id="56" cont="远行者" pos="n" ne="O" parent="58" relate="ATT" />
+                <word id="57" cont="的" pos="u" ne="O" parent="56" relate="RAD" />
+                <word id="58" cont="游历" pos="n" ne="O" parent="55" relate="POB" />
+                <word id="59" cont="成比" pos="v" ne="O" parent="43" relate="COO" />
+                <word id="60" cont="。" pos="wp" ne="O" parent="18" relate="WP" />
+            </sent>
+            <sent id="1" cont="受此影响，国外古典小说也常以人物的经历为主线组织故事，《荷马史诗》《一千零一夜》都是描述某种特殊的经历和遭遇，《唐吉可德》中的故事是唐吉可德的行侠其余和所见所闻，17世纪欧洲的流浪汉小说也体现游历见闻的连缀。">
+                <word id="0" cont="受" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="1" cont="此" pos="r" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="影响" pos="v" ne="O" parent="0" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="4" cont="国外" pos="nl" ne="O" parent="6" relate="ATT" />
+                <word id="5" cont="古典" pos="b" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="小说" pos="n" ne="O" parent="15" relate="SBV" />
+                <word id="7" cont="也" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="8" cont="常" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="9" cont="以" pos="p" ne="O" parent="13" relate="ADV" />
+                <word id="10" cont="人物" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="12" cont="经历" pos="n" ne="O" parent="9" relate="POB" />
+                <word id="13" cont="为" pos="v" ne="O" parent="15" relate="ADV">
+                    <arg id="0" type="A0" beg="4" end="6" />
+                    <arg id="1" type="ADV" beg="7" end="7" />
+                    <arg id="2" type="ADV" beg="8" end="8" />
+                    <arg id="3" type="A2" beg="9" end="12" />
+                    <arg id="4" type="A1" beg="14" end="14" />
+                </word>
+                <word id="14" cont="主线" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="15" cont="组织" pos="v" ne="O" parent="0" relate="COO" />
+                <word id="16" cont="故事" pos="n" ne="O" parent="15" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="18" cont="《" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="19" cont="荷马" pos="nh" ne="S-Nh" parent="20" relate="ATT" />
+                <word id="20" cont="史诗" pos="n" ne="O" parent="24" relate="ATT" />
+                <word id="21" cont="》" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="22" cont="《" pos="wp" ne="O" parent="24" relate="WP" />
+                <word id="23" cont="一千零一" pos="nt" ne="O" parent="24" relate="ATT" />
+                <word id="24" cont="夜" pos="nt" ne="O" parent="15" relate="COO" />
+                <word id="25" cont="》" pos="wp" ne="O" parent="24" relate="WP" />
+                <word id="26" cont="都" pos="d" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="是" pos="v" ne="O" parent="15" relate="COO">
+                    <arg id="0" type="ADV" beg="26" end="26" />
+                </word>
+                <word id="28" cont="描述" pos="v" ne="O" parent="27" relate="VOB">
+                    <arg id="0" type="ADV" beg="26" end="26" />
+                    <arg id="1" type="A1" beg="29" end="34" />
+                </word>
+                <word id="29" cont="某种" pos="r" ne="O" parent="32" relate="ATT" />
+                <word id="30" cont="特殊" pos="a" ne="O" parent="32" relate="ATT" />
+                <word id="31" cont="的" pos="u" ne="O" parent="30" relate="RAD" />
+                <word id="32" cont="经历" pos="n" ne="O" parent="28" relate="VOB" />
+                <word id="33" cont="和" pos="c" ne="O" parent="34" relate="LAD" />
+                <word id="34" cont="遭遇" pos="n" ne="O" parent="32" relate="COO" />
+                <word id="35" cont="，" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="36" cont="《" pos="wp" ne="O" parent="37" relate="WP" />
+                <word id="37" cont="唐吉可德" pos="nh" ne="S-Nh" parent="39" relate="ATT" />
+                <word id="38" cont="》" pos="wp" ne="O" parent="37" relate="WP" />
+                <word id="39" cont="中" pos="nd" ne="O" parent="41" relate="ATT" />
+                <word id="40" cont="的" pos="u" ne="O" parent="39" relate="RAD" />
+                <word id="41" cont="故事" pos="n" ne="O" parent="42" relate="SBV" />
+                <word id="42" cont="是" pos="v" ne="O" parent="27" relate="COO">
+                    <arg id="0" type="A0" beg="36" end="41" />
+                    <arg id="1" type="A1" beg="43" end="48" />
+                </word>
+                <word id="43" cont="唐吉可德" pos="nh" ne="S-Nh" parent="45" relate="ATT" />
+                <word id="44" cont="的" pos="u" ne="O" parent="43" relate="RAD" />
+                <word id="45" cont="行侠" pos="n" ne="O" parent="46" relate="ATT" />
+                <word id="46" cont="其余" pos="r" ne="O" parent="42" relate="VOB" />
+                <word id="47" cont="和" pos="c" ne="O" parent="48" relate="LAD" />
+                <word id="48" cont="所见所闻" pos="i" ne="O" parent="46" relate="COO" />
+                <word id="49" cont="，" pos="wp" ne="O" parent="42" relate="WP" />
+                <word id="50" cont="17" pos="m" ne="O" parent="51" relate="ATT" />
+                <word id="51" cont="世纪" pos="n" ne="O" parent="52" relate="ATT" />
+                <word id="52" cont="欧洲" pos="ns" ne="S-Ns" parent="55" relate="ATT" />
+                <word id="53" cont="的" pos="u" ne="O" parent="52" relate="RAD" />
+                <word id="54" cont="流浪汉" pos="n" ne="O" parent="55" relate="ATT" />
+                <word id="55" cont="小说" pos="n" ne="O" parent="57" relate="SBV" />
+                <word id="56" cont="也" pos="d" ne="O" parent="57" relate="ADV" />
+                <word id="57" cont="体现" pos="v" ne="O" parent="42" relate="COO">
+                    <arg id="0" type="A0" beg="50" end="55" />
+                    <arg id="1" type="ADV" beg="56" end="56" />
+                    <arg id="2" type="A1" beg="58" end="61" />
+                </word>
+                <word id="58" cont="游历" pos="v" ne="O" parent="61" relate="ATT" />
+                <word id="59" cont="见闻" pos="n" ne="O" parent="58" relate="VOB" />
+                <word id="60" cont="的" pos="u" ne="O" parent="58" relate="RAD" />
+                <word id="61" cont="连缀" pos="n" ne="O" parent="57" relate="VOB" />
+                <word id="62" cont="。" pos="wp" ne="O" parent="0" relate="WP" />
+            </sent>
+            <sent id="2" cont="在中国民间传说和历史故事为志怪录类的小说提供了用之不竭的素材，话本等古典小说形式也显示出小说和传统故事的亲密关系。">
+                <word id="0" cont="在" pos="p" ne="O" parent="12" relate="ADV" />
+                <word id="1" cont="中国" pos="ns" ne="S-Ns" parent="2" relate="ATT" />
+                <word id="2" cont="民间" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="传说" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="4" cont="和" pos="c" ne="O" parent="6" relate="LAD" />
+                <word id="5" cont="历史" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="故事" pos="n" ne="O" parent="3" relate="COO" />
+                <word id="7" cont="为" pos="v" ne="O" parent="12" relate="ADV">
+                    <arg id="0" type="A0" beg="8" end="11" />
+                </word>
+                <word id="8" cont="志怪" pos="v" ne="O" parent="11" relate="ATT" />
+                <word id="9" cont="录类" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="10" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="11" cont="小说" pos="n" ne="O" parent="7" relate="POB" />
+                <word id="12" cont="提供" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="LOC" beg="0" end="6" />
+                    <arg id="1" type="A2" beg="7" end="11" />
+                    <arg id="2" type="A1" beg="14" end="16" />
+                </word>
+                <word id="13" cont="了" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="用之不竭" pos="i" ne="O" parent="16" relate="ATT" />
+                <word id="15" cont="的" pos="u" ne="O" parent="14" relate="RAD" />
+                <word id="16" cont="素材" pos="n" ne="O" parent="12" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="18" cont="话本" pos="n" ne="O" parent="22" relate="ATT" />
+                <word id="19" cont="等" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="古典" pos="b" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="小说" pos="n" ne="O" parent="22" relate="ATT" />
+                <word id="22" cont="形式" pos="n" ne="O" parent="24" relate="SBV" />
+                <word id="23" cont="也" pos="d" ne="O" parent="24" relate="ADV" />
+                <word id="24" cont="显示" pos="v" ne="O" parent="12" relate="COO">
+                    <arg id="0" type="ADV" beg="23" end="23" />
+                    <arg id="1" type="A1" beg="26" end="32" />
+                </word>
+                <word id="25" cont="出" pos="v" ne="O" parent="24" relate="CMP" />
+                <word id="26" cont="小说" pos="n" ne="O" parent="32" relate="ATT" />
+                <word id="27" cont="和" pos="c" ne="O" parent="29" relate="LAD" />
+                <word id="28" cont="传统" pos="n" ne="O" parent="29" relate="ATT" />
+                <word id="29" cont="故事" pos="n" ne="O" parent="26" relate="COO" />
+                <word id="30" cont="的" pos="u" ne="O" parent="26" relate="RAD" />
+                <word id="31" cont="亲密" pos="a" ne="O" parent="32" relate="ATT" />
+                <word id="32" cont="关系" pos="n" ne="O" parent="24" relate="VOB" />
+                <word id="33" cont="。" pos="wp" ne="O" parent="12" relate="WP" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="虚构的加强使小说和传统质检的区别清晰起来。">
+                <word id="0" cont="虚构" pos="v" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="加强" pos="v" ne="O" parent="3" relate="SBV" />
+                <word id="3" cont="使" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="2" />
+                    <arg id="1" type="A1" beg="4" end="9" />
+                    <arg id="2" type="A2" beg="11" end="11" />
+                </word>
+                <word id="4" cont="小说" pos="n" ne="O" parent="3" relate="DBL" />
+                <word id="5" cont="和" pos="c" ne="O" parent="9" relate="LAD" />
+                <word id="6" cont="传统" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="质检" pos="j" ne="O" parent="9" relate="ATT" />
+                <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="区别" pos="n" ne="O" parent="4" relate="COO" />
+                <word id="10" cont="清晰" pos="a" ne="O" parent="3" relate="VOB" />
+                <word id="11" cont="起来" pos="v" ne="O" parent="10" relate="CMP" />
+                <word id="12" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="1" cont="小说中的故事可以来自想象。">
+                <word id="0" cont="小说" pos="n" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="中" pos="nd" ne="O" parent="3" relate="ATT" />
+                <word id="2" cont="的" pos="u" ne="O" parent="1" relate="RAD" />
+                <word id="3" cont="故事" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="4" cont="可以" pos="v" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="来自" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="3" />
+                    <arg id="1" type="A1" beg="6" end="6" />
+                </word>
+                <word id="6" cont="想象" pos="v" ne="O" parent="5" relate="VOB" />
+                <word id="7" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="2" cont="不一定是作者的亲历亲闻。">
+                <word id="0" cont="不" pos="d" ne="O" parent="1" relate="ADV" />
+                <word id="1" cont="一定" pos="d" ne="O" parent="2" relate="ADV" />
+                <word id="2" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="6" end="6" />
+                </word>
+                <word id="3" cont="作者" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="亲历" pos="v" ne="O" parent="2" relate="VOB" />
+                <word id="6" cont="亲闻" pos="v" ne="O" parent="5" relate="VOB" />
+                <word id="7" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="3" cont="小说家常闭门构思，作品大多诞生于他们的离群索居的时候，小说家可以闲坐在布宜诺斯艾利斯的图书馆中，或者在巴黎一间终年不见阳光的阁楼里，杜撰他们想象中的历险故事，但是，一名水手也许礼金千辛万苦才能把在东印度群岛听到的故事带回伦敦；">
+                <word id="0" cont="小说家" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="常闭" pos="v" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="门" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="构思" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="作品" pos="n" ne="O" parent="7" relate="SBV" />
+                <word id="6" cont="大多" pos="d" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="诞生" pos="v" ne="O" parent="13" relate="ATT">
+                    <arg id="0" type="A0" beg="5" end="5" />
+                    <arg id="1" type="ADV" beg="6" end="6" />
+                    <arg id="2" type="A1" beg="9" end="12" />
+                </word>
+                <word id="8" cont="于" pos="p" ne="O" parent="7" relate="CMP" />
+                <word id="9" cont="他们" pos="r" ne="O" parent="11" relate="ATT" />
+                <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="11" cont="离群索居" pos="i" ne="O" parent="8" relate="POB" />
+                <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="时候" pos="n" ne="O" parent="17" relate="ADV" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="15" cont="小说家" pos="n" ne="O" parent="17" relate="SBV" />
+                <word id="16" cont="可以" pos="v" ne="O" parent="17" relate="ADV" />
+                <word id="17" cont="闲坐" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="15" end="15" />
+                    <arg id="1" type="A1" beg="18" end="22" />
+                </word>
+                <word id="18" cont="在" pos="p" ne="O" parent="17" relate="CMP">
+                    <arg id="0" type="A0" beg="15" end="15" />
+                    <arg id="1" type="A1" beg="19" end="22" />
+                </word>
+                <word id="19" cont="布宜诺斯艾利斯" pos="ns" ne="S-Ns" parent="21" relate="ATT" />
+                <word id="20" cont="的" pos="u" ne="O" parent="19" relate="RAD" />
+                <word id="21" cont="图书馆" pos="n" ne="O" parent="22" relate="ATT" />
+                <word id="22" cont="中" pos="nd" ne="O" parent="18" relate="POB" />
+                <word id="23" cont="，" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="24" cont="或者" pos="c" ne="O" parent="34" relate="LAD" />
+                <word id="25" cont="在" pos="p" ne="O" parent="30" relate="ADV" />
+                <word id="26" cont="巴黎" pos="ns" ne="S-Ns" parent="25" relate="POB" />
+                <word id="27" cont="一" pos="m" ne="O" parent="28" relate="ATT" />
+                <word id="28" cont="间" pos="q" ne="O" parent="29" relate="ATT" />
+                <word id="29" cont="终年" pos="n" ne="O" parent="30" relate="SBV" />
+                <word id="30" cont="不见" pos="v" ne="O" parent="33" relate="ATT">
+                    <arg id="0" type="LOC" beg="25" end="26" />
+                    <arg id="1" type="ADV" beg="27" end="29" />
+                </word>
+                <word id="31" cont="阳光" pos="n" ne="O" parent="30" relate="VOB" />
+                <word id="32" cont="的" pos="u" ne="O" parent="30" relate="RAD" />
+                <word id="33" cont="阁楼" pos="n" ne="O" parent="34" relate="ATT" />
+                <word id="34" cont="里" pos="nd" ne="O" parent="17" relate="COO" />
+                <word id="35" cont="，" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="36" cont="杜撰" pos="v" ne="O" parent="17" relate="COO" />
+                <word id="37" cont="他们" pos="r" ne="O" parent="39" relate="ATT" />
+                <word id="38" cont="想象" pos="v" ne="O" parent="39" relate="ATT">
+                    <arg id="0" type="A0" beg="37" end="37" />
+                </word>
+                <word id="39" cont="中" pos="nd" ne="O" parent="42" relate="ATT" />
+                <word id="40" cont="的" pos="u" ne="O" parent="39" relate="RAD" />
+                <word id="41" cont="历险" pos="v" ne="O" parent="42" relate="ATT" />
+                <word id="42" cont="故事" pos="n" ne="O" parent="36" relate="VOB" />
+                <word id="43" cont="，" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="44" cont="但是" pos="c" ne="O" parent="62" relate="ADV" />
+                <word id="45" cont="，" pos="wp" ne="O" parent="44" relate="WP" />
+                <word id="46" cont="一" pos="m" ne="O" parent="47" relate="ATT" />
+                <word id="47" cont="名" pos="q" ne="O" parent="48" relate="ATT" />
+                <word id="48" cont="水手" pos="n" ne="O" parent="51" relate="SBV" />
+                <word id="49" cont="也许" pos="d" ne="O" parent="51" relate="ADV" />
+                <word id="50" cont="礼金" pos="n" ne="O" parent="51" relate="SBV">
+                    <arg id="0" type="ADV" beg="49" end="49" />
+                </word>
+                <word id="51" cont="千辛万苦" pos="i" ne="O" parent="62" relate="ADV" />
+                <word id="52" cont="才" pos="d" ne="O" parent="53" relate="ADV" />
+                <word id="53" cont="能" pos="v" ne="O" parent="62" relate="ADV" />
+                <word id="54" cont="把" pos="p" ne="O" parent="62" relate="ADV" />
+                <word id="55" cont="在" pos="p" ne="O" parent="59" relate="ADV" />
+                <word id="56" cont="东" pos="nd" ne="O" parent="58" relate="ATT" />
+                <word id="57" cont="印度" pos="ns" ne="S-Ns" parent="58" relate="ATT" />
+                <word id="58" cont="群岛" pos="n" ne="O" parent="55" relate="POB" />
+                <word id="59" cont="听到" pos="v" ne="O" parent="61" relate="ATT">
+                    <arg id="0" type="LOC" beg="55" end="58" />
+                </word>
+                <word id="60" cont="的" pos="u" ne="O" parent="59" relate="RAD" />
+                <word id="61" cont="故事" pos="n" ne="O" parent="54" relate="POB" />
+                <word id="62" cont="带" pos="v" ne="O" parent="17" relate="COO">
+                    <arg id="0" type="DIS" beg="44" end="45" />
+                    <arg id="1" type="A0" beg="46" end="48" />
+                    <arg id="2" type="ADV" beg="49" end="49" />
+                    <arg id="3" type="ADV" beg="52" end="52" />
+                    <arg id="4" type="A1" beg="55" end="61" />
+                    <arg id="5" type="A2" beg="64" end="64" />
+                </word>
+                <word id="63" cont="回" pos="v" ne="O" parent="62" relate="CMP" />
+                <word id="64" cont="伦敦" pos="ns" ne="S-Ns" parent="63" relate="VOB" />
+                <word id="65" cont="；" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="4" cont="一个匠人瓢泼一生，积攒下无数的见闻、掌故或趣事，当他晚年作在火炉旁给孩子们讲述这一切的时候，他本人就是故事的一部分，传统故事是否值得转述，往往只取决于故事本事的趣味性和可流传性，与传统的故事方式不同，小说家一般并不单纯转述故事，他是在从事故事的制作和生产，有深思熟虑的讲述目的。">
+                <word id="0" cont="一个" pos="m" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="匠人" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="2" cont="瓢泼" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="3" cont="一生" pos="n" ne="O" parent="2" relate="VOB" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="5" cont="积攒" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A1" beg="7" end="13" />
+                </word>
+                <word id="6" cont="下" pos="v" ne="O" parent="5" relate="CMP" />
+                <word id="7" cont="无数" pos="m" ne="O" parent="9" relate="ATT" />
+                <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="见闻" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="10" cont="、" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="11" cont="掌故" pos="n" ne="O" parent="9" relate="COO" />
+                <word id="12" cont="或" pos="c" ne="O" parent="13" relate="LAD" />
+                <word id="13" cont="趣事" pos="n" ne="O" parent="9" relate="COO" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="15" cont="当" pos="p" ne="O" parent="34" relate="ADV" />
+                <word id="16" cont="他" pos="r" ne="O" parent="18" relate="SBV" />
+                <word id="17" cont="晚年" pos="nt" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="作" pos="v" ne="O" parent="29" relate="ATT">
+                    <arg id="0" type="A0" beg="16" end="16" />
+                    <arg id="1" type="LOC" beg="19" end="21" />
+                </word>
+                <word id="19" cont="在" pos="p" ne="O" parent="18" relate="CMP" />
+                <word id="20" cont="火炉" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="旁" pos="nd" ne="O" parent="19" relate="POB" />
+                <word id="22" cont="给" pos="p" ne="O" parent="25" relate="ADV" />
+                <word id="23" cont="孩子" pos="n" ne="O" parent="22" relate="POB" />
+                <word id="24" cont="们" pos="k" ne="O" parent="23" relate="RAD" />
+                <word id="25" cont="讲述" pos="v" ne="O" parent="29" relate="ATT">
+                    <arg id="0" type="DIR" beg="22" end="24" />
+                    <arg id="1" type="A1" beg="26" end="28" />
+                </word>
+                <word id="26" cont="这" pos="r" ne="O" parent="27" relate="ATT" />
+                <word id="27" cont="一切" pos="r" ne="O" parent="25" relate="VOB" />
+                <word id="28" cont="的" pos="u" ne="O" parent="27" relate="RAD" />
+                <word id="29" cont="时候" pos="n" ne="O" parent="15" relate="POB" />
+                <word id="30" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="31" cont="他" pos="r" ne="O" parent="32" relate="ATT" />
+                <word id="32" cont="本人" pos="r" ne="O" parent="34" relate="SBV" />
+                <word id="33" cont="就" pos="d" ne="O" parent="34" relate="ADV" />
+                <word id="34" cont="是" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="TMP" beg="15" end="30" />
+                    <arg id="1" type="A0" beg="31" end="32" />
+                    <arg id="2" type="DIS" beg="33" end="33" />
+                    <arg id="3" type="A1" beg="35" end="38" />
+                </word>
+                <word id="35" cont="故事" pos="n" ne="O" parent="38" relate="ATT" />
+                <word id="36" cont="的" pos="u" ne="O" parent="35" relate="RAD" />
+                <word id="37" cont="一" pos="m" ne="O" parent="38" relate="ATT" />
+                <word id="38" cont="部分" pos="n" ne="O" parent="34" relate="VOB" />
+                <word id="39" cont="，" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="40" cont="传统" pos="n" ne="O" parent="41" relate="ATT" />
+                <word id="41" cont="故事" pos="n" ne="O" parent="43" relate="SBV" />
+                <word id="42" cont="是否" pos="v" ne="O" parent="43" relate="ADV" />
+                <word id="43" cont="值得" pos="v" ne="O" parent="34" relate="COO">
+                    <arg id="0" type="A0" beg="40" end="41" />
+                    <arg id="1" type="ADV" beg="42" end="42" />
+                    <arg id="2" type="A1" beg="44" end="44" />
+                </word>
+                <word id="44" cont="转述" pos="v" ne="O" parent="43" relate="VOB" />
+                <word id="45" cont="，" pos="wp" ne="O" parent="43" relate="WP" />
+                <word id="46" cont="往往" pos="d" ne="O" parent="48" relate="ADV" />
+                <word id="47" cont="只" pos="d" ne="O" parent="48" relate="ADV" />
+                <word id="48" cont="取决于" pos="v" ne="O" parent="43" relate="COO">
+                    <arg id="0" type="A0" beg="40" end="41" />
+                    <arg id="1" type="ADV" beg="46" end="46" />
+                    <arg id="2" type="ADV" beg="47" end="47" />
+                    <arg id="3" type="A1" beg="49" end="54" />
+                </word>
+                <word id="49" cont="故事" pos="n" ne="O" parent="50" relate="ATT" />
+                <word id="50" cont="本事" pos="n" ne="O" parent="52" relate="ATT" />
+                <word id="51" cont="的" pos="u" ne="O" parent="50" relate="RAD" />
+                <word id="52" cont="趣味性" pos="n" ne="O" parent="48" relate="VOB" />
+                <word id="53" cont="和" pos="c" ne="O" parent="54" relate="LAD" />
+                <word id="54" cont="可流传性" pos="n" ne="O" parent="52" relate="COO" />
+                <word id="55" cont="，" pos="wp" ne="O" parent="48" relate="WP" />
+                <word id="56" cont="与" pos="p" ne="O" parent="61" relate="ADV" />
+                <word id="57" cont="传统" pos="n" ne="O" parent="60" relate="ATT" />
+                <word id="58" cont="的" pos="u" ne="O" parent="57" relate="RAD" />
+                <word id="59" cont="故事" pos="n" ne="O" parent="60" relate="ATT" />
+                <word id="60" cont="方式" pos="n" ne="O" parent="56" relate="POB" />
+                <word id="61" cont="不同" pos="a" ne="O" parent="48" relate="COO">
+                    <arg id="0" type="A0" beg="56" end="60" />
+                </word>
+                <word id="62" cont="，" pos="wp" ne="O" parent="61" relate="WP" />
+                <word id="63" cont="小说家" pos="n" ne="O" parent="64" relate="SBV" />
+                <word id="64" cont="一般" pos="a" ne="O" parent="68" relate="SBV" />
+                <word id="65" cont="并" pos="d" ne="O" parent="68" relate="ADV" />
+                <word id="66" cont="不" pos="d" ne="O" parent="67" relate="ADV" />
+                <word id="67" cont="单纯" pos="a" ne="O" parent="68" relate="ADV" />
+                <word id="68" cont="转述" pos="v" ne="O" parent="61" relate="COO">
+                    <arg id="0" type="ADV" beg="63" end="64" />
+                    <arg id="1" type="ADV" beg="65" end="65" />
+                    <arg id="2" type="ADV" beg="66" end="67" />
+                    <arg id="3" type="A1" beg="69" end="69" />
+                </word>
+                <word id="69" cont="故事" pos="n" ne="O" parent="68" relate="VOB" />
+                <word id="70" cont="，" pos="wp" ne="O" parent="68" relate="WP" />
+                <word id="71" cont="他" pos="r" ne="O" parent="72" relate="SBV" />
+                <word id="72" cont="是" pos="v" ne="O" parent="68" relate="COO" />
+                <word id="73" cont="在" pos="p" ne="O" parent="81" relate="ADV" />
+                <word id="74" cont="从事" pos="v" ne="O" parent="77" relate="ATT">
+                    <arg id="0" type="A1" beg="75" end="75" />
+                </word>
+                <word id="75" cont="故事" pos="n" ne="O" parent="74" relate="VOB" />
+                <word id="76" cont="的" pos="u" ne="O" parent="74" relate="RAD" />
+                <word id="77" cont="制作" pos="v" ne="O" parent="73" relate="POB" />
+                <word id="78" cont="和" pos="c" ne="O" parent="79" relate="LAD" />
+                <word id="79" cont="生产" pos="v" ne="O" parent="77" relate="COO" />
+                <word id="80" cont="，" pos="wp" ne="O" parent="73" relate="WP" />
+                <word id="81" cont="有" pos="v" ne="O" parent="72" relate="VOB">
+                    <arg id="0" type="A0" beg="71" end="71" />
+                    <arg id="1" type="LOC" beg="73" end="80" />
+                    <arg id="2" type="A1" beg="85" end="85" />
+                </word>
+                <word id="82" cont="深思熟虑" pos="i" ne="O" parent="81" relate="VOB" />
+                <word id="83" cont="的" pos="u" ne="O" parent="82" relate="RAD" />
+                <word id="84" cont="讲述" pos="v" ne="O" parent="81" relate="VOB" />
+                <word id="85" cont="目的" pos="n" ne="O" parent="84" relate="VOB" />
+                <word id="86" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="就现代小说而言，虚构一个故事并非首要功能，现代小说的繁荣对应的故事不同程度的减损或逐渐消失，现代小说家对待故事的方式复杂多变，以实现他们特殊的叙事目的。">
+                <word id="0" cont="就" pos="p" ne="O" parent="5" relate="ADV" />
+                <word id="1" cont="现代" pos="nt" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="小说" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="3" cont="而言" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="5" cont="虚构" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="6" cont="一个" pos="m" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="故事" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="8" cont="并非" pos="v" ne="O" parent="5" relate="COO">
+                    <arg id="0" type="ADV" beg="3" end="3" />
+                    <arg id="1" type="A1" beg="9" end="10" />
+                </word>
+                <word id="9" cont="首要" pos="b" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="功能" pos="n" ne="O" parent="8" relate="VOB">
+                    <arg id="0" type="ADV" beg="9" end="9" />
+                </word>
+                <word id="11" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="12" cont="现代" pos="nt" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="小说" pos="n" ne="O" parent="18" relate="ATT" />
+                <word id="14" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="15" cont="繁荣" pos="a" ne="O" parent="18" relate="ATT" />
+                <word id="16" cont="对应" pos="v" ne="O" parent="15" relate="COO" />
+                <word id="17" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="18" cont="故事" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="19" cont="不同" pos="a" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="程度" pos="n" ne="O" parent="22" relate="ATT" />
+                <word id="21" cont="的" pos="u" ne="O" parent="20" relate="RAD" />
+                <word id="22" cont="减损" pos="v" ne="O" parent="8" relate="COO" />
+                <word id="23" cont="或" pos="c" ne="O" parent="25" relate="LAD" />
+                <word id="24" cont="逐渐" pos="d" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="消失" pos="v" ne="O" parent="22" relate="COO">
+                    <arg id="0" type="ADV" beg="24" end="24" />
+                </word>
+                <word id="26" cont="，" pos="wp" ne="O" parent="22" relate="WP" />
+                <word id="27" cont="现代" pos="nt" ne="O" parent="28" relate="ATT" />
+                <word id="28" cont="小说家" pos="n" ne="O" parent="29" relate="SBV" />
+                <word id="29" cont="对待" pos="v" ne="O" parent="32" relate="ATT">
+                    <arg id="0" type="A0" beg="27" end="28" />
+                    <arg id="1" type="A1" beg="30" end="30" />
+                </word>
+                <word id="30" cont="故事" pos="n" ne="O" parent="29" relate="VOB" />
+                <word id="31" cont="的" pos="u" ne="O" parent="29" relate="RAD" />
+                <word id="32" cont="方式" pos="n" ne="O" parent="34" relate="ATT" />
+                <word id="33" cont="复杂" pos="a" ne="O" parent="34" relate="ATT">
+                    <arg id="0" type="A0" beg="27" end="32" />
+                </word>
+                <word id="34" cont="多变" pos="z" ne="O" parent="22" relate="COO">
+                    <arg id="0" type="A0" beg="27" end="32" />
+                </word>
+                <word id="35" cont="，" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="36" cont="以" pos="c" ne="O" parent="37" relate="ADV" />
+                <word id="37" cont="实现" pos="v" ne="O" parent="34" relate="COO">
+                    <arg id="0" type="A1" beg="38" end="42" />
+                </word>
+                <word id="38" cont="他们" pos="r" ne="O" parent="42" relate="ATT" />
+                <word id="39" cont="特殊" pos="a" ne="O" parent="42" relate="ATT" />
+                <word id="40" cont="的" pos="u" ne="O" parent="39" relate="RAD" />
+                <word id="41" cont="叙事" pos="v" ne="O" parent="42" relate="ATT" />
+                <word id="42" cont="目的" pos="n" ne="O" parent="37" relate="VOB" />
+                <word id="43" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="1" cont="小说家呈现人生，有时会写到难以言喻的个人经验，他们会调整讲故事的方式，甚至将虚构和表述的重心掷到故事之外。">
+                <word id="0" cont="小说家" pos="n" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="呈现" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="2" />
+                </word>
+                <word id="2" cont="人生" pos="n" ne="O" parent="1" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="4" cont="有时" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="5" cont="会" pos="v" ne="O" parent="6" relate="ADV" />
+                <word id="6" cont="写" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="ADV" beg="4" end="4" />
+                    <arg id="1" type="A1" beg="8" end="12" />
+                </word>
+                <word id="7" cont="到" pos="v" ne="O" parent="6" relate="CMP" />
+                <word id="8" cont="难以" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="言喻" pos="v" ne="O" parent="12" relate="ATT">
+                    <arg id="0" type="ADV" beg="8" end="8" />
+                </word>
+                <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="11" cont="个人" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="经验" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="14" cont="他们" pos="r" ne="O" parent="16" relate="SBV" />
+                <word id="15" cont="会" pos="v" ne="O" parent="16" relate="ADV" />
+                <word id="16" cont="调整" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="A0" beg="14" end="14" />
+                    <arg id="1" type="A1" beg="17" end="20" />
+                </word>
+                <word id="17" cont="讲" pos="v" ne="O" parent="20" relate="ATT" />
+                <word id="18" cont="故事" pos="n" ne="O" parent="17" relate="VOB" />
+                <word id="19" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="20" cont="方式" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="22" cont="甚至" pos="c" ne="O" parent="29" relate="ADV" />
+                <word id="23" cont="将" pos="d" ne="O" parent="24" relate="ADV" />
+                <word id="24" cont="虚构" pos="v" ne="O" parent="28" relate="ATT" />
+                <word id="25" cont="和" pos="c" ne="O" parent="26" relate="LAD" />
+                <word id="26" cont="表述" pos="v" ne="O" parent="24" relate="COO">
+                    <arg id="0" type="ADV" beg="23" end="23" />
+                </word>
+                <word id="27" cont="的" pos="u" ne="O" parent="24" relate="RAD" />
+                <word id="28" cont="重心" pos="n" ne="O" parent="29" relate="SBV" />
+                <word id="29" cont="掷" pos="v" ne="O" parent="32" relate="ATT">
+                    <arg id="0" type="A0" beg="14" end="14" />
+                    <arg id="1" type="ADV" beg="22" end="22" />
+                    <arg id="2" type="A1" beg="23" end="28" />
+                    <arg id="3" type="A1" beg="31" end="31" />
+                </word>
+                <word id="30" cont="到" pos="v" ne="O" parent="29" relate="CMP" />
+                <word id="31" cont="故事" pos="n" ne="O" parent="29" relate="VOB" />
+                <word id="32" cont="之外" pos="nd" ne="O" parent="16" relate="COO" />
+                <word id="33" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="2" cont="在这些小说家笔下，故事成了幌子，故事之外的附加信息显得更有意味。">
+                <word id="0" cont="在" pos="p" ne="O" parent="6" relate="ADV" />
+                <word id="1" cont="这些" pos="r" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="小说家" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="笔下" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="5" cont="故事" pos="n" ne="O" parent="6" relate="SBV" />
+                <word id="6" cont="成" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="LOC" beg="0" end="4" />
+                    <arg id="1" type="A0" beg="5" end="5" />
+                    <arg id="2" type="A1" beg="8" end="8" />
+                </word>
+                <word id="7" cont="了" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="幌子" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="10" cont="故事" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="之外" pos="nd" ne="O" parent="13" relate="ATT" />
+                <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="附加" pos="v" ne="O" parent="15" relate="SBV" />
+                <word id="14" cont="信息" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="15" cont="显得" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="A1" beg="16" end="18" />
+                </word>
+                <word id="16" cont="更" pos="d" ne="O" parent="17" relate="ADV" />
+                <word id="17" cont="有" pos="v" ne="O" parent="15" relate="VOB">
+                    <arg id="0" type="ADV" beg="16" end="16" />
+                    <arg id="1" type="A1" beg="18" end="18" />
+                </word>
+                <word id="18" cont="意味" pos="n" ne="O" parent="17" relate="VOB" />
+                <word id="19" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="3" cont="16世纪末期以来，小说家对小说故事性的破坏日趋强烈。">
+                <word id="0" cont="16" pos="m" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="世纪" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="末期" pos="nd" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="以来" pos="nd" ne="O" parent="10" relate="ADV" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="小说家" pos="n" ne="O" parent="10" relate="SBV" />
+                <word id="6" cont="对" pos="p" ne="O" parent="10" relate="ATT" />
+                <word id="7" cont="小说" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="故事性" pos="n" ne="O" parent="6" relate="POB" />
+                <word id="9" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="10" cont="破坏" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="11" cont="日趋" pos="d" ne="O" parent="12" relate="ADV" />
+                <word id="12" cont="强烈" pos="a" ne="O" parent="10" relate="CMP">
+                    <arg id="0" type="TMP" beg="0" end="4" />
+                    <arg id="1" type="A0" beg="5" end="5" />
+                    <arg id="2" type="ADV" beg="11" end="11" />
+                </word>
+                <word id="13" cont="。" pos="wp" ne="O" parent="10" relate="WP" />
+            </sent>
+            <sent id="4" cont="这时，一个故事的好坏并不看它的“成色”如何，而是取决于讲故事的方式。">
+                <word id="0" cont="这时" pos="r" ne="O" parent="8" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="一个" pos="m" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="故事" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="好坏" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="6" cont="并" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="7" cont="不" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="看" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="1" />
+                    <arg id="1" type="A0" beg="2" end="5" />
+                    <arg id="2" type="ADV" beg="6" end="6" />
+                    <arg id="3" type="ADV" beg="7" end="7" />
+                    <arg id="4" type="A1" beg="9" end="14" />
+                </word>
+                <word id="9" cont="它" pos="r" ne="O" parent="12" relate="ATT" />
+                <word id="10" cont="的" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="11" cont="“" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="12" cont="成色" pos="n" ne="O" parent="14" relate="SBV" />
+                <word id="13" cont="”" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="14" cont="如何" pos="r" ne="O" parent="8" relate="VOB">
+                    <arg id="0" type="A0" beg="9" end="13" />
+                </word>
+                <word id="15" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="16" cont="而是" pos="c" ne="O" parent="17" relate="ADV" />
+                <word id="17" cont="取决于" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="DIS" beg="16" end="16" />
+                    <arg id="1" type="A1" beg="18" end="21" />
+                </word>
+                <word id="18" cont="讲" pos="v" ne="O" parent="21" relate="ATT">
+                    <arg id="0" type="A1" beg="19" end="19" />
+                </word>
+                <word id="19" cont="故事" pos="n" ne="O" parent="18" relate="VOB" />
+                <word id="20" cont="的" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="21" cont="方式" pos="n" ne="O" parent="17" relate="VOB" />
+                <word id="22" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="5" cont="契诃夫曾经把那些不好好讲故事的小说家称为“耍弄蹩脚花招的人”，但这种花招的大量出现也有其内在的合理性—他们要摆脱陈旧的故事模式，摆脱虚假的因果关系和矫揉造作的戏剧冲突，甚至摆脱故事本身。">
+                <word id="0" cont="契诃夫" pos="nh" ne="S-Nh" parent="6" relate="SBV" />
+                <word id="1" cont="曾经" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="2" cont="把" pos="p" ne="O" parent="6" relate="ADV" />
+                <word id="3" cont="那些" pos="r" ne="O" parent="6" relate="SBV" />
+                <word id="4" cont="不" pos="d" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="好好" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="6" cont="讲" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="4" end="5" />
+                    <arg id="1" type="A0" beg="7" end="9" />
+                </word>
+                <word id="7" cont="故事" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="小说家" pos="n" ne="O" parent="10" relate="SBV" />
+                <word id="10" cont="称为" pos="v" ne="O" parent="6" relate="VOB">
+                    <arg id="0" type="A0" beg="7" end="9" />
+                    <arg id="1" type="A2" beg="11" end="17" />
+                </word>
+                <word id="11" cont="“" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="12" cont="耍弄" pos="v" ne="O" parent="16" relate="ATT" />
+                <word id="13" cont="蹩脚" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="花招" pos="n" ne="O" parent="12" relate="VOB" />
+                <word id="15" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="16" cont="人" pos="n" ne="O" parent="10" relate="VOB" />
+                <word id="17" cont="”" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="18" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="19" cont="但" pos="c" ne="O" parent="26" relate="ADV" />
+                <word id="20" cont="这种" pos="r" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="花招" pos="n" ne="O" parent="24" relate="ATT" />
+                <word id="22" cont="的" pos="u" ne="O" parent="21" relate="RAD" />
+                <word id="23" cont="大量" pos="m" ne="O" parent="24" relate="ADV" />
+                <word id="24" cont="出现" pos="v" ne="O" parent="26" relate="SBV" />
+                <word id="25" cont="也" pos="d" ne="O" parent="26" relate="ADV" />
+                <word id="26" cont="有" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="DIS" beg="19" end="19" />
+                    <arg id="1" type="A0" beg="20" end="24" />
+                    <arg id="2" type="ADV" beg="25" end="25" />
+                </word>
+                <word id="27" cont="其" pos="r" ne="O" parent="30" relate="ATT" />
+                <word id="28" cont="内在" pos="b" ne="O" parent="30" relate="ATT" />
+                <word id="29" cont="的" pos="u" ne="O" parent="28" relate="RAD" />
+                <word id="30" cont="合理性" pos="n" ne="O" parent="26" relate="VOB" />
+                <word id="31" cont="—" pos="wp" ne="O" parent="26" relate="WP" />
+                <word id="32" cont="他们" pos="r" ne="O" parent="34" relate="SBV" />
+                <word id="33" cont="要" pos="v" ne="O" parent="34" relate="ADV">
+                    <arg id="0" type="A0" beg="32" end="32" />
+                </word>
+                <word id="34" cont="摆脱" pos="v" ne="O" parent="26" relate="COO">
+                    <arg id="0" type="A0" beg="32" end="32" />
+                    <arg id="1" type="A1" beg="35" end="38" />
+                </word>
+                <word id="35" cont="陈旧" pos="a" ne="O" parent="38" relate="ATT" />
+                <word id="36" cont="的" pos="u" ne="O" parent="35" relate="RAD" />
+                <word id="37" cont="故事" pos="n" ne="O" parent="38" relate="ATT" />
+                <word id="38" cont="模式" pos="n" ne="O" parent="34" relate="VOB" />
+                <word id="39" cont="，" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="40" cont="摆脱" pos="v" ne="O" parent="34" relate="COO">
+                    <arg id="0" type="A1" beg="41" end="49" />
+                </word>
+                <word id="41" cont="虚假" pos="a" ne="O" parent="44" relate="ATT" />
+                <word id="42" cont="的" pos="u" ne="O" parent="41" relate="RAD" />
+                <word id="43" cont="因果" pos="n" ne="O" parent="44" relate="ATT" />
+                <word id="44" cont="关系" pos="n" ne="O" parent="40" relate="VOB" />
+                <word id="45" cont="和" pos="c" ne="O" parent="49" relate="LAD" />
+                <word id="46" cont="矫揉造作" pos="i" ne="O" parent="49" relate="ATT" />
+                <word id="47" cont="的" pos="u" ne="O" parent="46" relate="RAD" />
+                <word id="48" cont="戏剧" pos="n" ne="O" parent="49" relate="ATT" />
+                <word id="49" cont="冲突" pos="v" ne="O" parent="44" relate="COO" />
+                <word id="50" cont="，" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="51" cont="甚至" pos="d" ne="O" parent="52" relate="ADV" />
+                <word id="52" cont="摆脱" pos="v" ne="O" parent="34" relate="COO">
+                    <arg id="0" type="ADV" beg="51" end="51" />
+                    <arg id="1" type="A1" beg="53" end="54" />
+                </word>
+                <word id="53" cont="故事" pos="n" ne="O" parent="54" relate="ATT" />
+                <word id="54" cont="本身" pos="r" ne="O" parent="52" relate="VOB" />
+                <word id="55" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="6" cont="现代小说家认为，传统的故事模式早已失去了弹性和内在活力，也失去了起初的存在价值，那些千百年来一直在给小说提供养料的故事模式已经成为制约想象力的障碍之一。">
+                <word id="0" cont="现代" pos="nt" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="小说家" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="2" cont="认为" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="4" end="43" />
+                </word>
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="传统" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="故事" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="模式" pos="n" ne="O" parent="9" relate="SBV" />
+                <word id="8" cont="早已" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="失去" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="A0" beg="4" end="7" />
+                    <arg id="1" type="ADV" beg="8" end="8" />
+                    <arg id="2" type="A1" beg="11" end="14" />
+                </word>
+                <word id="10" cont="了" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="11" cont="弹性" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="12" cont="和" pos="c" ne="O" parent="14" relate="LAD" />
+                <word id="13" cont="内在" pos="b" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="活力" pos="n" ne="O" parent="11" relate="COO" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="16" cont="也" pos="d" ne="O" parent="17" relate="ADV" />
+                <word id="17" cont="失去" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="A0" beg="4" end="7" />
+                    <arg id="1" type="ADV" beg="16" end="16" />
+                    <arg id="2" type="A1" beg="22" end="22" />
+                </word>
+                <word id="18" cont="了" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="19" cont="起初" pos="d" ne="O" parent="21" relate="ADV" />
+                <word id="20" cont="的" pos="u" ne="O" parent="19" relate="RAD" />
+                <word id="21" cont="存在" pos="v" ne="O" parent="17" relate="VOB" />
+                <word id="22" cont="价值" pos="n" ne="O" parent="21" relate="VOB" />
+                <word id="23" cont="，" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="24" cont="那些" pos="r" ne="O" parent="32" relate="SBV" />
+                <word id="25" cont="千百" pos="m" ne="O" parent="26" relate="ATT" />
+                <word id="26" cont="年" pos="q" ne="O" parent="32" relate="ADV" />
+                <word id="27" cont="来" pos="nd" ne="O" parent="26" relate="RAD" />
+                <word id="28" cont="一直" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="29" cont="在" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="30" cont="给" pos="p" ne="O" parent="32" relate="ADV" />
+                <word id="31" cont="小说" pos="n" ne="O" parent="30" relate="POB" />
+                <word id="32" cont="提供" pos="v" ne="O" parent="21" relate="COO">
+                    <arg id="0" type="TMP" beg="27" end="27" />
+                    <arg id="1" type="ADV" beg="28" end="28" />
+                    <arg id="2" type="ADV" beg="29" end="29" />
+                    <arg id="3" type="A2" beg="30" end="31" />
+                    <arg id="4" type="A0" beg="33" end="36" />
+                </word>
+                <word id="33" cont="养料" pos="n" ne="O" parent="36" relate="ATT" />
+                <word id="34" cont="的" pos="u" ne="O" parent="33" relate="RAD" />
+                <word id="35" cont="故事" pos="n" ne="O" parent="36" relate="ATT" />
+                <word id="36" cont="模式" pos="n" ne="O" parent="32" relate="VOB" />
+                <word id="37" cont="已经" pos="d" ne="O" parent="38" relate="ADV" />
+                <word id="38" cont="成为" pos="v" ne="O" parent="32" relate="COO">
+                    <arg id="0" type="A0" beg="33" end="36" />
+                    <arg id="1" type="ADV" beg="37" end="37" />
+                    <arg id="2" type="A1" beg="39" end="43" />
+                </word>
+                <word id="39" cont="制约" pos="v" ne="O" parent="42" relate="ATT">
+                    <arg id="0" type="A1" beg="40" end="40" />
+                </word>
+                <word id="40" cont="想象力" pos="n" ne="O" parent="39" relate="VOB" />
+                <word id="41" cont="的" pos="u" ne="O" parent="39" relate="RAD" />
+                <word id="42" cont="障碍" pos="n" ne="O" parent="43" relate="ATT" />
+                <word id="43" cont="之一" pos="r" ne="O" parent="38" relate="VOB" />
+                <word id="44" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

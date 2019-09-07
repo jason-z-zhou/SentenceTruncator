@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="y" parser="y" wsd="n" srl="y" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="周代，尽管关于食品安全事件的记载不多，但我们还是看到，由于食品安全关系重大，统治者对此非常重视并作出了特别规定。">
+                <word id="0" cont="周代" pos="nt" ne="O" parent="10" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="尽管" pos="c" ne="O" parent="10" relate="ADV" />
+                <word id="3" cont="关于" pos="p" ne="O" parent="8" relate="ATT" />
+                <word id="4" cont="食品" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="5" cont="安全" pos="a" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="事件" pos="n" ne="O" parent="3" relate="POB" />
+                <word id="7" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="记载" pos="n" ne="O" parent="10" relate="SBV" />
+                <word id="9" cont="不" pos="d" ne="O" parent="10" relate="ADV" />
+                <word id="10" cont="多" pos="a" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="DIS" beg="2" end="2" />
+                    <arg id="1" type="A0" beg="3" end="8" />
+                    <arg id="2" type="ADV" beg="9" end="9" />
+                </word>
+                <word id="11" cont="，" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="12" cont="但" pos="c" ne="O" parent="15" relate="ADV" />
+                <word id="13" cont="我们" pos="r" ne="O" parent="15" relate="SBV" />
+                <word id="14" cont="还是" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="15" cont="看到" pos="v" ne="O" parent="10" relate="COO">
+                    <arg id="0" type="DIS" beg="12" end="12" />
+                    <arg id="1" type="A0" beg="13" end="13" />
+                    <arg id="2" type="ADV" beg="14" end="14" />
+                    <arg id="3" type="A1" beg="17" end="32" />
+                </word>
+                <word id="16" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="17" cont="由于" pos="p" ne="O" parent="27" relate="ADV" />
+                <word id="18" cont="食品" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="19" cont="安全" pos="a" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="关系" pos="n" ne="O" parent="21" relate="SBV" />
+                <word id="21" cont="重大" pos="a" ne="O" parent="17" relate="POB">
+                    <arg id="0" type="A0" beg="18" end="20" />
+                </word>
+                <word id="22" cont="，" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="23" cont="统治者" pos="n" ne="O" parent="27" relate="SBV" />
+                <word id="24" cont="对" pos="p" ne="O" parent="27" relate="ADV" />
+                <word id="25" cont="此" pos="r" ne="O" parent="24" relate="POB" />
+                <word id="26" cont="非常" pos="d" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="重视" pos="v" ne="O" parent="15" relate="VOB">
+                    <arg id="0" type="PRP" beg="17" end="22" />
+                    <arg id="1" type="A0" beg="23" end="23" />
+                    <arg id="2" type="A1" beg="24" end="25" />
+                    <arg id="3" type="ADV" beg="26" end="26" />
+                </word>
+                <word id="28" cont="并" pos="c" ne="O" parent="29" relate="ADV" />
+                <word id="29" cont="作出" pos="v" ne="O" parent="27" relate="COO">
+                    <arg id="0" type="PRP" beg="17" end="22" />
+                    <arg id="1" type="A0" beg="23" end="23" />
+                    <arg id="2" type="A1" beg="31" end="32" />
+                </word>
+                <word id="30" cont="了" pos="u" ne="O" parent="29" relate="RAD" />
+                <word id="31" cont="特别" pos="a" ne="O" parent="32" relate="ATT" />
+                <word id="32" cont="规定" pos="n" ne="O" parent="29" relate="VOB" />
+                <word id="33" cont="。" pos="wp" ne="O" parent="10" relate="WP" />
+            </sent>
+            <sent id="1" cont="周代的食品交易是以直接收获采摘的初级农产品为主，所以对农产品的成熟度十分关注．据《礼记》记栽，周代对食品交易的规定有：“五谷不时，果实未熟，不鬻于市。”">
+                <word id="0" cont="周代" pos="nt" ne="O" parent="3" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="食品" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="交易" pos="n" ne="O" parent="4" relate="SBV" />
+                <word id="4" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="3" />
+                    <arg id="1" type="A1" beg="5" end="12" />
+                </word>
+                <word id="5" cont="以" pos="p" ne="O" parent="12" relate="ADV" />
+                <word id="6" cont="直接" pos="a" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="收获" pos="v" ne="O" parent="11" relate="ATT">
+                    <arg id="0" type="ADV" beg="6" end="6" />
+                </word>
+                <word id="8" cont="采摘" pos="v" ne="O" parent="7" relate="COO">
+                    <arg id="0" type="ADV" beg="6" end="6" />
+                </word>
+                <word id="9" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="10" cont="初级" pos="b" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="农产品" pos="n" ne="O" parent="5" relate="POB" />
+                <word id="12" cont="为主" pos="v" ne="O" parent="4" relate="VOB">
+                    <arg id="0" type="A0" beg="0" end="3" />
+                    <arg id="1" type="A1" beg="5" end="11" />
+                </word>
+                <word id="13" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="14" cont="所以" pos="c" ne="O" parent="20" relate="ADV" />
+                <word id="15" cont="对" pos="p" ne="O" parent="18" relate="ATT" />
+                <word id="16" cont="农产品" pos="n" ne="O" parent="15" relate="POB" />
+                <word id="17" cont="的" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="18" cont="成熟度" pos="n" ne="O" parent="20" relate="SBV" />
+                <word id="19" cont="十分" pos="m" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="关注．" pos="v" ne="O" parent="4" relate="COO" />
+                <word id="21" cont="据" pos="p" ne="O" parent="25" relate="ADV" />
+                <word id="22" cont="《" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="23" cont="礼记" pos="n" ne="O" parent="21" relate="POB" />
+                <word id="24" cont="》" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="25" cont="记栽" pos="v" ne="O" parent="20" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="27" cont="周代" pos="nt" ne="O" parent="33" relate="ADV" />
+                <word id="28" cont="对" pos="p" ne="O" parent="33" relate="ADV" />
+                <word id="29" cont="食品" pos="n" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="交易" pos="v" ne="O" parent="32" relate="ATT" />
+                <word id="31" cont="的" pos="u" ne="O" parent="30" relate="RAD" />
+                <word id="32" cont="规定" pos="n" ne="O" parent="28" relate="POB" />
+                <word id="33" cont="有" pos="v" ne="O" parent="20" relate="COO">
+                    <arg id="0" type="TMP" beg="27" end="27" />
+                </word>
+                <word id="34" cont="：" pos="wp" ne="O" parent="33" relate="WP" />
+                <word id="35" cont="“" pos="wp" ne="O" parent="36" relate="WP" />
+                <word id="36" cont="五谷不时" pos="nt" ne="O" parent="40" relate="ADV" />
+                <word id="37" cont="，" pos="wp" ne="O" parent="36" relate="WP" />
+                <word id="38" cont="果实" pos="n" ne="O" parent="40" relate="SBV" />
+                <word id="39" cont="未" pos="d" ne="O" parent="40" relate="ADV" />
+                <word id="40" cont="熟" pos="a" ne="O" parent="33" relate="COO">
+                    <arg id="0" type="TMP" beg="35" end="37" />
+                    <arg id="1" type="A0" beg="38" end="38" />
+                    <arg id="2" type="ADV" beg="39" end="39" />
+                </word>
+                <word id="41" cont="，" pos="wp" ne="O" parent="40" relate="WP" />
+                <word id="42" cont="不" pos="d" ne="O" parent="43" relate="ADV" />
+                <word id="43" cont="鬻" pos="v" ne="O" parent="40" relate="COO">
+                    <arg id="0" type="ADV" beg="42" end="42" />
+                    <arg id="1" type="A1" beg="45" end="45" />
+                </word>
+                <word id="44" cont="于" pos="p" ne="O" parent="43" relate="CMP">
+                    <arg id="0" type="ADV" beg="42" end="42" />
+                </word>
+                <word id="45" cont="市" pos="n" ne="O" parent="44" relate="POB" />
+                <word id="46" cont="。" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="47" cont="”" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+            <sent id="2" cont="这是我国历史上最早的关于食品安全管理的记录．">
+                <word id="0" cont="这" pos="r" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="13" />
+                </word>
+                <word id="2" cont="我国" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="历史" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="上" pos="nd" ne="O" parent="6" relate="ADV" />
+                <word id="5" cont="最" pos="d" ne="O" parent="6" relate="ADV" />
+                <word id="6" cont="早" pos="a" ne="O" parent="13" relate="ATT">
+                    <arg id="0" type="LOC" beg="2" end="4" />
+                    <arg id="1" type="ADV" beg="5" end="5" />
+                </word>
+                <word id="7" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="关于" pos="p" ne="O" parent="13" relate="ATT" />
+                <word id="9" cont="食品" pos="n" ne="O" parent="11" relate="FOB" />
+                <word id="10" cont="安全" pos="a" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="管理" pos="v" ne="O" parent="8" relate="POB" />
+                <word id="12" cont="的" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="记录．" pos="n" ne="O" parent="1" relate="VOB" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="汉唐时期，食品交易活动非常频繁，交易品种十分丰富。">
+                <word id="0" cont="汉" pos="nt" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="唐" pos="nt" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="时期" pos="n" ne="O" parent="8" relate="ADV" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="食品" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="交易" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="活动" pos="v" ne="O" parent="8" relate="SBV" />
+                <word id="7" cont="非常" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="频繁" pos="a" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="3" />
+                    <arg id="1" type="A0" beg="4" end="6" />
+                    <arg id="2" type="ADV" beg="7" end="7" />
+                </word>
+                <word id="9" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="10" cont="交易" pos="v" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="品种" pos="n" ne="O" parent="13" relate="SBV" />
+                <word id="12" cont="十分" pos="m" ne="O" parent="13" relate="ADV" />
+                <word id="13" cont="丰富" pos="a" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A1" beg="10" end="11" />
+                    <arg id="1" type="ADV" beg="12" end="12" />
+                </word>
+                <word id="14" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="1" cont="为杜绝有毒有害食品流入市场，国家在法律上作出了相应的规定。">
+                <word id="0" cont="为" pos="p" ne="O" parent="12" relate="ADV" />
+                <word id="1" cont="杜绝" pos="v" ne="O" parent="0" relate="POB">
+                    <arg id="0" type="A1" beg="2" end="6" />
+                </word>
+                <word id="2" cont="有毒" pos="v" ne="O" parent="4" relate="ATT" />
+                <word id="3" cont="有害" pos="a" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="食品" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="5" cont="流入" pos="v" ne="O" parent="1" relate="VOB" />
+                <word id="6" cont="市场" pos="n" ne="O" parent="5" relate="VOB" />
+                <word id="7" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="8" cont="国家" pos="n" ne="O" parent="12" relate="SBV" />
+                <word id="9" cont="在" pos="p" ne="O" parent="12" relate="ADV" />
+                <word id="10" cont="法律" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="上" pos="nd" ne="O" parent="9" relate="POB" />
+                <word id="12" cont="作出" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="PRP" beg="0" end="7" />
+                    <arg id="1" type="A0" beg="8" end="8" />
+                    <arg id="2" type="LOC" beg="9" end="11" />
+                    <arg id="3" type="A1" beg="14" end="16" />
+                </word>
+                <word id="13" cont="了" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="相应" pos="v" ne="O" parent="16" relate="ATT" />
+                <word id="15" cont="的" pos="u" ne="O" parent="14" relate="RAD" />
+                <word id="16" cont="规定" pos="n" ne="O" parent="12" relate="VOB" />
+                <word id="17" cont="。" pos="wp" ne="O" parent="12" relate="WP" />
+            </sent>
+            <sent id="2" cont="汉朝《二年律令》规定：“诸食脯肉，脯肉毒杀、伤、病人者，亟尽孰燔其余……">
+                <word id="0" cont="汉朝" pos="nt" ne="O" parent="4" relate="ATT" />
+                <word id="1" cont="《" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="2" cont="二" pos="m" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="年" pos="q" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="律令" pos="n" ne="O" parent="6" relate="SBV" />
+                <word id="5" cont="》" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="6" cont="规定" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="5" />
+                </word>
+                <word id="7" cont="：" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="8" cont="“" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="9" cont="诸" pos="r" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="食脯肉" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="12" cont="脯肉" pos="n" ne="O" parent="13" relate="SBV" />
+                <word id="13" cont="毒杀" pos="n" ne="O" parent="10" relate="COO">
+                    <arg id="0" type="A1" beg="12" end="12" />
+                </word>
+                <word id="14" cont="、" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="15" cont="伤" pos="v" ne="O" parent="13" relate="COO">
+                    <arg id="0" type="A1" beg="12" end="12" />
+                </word>
+                <word id="16" cont="、" pos="wp" ne="O" parent="17" relate="WP" />
+                <word id="17" cont="病人者" pos="n" ne="O" parent="13" relate="COO" />
+                <word id="18" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="19" cont="亟" pos="d" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="尽" pos="v" ne="O" parent="13" relate="COO">
+                    <arg id="0" type="ADV" beg="19" end="19" />
+                </word>
+                <word id="21" cont="孰" pos="r" ne="O" parent="22" relate="SBV">
+                    <arg id="0" type="ADV" beg="19" end="19" />
+                    <arg id="1" type="A1" beg="23" end="23" />
+                </word>
+                <word id="22" cont="燔" pos="v" ne="O" parent="20" relate="COO" />
+                <word id="23" cont="其余" pos="r" ne="O" parent="22" relate="VOB">
+                    <arg id="0" type="ADV" beg="19" end="19" />
+                </word>
+                <word id="24" cont="……" pos="wp" ne="O" parent="10" relate="WP" />
+            </sent>
+            <sent id="3" cont="当燔弗燔，及吏主者，皆坐脯肉赃，与盗同法。”">
+                <word id="0" cont="当" pos="p" ne="O" parent="7" relate="ADV" />
+                <word id="1" cont="燔弗燔" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="2" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="3" cont="及" pos="c" ne="O" parent="4" relate="LAD" />
+                <word id="4" cont="吏主者" pos="n" ne="O" parent="7" relate="SBV" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="6" cont="皆" pos="d" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="坐" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="2" />
+                    <arg id="1" type="ADV" beg="6" end="6" />
+                    <arg id="2" type="A1" beg="8" end="9" />
+                </word>
+                <word id="8" cont="脯" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="肉赃" pos="n" ne="O" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="11" cont="与" pos="p" ne="O" parent="12" relate="LAD" />
+                <word id="12" cont="盗同法" pos="n" ne="O" parent="7" relate="COO" />
+                <word id="13" cont="。" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="14" cont="”" pos="wp" ne="O" parent="7" relate="WP" />
+            </sent>
+            <sent id="4" cont="即肉类因腐坏等因素可能导致中毒者，应尽快焚毁，否则将处罚当事人及相关官员。">
+                <word id="0" cont="即" pos="v" ne="O" parent="7" relate="ADV" />
+                <word id="1" cont="肉类" pos="n" ne="O" parent="7" relate="SBV" />
+                <word id="2" cont="因" pos="c" ne="O" parent="7" relate="ADV" />
+                <word id="3" cont="腐坏" pos="v" ne="O" parent="5" relate="ATT" />
+                <word id="4" cont="等" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="因素" pos="n" ne="O" parent="7" relate="SBV" />
+                <word id="6" cont="可能" pos="v" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="导致" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="1" end="1" />
+                    <arg id="1" type="A0" beg="3" end="5" />
+                    <arg id="2" type="A1" beg="8" end="8" />
+                </word>
+                <word id="8" cont="中毒者" pos="n" ne="O" parent="7" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="10" cont="应" pos="v" ne="O" parent="12" relate="ADV" />
+                <word id="11" cont="尽快" pos="d" ne="O" parent="12" relate="ADV" />
+                <word id="12" cont="焚毁" pos="v" ne="O" parent="7" relate="COO">
+                    <arg id="0" type="ADV" beg="11" end="11" />
+                </word>
+                <word id="13" cont="，" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="14" cont="否则" pos="c" ne="O" parent="16" relate="ADV" />
+                <word id="15" cont="将" pos="d" ne="O" parent="16" relate="ADV" />
+                <word id="16" cont="处罚" pos="v" ne="O" parent="7" relate="COO">
+                    <arg id="0" type="DIS" beg="14" end="14" />
+                    <arg id="1" type="ADV" beg="15" end="15" />
+                    <arg id="2" type="A1" beg="17" end="20" />
+                </word>
+                <word id="17" cont="当事人" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="18" cont="及" pos="c" ne="O" parent="20" relate="LAD" />
+                <word id="19" cont="相关" pos="v" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="官员" pos="n" ne="O" parent="17" relate="COO" />
+                <word id="21" cont="。" pos="wp" ne="O" parent="7" relate="WP" />
+            </sent>
+            <sent id="5" cont="唐朝《唐律》规定：“脯肉有毒，曾经病人，有余者速焚之，违者杖九十。">
+                <word id="0" cont="唐朝" pos="nt" ne="O" parent="3" relate="ATT" />
+                <word id="1" cont="《" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="2" cont="唐" pos="nt" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="律" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="4" cont="》" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="规定" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="4" />
+                    <arg id="1" type="A1" beg="7" end="19" />
+                </word>
+                <word id="6" cont="：" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="7" cont="“" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="8" cont="脯肉" pos="n" ne="O" parent="9" relate="SBV" />
+                <word id="9" cont="有毒" pos="v" ne="O" parent="5" relate="VOB">
+                    <arg id="0" type="A0" beg="8" end="8" />
+                </word>
+                <word id="10" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="11" cont="曾经" pos="d" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="病人" pos="n" ne="O" parent="9" relate="COO" />
+                <word id="13" cont="，" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="14" cont="有余者" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="速焚" pos="v" ne="O" parent="9" relate="COO" />
+                <word id="16" cont="之" pos="r" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="18" cont="违者" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="19" cont="杖九十" pos="v" ne="O" parent="9" relate="COO" />
+                <word id="20" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="6" cont="若故与人食并出卖，令人病者，徒一年；">
+                <word id="0" cont="若故" pos="c" ne="O" parent="4" relate="ADV" />
+                <word id="1" cont="与" pos="p" ne="O" parent="4" relate="ADV" />
+                <word id="2" cont="人食" pos="n" ne="O" parent="1" relate="POB" />
+                <word id="3" cont="并" pos="c" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="出卖" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="0" />
+                    <arg id="1" type="A0" beg="1" end="2" />
+                    <arg id="2" type="DIS" beg="3" end="3" />
+                </word>
+                <word id="5" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="6" cont="令人病者" pos="i" ne="O" parent="4" relate="COO" />
+                <word id="7" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="8" cont="徒" pos="d" ne="O" parent="10" relate="ATT" />
+                <word id="9" cont="一" pos="m" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="年" pos="q" ne="O" parent="4" relate="COO" />
+                <word id="11" cont="；" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+            <sent id="7" cont="以故致死者，绞。">
+                <word id="0" cont="以" pos="p" ne="O" parent="4" relate="ADV" />
+                <word id="1" cont="故致" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="死者" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="4" cont="绞" pos="i" ne="O" parent="-1" relate="HED" />
+                <word id="5" cont="。" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+            <sent id="8" cont="即人自食致死者，从过失杀人法。”">
+                <word id="0" cont="即" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="1" cont="人" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="2" cont="自" pos="d" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="食" pos="v" ne="O" parent="0" relate="VOB" />
+                <word id="4" cont="致" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="1" end="1" />
+                    <arg id="1" type="A1" beg="5" end="5" />
+                </word>
+                <word id="5" cont="死者" pos="n" ne="O" parent="4" relate="VOB" />
+                <word id="6" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="7" cont="从" pos="p" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A1" beg="8" end="9" />
+                </word>
+                <word id="8" cont="过失" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="杀人法" pos="n" ne="O" parent="7" relate="POB" />
+                <word id="10" cont="。" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="11" cont="”" pos="wp" ne="O" parent="0" relate="WP" />
+            </sent>
+            <sent id="9" cont="从《唐律》中可以看到，在唐代，知脯肉有毒不速焚而构成的刑事犯罪分为两种情况，处罚各不相同：一是得知脯肉有毒时，食品的所有者应当立刻焚毁所剩有毒食品，以绝后患，否则杖九十；">
+                <word id="0" cont="从" pos="p" ne="O" parent="6" relate="ADV" />
+                <word id="1" cont="《" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="2" cont="唐律" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="3" cont="》" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="中" pos="nd" ne="O" parent="0" relate="POB" />
+                <word id="5" cont="可以" pos="v" ne="O" parent="6" relate="ADV" />
+                <word id="6" cont="看到" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="DIR" beg="0" end="4" />
+                    <arg id="1" type="A1" beg="20" end="22" />
+                </word>
+                <word id="7" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="8" cont="在" pos="p" ne="O" parent="19" relate="ADV" />
+                <word id="9" cont="唐代" pos="nt" ne="O" parent="8" relate="POB" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="11" cont="知脯肉" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="有毒" pos="v" ne="O" parent="18" relate="ATT">
+                    <arg id="0" type="A0" beg="11" end="11" />
+                </word>
+                <word id="13" cont="不" pos="d" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="速焚" pos="v" ne="O" parent="12" relate="COO" />
+                <word id="15" cont="而" pos="c" ne="O" parent="16" relate="ADV" />
+                <word id="16" cont="构成" pos="v" ne="O" parent="12" relate="COO" />
+                <word id="17" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="18" cont="刑事犯罪" pos="i" ne="O" parent="19" relate="SBV" />
+                <word id="19" cont="分为" pos="v" ne="O" parent="6" relate="VOB">
+                    <arg id="0" type="A1" beg="11" end="18" />
+                    <arg id="1" type="A2" beg="20" end="22" />
+                </word>
+                <word id="20" cont="两" pos="m" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="种" pos="q" ne="O" parent="22" relate="ATT" />
+                <word id="22" cont="情况" pos="n" ne="O" parent="19" relate="VOB" />
+                <word id="23" cont="，" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="24" cont="处罚" pos="v" ne="O" parent="27" relate="SBV" />
+                <word id="25" cont="各" pos="r" ne="O" parent="27" relate="ADV" />
+                <word id="26" cont="不" pos="d" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="相同" pos="a" ne="O" parent="19" relate="COO">
+                    <arg id="0" type="A0" beg="24" end="24" />
+                    <arg id="1" type="ADV" beg="26" end="26" />
+                </word>
+                <word id="28" cont="：" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="29" cont="一" pos="m" ne="O" parent="30" relate="SBV" />
+                <word id="30" cont="是" pos="v" ne="O" parent="27" relate="COO">
+                    <arg id="0" type="A0" beg="29" end="29" />
+                </word>
+                <word id="31" cont="得知" pos="v" ne="O" parent="34" relate="ATT">
+                    <arg id="0" type="A1" beg="32" end="33" />
+                </word>
+                <word id="32" cont="脯肉" pos="n" ne="O" parent="33" relate="SBV" />
+                <word id="33" cont="有毒" pos="v" ne="O" parent="31" relate="VOB">
+                    <arg id="0" type="A0" beg="32" end="32" />
+                </word>
+                <word id="34" cont="时" pos="n" ne="O" parent="41" relate="ADV" />
+                <word id="35" cont="，" pos="wp" ne="O" parent="34" relate="WP" />
+                <word id="36" cont="食品" pos="n" ne="O" parent="38" relate="ATT" />
+                <word id="37" cont="的" pos="u" ne="O" parent="36" relate="RAD" />
+                <word id="38" cont="所有者" pos="n" ne="O" parent="41" relate="SBV" />
+                <word id="39" cont="应当" pos="v" ne="O" parent="41" relate="ADV" />
+                <word id="40" cont="立刻" pos="d" ne="O" parent="41" relate="ADV" />
+                <word id="41" cont="焚毁" pos="v" ne="O" parent="30" relate="VOB">
+                    <arg id="0" type="TMP" beg="31" end="35" />
+                    <arg id="1" type="A1" beg="36" end="38" />
+                    <arg id="2" type="ADV" beg="40" end="40" />
+                </word>
+                <word id="42" cont="所" pos="u" ne="O" parent="43" relate="LAD" />
+                <word id="43" cont="剩" pos="v" ne="O" parent="41" relate="COO">
+                    <arg id="0" type="A1" beg="44" end="45" />
+                </word>
+                <word id="44" cont="有毒" pos="v" ne="O" parent="45" relate="ATT" />
+                <word id="45" cont="食品" pos="n" ne="O" parent="43" relate="VOB" />
+                <word id="46" cont="，" pos="wp" ne="O" parent="43" relate="WP" />
+                <word id="47" cont="以" pos="p" ne="O" parent="49" relate="ADV" />
+                <word id="48" cont="绝后" pos="d" ne="O" parent="49" relate="ADV">
+                    <arg id="0" type="A0" beg="36" end="38" />
+                </word>
+                <word id="49" cont="患" pos="v" ne="O" parent="41" relate="COO" />
+                <word id="50" cont="，" pos="wp" ne="O" parent="49" relate="WP" />
+                <word id="51" cont="否则" pos="c" ne="O" parent="52" relate="ADV" />
+                <word id="52" cont="杖" pos="v" ne="O" parent="49" relate="COO" />
+                <word id="53" cont="九十" pos="m" ne="O" parent="52" relate="VOB" />
+                <word id="54" cont="；" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="10" cont="二是明知脯肉有毒而不立刻焚毁，致人中毒，则视情节及后果以科罚。">
+                <word id="0" cont="二" pos="m" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                </word>
+                <word id="2" cont="明知" pos="v" ne="O" parent="1" relate="VOB">
+                    <arg id="0" type="A1" beg="3" end="8" />
+                </word>
+                <word id="3" cont="脯肉" pos="n" ne="O" parent="4" relate="SBV" />
+                <word id="4" cont="有毒" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                </word>
+                <word id="5" cont="而" pos="c" ne="O" parent="8" relate="ADV" />
+                <word id="6" cont="不" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="7" cont="立刻" pos="d" ne="O" parent="8" relate="ADV" />
+                <word id="8" cont="焚毁" pos="v" ne="O" parent="4" relate="COO">
+                    <arg id="0" type="ADV" beg="6" end="6" />
+                    <arg id="1" type="ADV" beg="7" end="7" />
+                </word>
+                <word id="9" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="10" cont="致" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A1" beg="11" end="11" />
+                    <arg id="1" type="A1" beg="12" end="12" />
+                </word>
+                <word id="11" cont="人" pos="n" ne="O" parent="10" relate="DBL" />
+                <word id="12" cont="中毒" pos="v" ne="O" parent="10" relate="VOB">
+                    <arg id="0" type="A0" beg="11" end="11" />
+                </word>
+                <word id="13" cont="，" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="14" cont="则" pos="c" ne="O" parent="15" relate="ADV" />
+                <word id="15" cont="视" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="DIS" beg="14" end="14" />
+                    <arg id="1" type="A1" beg="16" end="18" />
+                </word>
+                <word id="16" cont="情节" pos="n" ne="O" parent="15" relate="VOB" />
+                <word id="17" cont="及" pos="c" ne="O" parent="18" relate="LAD" />
+                <word id="18" cont="后果" pos="n" ne="O" parent="16" relate="COO" />
+                <word id="19" cont="以" pos="c" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="科罚" pos="v" ne="O" parent="15" relate="COO" />
+                <word id="21" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="宋代，饮食市场空前繁荣。">
+                <word id="0" cont="宋代" pos="nt" ne="O" parent="5" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="饮食" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="市场" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="4" cont="空前" pos="a" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="繁荣" pos="a" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="2" end="3" />
+                    <arg id="2" type="ADV" beg="4" end="4" />
+                </word>
+                <word id="6" cont="。" pos="wp" ne="O" parent="5" relate="WP" />
+            </sent>
+            <sent id="1" cont="孟元老在《东京梦华录》中，追述了北宋都城开封府的城市风貌，并且以大量笔墨写到饮食业的昌盛，书中共提到一百多家店铺以及相关行会。">
+                <word id="0" cont="孟元老" pos="nh" ne="S-Nh" parent="8" relate="SBV" />
+                <word id="1" cont="在" pos="p" ne="O" parent="8" relate="ADV" />
+                <word id="2" cont="《" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="3" cont="东京" pos="ns" ne="S-Ns" parent="4" relate="ATT" />
+                <word id="4" cont="梦华录" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="5" cont="》" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="6" cont="中" pos="nd" ne="O" parent="1" relate="POB" />
+                <word id="7" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="8" cont="追述" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="LOC" beg="1" end="7" />
+                    <arg id="2" type="A1" beg="10" end="15" />
+                </word>
+                <word id="9" cont="了" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="北宋" pos="nt" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="都城" pos="ns" ne="B-Ns" parent="12" relate="ATT" />
+                <word id="12" cont="开封府" pos="ns" ne="E-Ns" parent="15" relate="ATT" />
+                <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="城市" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="风貌" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="17" cont="并且" pos="c" ne="O" parent="21" relate="ADV" />
+                <word id="18" cont="以" pos="p" ne="O" parent="21" relate="ADV" />
+                <word id="19" cont="大量" pos="m" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="笔墨" pos="n" ne="O" parent="18" relate="POB" />
+                <word id="21" cont="写" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="MNR" beg="18" end="20" />
+                    <arg id="2" type="A1" beg="23" end="25" />
+                </word>
+                <word id="22" cont="到" pos="v" ne="O" parent="21" relate="CMP" />
+                <word id="23" cont="饮食业" pos="n" ne="O" parent="25" relate="ATT" />
+                <word id="24" cont="的" pos="u" ne="O" parent="23" relate="RAD" />
+                <word id="25" cont="昌盛" pos="a" ne="O" parent="21" relate="VOB" />
+                <word id="26" cont="，" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="27" cont="书" pos="n" ne="O" parent="28" relate="ATT" />
+                <word id="28" cont="中" pos="nd" ne="O" parent="30" relate="ADV" />
+                <word id="29" cont="共" pos="d" ne="O" parent="30" relate="ADV" />
+                <word id="30" cont="提到" pos="v" ne="O" parent="21" relate="COO">
+                    <arg id="0" type="A0" beg="27" end="28" />
+                    <arg id="1" type="ADV" beg="29" end="29" />
+                    <arg id="2" type="A1" beg="31" end="37" />
+                </word>
+                <word id="31" cont="一百" pos="m" ne="O" parent="33" relate="ATT" />
+                <word id="32" cont="多" pos="m" ne="O" parent="31" relate="RAD" />
+                <word id="33" cont="家" pos="q" ne="O" parent="34" relate="ATT" />
+                <word id="34" cont="店铺" pos="n" ne="O" parent="30" relate="VOB" />
+                <word id="35" cont="以及" pos="c" ne="O" parent="37" relate="LAD" />
+                <word id="36" cont="相关" pos="v" ne="O" parent="37" relate="ATT" />
+                <word id="37" cont="行会" pos="n" ne="O" parent="34" relate="COO" />
+                <word id="38" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="2" cont="商品市场的繁荣，不可避免地带来一些问题，一些商贩“以物市于人，敝恶之物，饰为新奇；">
+                <word id="0" cont="商品" pos="n" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="市场" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="2" cont="的" pos="u" ne="O" parent="1" relate="RAD" />
+                <word id="3" cont="繁荣" pos="a" ne="O" parent="-1" relate="HED" />
+                <word id="4" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="5" cont="不可避免" pos="i" ne="O" parent="7" relate="ADV" />
+                <word id="6" cont="地" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="带来" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="ADV" beg="6" end="6" />
+                    <arg id="1" type="A1" beg="8" end="9" />
+                </word>
+                <word id="8" cont="一些" pos="m" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="问题" pos="n" ne="O" parent="7" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="11" cont="一些" pos="m" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="商贩" pos="n" ne="O" parent="7" relate="COO" />
+                <word id="13" cont="“" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="14" cont="以物市" pos="ns" ne="S-Ns" parent="20" relate="SBV" />
+                <word id="15" cont="于" pos="p" ne="O" parent="20" relate="ADV">
+                    <arg id="0" type="A1" beg="16" end="16" />
+                </word>
+                <word id="16" cont="人" pos="n" ne="O" parent="15" relate="POB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="18" cont="敝恶" pos="a" ne="O" parent="20" relate="ATT" />
+                <word id="19" cont="之" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="物" pos="n" ne="O" parent="12" relate="COO" />
+                <word id="21" cont="，" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="22" cont="饰" pos="v" ne="O" parent="20" relate="COO" />
+                <word id="23" cont="为" pos="v" ne="O" parent="22" relate="CMP" />
+                <word id="24" cont="新奇" pos="a" ne="O" parent="23" relate="VOB" />
+                <word id="25" cont="；" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="3" cont="假伪之物，饰为真实。">
+                <word id="0" cont="假伪" pos="a" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="之" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="物" pos="n" ne="O" parent="4" relate="SBV" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="饰" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="5" cont="为" pos="v" ne="O" parent="4" relate="CMP">
+                    <arg id="0" type="A1" beg="6" end="6" />
+                </word>
+                <word id="6" cont="真实" pos="a" ne="O" parent="5" relate="VOB" />
+                <word id="7" cont="。" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+            <sent id="4" cont="如绢帛之用胶糊，米麦之增温润，肉食之灌以水，药材之易以他物”（《袁氏世范》）。">
+                <word id="0" cont="如" pos="v" ne="O" parent="8" relate="ADV" />
+                <word id="1" cont="绢帛" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="2" cont="之" pos="u" ne="O" parent="1" relate="RAD" />
+                <word id="3" cont="用" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="胶糊" pos="n" ne="O" parent="0" relate="POB" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="6" cont="米麦" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="7" cont="之" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="增" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="9" cont="温润" pos="a" ne="O" parent="8" relate="VOB" />
+                <word id="10" cont="，" pos="wp" ne="O" parent="8" relate="WP" />
+                <word id="11" cont="肉食" pos="n" ne="O" parent="13" relate="ATT" />
+                <word id="12" cont="之" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="灌" pos="n" ne="O" parent="8" relate="COO" />
+                <word id="14" cont="以" pos="p" ne="O" parent="13" relate="CMP" />
+                <word id="15" cont="水" pos="n" ne="O" parent="14" relate="POB" />
+                <word id="16" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="17" cont="药材" pos="n" ne="O" parent="13" relate="COO" />
+                <word id="18" cont="之" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="19" cont="易" pos="a" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="以" pos="p" ne="O" parent="17" relate="COO" />
+                <word id="21" cont="他" pos="r" ne="O" parent="22" relate="ATT" />
+                <word id="22" cont="物" pos="n" ne="O" parent="20" relate="POB" />
+                <word id="23" cont="”" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="24" cont="（" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="25" cont="《" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="26" cont="袁氏" pos="nh" ne="S-Nh" parent="27" relate="ATT" />
+                <word id="27" cont="世范" pos="n" ne="O" parent="13" relate="COO" />
+                <word id="28" cont="》" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="29" cont="）" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="30" cont="。" pos="wp" ne="O" parent="8" relate="WP" />
+            </sent>
+            <sent id="5" cont="有的不法分子甚至采用鸡塞沙，鹅羊吹气、卖盐杂以灰之类伎俩谋取利润。">
+                <word id="0" cont="有的" pos="r" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="不法分子" pos="n" ne="O" parent="3" relate="SBV" />
+                <word id="2" cont="甚至" pos="d" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="采用" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="ADV" beg="2" end="2" />
+                    <arg id="2" type="A1" beg="4" end="4" />
+                </word>
+                <word id="4" cont="鸡塞沙" pos="n" ne="O" parent="3" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="6" cont="鹅" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="羊" pos="n" ne="O" parent="8" relate="SBV" />
+                <word id="8" cont="吹" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="6" end="7" />
+                    <arg id="1" type="A1" beg="9" end="9" />
+                </word>
+                <word id="9" cont="气" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="10" cont="、" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="11" cont="卖" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="A1" beg="12" end="12" />
+                </word>
+                <word id="12" cont="盐杂" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="13" cont="以" pos="p" ne="O" parent="16" relate="ADV" />
+                <word id="14" cont="灰之类" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="伎俩" pos="n" ne="O" parent="13" relate="POB" />
+                <word id="16" cont="谋取" pos="v" ne="O" parent="8" relate="COO">
+                    <arg id="0" type="MNR" beg="13" end="15" />
+                    <arg id="1" type="A1" beg="17" end="17" />
+                </word>
+                <word id="17" cont="利润" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="18" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="6" cont="为了加强对食品掺假，以次充好现象的监督和管理，宋代规定从业者必须加入行会，而行会必须对商品质量负责。">
+                <word id="0" cont="为了" pos="p" ne="O" parent="9" relate="ADV" />
+                <word id="1" cont="加强" pos="v" ne="O" parent="0" relate="POB">
+                    <arg id="0" type="A1" beg="2" end="4" />
+                </word>
+                <word id="2" cont="对" pos="p" ne="O" parent="4" relate="ADV" />
+                <word id="3" cont="食品" pos="n" ne="O" parent="2" relate="POB" />
+                <word id="4" cont="掺假" pos="v" ne="O" parent="1" relate="VOB" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="6" cont="以次充好" pos="i" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="现象" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="8" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="监督" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="10" cont="和" pos="c" ne="O" parent="11" relate="LAD" />
+                <word id="11" cont="管理" pos="v" ne="O" parent="9" relate="COO" />
+                <word id="12" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="13" cont="宋代" pos="nt" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="规定" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="PRP" beg="0" end="5" />
+                    <arg id="1" type="A1" beg="15" end="18" />
+                </word>
+                <word id="15" cont="从业者" pos="n" ne="O" parent="17" relate="SBV" />
+                <word id="16" cont="必须" pos="d" ne="O" parent="17" relate="ADV" />
+                <word id="17" cont="加入" pos="v" ne="O" parent="14" relate="VOB">
+                    <arg id="0" type="A0" beg="15" end="15" />
+                    <arg id="1" type="A1" beg="18" end="18" />
+                </word>
+                <word id="18" cont="行会" pos="n" ne="O" parent="17" relate="VOB" />
+                <word id="19" cont="，" pos="wp" ne="O" parent="14" relate="WP" />
+                <word id="20" cont="而" pos="c" ne="O" parent="26" relate="ADV" />
+                <word id="21" cont="行会" pos="n" ne="O" parent="26" relate="SBV" />
+                <word id="22" cont="必须" pos="d" ne="O" parent="26" relate="ADV" />
+                <word id="23" cont="对" pos="p" ne="O" parent="26" relate="ADV" />
+                <word id="24" cont="商品" pos="n" ne="O" parent="25" relate="ATT" />
+                <word id="25" cont="质量" pos="n" ne="O" parent="23" relate="POB" />
+                <word id="26" cont="负责" pos="v" ne="O" parent="14" relate="COO">
+                    <arg id="0" type="DIS" beg="20" end="20" />
+                    <arg id="1" type="A0" beg="21" end="21" />
+                    <arg id="2" type="A1" beg="23" end="25" />
+                </word>
+                <word id="27" cont="。" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+            <sent id="7" cont="“市肆谓之行者，因官府料索而得此名，不以其物小大，但合充用者，皆置为行，虽医卜亦有职。”">
+                <word id="0" cont="“" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="1" cont="市" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="2" cont="肆谓" pos="v" ne="O" parent="4" relate="ATT" />
+                <word id="3" cont="之" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="行" pos="n" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="者" pos="k" ne="O" parent="11" relate="SBV" />
+                <word id="6" cont="，" pos="wp" ne="O" parent="5" relate="WP" />
+                <word id="7" cont="因" pos="p" ne="O" parent="11" relate="ADV" />
+                <word id="8" cont="官府" pos="n" ne="O" parent="9" relate="SBV" />
+                <word id="9" cont="料索" pos="v" ne="O" parent="7" relate="POB" />
+                <word id="10" cont="而" pos="c" ne="O" parent="11" relate="ADV" />
+                <word id="11" cont="得" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="PRP" beg="7" end="9" />
+                    <arg id="1" type="A1" beg="12" end="12" />
+                </word>
+                <word id="12" cont="此名" pos="r" ne="O" parent="11" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="14" cont="不" pos="d" ne="O" parent="19" relate="ADV" />
+                <word id="15" cont="以" pos="p" ne="O" parent="19" relate="ADV" />
+                <word id="16" cont="其" pos="r" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="物" pos="n" ne="O" parent="15" relate="POB" />
+                <word id="18" cont="小" pos="a" ne="O" parent="19" relate="ATT">
+                    <arg id="0" type="A0" beg="0" end="6" />
+                </word>
+                <word id="19" cont="大" pos="a" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="ADV" beg="14" end="14" />
+                    <arg id="1" type="MNR" beg="15" end="17" />
+                </word>
+                <word id="20" cont="，" pos="wp" ne="O" parent="19" relate="WP" />
+                <word id="21" cont="但" pos="c" ne="O" parent="25" relate="ADV" />
+                <word id="22" cont="合充用者" pos="n" ne="O" parent="25" relate="SBV" />
+                <word id="23" cont="，" pos="wp" ne="O" parent="22" relate="WP" />
+                <word id="24" cont="皆" pos="d" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="置" pos="v" ne="O" parent="19" relate="COO" />
+                <word id="26" cont="为" pos="v" ne="O" parent="25" relate="CMP" />
+                <word id="27" cont="行" pos="n" ne="O" parent="26" relate="VOB" />
+                <word id="28" cont="，" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="29" cont="虽" pos="c" ne="O" parent="32" relate="ADV" />
+                <word id="30" cont="医卜" pos="n" ne="O" parent="32" relate="SBV" />
+                <word id="31" cont="亦" pos="d" ne="O" parent="32" relate="ADV" />
+                <word id="32" cont="有" pos="v" ne="O" parent="25" relate="COO">
+                    <arg id="0" type="DIS" beg="29" end="29" />
+                    <arg id="1" type="A0" beg="30" end="30" />
+                    <arg id="2" type="ADV" beg="31" end="31" />
+                    <arg id="3" type="A1" beg="33" end="33" />
+                </word>
+                <word id="33" cont="职" pos="n" ne="O" parent="32" relate="VOB" />
+                <word id="34" cont="。" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="35" cont="”" pos="wp" ne="O" parent="11" relate="WP" />
+            </sent>
+            <sent id="8" cont="（《都城纪胜》商人们依经营类型组成行会、商铺，手工业和其他服务性行业的相关人员必须加入行会组织，并按行业登记在籍，否则就不能从业经营。">
+                <word id="0" cont="（" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="1" cont="《" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="2" cont="都" pos="d" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="城" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="纪胜" pos="v" ne="O" parent="6" relate="ATT" />
+                <word id="5" cont="》" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="6" cont="商人" pos="n" ne="O" parent="11" relate="SBV" />
+                <word id="7" cont="们" pos="k" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="依" pos="p" ne="O" parent="11" relate="ADV" />
+                <word id="9" cont="经营" pos="v" ne="O" parent="10" relate="ATT" />
+                <word id="10" cont="类型" pos="n" ne="O" parent="8" relate="POB" />
+                <word id="11" cont="组成" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="7" />
+                    <arg id="1" type="MNR" beg="8" end="10" />
+                </word>
+                <word id="12" cont="行会" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="13" cont="、" pos="wp" ne="O" parent="14" relate="WP" />
+                <word id="14" cont="商铺" pos="n" ne="O" parent="12" relate="COO" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="16" cont="手工业" pos="n" ne="O" parent="23" relate="ATT" />
+                <word id="17" cont="和" pos="c" ne="O" parent="20" relate="LAD" />
+                <word id="18" cont="其他" pos="r" ne="O" parent="20" relate="ATT" />
+                <word id="19" cont="服务性" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="行业" pos="n" ne="O" parent="16" relate="COO" />
+                <word id="21" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="22" cont="相关" pos="v" ne="O" parent="23" relate="ATT" />
+                <word id="23" cont="人员" pos="n" ne="O" parent="25" relate="SBV" />
+                <word id="24" cont="必须" pos="d" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="加入" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="A0" beg="16" end="23" />
+                    <arg id="1" type="A1" beg="26" end="27" />
+                </word>
+                <word id="26" cont="行会" pos="n" ne="O" parent="27" relate="ATT" />
+                <word id="27" cont="组织" pos="n" ne="O" parent="25" relate="VOB" />
+                <word id="28" cont="，" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="29" cont="并" pos="c" ne="O" parent="33" relate="ADV" />
+                <word id="30" cont="按" pos="p" ne="O" parent="33" relate="ADV" />
+                <word id="31" cont="行业" pos="n" ne="O" parent="30" relate="POB" />
+                <word id="32" cont="登记" pos="v" ne="O" parent="33" relate="ATT">
+                    <arg id="0" type="A0" beg="0" end="7" />
+                    <arg id="1" type="MNR" beg="30" end="31" />
+                </word>
+                <word id="33" cont="在籍" pos="v" ne="O" parent="25" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="7" />
+                    <arg id="1" type="MNR" beg="30" end="31" />
+                </word>
+                <word id="34" cont="，" pos="wp" ne="O" parent="25" relate="WP" />
+                <word id="35" cont="否则" pos="c" ne="O" parent="39" relate="ADV" />
+                <word id="36" cont="就" pos="d" ne="O" parent="39" relate="ADV" />
+                <word id="37" cont="不能" pos="v" ne="O" parent="39" relate="ADV" />
+                <word id="38" cont="从业" pos="b" ne="O" parent="39" relate="ADV" />
+                <word id="39" cont="经营" pos="v" ne="O" parent="25" relate="COO">
+                    <arg id="0" type="DIS" beg="35" end="35" />
+                    <arg id="1" type="DIS" beg="36" end="36" />
+                    <arg id="2" type="ADV" beg="37" end="37" />
+                    <arg id="3" type="ADV" beg="38" end="38" />
+                </word>
+                <word id="40" cont="。" pos="wp" ne="O" parent="11" relate="WP" />
+            </sent>
+            <sent id="9" cont="各个行会对生产经营的商品质量进行把关，行会的首领作为拉保人，负责评定物价和监察不法行为。">
+                <word id="0" cont="各个" pos="r" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="行" pos="v" ne="O" parent="9" relate="SBV">
+                    <arg id="0" type="ADV" beg="0" end="0" />
+                </word>
+                <word id="2" cont="会" pos="v" ne="O" parent="9" relate="ADV" />
+                <word id="3" cont="对" pos="p" ne="O" parent="9" relate="ADV" />
+                <word id="4" cont="生产" pos="v" ne="O" parent="8" relate="ATT" />
+                <word id="5" cont="经营" pos="v" ne="O" parent="4" relate="COO" />
+                <word id="6" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="7" cont="商品" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="质量" pos="n" ne="O" parent="3" relate="POB" />
+                <word id="9" cont="进行" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="10" end="10" />
+                </word>
+                <word id="10" cont="把关" pos="v" ne="O" parent="9" relate="VOB" />
+                <word id="11" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="12" cont="行会" pos="n" ne="O" parent="14" relate="ATT" />
+                <word id="13" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="14" cont="首领" pos="n" ne="O" parent="15" relate="SBV" />
+                <word id="15" cont="作为" pos="v" ne="O" parent="9" relate="COO" />
+                <word id="16" cont="拉保人" pos="n" ne="O" parent="15" relate="VOB" />
+                <word id="17" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="18" cont="负责" pos="v" ne="O" parent="15" relate="COO">
+                    <arg id="0" type="A0" beg="12" end="14" />
+                    <arg id="1" type="A1" beg="19" end="24" />
+                </word>
+                <word id="19" cont="评定" pos="v" ne="O" parent="18" relate="VOB" />
+                <word id="20" cont="物价" pos="n" ne="O" parent="19" relate="VOB" />
+                <word id="21" cont="和" pos="c" ne="O" parent="24" relate="LAD" />
+                <word id="22" cont="监察" pos="v" ne="O" parent="24" relate="ATT" />
+                <word id="23" cont="不法" pos="b" ne="O" parent="24" relate="ATT" />
+                <word id="24" cont="行为" pos="n" ne="O" parent="20" relate="COO" />
+                <word id="25" cont="。" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+            <sent id="10" cont="除了由行会把关外，宋代法律也继承了《唐律》的规定，对有毒有害食品的销售者予以严惩。">
+                <word id="0" cont="除了" pos="p" ne="O" parent="9" relate="ADV" />
+                <word id="1" cont="由" pos="p" ne="O" parent="3" relate="ADV" />
+                <word id="2" cont="行会" pos="n" ne="O" parent="1" relate="POB" />
+                <word id="3" cont="把关" pos="v" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="外" pos="nd" ne="O" parent="0" relate="POB" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="6" cont="宋代" pos="nt" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="法律" pos="n" ne="O" parent="9" relate="SBV" />
+                <word id="8" cont="也" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="继承" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="0" end="5" />
+                    <arg id="1" type="A0" beg="6" end="7" />
+                    <arg id="2" type="ADV" beg="8" end="8" />
+                    <arg id="3" type="A1" beg="11" end="15" />
+                </word>
+                <word id="10" cont="了" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="11" cont="《" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="12" cont="唐律" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="13" cont="》" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="14" cont="的" pos="u" ne="O" parent="12" relate="RAD" />
+                <word id="15" cont="规定" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="16" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="17" cont="对" pos="p" ne="O" parent="22" relate="ATT" />
+                <word id="18" cont="有毒" pos="v" ne="O" parent="20" relate="ATT" />
+                <word id="19" cont="有害" pos="a" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="食品" pos="n" ne="O" parent="17" relate="POB" />
+                <word id="21" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="22" cont="销售者" pos="n" ne="O" parent="24" relate="SBV" />
+                <word id="23" cont="予以" pos="v" ne="O" parent="24" relate="ADV">
+                    <arg id="0" type="ADV" beg="0" end="5" />
+                    <arg id="1" type="A0" beg="6" end="7" />
+                </word>
+                <word id="24" cont="严惩" pos="v" ne="O" parent="9" relate="COO" />
+                <word id="25" cont="。" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="上述朝代对食品流通的安全管理及有关法律举措，可以给我们很多启示，也可以为现今我国食品质量和安全监管模式的合理构建提供新的思路和路径选择。">
+                <word id="0" cont="上述" pos="b" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="朝代" pos="n" ne="O" parent="14" relate="SBV" />
+                <word id="2" cont="对" pos="p" ne="O" parent="14" relate="ADV" />
+                <word id="3" cont="食品" pos="n" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="流通" pos="v" ne="O" parent="7" relate="ATT">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                </word>
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="安全" pos="a" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="管理" pos="v" ne="O" parent="2" relate="POB" />
+                <word id="8" cont="及" pos="c" ne="O" parent="11" relate="LAD" />
+                <word id="9" cont="有关" pos="v" ne="O" parent="11" relate="ATT" />
+                <word id="10" cont="法律" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="举措" pos="n" ne="O" parent="7" relate="COO" />
+                <word id="12" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="13" cont="可以" pos="v" ne="O" parent="14" relate="ADV" />
+                <word id="14" cont="给" pos="p" ne="O" parent="-1" relate="HED" />
+                <word id="15" cont="我们" pos="r" ne="O" parent="14" relate="IOB" />
+                <word id="16" cont="很多" pos="m" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="启示" pos="v" ne="O" parent="14" relate="VOB">
+                    <arg id="0" type="A1" beg="2" end="12" />
+                </word>
+                <word id="18" cont="，" pos="wp" ne="O" parent="14" relate="WP" />
+                <word id="19" cont="也" pos="d" ne="O" parent="20" relate="ADV" />
+                <word id="20" cont="可以" pos="v" ne="O" parent="21" relate="ADV" />
+                <word id="21" cont="为" pos="p" ne="O" parent="14" relate="COO">
+                    <arg id="0" type="ADV" beg="19" end="19" />
+                </word>
+                <word id="22" cont="现今" pos="nt" ne="O" parent="32" relate="ADV" />
+                <word id="23" cont="我国" pos="n" ne="O" parent="24" relate="ATT" />
+                <word id="24" cont="食品" pos="n" ne="O" parent="25" relate="ATT" />
+                <word id="25" cont="质量" pos="n" ne="O" parent="32" relate="SBV" />
+                <word id="26" cont="和" pos="c" ne="O" parent="29" relate="LAD" />
+                <word id="27" cont="安全" pos="a" ne="O" parent="28" relate="ADV" />
+                <word id="28" cont="监管" pos="v" ne="O" parent="29" relate="ATT" />
+                <word id="29" cont="模式" pos="n" ne="O" parent="25" relate="COO" />
+                <word id="30" cont="的" pos="u" ne="O" parent="25" relate="RAD" />
+                <word id="31" cont="合理" pos="a" ne="O" parent="32" relate="ADV" />
+                <word id="32" cont="构建" pos="v" ne="O" parent="21" relate="POB" />
+                <word id="33" cont="提供" pos="v" ne="O" parent="32" relate="VOB">
+                    <arg id="0" type="ADV" beg="19" end="19" />
+                    <arg id="1" type="A1" beg="34" end="38" />
+                    <arg id="2" type="A1" beg="39" end="39" />
+                </word>
+                <word id="34" cont="新" pos="a" ne="O" parent="36" relate="ATT" />
+                <word id="35" cont="的" pos="u" ne="O" parent="34" relate="RAD" />
+                <word id="36" cont="思路" pos="n" ne="O" parent="33" relate="VOB" />
+                <word id="37" cont="和" pos="c" ne="O" parent="38" relate="LAD" />
+                <word id="38" cont="路径" pos="n" ne="O" parent="36" relate="COO" />
+                <word id="39" cont="选择" pos="v" ne="O" parent="33" relate="VOB" />
+                <word id="40" cont="。" pos="wp" ne="O" parent="14" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>

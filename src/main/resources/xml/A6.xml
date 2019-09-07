@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml4nlp>
+    <note sent="y" word="y" pos="y" ne="y" parser="y" wsd="n" srl="y" />
+    <doc>
+        <para id="0">
+            <sent id="0" cont="殷墟甲骨文是商代晚期刻在龟甲兽骨上的文字，是商王室及其他贵族利用龟甲兽骨占卜吉凶时写刻的卜辞和与占卜有关的记事文字。">
+                <word id="0" cont="殷墟" pos="n" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="甲骨文" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="2" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="3" end="11" />
+                </word>
+                <word id="3" cont="商代" pos="nt" ne="O" parent="5" relate="ADV" />
+                <word id="4" cont="晚期" pos="nt" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="刻" pos="v" ne="O" parent="11" relate="ATT">
+                    <arg id="0" type="TMP" beg="4" end="4" />
+                    <arg id="1" type="A2" beg="6" end="9" />
+                </word>
+                <word id="6" cont="在" pos="p" ne="O" parent="5" relate="CMP" />
+                <word id="7" cont="龟甲" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="兽骨" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="9" cont="上" pos="nd" ne="O" parent="6" relate="POB" />
+                <word id="10" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="11" cont="文字" pos="n" ne="O" parent="2" relate="VOB" />
+                <word id="12" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="13" cont="是" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A0" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="14" end="34" />
+                </word>
+                <word id="14" cont="商" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="王室" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="16" cont="及" pos="c" ne="O" parent="18" relate="LAD" />
+                <word id="17" cont="其他" pos="r" ne="O" parent="18" relate="ATT" />
+                <word id="18" cont="贵族" pos="n" ne="O" parent="15" relate="COO" />
+                <word id="19" cont="利用" pos="v" ne="O" parent="24" relate="ATT">
+                    <arg id="0" type="A0" beg="14" end="18" />
+                    <arg id="1" type="A1" beg="20" end="21" />
+                </word>
+                <word id="20" cont="龟甲" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="兽骨" pos="n" ne="O" parent="19" relate="VOB" />
+                <word id="22" cont="占卜" pos="v" ne="O" parent="24" relate="ATT" />
+                <word id="23" cont="吉凶" pos="a" ne="O" parent="22" relate="CMP" />
+                <word id="24" cont="时" pos="n" ne="O" parent="25" relate="ADV" />
+                <word id="25" cont="写刻" pos="v" ne="O" parent="27" relate="ATT" />
+                <word id="26" cont="的" pos="u" ne="O" parent="25" relate="RAD" />
+                <word id="27" cont="卜辞" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="28" cont="和" pos="c" ne="O" parent="30" relate="LAD" />
+                <word id="29" cont="与" pos="p" ne="O" parent="30" relate="LAD" />
+                <word id="30" cont="占卜" pos="v" ne="O" parent="27" relate="COO" />
+                <word id="31" cont="有关" pos="v" ne="O" parent="34" relate="ATT" />
+                <word id="32" cont="的" pos="u" ne="O" parent="31" relate="RAD" />
+                <word id="33" cont="记事" pos="v" ne="O" parent="34" relate="ATT" />
+                <word id="34" cont="文字" pos="n" ne="O" parent="30" relate="VOB" />
+                <word id="35" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="1" cont="殷墟甲骨文的发现对中国学术界产生了巨大而深远的影响。">
+                <word id="0" cont="殷墟" pos="nh" ne="S-Nh" parent="1" relate="ATT" />
+                <word id="1" cont="甲骨文" pos="n" ne="O" parent="3" relate="ATT" />
+                <word id="2" cont="的" pos="u" ne="O" parent="1" relate="RAD" />
+                <word id="3" cont="发现" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="4" cont="对" pos="p" ne="O" parent="7" relate="ADV" />
+                <word id="5" cont="中国" pos="ns" ne="S-Ns" parent="6" relate="ATT" />
+                <word id="6" cont="学术界" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="7" cont="产生" pos="v" ne="O" parent="3" relate="VOB">
+                    <arg id="0" type="A1" beg="9" end="13" />
+                </word>
+                <word id="8" cont="了" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="9" cont="巨大" pos="a" ne="O" parent="13" relate="ATT" />
+                <word id="10" cont="而" pos="c" ne="O" parent="11" relate="LAD" />
+                <word id="11" cont="深远" pos="a" ne="O" parent="9" relate="COO" />
+                <word id="12" cont="的" pos="u" ne="O" parent="9" relate="RAD" />
+                <word id="13" cont="影响" pos="v" ne="O" parent="7" relate="VOB" />
+                <word id="14" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+        </para>
+        <para id="1">
+            <sent id="0" cont="甲骨文的发现证实了商王朝的存在。">
+                <word id="0" cont="甲骨文" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="发现" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="3" cont="证实" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="A1" beg="5" end="8" />
+                </word>
+                <word id="4" cont="了" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="商" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="6" cont="王朝" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="7" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="8" cont="存在" pos="v" ne="O" parent="3" relate="VOB" />
+                <word id="9" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="1" cont="历史上，系统讲述商史的是司马迁的《史记·殷本纪》，但此书撰写的时代距商代较远，即使公认保留了较多商人语言的《尚书·盘庚》篇，其中亦多杂有西周时的词语，显然是被改造过的文章。">
+                <word id="0" cont="历史" pos="n" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="上" pos="nd" ne="O" parent="7" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="3" cont="系统" pos="n" ne="O" parent="4" relate="SBV" />
+                <word id="4" cont="讲述" pos="v" ne="O" parent="7" relate="SBV">
+                    <arg id="0" type="A0" beg="3" end="3" />
+                    <arg id="1" type="A1" beg="5" end="5" />
+                </word>
+                <word id="5" cont="商史" pos="n" ne="O" parent="4" relate="VOB" />
+                <word id="6" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="7" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="LOC" beg="0" end="2" />
+                    <arg id="1" type="A0" beg="6" end="6" />
+                </word>
+                <word id="8" cont="司马迁" pos="nh" ne="S-Nh" parent="11" relate="ATT" />
+                <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="《" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="11" cont="史记" pos="nz" ne="O" parent="7" relate="VOB" />
+                <word id="12" cont="·" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="13" cont="殷本纪" pos="nt" ne="O" parent="11" relate="COO" />
+                <word id="14" cont="》" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="16" cont="但" pos="c" ne="O" parent="21" relate="ADV" />
+                <word id="17" cont="此书" pos="r" ne="O" parent="18" relate="SBV" />
+                <word id="18" cont="撰写" pos="v" ne="O" parent="20" relate="ATT">
+                    <arg id="0" type="A0" beg="17" end="17" />
+                </word>
+                <word id="19" cont="的" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="时代" pos="n" ne="O" parent="21" relate="SBV" />
+                <word id="21" cont="距" pos="p" ne="O" parent="7" relate="COO" />
+                <word id="22" cont="商代" pos="nt" ne="O" parent="21" relate="POB" />
+                <word id="23" cont="较" pos="d" ne="O" parent="24" relate="ADV" />
+                <word id="24" cont="远" pos="a" ne="O" parent="21" relate="CMP">
+                    <arg id="0" type="DIS" beg="16" end="16" />
+                    <arg id="1" type="A0" beg="17" end="20" />
+                    <arg id="2" type="A0" beg="22" end="22" />
+                    <arg id="3" type="ADV" beg="23" end="23" />
+                </word>
+                <word id="25" cont="，" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="26" cont="即使" pos="c" ne="O" parent="27" relate="ADV" />
+                <word id="27" cont="公认" pos="v" ne="O" parent="21" relate="COO">
+                    <arg id="0" type="A1" beg="30" end="40" />
+                </word>
+                <word id="28" cont="保留" pos="v" ne="O" parent="27" relate="VOB">
+                    <arg id="0" type="A1" beg="30" end="40" />
+                </word>
+                <word id="29" cont="了" pos="u" ne="O" parent="28" relate="RAD" />
+                <word id="30" cont="较" pos="d" ne="O" parent="31" relate="ADV" />
+                <word id="31" cont="多" pos="a" ne="O" parent="32" relate="ATT" />
+                <word id="32" cont="商人" pos="n" ne="O" parent="33" relate="ATT" />
+                <word id="33" cont="语言" pos="n" ne="O" parent="36" relate="ATT" />
+                <word id="34" cont="的" pos="u" ne="O" parent="33" relate="RAD" />
+                <word id="35" cont="《" pos="wp" ne="O" parent="36" relate="WP" />
+                <word id="36" cont="尚书" pos="n" ne="O" parent="40" relate="ATT" />
+                <word id="37" cont="·" pos="wp" ne="O" parent="38" relate="WP" />
+                <word id="38" cont="盘庚" pos="n" ne="O" parent="36" relate="COO" />
+                <word id="39" cont="》" pos="wp" ne="O" parent="38" relate="WP" />
+                <word id="40" cont="篇" pos="n" ne="O" parent="28" relate="VOB" />
+                <word id="41" cont="，" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="42" cont="其中" pos="r" ne="O" parent="46" relate="SBV" />
+                <word id="43" cont="亦" pos="d" ne="O" parent="46" relate="ADV" />
+                <word id="44" cont="多" pos="a" ne="O" parent="46" relate="ADV" />
+                <word id="45" cont="杂" pos="a" ne="O" parent="46" relate="SBV" />
+                <word id="46" cont="有" pos="v" ne="O" parent="27" relate="COO">
+                    <arg id="0" type="A0" beg="42" end="42" />
+                    <arg id="1" type="ADV" beg="43" end="43" />
+                    <arg id="2" type="ADV" beg="44" end="44" />
+                    <arg id="3" type="A1" beg="47" end="50" />
+                </word>
+                <word id="47" cont="西周" pos="nt" ne="O" parent="48" relate="ATT" />
+                <word id="48" cont="时" pos="n" ne="O" parent="50" relate="ATT" />
+                <word id="49" cont="的" pos="u" ne="O" parent="48" relate="RAD" />
+                <word id="50" cont="词语" pos="n" ne="O" parent="46" relate="VOB" />
+                <word id="51" cont="，" pos="wp" ne="O" parent="46" relate="WP" />
+                <word id="52" cont="显然" pos="a" ne="O" parent="53" relate="ADV" />
+                <word id="53" cont="是" pos="v" ne="O" parent="46" relate="COO">
+                    <arg id="0" type="ADV" beg="52" end="52" />
+                    <arg id="1" type="A1" beg="54" end="58" />
+                </word>
+                <word id="54" cont="被" pos="p" ne="O" parent="55" relate="ADV" />
+                <word id="55" cont="改造" pos="v" ne="O" parent="58" relate="ATT" />
+                <word id="56" cont="过" pos="u" ne="O" parent="55" relate="RAD" />
+                <word id="57" cont="的" pos="u" ne="O" parent="55" relate="RAD" />
+                <word id="58" cont="文章" pos="n" ne="O" parent="53" relate="VOB" />
+                <word id="59" cont="。" pos="wp" ne="O" parent="7" relate="WP" />
+            </sent>
+            <sent id="2" cont="因此，胡适曾主张古史作为研究对象，可“缩短二三千年，从诗三百篇做起”。">
+                <word id="0" cont="因此" pos="c" ne="O" parent="4" relate="ADV" />
+                <word id="1" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="2" cont="胡适" pos="nh" ne="S-Nh" parent="4" relate="SBV" />
+                <word id="3" cont="曾" pos="d" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="主张" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="DIS" beg="0" end="1" />
+                    <arg id="1" type="A0" beg="2" end="2" />
+                    <arg id="2" type="ADV" beg="3" end="3" />
+                </word>
+                <word id="5" cont="古史" pos="n" ne="O" parent="6" relate="SBV" />
+                <word id="6" cont="作为" pos="v" ne="O" parent="4" relate="VOB">
+                    <arg id="0" type="A1" beg="5" end="5" />
+                    <arg id="1" type="A2" beg="7" end="8" />
+                </word>
+                <word id="7" cont="研究" pos="v" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="对象" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="10" cont="可" pos="v" ne="O" parent="12" relate="ADV" />
+                <word id="11" cont="“" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="12" cont="缩短" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="A1" beg="5" end="5" />
+                    <arg id="1" type="A1" beg="13" end="13" />
+                </word>
+                <word id="13" cont="二三千" pos="m" ne="O" parent="14" relate="ATT" />
+                <word id="14" cont="年" pos="q" ne="O" parent="12" relate="VOB" />
+                <word id="15" cont="，" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="16" cont="从" pos="p" ne="O" parent="20" relate="ADV" />
+                <word id="17" cont="诗" pos="n" ne="O" parent="19" relate="ATT" />
+                <word id="18" cont="三百" pos="m" ne="O" parent="19" relate="ATT" />
+                <word id="19" cont="篇" pos="q" ne="O" parent="16" relate="POB" />
+                <word id="20" cont="做" pos="v" ne="O" parent="12" relate="COO">
+                    <arg id="0" type="DIS" beg="0" end="1" />
+                    <arg id="1" type="A0" beg="2" end="2" />
+                    <arg id="2" type="A1" beg="5" end="5" />
+                    <arg id="3" type="DIR" beg="16" end="19" />
+                </word>
+                <word id="21" cont="起" pos="v" ne="O" parent="20" relate="CMP" />
+                <word id="22" cont="”" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="23" cont="。" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+            <sent id="3" cont="甲骨文的发现，将商人亲手书写、契刻的文字展现在学者面前，使商史与传说时代分离而进入历史时代。">
+                <word id="0" cont="甲骨文" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="发现" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="4" cont="将" pos="p" ne="O" parent="7" relate="ADV" />
+                <word id="5" cont="商人" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="6" cont="亲手" pos="d" ne="O" parent="7" relate="ADV" />
+                <word id="7" cont="书写" pos="v" ne="O" parent="11" relate="ATT">
+                    <arg id="0" type="A1" beg="5" end="5" />
+                    <arg id="1" type="ADV" beg="6" end="6" />
+                </word>
+                <word id="8" cont="、" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="9" cont="契刻" pos="i" ne="O" parent="7" relate="COO" />
+                <word id="10" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="11" cont="文字" pos="n" ne="O" parent="12" relate="SBV" />
+                <word id="12" cont="展现" pos="v" ne="O" parent="2" relate="VOB" />
+                <word id="13" cont="在" pos="p" ne="O" parent="12" relate="CMP" />
+                <word id="14" cont="学者" pos="n" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="面前" pos="nd" ne="O" parent="13" relate="POB" />
+                <word id="16" cont="，" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="17" cont="使" pos="v" ne="O" parent="12" relate="COO">
+                    <arg id="0" type="A1" beg="18" end="18" />
+                    <arg id="1" type="A2" beg="19" end="26" />
+                </word>
+                <word id="18" cont="商史" pos="n" ne="O" parent="17" relate="DBL" />
+                <word id="19" cont="与" pos="p" ne="O" parent="22" relate="ADV" />
+                <word id="20" cont="传说" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="时代" pos="n" ne="O" parent="19" relate="POB" />
+                <word id="22" cont="分离" pos="v" ne="O" parent="17" relate="VOB" />
+                <word id="23" cont="而" pos="c" ne="O" parent="24" relate="ADV" />
+                <word id="24" cont="进入" pos="v" ne="O" parent="22" relate="COO">
+                    <arg id="0" type="A1" beg="25" end="26" />
+                </word>
+                <word id="25" cont="历史" pos="n" ne="O" parent="26" relate="ATT" />
+                <word id="26" cont="时代" pos="n" ne="O" parent="24" relate="VOB" />
+                <word id="27" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="4" cont="特别是1917年王国维写了《殷卜辞中所见先公先王考》及《续考》，证明《史记·殷本纪》与《世本》所载殷王世系几乎皆可由卜辞资料印证，是基本可靠的。">
+                <word id="0" cont="特别" pos="d" ne="O" parent="1" relate="ADV" />
+                <word id="1" cont="是" pos="v" ne="O" parent="4" relate="ADV" />
+                <word id="2" cont="1917年" pos="nt" ne="O" parent="4" relate="ADV" />
+                <word id="3" cont="王国维" pos="nh" ne="S-Nh" parent="4" relate="SBV" />
+                <word id="4" cont="写" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="2" end="2" />
+                    <arg id="1" type="A0" beg="3" end="3" />
+                    <arg id="2" type="A1" beg="6" end="17" />
+                </word>
+                <word id="5" cont="了" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="《" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="7" cont="殷卜辞" pos="n" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="中" pos="nd" ne="O" parent="10" relate="ADV" />
+                <word id="9" cont="所" pos="u" ne="O" parent="10" relate="LAD" />
+                <word id="10" cont="见" pos="v" ne="O" parent="12" relate="ATT">
+                    <arg id="0" type="LOC" beg="7" end="8" />
+                    <arg id="1" type="A1" beg="11" end="11" />
+                </word>
+                <word id="11" cont="先公先" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="王考" pos="nh" ne="S-Nh" parent="4" relate="VOB" />
+                <word id="13" cont="》" pos="wp" ne="O" parent="12" relate="WP" />
+                <word id="14" cont="及" pos="c" ne="O" parent="16" relate="LAD" />
+                <word id="15" cont="《" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="16" cont="续考" pos="v" ne="O" parent="12" relate="COO" />
+                <word id="17" cont="》" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="18" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="19" cont="证明" pos="v" ne="O" parent="4" relate="COO" />
+                <word id="20" cont="《" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="21" cont="史记" pos="nz" ne="O" parent="31" relate="ATT" />
+                <word id="22" cont="·" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="23" cont="殷本纪" pos="nt" ne="O" parent="21" relate="COO" />
+                <word id="24" cont="》" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="25" cont="与" pos="c" ne="O" parent="27" relate="LAD" />
+                <word id="26" cont="《" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="27" cont="世本" pos="n" ne="O" parent="21" relate="COO" />
+                <word id="28" cont="》" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="29" cont="所" pos="u" ne="O" parent="30" relate="LAD" />
+                <word id="30" cont="载殷" pos="v" ne="O" parent="31" relate="ATT" />
+                <word id="31" cont="王世系" pos="n" ne="O" parent="38" relate="SBV" />
+                <word id="32" cont="几乎" pos="d" ne="O" parent="34" relate="ADV" />
+                <word id="33" cont="皆" pos="d" ne="O" parent="34" relate="ADV">
+                    <arg id="0" type="ADV" beg="32" end="32" />
+                </word>
+                <word id="34" cont="可" pos="v" ne="O" parent="38" relate="ADV" />
+                <word id="35" cont="由" pos="p" ne="O" parent="38" relate="ADV" />
+                <word id="36" cont="卜辞" pos="n" ne="O" parent="37" relate="ATT" />
+                <word id="37" cont="资料" pos="n" ne="O" parent="35" relate="POB" />
+                <word id="38" cont="印证" pos="v" ne="O" parent="40" relate="SBV">
+                    <arg id="0" type="ADV" beg="32" end="32" />
+                    <arg id="1" type="ADV" beg="33" end="33" />
+                    <arg id="2" type="A0" beg="35" end="37" />
+                </word>
+                <word id="39" cont="，" pos="wp" ne="O" parent="38" relate="WP" />
+                <word id="40" cont="是" pos="v" ne="O" parent="19" relate="VOB">
+                    <arg id="0" type="A1" beg="43" end="43" />
+                </word>
+                <word id="41" cont="基本" pos="a" ne="O" parent="42" relate="ADV" />
+                <word id="42" cont="可靠" pos="a" ne="O" parent="40" relate="VOB">
+                    <arg id="0" type="ADV" beg="41" end="41" />
+                </word>
+                <word id="43" cont="的" pos="u" ne="O" parent="42" relate="RAD" />
+                <word id="44" cont="。" pos="wp" ne="O" parent="4" relate="WP" />
+            </sent>
+            <sent id="5" cont="论文无可辩驳地证明《殷本纪》所载的商王朝是确实存在的。">
+                <word id="0" cont="论文" pos="n" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="无" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="17" />
+                </word>
+                <word id="2" cont="可" pos="v" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="辩驳" pos="v" ne="O" parent="5" relate="ADV" />
+                <word id="4" cont="地" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="证明" pos="v" ne="O" parent="1" relate="VOB">
+                    <arg id="0" type="ADV" beg="4" end="4" />
+                    <arg id="1" type="A1" beg="6" end="17" />
+                </word>
+                <word id="6" cont="《" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="7" cont="殷本纪" pos="nh" ne="S-Nh" parent="10" relate="SBV" />
+                <word id="8" cont="》" pos="wp" ne="O" parent="7" relate="WP" />
+                <word id="9" cont="所" pos="u" ne="O" parent="10" relate="LAD" />
+                <word id="10" cont="载" pos="v" ne="O" parent="13" relate="ATT">
+                    <arg id="0" type="A0" beg="6" end="8" />
+                </word>
+                <word id="11" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="12" cont="商" pos="n" ne="O" parent="13" relate="ATT" />
+                <word id="13" cont="王朝" pos="n" ne="O" parent="14" relate="SBV" />
+                <word id="14" cont="是" pos="v" ne="O" parent="5" relate="VOB">
+                    <arg id="0" type="A0" beg="6" end="13" />
+                    <arg id="1" type="A1" beg="17" end="17" />
+                </word>
+                <word id="15" cont="确实" pos="a" ne="O" parent="16" relate="ADV" />
+                <word id="16" cont="存在" pos="v" ne="O" parent="14" relate="VOB">
+                    <arg id="0" type="A1" beg="6" end="13" />
+                    <arg id="1" type="ADV" beg="15" end="15" />
+                </word>
+                <word id="17" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="18" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+        </para>
+        <para id="2">
+            <sent id="0" cont="甲骨文的发现也使《史记》之类的历史文献中有关中国古史记载的可信性增强。">
+                <word id="0" cont="甲骨文" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="发现" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="3" cont="也" pos="d" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="使" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="ADV" beg="3" end="3" />
+                    <arg id="1" type="A1" beg="5" end="18" />
+                    <arg id="2" type="A2" beg="19" end="19" />
+                </word>
+                <word id="5" cont="《" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="6" cont="史记" pos="nz" ne="O" parent="8" relate="ATT" />
+                <word id="7" cont="》" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="8" cont="之类" pos="r" ne="O" parent="11" relate="ATT" />
+                <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="历史" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="文献" pos="n" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="中" pos="nd" ne="O" parent="18" relate="ATT" />
+                <word id="13" cont="有关" pos="p" ne="O" parent="18" relate="ATT" />
+                <word id="14" cont="中国" pos="ns" ne="S-Ns" parent="15" relate="ATT" />
+                <word id="15" cont="古史" pos="n" ne="O" parent="16" relate="SBV" />
+                <word id="16" cont="记载" pos="v" ne="O" parent="18" relate="ATT" />
+                <word id="17" cont="的" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="18" cont="可信性" pos="n" ne="O" parent="4" relate="DBL" />
+                <word id="19" cont="增强" pos="v" ne="O" parent="4" relate="VOB" />
+                <word id="20" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="1" cont="因为这一发现促使史学家们想到，既然《殷本纪》中的商王世系基本可信，司马迁的《史记》也确如刘向、扬雄所言是一部“实录”，那么司马迁在《史记·夏本纪》中所记录的夏王朝与夏王世系恐怕也不是向壁虚构，特别是在20世纪20年代疑古思潮流行时期，甲骨文资料证实了《殷本纪》与《世本》的可靠程度，也使历史学家开始摆脱困惑，对古典文献的可靠性恢复了信心。">
+                <word id="0" cont="因为" pos="c" ne="O" parent="3" relate="ADV" />
+                <word id="1" cont="这" pos="r" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="一" pos="m" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="发现" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="4" cont="促使" pos="v" ne="O" parent="3" relate="VOB">
+                    <arg id="0" type="A1" beg="5" end="6" />
+                    <arg id="1" type="A2" beg="7" end="7" />
+                </word>
+                <word id="5" cont="史学家" pos="n" ne="O" parent="4" relate="DBL" />
+                <word id="6" cont="们" pos="k" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="想到" pos="v" ne="O" parent="4" relate="VOB" />
+                <word id="8" cont="，" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="9" cont="既然" pos="c" ne="O" parent="18" relate="ADV" />
+                <word id="10" cont="《" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="11" cont="殷本纪" pos="nh" ne="S-Nh" parent="13" relate="ATT" />
+                <word id="12" cont="》" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="13" cont="中" pos="nd" ne="O" parent="16" relate="ATT">
+                    <arg id="0" type="A0" beg="10" end="12" />
+                </word>
+                <word id="14" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="15" cont="商" pos="n" ne="O" parent="16" relate="ATT" />
+                <word id="16" cont="王世系" pos="n" ne="O" parent="18" relate="SBV" />
+                <word id="17" cont="基本" pos="a" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="可信" pos="a" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="DIS" beg="9" end="9" />
+                    <arg id="1" type="A0" beg="10" end="16" />
+                    <arg id="2" type="ADV" beg="17" end="17" />
+                </word>
+                <word id="19" cont="，" pos="wp" ne="O" parent="18" relate="WP" />
+                <word id="20" cont="司马迁" pos="nh" ne="S-Nh" parent="23" relate="ATT" />
+                <word id="21" cont="的" pos="u" ne="O" parent="20" relate="RAD" />
+                <word id="22" cont="《" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="23" cont="史记" pos="nz" ne="O" parent="33" relate="SBV" />
+                <word id="24" cont="》" pos="wp" ne="O" parent="23" relate="WP" />
+                <word id="25" cont="也" pos="d" ne="O" parent="33" relate="ADV" />
+                <word id="26" cont="确" pos="d" ne="O" parent="33" relate="ADV" />
+                <word id="27" cont="如" pos="v" ne="O" parent="33" relate="ADV">
+                    <arg id="0" type="A0" beg="20" end="24" />
+                    <arg id="1" type="ADV" beg="25" end="25" />
+                    <arg id="2" type="ADV" beg="26" end="26" />
+                </word>
+                <word id="28" cont="刘向" pos="nh" ne="S-Nh" parent="32" relate="SBV" />
+                <word id="29" cont="、" pos="wp" ne="O" parent="30" relate="WP" />
+                <word id="30" cont="扬雄" pos="nh" ne="S-Nh" parent="28" relate="COO" />
+                <word id="31" cont="所" pos="u" ne="O" parent="32" relate="LAD" />
+                <word id="32" cont="言" pos="v" ne="O" parent="33" relate="SBV">
+                    <arg id="0" type="A0" beg="20" end="24" />
+                    <arg id="1" type="ADV" beg="25" end="25" />
+                    <arg id="2" type="ADV" beg="26" end="26" />
+                    <arg id="3" type="A0" beg="28" end="30" />
+                </word>
+                <word id="33" cont="是" pos="v" ne="O" parent="18" relate="COO">
+                    <arg id="0" type="A0" beg="20" end="24" />
+                    <arg id="1" type="ADV" beg="26" end="26" />
+                    <arg id="2" type="A0" beg="28" end="32" />
+                    <arg id="3" type="A1" beg="34" end="38" />
+                </word>
+                <word id="34" cont="一" pos="m" ne="O" parent="35" relate="ATT" />
+                <word id="35" cont="部" pos="q" ne="O" parent="37" relate="ATT" />
+                <word id="36" cont="“" pos="wp" ne="O" parent="37" relate="WP" />
+                <word id="37" cont="实录" pos="n" ne="O" parent="33" relate="VOB" />
+                <word id="38" cont="”" pos="wp" ne="O" parent="37" relate="WP" />
+                <word id="39" cont="，" pos="wp" ne="O" parent="33" relate="WP" />
+                <word id="40" cont="那么" pos="c" ne="O" parent="50" relate="ADV" />
+                <word id="41" cont="司马迁" pos="nh" ne="S-Nh" parent="50" relate="SBV" />
+                <word id="42" cont="在" pos="p" ne="O" parent="50" relate="ADV" />
+                <word id="43" cont="《" pos="wp" ne="O" parent="44" relate="WP" />
+                <word id="44" cont="史记" pos="nz" ne="O" parent="48" relate="ATT" />
+                <word id="45" cont="·" pos="wp" ne="O" parent="44" relate="WP" />
+                <word id="46" cont="夏本纪" pos="nt" ne="O" parent="44" relate="COO" />
+                <word id="47" cont="》" pos="wp" ne="O" parent="44" relate="WP" />
+                <word id="48" cont="中" pos="nd" ne="O" parent="42" relate="POB" />
+                <word id="49" cont="所" pos="u" ne="O" parent="50" relate="LAD" />
+                <word id="50" cont="记录" pos="v" ne="O" parent="52" relate="ATT">
+                    <arg id="0" type="LOC" beg="42" end="48" />
+                </word>
+                <word id="51" cont="的" pos="u" ne="O" parent="50" relate="RAD" />
+                <word id="52" cont="夏王朝" pos="n" ne="O" parent="59" relate="SBV" />
+                <word id="53" cont="与" pos="c" ne="O" parent="55" relate="LAD" />
+                <word id="54" cont="夏" pos="nt" ne="O" parent="55" relate="ATT" />
+                <word id="55" cont="王世系" pos="nh" ne="S-Nh" parent="52" relate="COO" />
+                <word id="56" cont="恐怕" pos="d" ne="O" parent="59" relate="ADV" />
+                <word id="57" cont="也" pos="d" ne="O" parent="59" relate="ADV" />
+                <word id="58" cont="不" pos="d" ne="O" parent="59" relate="ADV" />
+                <word id="59" cont="是" pos="v" ne="O" parent="33" relate="COO">
+                    <arg id="0" type="A0" beg="40" end="55" />
+                </word>
+                <word id="60" cont="向" pos="p" ne="O" parent="62" relate="ADV" />
+                <word id="61" cont="壁" pos="n" ne="O" parent="60" relate="POB" />
+                <word id="62" cont="虚构" pos="v" ne="O" parent="59" relate="VOB">
+                    <arg id="0" type="A0" beg="40" end="55" />
+                    <arg id="1" type="ADV" beg="56" end="56" />
+                    <arg id="2" type="ADV" beg="57" end="57" />
+                    <arg id="3" type="ADV" beg="58" end="58" />
+                    <arg id="4" type="A1" beg="60" end="61" />
+                </word>
+                <word id="63" cont="，" pos="wp" ne="O" parent="59" relate="WP" />
+                <word id="64" cont="特别" pos="d" ne="O" parent="65" relate="ADV" />
+                <word id="65" cont="是" pos="v" ne="O" parent="78" relate="ADV" />
+                <word id="66" cont="在" pos="p" ne="O" parent="78" relate="ADV" />
+                <word id="67" cont="20" pos="m" ne="O" parent="68" relate="ATT" />
+                <word id="68" cont="世纪" pos="n" ne="O" parent="70" relate="ATT" />
+                <word id="69" cont="20" pos="m" ne="O" parent="70" relate="ATT" />
+                <word id="70" cont="年代" pos="n" ne="O" parent="66" relate="POB" />
+                <word id="71" cont="疑古" pos="v" ne="O" parent="72" relate="ATT" />
+                <word id="72" cont="思潮" pos="n" ne="O" parent="73" relate="SBV" />
+                <word id="73" cont="流行" pos="v" ne="O" parent="74" relate="ATT" />
+                <word id="74" cont="时期" pos="n" ne="O" parent="66" relate="POB" />
+                <word id="75" cont="，" pos="wp" ne="O" parent="66" relate="WP" />
+                <word id="76" cont="甲骨文" pos="n" ne="O" parent="77" relate="ATT" />
+                <word id="77" cont="资料" pos="n" ne="O" parent="78" relate="SBV" />
+                <word id="78" cont="证实" pos="v" ne="O" parent="59" relate="COO">
+                    <arg id="0" type="TMP" beg="66" end="75" />
+                    <arg id="1" type="A1" beg="80" end="89" />
+                </word>
+                <word id="79" cont="了" pos="u" ne="O" parent="78" relate="RAD" />
+                <word id="80" cont="《" pos="wp" ne="O" parent="81" relate="WP" />
+                <word id="81" cont="殷本纪" pos="nh" ne="O" parent="89" relate="ATT" />
+                <word id="82" cont="》" pos="wp" ne="O" parent="81" relate="WP" />
+                <word id="83" cont="与" pos="c" ne="O" parent="85" relate="LAD" />
+                <word id="84" cont="《" pos="wp" ne="O" parent="85" relate="WP" />
+                <word id="85" cont="世本" pos="n" ne="O" parent="81" relate="COO" />
+                <word id="86" cont="》" pos="wp" ne="O" parent="85" relate="WP" />
+                <word id="87" cont="的" pos="u" ne="O" parent="81" relate="RAD" />
+                <word id="88" cont="可靠" pos="a" ne="O" parent="89" relate="ATT" />
+                <word id="89" cont="程度" pos="n" ne="O" parent="78" relate="VOB" />
+                <word id="90" cont="，" pos="wp" ne="O" parent="78" relate="WP" />
+                <word id="91" cont="也" pos="d" ne="O" parent="92" relate="ADV" />
+                <word id="92" cont="使" pos="v" ne="O" parent="78" relate="COO">
+                    <arg id="0" type="TMP" beg="66" end="75" />
+                    <arg id="1" type="ADV" beg="91" end="91" />
+                    <arg id="2" type="A1" beg="93" end="93" />
+                    <arg id="3" type="A2" beg="94" end="105" />
+                </word>
+                <word id="93" cont="历史学家" pos="n" ne="O" parent="92" relate="DBL" />
+                <word id="94" cont="开始" pos="v" ne="O" parent="95" relate="ADV" />
+                <word id="95" cont="摆脱" pos="v" ne="O" parent="92" relate="VOB">
+                    <arg id="0" type="A1" beg="96" end="96" />
+                </word>
+                <word id="96" cont="困惑" pos="a" ne="O" parent="95" relate="VOB" />
+                <word id="97" cont="，" pos="wp" ne="O" parent="95" relate="WP" />
+                <word id="98" cont="对" pos="p" ne="O" parent="103" relate="ADV" />
+                <word id="99" cont="古典" pos="b" ne="O" parent="100" relate="ATT" />
+                <word id="100" cont="文献" pos="n" ne="O" parent="98" relate="POB" />
+                <word id="101" cont="的" pos="u" ne="O" parent="98" relate="RAD" />
+                <word id="102" cont="可靠性" pos="n" ne="O" parent="98" relate="POB" />
+                <word id="103" cont="恢复" pos="v" ne="O" parent="95" relate="COO">
+                    <arg id="0" type="A0" beg="105" end="105" />
+                </word>
+                <word id="104" cont="了" pos="u" ne="O" parent="103" relate="RAD" />
+                <word id="105" cont="信心" pos="n" ne="O" parent="103" relate="VOB" />
+                <word id="106" cont="。" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+        </para>
+        <para id="3">
+            <sent id="0" cont="甲骨文的发现同时引发了震撼中外学术界的殷墟发掘。">
+                <word id="0" cont="甲骨文" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="发现" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="3" cont="同时" pos="d" ne="O" parent="4" relate="ADV" />
+                <word id="4" cont="引发" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="ADV" beg="3" end="3" />
+                    <arg id="1" type="A1" beg="6" end="11" />
+                </word>
+                <word id="5" cont="了" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="震撼" pos="v" ne="O" parent="10" relate="ATT">
+                    <arg id="0" type="A1" beg="7" end="8" />
+                </word>
+                <word id="7" cont="中外" pos="j" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="学术界" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="9" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="10" cont="殷墟" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="发掘" pos="v" ne="O" parent="4" relate="VOB" />
+                <word id="12" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="1" cont="“五四运动”促使中国的历史学界发生了两大变化：一是提倡实事求是的科学态度，古史辩派对一切经不住史证的旧史学的无情批判，使人痛感中国古史上科学的考古资料的极端贫乏；">
+                <word id="0" cont="“" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="1" cont="五四运动" pos="nz" ne="O" parent="3" relate="SBV" />
+                <word id="2" cont="”" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="3" cont="促使" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="2" />
+                    <arg id="1" type="A1" beg="4" end="7" />
+                    <arg id="2" type="A2" beg="8" end="12" />
+                </word>
+                <word id="4" cont="中国" pos="ns" ne="S-Ns" parent="7" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="历史" pos="n" ne="O" parent="7" relate="ATT" />
+                <word id="7" cont="学界" pos="n" ne="O" parent="3" relate="DBL" />
+                <word id="8" cont="发生" pos="v" ne="O" parent="3" relate="VOB">
+                    <arg id="0" type="A0" beg="10" end="12" />
+                </word>
+                <word id="9" cont="了" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="两" pos="m" ne="O" parent="11" relate="ATT" />
+                <word id="11" cont="大" pos="a" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="变化" pos="v" ne="O" parent="8" relate="VOB" />
+                <word id="13" cont="：" pos="wp" ne="O" parent="3" relate="WP" />
+                <word id="14" cont="一" pos="m" ne="O" parent="15" relate="SBV" />
+                <word id="15" cont="是" pos="v" ne="O" parent="3" relate="COO">
+                    <arg id="0" type="A0" beg="14" end="14" />
+                    <arg id="1" type="A1" beg="16" end="20" />
+                </word>
+                <word id="16" cont="提倡" pos="v" ne="O" parent="15" relate="VOB">
+                    <arg id="0" type="A1" beg="17" end="20" />
+                </word>
+                <word id="17" cont="实事求是" pos="i" ne="O" parent="20" relate="ATT" />
+                <word id="18" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="19" cont="科学" pos="a" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="态度" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="21" cont="，" pos="wp" ne="O" parent="15" relate="WP" />
+                <word id="22" cont="古史" pos="n" ne="O" parent="23" relate="ATT" />
+                <word id="23" cont="辩派" pos="n" ne="O" parent="33" relate="ATT" />
+                <word id="24" cont="对" pos="p" ne="O" parent="33" relate="ATT" />
+                <word id="25" cont="一切" pos="r" ne="O" parent="30" relate="ATT" />
+                <word id="26" cont="经不住" pos="v" ne="O" parent="30" relate="ATT" />
+                <word id="27" cont="史证" pos="n" ne="O" parent="26" relate="VOB" />
+                <word id="28" cont="的" pos="u" ne="O" parent="26" relate="RAD" />
+                <word id="29" cont="旧" pos="a" ne="O" parent="30" relate="ATT" />
+                <word id="30" cont="史学" pos="n" ne="O" parent="24" relate="POB" />
+                <word id="31" cont="的" pos="u" ne="O" parent="30" relate="RAD" />
+                <word id="32" cont="无情" pos="a" ne="O" parent="33" relate="ATT" />
+                <word id="33" cont="批判" pos="v" ne="O" parent="35" relate="SBV" />
+                <word id="34" cont="，" pos="wp" ne="O" parent="33" relate="WP" />
+                <word id="35" cont="使" pos="v" ne="O" parent="15" relate="COO">
+                    <arg id="0" type="A1" beg="36" end="36" />
+                    <arg id="1" type="A2" beg="37" end="47" />
+                </word>
+                <word id="36" cont="人" pos="n" ne="O" parent="35" relate="DBL" />
+                <word id="37" cont="痛感" pos="v" ne="O" parent="35" relate="VOB">
+                    <arg id="0" type="A1" beg="38" end="47" />
+                </word>
+                <word id="38" cont="中国" pos="ns" ne="S-Ns" parent="39" relate="ATT" />
+                <word id="39" cont="古史" pos="n" ne="O" parent="40" relate="ATT" />
+                <word id="40" cont="上" pos="nd" ne="O" parent="44" relate="ATT" />
+                <word id="41" cont="科学" pos="a" ne="O" parent="44" relate="ATT" />
+                <word id="42" cont="的" pos="u" ne="O" parent="41" relate="RAD" />
+                <word id="43" cont="考古" pos="n" ne="O" parent="44" relate="ATT" />
+                <word id="44" cont="资料" pos="n" ne="O" parent="47" relate="SBV" />
+                <word id="45" cont="的" pos="u" ne="O" parent="44" relate="RAD" />
+                <word id="46" cont="极端" pos="d" ne="O" parent="47" relate="ADV" />
+                <word id="47" cont="贫乏" pos="a" ne="O" parent="37" relate="VOB">
+                    <arg id="0" type="ADV" beg="46" end="46" />
+                </word>
+                <word id="48" cont="；" pos="wp" ne="O" parent="3" relate="WP" />
+            </sent>
+            <sent id="2" cont="二是历史唯物主义在史学界产生了巨大影响，1925年王国维在清华国学研究院讲授《古史新证》，力倡“二重证据法”，亦使中国历史学研究者开始往重地下出土的新材料。">
+                <word id="0" cont="二" pos="m" ne="O" parent="1" relate="SBV" />
+                <word id="1" cont="是" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="0" />
+                    <arg id="1" type="A1" beg="2" end="8" />
+                </word>
+                <word id="2" cont="历史唯物主义" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="3" cont="在" pos="p" ne="O" parent="5" relate="ADV" />
+                <word id="4" cont="史学界" pos="n" ne="O" parent="3" relate="POB" />
+                <word id="5" cont="产生" pos="v" ne="O" parent="1" relate="VOB">
+                    <arg id="0" type="A0" beg="2" end="2" />
+                    <arg id="1" type="LOC" beg="3" end="4" />
+                    <arg id="2" type="A1" beg="7" end="8" />
+                </word>
+                <word id="6" cont="了" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="巨大" pos="a" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="影响" pos="v" ne="O" parent="5" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="10" cont="1925年" pos="nt" ne="O" parent="16" relate="ADV" />
+                <word id="11" cont="王国维" pos="nh" ne="S-Nh" parent="16" relate="SBV" />
+                <word id="12" cont="在" pos="p" ne="O" parent="16" relate="ADV" />
+                <word id="13" cont="清华" pos="j" ne="B-Ni" parent="15" relate="ATT" />
+                <word id="14" cont="国学" pos="n" ne="I-Ni" parent="15" relate="ATT" />
+                <word id="15" cont="研究院" pos="n" ne="E-Ni" parent="12" relate="POB" />
+                <word id="16" cont="讲授" pos="v" ne="O" parent="1" relate="COO">
+                    <arg id="0" type="TMP" beg="10" end="10" />
+                    <arg id="1" type="A0" beg="11" end="11" />
+                    <arg id="2" type="LOC" beg="12" end="15" />
+                    <arg id="3" type="A1" beg="17" end="21" />
+                </word>
+                <word id="17" cont="《" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="18" cont="古史" pos="n" ne="O" parent="20" relate="ATT" />
+                <word id="19" cont="新" pos="a" ne="O" parent="20" relate="ATT" />
+                <word id="20" cont="证" pos="n" ne="O" parent="16" relate="VOB" />
+                <word id="21" cont="》" pos="wp" ne="O" parent="20" relate="WP" />
+                <word id="22" cont="，" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="23" cont="力倡" pos="v" ne="O" parent="16" relate="COO" />
+                <word id="24" cont="“" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="25" cont="二" pos="m" ne="O" parent="26" relate="ATT" />
+                <word id="26" cont="重" pos="q" ne="O" parent="27" relate="ATT" />
+                <word id="27" cont="证据法" pos="n" ne="O" parent="23" relate="VOB" />
+                <word id="28" cont="”" pos="wp" ne="O" parent="27" relate="WP" />
+                <word id="29" cont="，" pos="wp" ne="O" parent="16" relate="WP" />
+                <word id="30" cont="亦" pos="d" ne="O" parent="31" relate="ADV" />
+                <word id="31" cont="使" pos="v" ne="O" parent="16" relate="COO">
+                    <arg id="0" type="ADV" beg="30" end="30" />
+                    <arg id="1" type="A1" beg="32" end="34" />
+                </word>
+                <word id="32" cont="中国" pos="ns" ne="S-Ns" parent="33" relate="ATT" />
+                <word id="33" cont="历史学" pos="n" ne="O" parent="34" relate="ATT" />
+                <word id="34" cont="研究者" pos="n" ne="O" parent="31" relate="DBL" />
+                <word id="35" cont="开始" pos="v" ne="O" parent="31" relate="VOB" />
+                <word id="36" cont="往" pos="p" ne="O" parent="35" relate="CMP" />
+                <word id="37" cont="重" pos="v" ne="O" parent="39" relate="ADV" />
+                <word id="38" cont="地下" pos="nl" ne="O" parent="39" relate="ADV" />
+                <word id="39" cont="出土" pos="v" ne="O" parent="42" relate="ATT">
+                    <arg id="0" type="ADV" beg="38" end="38" />
+                </word>
+                <word id="40" cont="的" pos="u" ne="O" parent="39" relate="RAD" />
+                <word id="41" cont="新" pos="a" ne="O" parent="42" relate="ATT" />
+                <word id="42" cont="材料" pos="n" ne="O" parent="36" relate="POB" />
+                <word id="43" cont="。" pos="wp" ne="O" parent="1" relate="WP" />
+            </sent>
+            <sent id="3" cont="这些历史因素对近代考古学在中国的星期具有催生作用。">
+                <word id="0" cont="这些" pos="r" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="历史" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="因素" pos="n" ne="O" parent="10" relate="SBV" />
+                <word id="3" cont="对" pos="p" ne="O" parent="10" relate="ADV" />
+                <word id="4" cont="近代" pos="nt" ne="O" parent="5" relate="ATT" />
+                <word id="5" cont="考古学" pos="n" ne="O" parent="9" relate="ATT" />
+                <word id="6" cont="在" pos="p" ne="O" parent="9" relate="ATT" />
+                <word id="7" cont="中国" pos="ns" ne="S-Ns" parent="6" relate="POB" />
+                <word id="8" cont="的" pos="u" ne="O" parent="6" relate="RAD" />
+                <word id="9" cont="星期" pos="n" ne="O" parent="3" relate="POB" />
+                <word id="10" cont="具有" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A0" beg="0" end="2" />
+                    <arg id="1" type="A1" beg="11" end="12" />
+                </word>
+                <word id="11" cont="催生" pos="v" ne="O" parent="12" relate="ATT" />
+                <word id="12" cont="作用" pos="n" ne="O" parent="10" relate="VOB" />
+                <word id="13" cont="。" pos="wp" ne="O" parent="10" relate="WP" />
+            </sent>
+            <sent id="4" cont="1928年秋，当时的中央研究院历史语言研究所开始发掘殷墟，其最初的目的乃是继续寻找甲骨。">
+                <word id="0" cont="1928年" pos="nt" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="秋" pos="nt" ne="O" parent="10" relate="ADV" />
+                <word id="2" cont="，" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="3" cont="当时" pos="nt" ne="O" parent="9" relate="ATT" />
+                <word id="4" cont="的" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="中央" pos="n" ne="B-Ni" parent="6" relate="ATT" />
+                <word id="6" cont="研究院" pos="n" ne="I-Ni" parent="9" relate="ATT" />
+                <word id="7" cont="历史" pos="n" ne="I-Ni" parent="8" relate="ATT" />
+                <word id="8" cont="语言" pos="n" ne="I-Ni" parent="9" relate="ATT" />
+                <word id="9" cont="研究所" pos="n" ne="E-Ni" parent="10" relate="SBV" />
+                <word id="10" cont="开始" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="TMP" beg="0" end="2" />
+                    <arg id="1" type="A0" beg="3" end="9" />
+                    <arg id="2" type="A1" beg="11" end="12" />
+                </word>
+                <word id="11" cont="发掘" pos="v" ne="O" parent="10" relate="VOB">
+                    <arg id="0" type="TMP" beg="0" end="2" />
+                    <arg id="1" type="A0" beg="3" end="9" />
+                    <arg id="2" type="A1" beg="12" end="12" />
+                </word>
+                <word id="12" cont="殷墟" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="13" cont="，" pos="wp" ne="O" parent="10" relate="WP" />
+                <word id="14" cont="其" pos="r" ne="O" parent="17" relate="ATT" />
+                <word id="15" cont="最初" pos="b" ne="O" parent="17" relate="ATT" />
+                <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="目的" pos="n" ne="O" parent="18" relate="SBV" />
+                <word id="18" cont="乃是" pos="v" ne="O" parent="10" relate="COO">
+                    <arg id="0" type="A0" beg="14" end="17" />
+                    <arg id="1" type="A1" beg="20" end="21" />
+                </word>
+                <word id="19" cont="继续" pos="v" ne="O" parent="18" relate="VOB">
+                    <arg id="0" type="C-A1" beg="20" end="21" />
+                </word>
+                <word id="20" cont="寻找" pos="v" ne="O" parent="19" relate="COO">
+                    <arg id="0" type="A1" beg="21" end="21" />
+                </word>
+                <word id="21" cont="甲骨" pos="n" ne="O" parent="20" relate="VOB" />
+                <word id="22" cont="。" pos="wp" ne="O" parent="10" relate="WP" />
+            </sent>
+            <sent id="5" cont="而第二次发掘时，已从主要寻找甲骨编程了对整个遗址所有遗存的科学发掘。">
+                <word id="0" cont="而" pos="c" ne="O" parent="9" relate="ADV" />
+                <word id="1" cont="第二" pos="m" ne="O" parent="2" relate="ATT" />
+                <word id="2" cont="次" pos="q" ne="O" parent="3" relate="ADV" />
+                <word id="3" cont="发掘" pos="v" ne="O" parent="4" relate="ATT" />
+                <word id="4" cont="时" pos="n" ne="O" parent="9" relate="ADV" />
+                <word id="5" cont="，" pos="wp" ne="O" parent="4" relate="WP" />
+                <word id="6" cont="已" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="7" cont="从" pos="p" ne="O" parent="9" relate="ADV" />
+                <word id="8" cont="主要" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="寻找" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="ADV" beg="6" end="6" />
+                    <arg id="1" type="ADV" beg="8" end="8" />
+                    <arg id="2" type="A1" beg="10" end="10" />
+                </word>
+                <word id="10" cont="甲骨" pos="n" ne="O" parent="11" relate="SBV" />
+                <word id="11" cont="编程" pos="v" ne="O" parent="9" relate="VOB" />
+                <word id="12" cont="了" pos="u" ne="O" parent="11" relate="RAD" />
+                <word id="13" cont="对" pos="p" ne="O" parent="20" relate="ADV" />
+                <word id="14" cont="整个" pos="b" ne="O" parent="15" relate="ATT" />
+                <word id="15" cont="遗址" pos="n" ne="O" parent="17" relate="SBV" />
+                <word id="16" cont="所有" pos="b" ne="O" parent="17" relate="ATT" />
+                <word id="17" cont="遗存" pos="v" ne="O" parent="19" relate="ATT" />
+                <word id="18" cont="的" pos="u" ne="O" parent="17" relate="RAD" />
+                <word id="19" cont="科学" pos="n" ne="O" parent="13" relate="POB" />
+                <word id="20" cont="发掘" pos="v" ne="O" parent="11" relate="VOB" />
+                <word id="21" cont="。" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+        </para>
+        <para id="4">
+            <sent id="0" cont="甲骨文的发现还大大加速了对传统的中国文字学的改造。">
+                <word id="0" cont="甲骨文" pos="n" ne="O" parent="2" relate="ATT" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="发现" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="3" cont="还" pos="d" ne="O" parent="5" relate="ADV" />
+                <word id="4" cont="大大" pos="d" ne="O" parent="5" relate="ADV" />
+                <word id="5" cont="加速" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="ADV" beg="3" end="3" />
+                    <arg id="1" type="ADV" beg="4" end="4" />
+                    <arg id="2" type="A1" beg="7" end="13" />
+                </word>
+                <word id="6" cont="了" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="对" pos="p" ne="O" parent="13" relate="ATT" />
+                <word id="8" cont="传统" pos="n" ne="O" parent="11" relate="ATT" />
+                <word id="9" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="10" cont="中国" pos="ns" ne="S-Ns" parent="11" relate="ATT" />
+                <word id="11" cont="文字学" pos="n" ne="O" parent="7" relate="POB" />
+                <word id="12" cont="的" pos="u" ne="O" parent="7" relate="RAD" />
+                <word id="13" cont="改造" pos="v" ne="O" parent="5" relate="VOB" />
+                <word id="14" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="1" cont="汉代以后中国的文字学家崇尚许慎的《说文解字》，传统的文字学主要是《说文》学；">
+                <word id="0" cont="汉代" pos="nt" ne="O" parent="1" relate="ATT" />
+                <word id="1" cont="以后" pos="nd" ne="O" parent="5" relate="ADV" />
+                <word id="2" cont="中国" pos="ns" ne="S-Ns" parent="4" relate="ATT" />
+                <word id="3" cont="的" pos="u" ne="O" parent="2" relate="RAD" />
+                <word id="4" cont="文字学家" pos="n" ne="O" parent="5" relate="SBV" />
+                <word id="5" cont="崇尚" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="6" cont="许慎" pos="nh" ne="S-Nh" parent="5" relate="VOB" />
+                <word id="7" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="8" cont="《" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="9" cont="说" pos="v" ne="O" parent="5" relate="COO">
+                    <arg id="0" type="TMP" beg="0" end="1" />
+                    <arg id="1" type="A1" beg="11" end="13" />
+                </word>
+                <word id="10" cont="文" pos="n" ne="O" parent="9" relate="VOB" />
+                <word id="11" cont="解" pos="v" ne="O" parent="9" relate="VOB" />
+                <word id="12" cont="字" pos="n" ne="O" parent="11" relate="VOB" />
+                <word id="13" cont="》" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="15" cont="传统" pos="n" ne="O" parent="17" relate="ATT" />
+                <word id="16" cont="的" pos="u" ne="O" parent="15" relate="RAD" />
+                <word id="17" cont="文字学" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="18" cont="主要" pos="d" ne="O" parent="19" relate="ADV" />
+                <word id="19" cont="是" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="A0" beg="15" end="17" />
+                    <arg id="1" type="ADV" beg="18" end="18" />
+                    <arg id="2" type="A1" beg="20" end="24" />
+                </word>
+                <word id="20" cont="《" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="21" cont="说" pos="v" ne="O" parent="24" relate="ATT" />
+                <word id="22" cont="文" pos="n" ne="O" parent="21" relate="VOB" />
+                <word id="23" cont="》" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="24" cont="学" pos="v" ne="O" parent="19" relate="VOB" />
+                <word id="25" cont="；" pos="wp" ne="O" parent="9" relate="WP" />
+            </sent>
+            <sent id="2" cont="但由于北宋以来金石学的发展，特别是对金文的研究，已不断地用商周古文字对《说文》的文字学进行补充。">
+                <word id="0" cont="但" pos="c" ne="O" parent="6" relate="ADV" />
+                <word id="1" cont="由于" pos="c" ne="O" parent="6" relate="ADV" />
+                <word id="2" cont="北宋" pos="nt" ne="O" parent="3" relate="ATT" />
+                <word id="3" cont="以来" pos="nd" ne="O" parent="6" relate="ADV" />
+                <word id="4" cont="金石学" pos="n" ne="O" parent="6" relate="ATT" />
+                <word id="5" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="6" cont="发展" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="7" cont="，" pos="wp" ne="O" parent="6" relate="WP" />
+                <word id="8" cont="特别" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="是" pos="v" ne="O" parent="13" relate="ATT" />
+                <word id="10" cont="对" pos="p" ne="O" parent="13" relate="ATT" />
+                <word id="11" cont="金文" pos="n" ne="O" parent="10" relate="POB" />
+                <word id="12" cont="的" pos="u" ne="O" parent="10" relate="RAD" />
+                <word id="13" cont="研究" pos="v" ne="O" parent="6" relate="COO" />
+                <word id="14" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="15" cont="已" pos="d" ne="O" parent="29" relate="ADV" />
+                <word id="16" cont="不断" pos="d" ne="O" parent="29" relate="ADV" />
+                <word id="17" cont="地" pos="u" ne="O" parent="16" relate="RAD" />
+                <word id="18" cont="用" pos="p" ne="O" parent="29" relate="ADV" />
+                <word id="19" cont="商周" pos="n" ne="O" parent="21" relate="ATT" />
+                <word id="20" cont="古" pos="a" ne="O" parent="21" relate="ATT" />
+                <word id="21" cont="文字" pos="n" ne="O" parent="18" relate="POB" />
+                <word id="22" cont="对" pos="p" ne="O" parent="29" relate="ADV" />
+                <word id="23" cont="《" pos="wp" ne="O" parent="24" relate="WP" />
+                <word id="24" cont="说" pos="v" ne="O" parent="28" relate="ATT">
+                    <arg id="0" type="ADV" beg="15" end="15" />
+                </word>
+                <word id="25" cont="文" pos="n" ne="O" parent="24" relate="VOB" />
+                <word id="26" cont="》" pos="wp" ne="O" parent="24" relate="WP" />
+                <word id="27" cont="的" pos="u" ne="O" parent="24" relate="RAD" />
+                <word id="28" cont="文字学" pos="n" ne="O" parent="22" relate="POB" />
+                <word id="29" cont="进行" pos="v" ne="O" parent="6" relate="COO">
+                    <arg id="0" type="DIS" beg="0" end="0" />
+                    <arg id="1" type="PRP" beg="1" end="1" />
+                    <arg id="2" type="ADV" beg="15" end="15" />
+                    <arg id="3" type="ADV" beg="17" end="17" />
+                    <arg id="4" type="MNR" beg="18" end="21" />
+                    <arg id="5" type="A1" beg="30" end="30" />
+                </word>
+                <word id="30" cont="补充" pos="v" ne="O" parent="29" relate="VOB" />
+                <word id="31" cont="。" pos="wp" ne="O" parent="6" relate="WP" />
+            </sent>
+            <sent id="3" cont="到了清代，对金石学的研究进一步深入，使《说文》的权威性受到了极大的冲击。">
+                <word id="0" cont="到" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="2" end="2" />
+                </word>
+                <word id="1" cont="了" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="清代" pos="nt" ne="O" parent="0" relate="VOB" />
+                <word id="3" cont="，" pos="wp" ne="O" parent="0" relate="WP" />
+                <word id="4" cont="对" pos="p" ne="O" parent="7" relate="ATT" />
+                <word id="5" cont="金石学" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="6" cont="的" pos="u" ne="O" parent="4" relate="RAD" />
+                <word id="7" cont="研究" pos="v" ne="O" parent="9" relate="SBV" />
+                <word id="8" cont="进一步" pos="d" ne="O" parent="9" relate="ADV" />
+                <word id="9" cont="深入" pos="v" ne="O" parent="0" relate="COO">
+                    <arg id="0" type="ADV" beg="8" end="8" />
+                </word>
+                <word id="10" cont="，" pos="wp" ne="O" parent="9" relate="WP" />
+                <word id="11" cont="使" pos="v" ne="O" parent="9" relate="COO">
+                    <arg id="0" type="A1" beg="12" end="17" />
+                    <arg id="1" type="A2" beg="18" end="22" />
+                </word>
+                <word id="12" cont="《" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="13" cont="说" pos="v" ne="O" parent="17" relate="ATT" />
+                <word id="14" cont="文" pos="n" ne="O" parent="13" relate="VOB" />
+                <word id="15" cont="》" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="16" cont="的" pos="u" ne="O" parent="13" relate="RAD" />
+                <word id="17" cont="权威性" pos="n" ne="O" parent="11" relate="DBL" />
+                <word id="18" cont="受到" pos="v" ne="O" parent="11" relate="VOB">
+                    <arg id="0" type="A1" beg="20" end="22" />
+                </word>
+                <word id="19" cont="了" pos="u" ne="O" parent="18" relate="RAD" />
+                <word id="20" cont="极大" pos="a" ne="O" parent="22" relate="ATT" />
+                <word id="21" cont="的" pos="u" ne="O" parent="20" relate="RAD" />
+                <word id="22" cont="冲击" pos="v" ne="O" parent="18" relate="VOB" />
+                <word id="23" cont="。" pos="wp" ne="O" parent="0" relate="WP" />
+            </sent>
+            <sent id="4" cont="甲骨文的发现提供了汉字的早期形式，其构成离小篆甚远，多有象形、会意文字，令当时学者眼界大开。">
+                <word id="0" cont="甲骨文" pos="n" ne="O" parent="2" relate="SBV" />
+                <word id="1" cont="的" pos="u" ne="O" parent="0" relate="RAD" />
+                <word id="2" cont="发现" pos="v" ne="O" parent="-1" relate="HED" />
+                <word id="3" cont="提供" pos="v" ne="O" parent="2" relate="VOB">
+                    <arg id="0" type="A1" beg="5" end="8" />
+                </word>
+                <word id="4" cont="了" pos="u" ne="O" parent="3" relate="RAD" />
+                <word id="5" cont="汉字" pos="nz" ne="O" parent="8" relate="ATT" />
+                <word id="6" cont="的" pos="u" ne="O" parent="5" relate="RAD" />
+                <word id="7" cont="早期" pos="nt" ne="O" parent="8" relate="ATT" />
+                <word id="8" cont="形式" pos="n" ne="O" parent="3" relate="VOB" />
+                <word id="9" cont="，" pos="wp" ne="O" parent="2" relate="WP" />
+                <word id="10" cont="其" pos="r" ne="O" parent="11" relate="SBV" />
+                <word id="11" cont="构成" pos="v" ne="O" parent="2" relate="COO">
+                    <arg id="0" type="A0" beg="10" end="10" />
+                    <arg id="1" type="A1" beg="12" end="15" />
+                </word>
+                <word id="12" cont="离" pos="v" ne="O" parent="11" relate="VOB">
+                    <arg id="0" type="A1" beg="13" end="13" />
+                </word>
+                <word id="13" cont="小篆" pos="n" ne="O" parent="12" relate="VOB" />
+                <word id="14" cont="甚" pos="d" ne="O" parent="15" relate="ADV" />
+                <word id="15" cont="远" pos="a" ne="O" parent="12" relate="CMP">
+                    <arg id="0" type="ADV" beg="14" end="14" />
+                </word>
+                <word id="16" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="17" cont="多" pos="d" ne="O" parent="18" relate="ADV" />
+                <word id="18" cont="有" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="ADV" beg="17" end="17" />
+                    <arg id="1" type="A1" beg="19" end="22" />
+                </word>
+                <word id="19" cont="象形" pos="n" ne="O" parent="18" relate="VOB" />
+                <word id="20" cont="、" pos="wp" ne="O" parent="21" relate="WP" />
+                <word id="21" cont="会意" pos="v" ne="O" parent="19" relate="COO" />
+                <word id="22" cont="文字" pos="n" ne="O" parent="21" relate="VOB" />
+                <word id="23" cont="，" pos="wp" ne="O" parent="11" relate="WP" />
+                <word id="24" cont="令" pos="v" ne="O" parent="11" relate="COO">
+                    <arg id="0" type="A2" beg="25" end="29" />
+                </word>
+                <word id="25" cont="当时" pos="nt" ne="O" parent="29" relate="ADV" />
+                <word id="26" cont="学者" pos="n" ne="O" parent="27" relate="ATT" />
+                <word id="27" cont="眼界" pos="n" ne="O" parent="29" relate="SBV" />
+                <word id="28" cont="大" pos="d" ne="O" parent="29" relate="ADV" />
+                <word id="29" cont="开" pos="v" ne="O" parent="24" relate="VOB" />
+                <word id="30" cont="。" pos="wp" ne="O" parent="2" relate="WP" />
+            </sent>
+            <sent id="5" cont="《说文》以小篆为本解释字源的理论难以维持，从此中国文字学就进入了一个新的时期。">
+                <word id="0" cont="《" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="1" cont="说" pos="v" ne="O" parent="13" relate="SBV" />
+                <word id="2" cont="文" pos="n" ne="O" parent="1" relate="VOB" />
+                <word id="3" cont="》" pos="wp" ne="O" parent="1" relate="WP" />
+                <word id="4" cont="以" pos="p" ne="O" parent="6" relate="ADV" />
+                <word id="5" cont="小篆" pos="n" ne="O" parent="4" relate="POB" />
+                <word id="6" cont="为" pos="v" ne="O" parent="13" relate="ADV">
+                    <arg id="0" type="A2" beg="4" end="5" />
+                    <arg id="1" type="A1" beg="7" end="7" />
+                </word>
+                <word id="7" cont="本" pos="n" ne="O" parent="6" relate="VOB" />
+                <word id="8" cont="解释" pos="v" ne="O" parent="11" relate="ATT" />
+                <word id="9" cont="字源" pos="n" ne="O" parent="8" relate="VOB" />
+                <word id="10" cont="的" pos="u" ne="O" parent="8" relate="RAD" />
+                <word id="11" cont="理论" pos="n" ne="O" parent="13" relate="SBV" />
+                <word id="12" cont="难以" pos="d" ne="O" parent="13" relate="ADV" />
+                <word id="13" cont="维持" pos="v" ne="O" parent="-1" relate="HED">
+                    <arg id="0" type="A1" beg="8" end="11" />
+                    <arg id="1" type="ADV" beg="12" end="12" />
+                </word>
+                <word id="14" cont="，" pos="wp" ne="O" parent="13" relate="WP" />
+                <word id="15" cont="从此" pos="d" ne="O" parent="19" relate="ADV" />
+                <word id="16" cont="中国" pos="ns" ne="S-Ns" parent="17" relate="ATT" />
+                <word id="17" cont="文字学" pos="n" ne="O" parent="19" relate="SBV" />
+                <word id="18" cont="就" pos="d" ne="O" parent="19" relate="ADV" />
+                <word id="19" cont="进入" pos="v" ne="O" parent="13" relate="COO">
+                    <arg id="0" type="ADV" beg="15" end="15" />
+                    <arg id="1" type="A0" beg="16" end="17" />
+                    <arg id="2" type="ADV" beg="18" end="18" />
+                    <arg id="3" type="A1" beg="21" end="24" />
+                </word>
+                <word id="20" cont="了" pos="u" ne="O" parent="19" relate="RAD" />
+                <word id="21" cont="一个" pos="m" ne="O" parent="24" relate="ATT" />
+                <word id="22" cont="新" pos="a" ne="O" parent="24" relate="ATT" />
+                <word id="23" cont="的" pos="u" ne="O" parent="22" relate="RAD" />
+                <word id="24" cont="时期" pos="n" ne="O" parent="19" relate="VOB" />
+                <word id="25" cont="。" pos="wp" ne="O" parent="13" relate="WP" />
+            </sent>
+        </para>
+    </doc>
+</xml4nlp>
