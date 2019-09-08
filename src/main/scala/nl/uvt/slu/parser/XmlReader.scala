@@ -4,24 +4,24 @@ import com.lucidchart.open.xtract.XmlReader._
 import com.lucidchart.open.xtract.{XmlReader, __}
 import play.api.libs.functional.syntax._
 
-case class Xml4Nlp(note: Note, doc: Doc)
+case class Xml4Nlp(note: Note, doc: Document)
 
 case class Note(send: String, word: String, pos: String, ne: String, parser: String, wsd: String, srl: String)
 
-case class Doc(paras: Seq[Para])
+case class Document(paragraphs: Seq[Paragraph])
 
-case class Para(id: String, sent: Seq[Sent])
+case class Paragraph(id: String, sentences: Seq[Sentence])
 
-case class Sent(id: String, cont: String, words: Seq[Word])
+case class Sentence(id: String, content: String, words: Seq[Word])
 
-case class Word(id: String, cont: String, pos: String, ne: String, parent: String, relate: String, args: Option[Seq[Arg]])
+case class Word(id: String, content: String, pos: String, ne: String, parent: String, relate: String, arguments: Option[Seq[Arguments]])
 
-case class Arg(id: String, `type`: String, beg: String, end: String)
+case class Arguments(id: String, `type`: String, beg: String, end: String)
 
 object Xml4Nlp {
   implicit val reader: XmlReader[Xml4Nlp] = (
     (__ \ "note").read[Note] and
-      (__ \ "doc").read[Doc]
+      (__ \ "doc").read[Document]
     ) (apply _)
 }
 
@@ -38,21 +38,21 @@ object Note {
 }
 
 
-object Doc {
-  implicit val reader: XmlReader[Doc] = (__ \ "para").read(seq[Para]).default(Nil) map (apply _)
+object Document {
+  implicit val reader: XmlReader[Document] = (__ \ "para").read(seq[Paragraph]).default(Nil) map (apply _)
 }
 
-object Para {
-  implicit val reader: XmlReader[Para] =
+object Paragraph {
+  implicit val reader: XmlReader[Paragraph] =
     (
       attribute[String]("id") and
-        (__ \ "sent").read(seq[Sent]).default(Nil)
+        (__ \ "sent").read(seq[Sentence]).default(Nil)
       ) (apply _)
 
 }
 
-object Sent {
-  implicit val reader: XmlReader[Sent] =
+object Sentence {
+  implicit val reader: XmlReader[Sentence] =
     (
       attribute[String](name = "id") and
         attribute[String](name = "cont") and
@@ -69,12 +69,12 @@ object Word {
         attribute[String](name = "ne") and
         attribute[String](name = "parent") and
         attribute[String](name = "relate") and
-        (__ \ "arg").read(seq[Arg]).optional
+        (__ \ "arg").read(seq[Arguments]).optional
       ) (apply _)
 }
 
-object Arg {
-  implicit val reader: XmlReader[Arg] =
+object Arguments {
+  implicit val reader: XmlReader[Arguments] =
     (
       attribute[String](name = "id") and
         attribute[String](name = "type") and

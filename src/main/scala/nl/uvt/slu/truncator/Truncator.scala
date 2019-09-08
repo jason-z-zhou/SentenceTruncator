@@ -1,3 +1,9 @@
 package nl.uvt.slu.truncator
 
-trait Truncator extends (String => Seq[String])
+import nl.uvt.slu.parser.{Document, Paragraph, Sentence}
+
+trait Truncator {
+  def truncate(doc: Document): Seq[WordBag]
+  def truncate(para: Paragraph):Seq[WordBag]
+  def truncate(sent: Sentence):Seq[WordBag]
+}

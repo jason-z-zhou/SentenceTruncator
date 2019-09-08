@@ -2,7 +2,7 @@
 
 PROJECT_PATH="/Users/jaszhou/dev/aurora/SentenceTruncator"
 
-for input in $PROJECT_PATH/src/main/resources/article/A?.txt; do
+for input in $PROJECT_PATH/src/main/resources/article/A1.txt; do
     content=$(<$input)
     echo $content
     filename=$(basename "$input" .txt)
