@@ -82,23 +82,38 @@ object SyntacticTruncator {
     }
   }.filter(_.nonEmpty)
 
-//  def balance(lines: Seq[Line]): Seq[Line] = {
-//    lines
-//  }
-//
-//  def merge(forward: Option[Line], right: Line, backward: Option[Line]) = {
-//
-//
-//  }
-//
-//  def rootWord(line: Line): Word = {
-//    line.map(_.parent)
-//  }
+  def balance(lines: Seq[Line]): Seq[Line] = {
+//    lines.sliding(3)
+    // TODO: Write merge and divide logic
+    Seq.empty
+  }
 
-  def shouldMerge(line: Line):Boolean = false
 
-  def shouldBreak(line: Line):Boolean = false
+  def merge(left: Line, right: Line): Line = {
+    left ++ right
+  }
 
+  def shouldMerge(line: Line): Boolean = {
+    if (line.show.size <= MIN_CHAR) true
+    else false
+  }
+
+  def shouldBreak(line: Line): Boolean = {
+    if (line.show.size >= MAX_CHAR) true
+    else false
+  }
+
+  def parent(word: Word, line: Line): Int = {
+    val parent = word.parent
+    if (parent < 0) parent
+    else {
+      val maybeParentNode = line.find(w => w.id == parent)
+      maybeParentNode match {
+        case None => parent
+        case Some(word) => parent(word, line)
+      }
+    }
+  }
 
   private def isBreakPunt(word: Word) = {
     word.pos == "wp" && BREAK_PUNCTS.contains(word.content)
