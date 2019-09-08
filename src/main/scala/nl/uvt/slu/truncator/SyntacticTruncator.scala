@@ -21,66 +21,84 @@ class SyntacticTruncator extends Truncator {
     * @param sent
     * @return
     */
-  override def truncate(sent: Sentence): Seq[WordBag] = {
+  override def truncate(sent: Sentence): Seq[Line] = {
     val words = sent.words
-    val rawWordBag = divide(words)(isNotBreakPunt)
-    rawWordBag.flatMap { words =>
-      val headWord: Option[Word] = words.find(w => w.arguments.getOrElse(Seq.empty).nonEmpty && w.relate == "HED")
 
-      val indexes: Set[Int] = headWord match {
-        case None => Set.empty
-        case Some(w) => {
-          val pars: Seq[(Int, Int)] = w.arguments.get.map(arg => (arg.beg.toInt, arg.end.toInt)).sortWith(
-            (left, right) => left._1 <= right._1
-          )
-          pars.sliding(2).flatMap { s =>
-            val (left, right) = (s.head, s(1))
-            if (left._2 == right._1 - 1) Seq(left._2, right._2)
-            else Seq(left._2, right._1 - 1, right._2)
-          }.toSet
-        }
+    val headWord = words.find(w => w.arguments.getOrElse(Seq.empty).nonEmpty && w.relate == "HED")
+
+    val breakerIndex = headWord.map { h =>
+      val pars = h.arguments.get.map(arg => (arg.beg.toInt, arg.end.toInt)).sortWith(
+        (left, right) => left._1 <= right._1
+      )
+
+      if (pars.isEmpty) Seq.empty
+      else if (pars.size == 1) Seq(pars.head._1, pars.head._2)
+      else {
+        pars.sliding(2).flatMap { s =>
+          val (left, right) = (s.head, s(1))
+          if (left._2 == right._1 - 1) Seq(left._2, right._2)
+          else Seq(left._2, right._1 - 1, right._2)
+        }.toSet.toSeq.sorted
       }
-      if (indexes.nonEmpty) {
-        divide(words)(w => !indexes.contains(w.id.toInt))
-      } else {
-        Seq(words)
-      }
-    }
+    }.getOrElse(Seq.empty)
+
+    val punctIndexes = words.filter(w => isBreakPunt(w)).map(_.id)
+
+    val indexes = (breakerIndex ++ punctIndexes).sorted.toSet
+
+    divide(words, indexes)
   }
 
-  override def truncate(para: Paragraph): Seq[WordBag] = {
+  override def truncate(para: Paragraph): Seq[Line] = {
     para.sentences.flatMap(
       s => truncate(s)
     )
     // If a wordbag only contains a single word punctuation, merge it with previous wordbag
   }
 
-  override def truncate(doc: Document): Seq[WordBag] = {
+  override def truncate(doc: Document): Seq[Line] = {
     doc.paragraphs.flatMap(
       p =>
         truncate(p)
     )
   }
-
-
 }
 
 object SyntacticTruncator {
   private val MIN_CHAR = 4
   private val MAX_CHAR = 25
   private val END_PUNCTS = Seq("。", "!", "?", "……")
-  private val BREAK_PUNCTS = Seq("，", "；", "：")
+  private val SEPERATE_PUNCTS = Seq("，", "；", "：")
+  private val BREAK_PUNCTS = END_PUNCTS ++ SEPERATE_PUNCTS
 
-  private def divide[T](elements: Seq[T])(condition: T => Boolean): Seq[Seq[T]] = {
-    if (elements.isEmpty) Seq.empty
-    else
-      elements.span(condition) match {
-        case (Nil, Nil) => Seq.empty
+  def divide(words: Seq[Word], indexes: Set[Int]): Seq[Seq[Word]] = {
+    words match {
+      case Nil => Seq.empty
+      case head :: Nil => Seq(words)
+      case _ => words.span(w => !indexes.contains(w.id)) match {
         case (left, Nil) => Seq(left)
-        case (Nil, right) => divide(right)(condition)
-        case (left, right) => (left :+ right.head) +: divide(right.tail)(condition)
+        case (left, right) => (left :+ right.head) +: divide(right.tail, indexes)
       }
-  }.filterNot(_.isEmpty)
+    }
+  }.filter(_.nonEmpty)
+
+//  def balance(lines: Seq[Line]): Seq[Line] = {
+//    lines
+//  }
+//
+//  def merge(forward: Option[Line], right: Line, backward: Option[Line]) = {
+//
+//
+//  }
+//
+//  def rootWord(line: Line): Word = {
+//    line.map(_.parent)
+//  }
+
+  def shouldMerge(line: Line):Boolean = false
+
+  def shouldBreak(line: Line):Boolean = false
+
 
   private def isBreakPunt(word: Word) = {
     word.pos == "wp" && BREAK_PUNCTS.contains(word.content)

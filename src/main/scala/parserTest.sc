@@ -1,7 +1,28 @@
-val index = Seq(2, 4, 5)
+case class Word(id: Int, content: String, isBreak: Boolean = false)
 
-val elements = Seq("a", "b", "c", "d", "e", "f", "g", "h")
+val words = Seq(
+  Word(1, "apple"),
+  Word(2, "banana"),
+  Word(3, "cherry", true),
+  Word(4, "Dewberries"),
+  Word(5, "Eggfruit"),
+  Word(6, "Fig", true),
+  Word(7, "Grapefruit", true),
+  Word(8, "Hackberry")
+)
 
-elements.sliding(2).foreach(s => println(s))
-elements.sliding(2).foreach(s => println(s(1)))
+def divide(words: Seq[Word]): Seq[Seq[Word]] = {
+  words match {
+    case Nil => Seq.empty
+    case head :: Nil => Seq(words)
+    case _ => words.span(w => !w.isBreak) match {
+      case (left, Nil) => Seq(left)
+      case (left, right) => (left :+ right.head) +: divide(right.tail)
+    }
+  }
+}
+
+divide(words)
+
+
 

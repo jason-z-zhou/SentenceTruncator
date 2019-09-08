@@ -12,7 +12,7 @@ object XtractSampleApp extends App with XmlHelper {
   // Read xml into object
   val xml4nlp = xtract(inPath)
 
-  private val content = xml4nlp.get.doc.paragraphs(0).sentences(1)
+  private val content = xml4nlp.get.doc
   //truncation
   val wordBags = truncator.truncate(content)
   private val result = wordBags.show

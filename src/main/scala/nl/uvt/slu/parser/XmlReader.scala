@@ -14,7 +14,7 @@ case class Paragraph(id: Int, sentences: Seq[Sentence])
 
 case class Sentence(id: Int, content: String, words: Seq[Word])
 
-case class Word(id: Int, content: String, pos: String, ne: String, parent: String, relate: String, arguments: Option[Seq[Arguments]])
+case class Word(id: Int, content: String, pos: String, ne: String, parent: Int, relate: String, arguments: Option[Seq[Arguments]])
 
 case class Arguments(id: Int, `type`: String, beg: String, end: String)
 
@@ -67,7 +67,7 @@ object Word {
         attribute[String](name = "cont") and
         attribute[String](name = "pos") and
         attribute[String](name = "ne") and
-        attribute[String](name = "parent") and
+        attribute[Int](name = "parent") and
         attribute[String](name = "relate") and
         (__ \ "arg").read(seq[Arguments]).optional
       ) (apply _)
