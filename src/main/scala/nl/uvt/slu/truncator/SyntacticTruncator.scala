@@ -2,25 +2,12 @@ package nl.uvt.slu.truncator
 
 import nl.uvt.slu.parser.{Document, Paragraph, Sentence, Word}
 
-//case class Para(id: String, sent: Seq[Sent])
-//case class Sent(id: String, cont: String, words: Seq[Word])
-//case class Word(id: String, cont: String, pos: String, ne: String, parent: String, relate: String, args: Option[Seq[Arg]])
+import scala.collection.mutable
+
 class SyntacticTruncator extends Truncator {
 
   import SyntacticTruncator._
 
-  /**
-    *   - 最高级别要求：单行最少和最多字符数
-    *   - 句与句：句终分开：句号，感叹号，分号。。
-    *   - 并列句：从连词前分开 and， or， but
-    *   - 复合句：从从句引导词前分开 6个w， that
-    *   - 简单句：主语+谓语， 从谓语前分开
-    *   - 如果划分后少于最少字符数，合并前后句
-    *   - 如果划分后多于最多字符数，从此行根结点或者级别最高的节点之前分开
-    *
-    * @param sent
-    * @return
-    */
   override def truncate(sent: Sentence): Seq[Line] = {
     val words = sent.words
 
@@ -46,14 +33,15 @@ class SyntacticTruncator extends Truncator {
 
     val indexes = (breakerIndex ++ punctIndexes).sorted.toSet
 
-    divide(words, indexes)
+    val lines = divide(words, indexes)
+    lines
+//    balance(lines)
   }
 
   override def truncate(para: Paragraph): Seq[Line] = {
     para.sentences.flatMap(
       s => truncate(s)
     )
-    // If a wordbag only contains a single word punctuation, merge it with previous wordbag
   }
 
   override def truncate(doc: Document): Seq[Line] = {
@@ -83,33 +71,46 @@ object SyntacticTruncator {
   }.filter(_.nonEmpty)
 
   def balance(lines: Seq[Line]): Seq[Line] = {
-//    lines.sliding(3)
-    // TODO: Write merge and divide logic
-    Seq.empty
+    if(lines.size <= 2) lines
+    else {
+      val tripleLines = lines.sliding(3).toSeq
+
+      val tupleLines: Seq[Seq[Line]] = tripleLines.map { triple: Seq[Line] =>
+        val (prev, curr, next) = (triple.head, triple(1), triple(2))
+        if (!shouldMerge(curr)) triple
+        else {
+          if (parent(curr) <= curr.head.id) Seq(prev ++ curr, next)
+          else Seq(prev, curr ++ next)
+        }
+      }
+
+      val result: mutable.Seq[Line] = mutable.Seq.empty[Line]
+
+      tupleLines.foreach { lines: Seq[Line] =>
+        lines.foreach { line =>
+          if (result.isEmpty) result +: line
+          else if (result.last.last.id < line.head.id) result +: line
+        }
+      }
+      result
+    }
   }
 
+  def shouldMerge(line: Line): Boolean = line.show.size <= MIN_CHAR
 
-  def merge(left: Line, right: Line): Line = {
-    left ++ right
-  }
+  def shouldBreak(line: Line): Boolean = line.show.size >= MAX_CHAR
 
-  def shouldMerge(line: Line): Boolean = {
-    if (line.show.size <= MIN_CHAR) true
-    else false
-  }
-
-  def shouldBreak(line: Line): Boolean = {
-    if (line.show.size >= MAX_CHAR) true
-    else false
+  def parent(line: Line): Int = {
+    parent(line.head, line)
   }
 
   def parent(word: Word, line: Line): Int = {
-    val parent = word.parent
-    if (parent < 0) parent
+    val p = word.parent
+    if (p < 0) p
     else {
-      val maybeParentNode = line.find(w => w.id == parent)
+      val maybeParentNode = line.find(w => w.id == p)
       maybeParentNode match {
-        case None => parent
+        case None => p
         case Some(word) => parent(word, line)
       }
     }

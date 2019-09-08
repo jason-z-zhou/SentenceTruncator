@@ -1,3 +1,5 @@
+import scala.collection.mutable
+
 case class Word(id: Int, content: String, isBreak: Boolean = false)
 
 val words = Seq(
@@ -8,7 +10,9 @@ val words = Seq(
   Word(5, "Eggfruit"),
   Word(6, "Fig", true),
   Word(7, "Grapefruit", true),
-  Word(8, "Hackberry")
+  Word(8, "Hackberry"),
+  Word(9, "Imbe", true),
+  Word(10, "Jambolan")
 )
 
 def divide(words: Seq[Word]): Seq[Seq[Word]] = {
@@ -22,7 +26,22 @@ def divide(words: Seq[Word]): Seq[Seq[Word]] = {
   }
 }
 
-divide(words)
+val lines = divide(words)
+
+//Merge forward when size of sequence is 1
 
 
+val wordList = mutable.Seq(
+  Word(1, "apple"),
+  Word(2, "banana"),
+  Word(3, "cherry", true),
+  Word(4, "Dewberries"),
+  Word(5, "Eggfruit"),
+  Word(6, "Fig", true),
+  Word(7, "Grapefruit", true),
+  Word(8, "Hackberry"),
+  Word(9, "Imbe", true),
+  Word(10, "Jambolan")
+)
 
+wordList(wordList.size - 1)
