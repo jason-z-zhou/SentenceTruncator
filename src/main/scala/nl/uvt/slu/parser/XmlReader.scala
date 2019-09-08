@@ -10,13 +10,13 @@ case class Note(send: String, word: String, pos: String, ne: String, parser: Str
 
 case class Document(paragraphs: Seq[Paragraph])
 
-case class Paragraph(id: String, sentences: Seq[Sentence])
+case class Paragraph(id: Int, sentences: Seq[Sentence])
 
-case class Sentence(id: String, content: String, words: Seq[Word])
+case class Sentence(id: Int, content: String, words: Seq[Word])
 
-case class Word(id: String, content: String, pos: String, ne: String, parent: String, relate: String, arguments: Option[Seq[Arguments]])
+case class Word(id: Int, content: String, pos: String, ne: String, parent: String, relate: String, arguments: Option[Seq[Arguments]])
 
-case class Arguments(id: String, `type`: String, beg: String, end: String)
+case class Arguments(id: Int, `type`: String, beg: String, end: String)
 
 object Xml4Nlp {
   implicit val reader: XmlReader[Xml4Nlp] = (
@@ -45,7 +45,7 @@ object Document {
 object Paragraph {
   implicit val reader: XmlReader[Paragraph] =
     (
-      attribute[String]("id") and
+      attribute[Int]("id") and
         (__ \ "sent").read(seq[Sentence]).default(Nil)
       ) (apply _)
 
@@ -54,7 +54,7 @@ object Paragraph {
 object Sentence {
   implicit val reader: XmlReader[Sentence] =
     (
-      attribute[String](name = "id") and
+      attribute[Int](name = "id") and
         attribute[String](name = "cont") and
         (__ \ "word").read(seq[Word]).default(Nil)
       ) (apply _)
@@ -63,7 +63,7 @@ object Sentence {
 object Word {
   implicit val reader: XmlReader[Word] =
     (
-      attribute[String](name = "id") and
+      attribute[Int](name = "id") and
         attribute[String](name = "cont") and
         attribute[String](name = "pos") and
         attribute[String](name = "ne") and
@@ -76,7 +76,7 @@ object Word {
 object Arguments {
   implicit val reader: XmlReader[Arguments] =
     (
-      attribute[String](name = "id") and
+      attribute[Int](name = "id") and
         attribute[String](name = "type") and
         attribute[String](name = "beg") and
         attribute[String](name = "end")
