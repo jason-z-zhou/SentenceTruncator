@@ -1,11 +1,11 @@
 package nl.uvt.slu.truncator
 
-import nl.uvt.slu.balance.MergeBalancer
+import nl.uvt.slu.balance.{BreakBalancer, MergeBalancer}
 import nl.uvt.slu.parser.{Document, Paragraph, Sentence, Word}
 
 import scala.collection.immutable.SortedSet
 
-class SyntacticTruncator(mergeBalancer: MergeBalancer) extends Truncator {
+class SyntacticTruncator(mergeBalancer: MergeBalancer, breakBalancer: BreakBalancer) extends Truncator {
 
   import SyntacticTruncator._
 
@@ -35,10 +35,12 @@ class SyntacticTruncator(mergeBalancer: MergeBalancer) extends Truncator {
     val indexes: SortedSet[Int] = (breakerIndex ++ punctIndexes).to[SortedSet]
 
     val lines = divide(words, indexes)
+
+
+    val mergedLine = mergeBalancer(lines)
+    val breakLine = breakBalancer(mergedLine)
     lines
-
-    mergeBalancer(lines)
-
+//    breakBalancer(mergedLine)
   }
 
   override def truncate(para: Paragraph): Seq[Line] = {

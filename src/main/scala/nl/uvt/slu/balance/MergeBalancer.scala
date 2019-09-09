@@ -5,12 +5,10 @@ import nl.uvt.slu.truncator.{Line, WordBagString}
 import scala.collection.mutable
 
 class MergeBalancer extends Balancer {
-  import MergeBalancer._
-  override def apply(v1: Seq[Line]): Seq[Line] = {
-    mergeBalance(v1)
-  }
 
-  def mergeBalance(lines: Seq[Line]): Seq[Line] = {
+  import MergeBalancer._
+
+  override def apply(lines: Seq[Line]): Seq[Line] = {
     val litr = lines.iterator
     var result: mutable.SortedSet[Line] = mutable.SortedSet.empty[Line](LineOrdering)
 
@@ -24,11 +22,22 @@ class MergeBalancer extends Balancer {
       else if (shouldMergeForward(current)) {
         val next = litr.next()
         result = result + (current ++ next)
-      }else{
+      } else {
         result = result + current
       }
     }
     result.toSeq
+  }
+
+}
+
+object MergeBalancer {
+  private val MIN_CHAR = 4
+  private val MAX_CHAR = 30
+
+  object LineOrdering extends Ordering[Line] {
+    def compare(a: Line, b: Line) = a.head.id compare b.head.id
+
   }
 
   def shouldMergeForward(line: Line): Boolean = shouldMerge(line) && parent(line) >= line.head.id
@@ -36,7 +45,6 @@ class MergeBalancer extends Balancer {
   def shouldMergeBackward(line: Line): Boolean = shouldMerge(line) && parent(line) < line.head.id
 
   def shouldMerge(line: Line): Boolean = line.show.size <= MIN_CHAR
-
 
   def parent(line: Line): Int = {
     parent(line.head, line)
@@ -52,16 +60,6 @@ class MergeBalancer extends Balancer {
         case Some(word) => parent(word, line)
       }
     }
-  }
-}
-
-object MergeBalancer{
-  private val MIN_CHAR = 4
-  private val MAX_CHAR = 30
-
-  object LineOrdering extends Ordering[Line] {
-    def compare(a:Line, b:Line) = a.head.id compare b.head.id
-
   }
 }
 
