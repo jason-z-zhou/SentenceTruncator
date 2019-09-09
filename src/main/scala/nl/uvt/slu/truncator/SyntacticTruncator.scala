@@ -1,10 +1,11 @@
 package nl.uvt.slu.truncator
 
+import nl.uvt.slu.balance.MergeBalancer
 import nl.uvt.slu.parser.{Document, Paragraph, Sentence, Word}
 
 import scala.collection.immutable.SortedSet
 
-class SyntacticTruncator extends Truncator {
+class SyntacticTruncator(mergeBalancer: MergeBalancer) extends Truncator {
 
   import SyntacticTruncator._
 
@@ -36,14 +37,15 @@ class SyntacticTruncator extends Truncator {
     val lines = divide(words, indexes)
     lines
 
-    mergeBalance(lines)
+    mergeBalancer(lines)
+
   }
 
   override def truncate(para: Paragraph): Seq[Line] = {
     val lines = para.sentences.flatMap(
       s => truncate(s)
     )
-    mergeBalance(lines)
+    mergeBalancer(lines)
   }
 
   override def truncate(doc: Document): Seq[Line] = {
@@ -72,53 +74,7 @@ object SyntacticTruncator {
     }
   }.filter(_.nonEmpty)
 
-
-  def mergeBalance(lines: Seq[Line]): Seq[Line] = {
-    val litr = lines.iterator
-    var result: SortedSet[Line] = SortedSet.empty[Line](LineOrdering)
-
-    while (litr.hasNext) {
-      val current = litr.next()
-      if (result.isEmpty) result = result + current
-      else if (shouldMergeBackward(current)) {
-        val prev = result.last
-        result = result - prev + (prev ++ current)
-      }
-      else if (shouldMergeForward(current)) {
-        val next = litr.next()
-        result = result + (current ++ next)
-      }else{
-        result = result + current
-      }
-    }
-    result.toSeq
-  }
-
-  def maxId(lines: Seq[Line]) = lines.map(l => l.map(_.id).max).max
-
-  def shouldMergeForward(line: Line): Boolean = shouldMerge(line) && parent(line) >= line.head.id
-
-  def shouldMergeBackward(line: Line): Boolean = shouldMerge(line) && parent(line) < line.head.id
-
-  def shouldMerge(line: Line): Boolean = line.show.size <= MIN_CHAR
-
   def shouldBreak(line: Line): Boolean = line.show.size >= MAX_CHAR
-
-  def parent(line: Line): Int = {
-    parent(line.head, line)
-  }
-
-  def parent(word: Word, line: Line): Int = {
-    val p = word.parent
-    if (p < 0) p
-    else {
-      val maybeParentNode = line.find(w => w.id == p)
-      maybeParentNode match {
-        case None => p
-        case Some(word) => parent(word, line)
-      }
-    }
-  }
 
   private def isBreakPunt(word: Word) = {
     word.pos == "wp" && BREAK_PUNCTS.contains(word.content)
@@ -126,8 +82,4 @@ object SyntacticTruncator {
 
   private def isNotBreakPunt(word: Word) = !isBreakPunt(word)
 
-}
-
-object LineOrdering extends Ordering[Line] {
-  def compare(a:Line, b:Line) = a.head.id compare b.head.id
 }

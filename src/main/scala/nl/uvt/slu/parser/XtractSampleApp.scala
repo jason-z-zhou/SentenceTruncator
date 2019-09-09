@@ -2,6 +2,7 @@ package nl.uvt.slu.parser
 
 import java.io.{File, PrintWriter}
 
+import nl.uvt.slu.balance.MergeBalancer
 import nl.uvt.slu.truncator.{SyntacticTruncator, WordBagsString}
 
 object XtractSampleApp extends App with XmlHelper {
@@ -9,7 +10,7 @@ object XtractSampleApp extends App with XmlHelper {
   val inPath = s"src/main/resources/xml/${fileName}.xml"
   val outPath = s"src/main/resources/result/${fileName}.txt"
 
-  val truncator = new SyntacticTruncator
+  val truncator = new SyntacticTruncator(new MergeBalancer)
   // Read xml into object
   val xml4nlp = xtract(inPath)
 
