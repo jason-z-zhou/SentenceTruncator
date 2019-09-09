@@ -2,7 +2,7 @@ package nl.uvt.slu.truncator
 
 import nl.uvt.slu.parser.{Document, Paragraph, Sentence, Word}
 
-import scala.collection.mutable
+import scala.collection.immutable.SortedSet
 
 class SyntacticTruncator extends Truncator {
 
@@ -31,17 +31,19 @@ class SyntacticTruncator extends Truncator {
 
     val punctIndexes = words.filter(w => isBreakPunt(w)).map(_.id)
 
-    val indexes = (breakerIndex ++ punctIndexes).sorted.toSet
+    val indexes: SortedSet[Int] = (breakerIndex ++ punctIndexes).to[SortedSet]
 
     val lines = divide(words, indexes)
     lines
-//    balance(lines)
+
+    mergeBalance(lines)
   }
 
   override def truncate(para: Paragraph): Seq[Line] = {
-    para.sentences.flatMap(
+    val lines = para.sentences.flatMap(
       s => truncate(s)
     )
+    mergeBalance(lines)
   }
 
   override def truncate(doc: Document): Seq[Line] = {
@@ -54,12 +56,12 @@ class SyntacticTruncator extends Truncator {
 
 object SyntacticTruncator {
   private val MIN_CHAR = 4
-  private val MAX_CHAR = 25
+  private val MAX_CHAR = 30
   private val END_PUNCTS = Seq("。", "!", "?", "……")
   private val SEPERATE_PUNCTS = Seq("，", "；", "：")
   private val BREAK_PUNCTS = END_PUNCTS ++ SEPERATE_PUNCTS
 
-  def divide(words: Seq[Word], indexes: Set[Int]): Seq[Seq[Word]] = {
+  def divide(words: Seq[Word], indexes: SortedSet[Int]): Seq[Seq[Word]] = {
     words match {
       case Nil => Seq.empty
       case head :: Nil => Seq(words)
@@ -70,31 +72,33 @@ object SyntacticTruncator {
     }
   }.filter(_.nonEmpty)
 
-  def balance(lines: Seq[Line]): Seq[Line] = {
-    if(lines.size <= 2) lines
-    else {
-      val tripleLines = lines.sliding(3).toSeq
 
-      val tupleLines: Seq[Seq[Line]] = tripleLines.map { triple: Seq[Line] =>
-        val (prev, curr, next) = (triple.head, triple(1), triple(2))
-        if (!shouldMerge(curr)) triple
-        else {
-          if (parent(curr) <= curr.head.id) Seq(prev ++ curr, next)
-          else Seq(prev, curr ++ next)
-        }
+  def mergeBalance(lines: Seq[Line]): Seq[Line] = {
+    val litr = lines.iterator
+    var result: SortedSet[Line] = SortedSet.empty[Line](LineOrdering)
+
+    while (litr.hasNext) {
+      val current = litr.next()
+      if (result.isEmpty) result = result + current
+      else if (shouldMergeBackward(current)) {
+        val prev = result.last
+        result = result - prev + (prev ++ current)
       }
-
-      val result: mutable.Seq[Line] = mutable.Seq.empty[Line]
-
-      tupleLines.foreach { lines: Seq[Line] =>
-        lines.foreach { line =>
-          if (result.isEmpty) result +: line
-          else if (result.last.last.id < line.head.id) result +: line
-        }
+      else if (shouldMergeForward(current)) {
+        val next = litr.next()
+        result = result + (current ++ next)
+      }else{
+        result = result + current
       }
-      result
     }
+    result.toSeq
   }
+
+  def maxId(lines: Seq[Line]) = lines.map(l => l.map(_.id).max).max
+
+  def shouldMergeForward(line: Line): Boolean = shouldMerge(line) && parent(line) >= line.head.id
+
+  def shouldMergeBackward(line: Line): Boolean = shouldMerge(line) && parent(line) < line.head.id
 
   def shouldMerge(line: Line): Boolean = line.show.size <= MIN_CHAR
 
@@ -122,4 +126,8 @@ object SyntacticTruncator {
 
   private def isNotBreakPunt(word: Word) = !isBreakPunt(word)
 
+}
+
+object LineOrdering extends Ordering[Line] {
+  def compare(a:Line, b:Line) = a.head.id compare b.head.id
 }
