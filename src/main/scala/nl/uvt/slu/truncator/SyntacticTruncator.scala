@@ -1,12 +1,11 @@
 package nl.uvt.slu.truncator
 
 import nl.uvt.slu.balance.{BreakBalancer, MergeBalancer}
-import nl.uvt.slu.parser.{Document, Paragraph, Sentence, Word}
+import nl.uvt.slu.parser.{Sentence, Word}
 
 import scala.collection.immutable.SortedSet
 
 class SyntacticTruncator(mergeBalancer: MergeBalancer, breakBalancer: BreakBalancer) extends Truncator {
-
   import SyntacticTruncator._
 
   override def truncate(sent: Sentence): Seq[Line] = {
@@ -39,20 +38,6 @@ class SyntacticTruncator(mergeBalancer: MergeBalancer, breakBalancer: BreakBalan
     val merged = mergeBalancer(lines)
 //    val broken = breakBalancer(merged)
     merged
-  }
-
-  override def truncate(para: Paragraph): Seq[Line] = {
-    val lines = para.sentences.map(
-      s => truncate(s)
-    ).reduce(_ ++ _)
-    lines
-  }
-
-
-  override def truncate(doc: Document): Seq[Para] = {
-    doc.paragraphs.map(
-      p => truncate(p)
-    )
   }
 }
 
