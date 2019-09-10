@@ -8,7 +8,8 @@ import nl.uvt.slu.truncator.{DocString, SyntacticTruncator}
 object XtractSampleApp extends App with XmlHelper {
   val fileName = "A9"
   val inPath = s"src/main/resources/xml/${fileName}.xml"
-  val outPath = s"src/main/resources/syntactic_result/${fileName}.txt"
+  val syntacticOutPath = s"src/main/resources/syntactic_result/${fileName}.txt"
+  val randomOutPath = s"src/main/resources/random_result/${fileName}.txt"
 
   val truncator = new SyntacticTruncator(new MergeBalancer, new BreakBalancer)
   // Read xml into object
@@ -21,7 +22,7 @@ object XtractSampleApp extends App with XmlHelper {
   println(result)
 
   //write to file
-  val printWriter = new PrintWriter(new File(outPath))
+  val printWriter = new PrintWriter(new File(syntacticOutPath))
   printWriter.write(result)
   printWriter.close()
 }
