@@ -1,4 +1,5 @@
 import scala.collection.mutable
+import scala.util.Random
 
 case class Word(id: Int, content: String, isBreak: Boolean = false)
 
@@ -44,4 +45,22 @@ val wordList = mutable.Seq(
   Word(10, "Jambolan")
 )
 
-wordList(wordList.size - 1)
+val sizeSum = wordList.scanLeft(0)((sum, word: Word) => sum + word.content.size).zipWithIndex
+
+val random = new Random()
+
+val randomInt = (1 until 20).map(i => random.nextInt(30 - 4) + 4).scanLeft(0)(
+  (sum,
+   rand) => sum + rand
+)
+
+randomInt
+
+sizeSum.zipWithIndex
+
+randomInt.flatMap{ r =>
+  sizeSum.find(p => p._1 > r)
+}.map(_._2)
+
+
+wordList.zip(wordList.tail)

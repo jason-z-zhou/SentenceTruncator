@@ -10,8 +10,6 @@ import scala.xml.XML
 trait XmlHelper {
   def xtract(filePath: String): Option[Xml4Nlp] = {
     val xmlData = Source.fromFile(new File(filePath)).getLines().mkString("\n")
-    println("***File to be parsed: ")
-    println(xmlData)
     val xml = XML.loadString(xmlData)
     XmlReader.of[Xml4Nlp].read(xml).toOption
   }
