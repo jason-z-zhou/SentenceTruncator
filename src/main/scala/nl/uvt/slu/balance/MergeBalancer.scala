@@ -14,15 +14,13 @@ class MergeBalancer extends Balancer {
 
     while (litr.hasNext) {
       val current = litr.next()
-      if (result.isEmpty) result = result + current
+      if (result.isEmpty || !shouldMerge(current)) result = result + current
       else if (shouldMergeBackward(current)) {
         val prev = result.last
         result = result - prev + (prev ++ current)
       }
-      else if (shouldMergeForward(current)) {
+      else {
         result = result + (current ++ litr.next())
-      } else {
-        result = result + current
       }
     }
     result.toSeq
@@ -39,11 +37,11 @@ object MergeBalancer {
 
   }
 
-  def shouldMergeForward(line: Line): Boolean = shouldMerge(line) && !shouldMergeBackward(line)
+  def shouldMergeForward(line: Line): Boolean = shouldMerge(line) && parent(line) > line.head.id
 
-  def shouldMergeBackward(line: Line): Boolean = shouldMerge(line) && parent(line) < line.head.id
+  def shouldMergeBackward(line: Line): Boolean = shouldMerge(line) && !shouldMergeForward(line)
 
-  def shouldMerge(line: Line): Boolean = line.show.size <= MIN_CHAR
+  def shouldMerge(line: Line): Boolean = line.show.size < MIN_CHAR
 
   def parent(line: Line): Int = {
     parent(line.head, line)

@@ -6,21 +6,34 @@ import nl.uvt.slu.parser.{Sentence, Word}
 import scala.collection.immutable.SortedSet
 import scala.util.Random
 
-class SyntacticTruncator(mergeBalancer: MergeBalancer, random: Random) extends Truncator {
+class RandomTruncator(mergeBalancer: MergeBalancer, random: Random) extends Truncator {
+
+  import RandomTruncator._
 
   override def truncate(sent: Sentence): Seq[Line] = {
-    val length = sent.words.show.size
-    val indexChar = (1 until 10).map(i => random.nextInt(26) + 4)
+    val randomInt = (1 until 20).map(i => random.nextInt(MAX_CHAR - MIN_CHAR) + MIN_CHAR).scanLeft(0)(
+      (sum,
+       rand) => sum + rand
+    )
+    val sizeSumScan = sent.words.scanLeft(0)((sum, word) => sum + word.content.size).zipWithIndex
 
+
+    val indexes = randomInt.flatMap(
+      r =>
+        sizeSumScan.find(p => p._1 > r)
+    ).map(_._2).to[SortedSet]
+
+    fixPunct(mergeBalancer(divide(sent.words, indexes)))
   }
 
 }
 
 object RandomTruncator {
-  private val MIN_CHAR = 4
-  private val MAX_CHAR = 30
+  val MIN_CHAR = 5
+  val MAX_CHAR = 30
   private val END_PUNCTS = Seq("。", "!", "?", "……")
   private val SEPERATE_PUNCTS = Seq("，", "；", "：")
+  private val OTHER_PUNCTS = Seq("”", "》", "、", "）")
   private val BREAK_PUNCTS = END_PUNCTS ++ SEPERATE_PUNCTS
 
   def divide(line: Line, indexes: SortedSet[Int]): Seq[Line] = {
@@ -41,5 +54,16 @@ object RandomTruncator {
   }
 
   private def isNotBreakPunt(word: Word) = !isBreakPunt(word)
+
+  private def fixPunct(lines: Seq[Line]): Seq[Line] = {
+    lines.zip(lines.tail :+ lines.head).map { case (curr: Line, next: Line) =>
+      if ((BREAK_PUNCTS ++ OTHER_PUNCTS).exists(b => next.head.content.contains(b))) {
+        curr :+ next.head
+      } else if ((BREAK_PUNCTS ++ OTHER_PUNCTS).exists(b => curr.head.content.contains(b))) {
+        curr.drop(1)
+      } else curr
+
+    }
+  }
 
 }
