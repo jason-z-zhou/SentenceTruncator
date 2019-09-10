@@ -4,16 +4,25 @@ import nl.uvt.slu.parser.Word
 
 package object truncator {
   type Line = Seq[Word]
+  type Para = Seq[Line]
+  type Doc = Seq[Para]
 
-  implicit class WordBagString(val wordBag: Line) {
+  implicit class LineString(val line: Line) {
     def show: String = {
-      wordBag.map(_.content).reduce(_ + _)
+      line.map(_.content).reduce(_ + _)
     }
   }
 
-  implicit class WordBagsString(val wordBags: Seq[Line]) {
+  implicit class ParaString(val para: Para) {
     def show = {
-      wordBags.map(_.show).reduce((left, right) => left + "\n" + right)
+      para.map(_.show).reduce((left, right) => left + "\n" + right) + "\n"
+    }
+  }
+
+
+  implicit class DocString(val paras: Seq[Para]) {
+    def show = {
+      paras.map(_.show).reduce((left, right) => left + "\n" + right)
     }
   }
 

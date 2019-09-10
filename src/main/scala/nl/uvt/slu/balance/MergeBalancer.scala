@@ -1,7 +1,7 @@
 package nl.uvt.slu.balance
 
 import nl.uvt.slu.parser.Word
-import nl.uvt.slu.truncator.{Line, WordBagString}
+import nl.uvt.slu.truncator.{Line, LineString}
 import scala.collection.mutable
 
 class MergeBalancer extends Balancer {
@@ -20,8 +20,7 @@ class MergeBalancer extends Balancer {
         result = result - prev + (prev ++ current)
       }
       else if (shouldMergeForward(current)) {
-        val next = litr.next()
-        result = result + (current ++ next)
+        result = result + (current ++ litr.next())
       } else {
         result = result + current
       }
@@ -40,7 +39,7 @@ object MergeBalancer {
 
   }
 
-  def shouldMergeForward(line: Line): Boolean = shouldMerge(line) && parent(line) >= line.head.id
+  def shouldMergeForward(line: Line): Boolean = shouldMerge(line) && !shouldMergeBackward(line)
 
   def shouldMergeBackward(line: Line): Boolean = shouldMerge(line) && parent(line) < line.head.id
 

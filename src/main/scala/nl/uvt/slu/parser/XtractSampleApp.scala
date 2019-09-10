@@ -3,7 +3,7 @@ package nl.uvt.slu.parser
 import java.io.{File, PrintWriter}
 
 import nl.uvt.slu.balance.{BreakBalancer, MergeBalancer}
-import nl.uvt.slu.truncator.{SyntacticTruncator, WordBagsString}
+import nl.uvt.slu.truncator.{DocString, SyntacticTruncator}
 
 object XtractSampleApp extends App with XmlHelper {
   val fileName = "A9"
@@ -16,8 +16,8 @@ object XtractSampleApp extends App with XmlHelper {
 
   private val content = xml4nlp.get.doc
   //truncation
-  val wordBags = truncator.truncate(content)
-  private val result = wordBags.show
+  val doc = truncator.truncate(content)
+  val result = doc.show
   println(result)
 
   //write to file

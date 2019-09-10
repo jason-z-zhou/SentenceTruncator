@@ -36,24 +36,22 @@ class SyntacticTruncator(mergeBalancer: MergeBalancer, breakBalancer: BreakBalan
 
     val lines = divide(words, indexes)
 
-
-    val mergedLine = mergeBalancer(lines)
-    val breakLine = breakBalancer(mergedLine)
-    lines
-//    breakBalancer(mergedLine)
+    val merged = mergeBalancer(lines)
+//    val broken = breakBalancer(merged)
+    merged
   }
 
   override def truncate(para: Paragraph): Seq[Line] = {
-    val lines = para.sentences.flatMap(
+    val lines = para.sentences.map(
       s => truncate(s)
-    )
-    mergeBalancer(lines)
+    ).reduce(_ ++ _)
+    lines
   }
 
-  override def truncate(doc: Document): Seq[Line] = {
-    doc.paragraphs.flatMap(
-      p =>
-        truncate(p)
+
+  override def truncate(doc: Document): Seq[Para] = {
+    doc.paragraphs.map(
+      p => truncate(p)
     )
   }
 }
@@ -65,11 +63,11 @@ object SyntacticTruncator {
   private val SEPERATE_PUNCTS = Seq("，", "；", "：")
   private val BREAK_PUNCTS = END_PUNCTS ++ SEPERATE_PUNCTS
 
-  def divide(words: Seq[Word], indexes: SortedSet[Int]): Seq[Seq[Word]] = {
-    words match {
+  def divide(line: Line, indexes: SortedSet[Int]): Seq[Line] = {
+    line match {
       case Nil => Seq.empty
-      case head :: Nil => Seq(words)
-      case _ => words.span(w => !indexes.contains(w.id)) match {
+      case head :: Nil => Seq(line)
+      case _ => line.span(w => !indexes.contains(w.id)) match {
         case (left, Nil) => Seq(left)
         case (left, right) => (left :+ right.head) +: divide(right.tail, indexes)
       }
