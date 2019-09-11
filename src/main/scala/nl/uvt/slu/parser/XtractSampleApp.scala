@@ -8,7 +8,7 @@ import nl.uvt.slu.truncator.{DocString, RandomTruncator, SyntacticTruncator}
 import scala.util.Random
 
 object XtractSampleApp extends App with XmlHelper {
-  val fileName = "A9"
+  val fileName = "A8"
   val inPath = s"src/main/resources/xml/${fileName}.xml"
   val syntacticOutPath = s"src/main/resources/syntactic_result/${fileName}.txt"
   val randomOutPath = s"src/main/resources/random_result/${fileName}.txt"
