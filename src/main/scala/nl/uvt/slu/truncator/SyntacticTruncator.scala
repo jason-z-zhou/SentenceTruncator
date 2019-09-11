@@ -6,6 +6,7 @@ import nl.uvt.slu.parser.{Sentence, Word}
 import scala.collection.immutable.SortedSet
 
 class SyntacticTruncator(mergeBalancer: MergeBalancer, breakBalancer: BreakBalancer) extends Truncator {
+
   import SyntacticTruncator._
 
   override def truncate(sent: Sentence): Seq[Line] = {
@@ -36,8 +37,7 @@ class SyntacticTruncator(mergeBalancer: MergeBalancer, breakBalancer: BreakBalan
     val lines = divide(words, indexes)
 
     val merged = mergeBalancer(lines)
-//    val broken = breakBalancer(merged)
-    merged
+    merged.map(_.show)
   }
 }
 
@@ -48,7 +48,7 @@ object SyntacticTruncator {
   private val SEPERATE_PUNCTS = Seq("，", "；", "：")
   private val BREAK_PUNCTS = END_PUNCTS ++ SEPERATE_PUNCTS
 
-  def divide(line: Line, indexes: SortedSet[Int]): Seq[Line] = {
+  def divide(line: wordBag, indexes: SortedSet[Int]): Seq[wordBag] = {
     line match {
       case Nil => Seq.empty
       case head :: Nil => Seq(line)
@@ -59,7 +59,7 @@ object SyntacticTruncator {
     }
   }.filter(_.nonEmpty)
 
-  def shouldBreak(line: Line): Boolean = line.show.size >= MAX_CHAR
+  def shouldBreak(line: wordBag): Boolean = line.show.size >= MAX_CHAR
 
   private def isBreakPunt(word: Word) = {
     word.pos == "wp" && BREAK_PUNCTS.contains(word.content)

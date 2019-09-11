@@ -1,16 +1,16 @@
 package nl.uvt.slu.balance
 
 import nl.uvt.slu.parser.Word
-import nl.uvt.slu.truncator.{Line, LineString}
+import nl.uvt.slu.truncator.{wordBag, LineString}
 import scala.collection.mutable
 
 class MergeBalancer extends Balancer {
 
   import MergeBalancer._
 
-  override def apply(lines: Seq[Line]): Seq[Line] = {
+  override def apply(lines: Seq[wordBag]): Seq[wordBag] = {
     val litr = lines.iterator
-    var result: mutable.SortedSet[Line] = mutable.SortedSet.empty[Line](LineOrdering)
+    var result: mutable.SortedSet[wordBag] = mutable.SortedSet.empty[wordBag](LineOrdering)
 
     while (litr.hasNext) {
       val current = litr.next()
@@ -32,22 +32,22 @@ object MergeBalancer {
   private val MIN_CHAR = 4
   private val MAX_CHAR = 30
 
-  object LineOrdering extends Ordering[Line] {
-    def compare(a: Line, b: Line) = a.head.id compare b.head.id
+  object LineOrdering extends Ordering[wordBag] {
+    def compare(a: wordBag, b: wordBag) = a.head.id compare b.head.id
 
   }
 
-  def shouldMergeForward(line: Line): Boolean = shouldMerge(line) && parent(line) > line.head.id
+  def shouldMergeForward(line: wordBag): Boolean = shouldMerge(line) && parent(line) > line.head.id
 
-  def shouldMergeBackward(line: Line): Boolean = shouldMerge(line) && !shouldMergeForward(line)
+  def shouldMergeBackward(line: wordBag): Boolean = shouldMerge(line) && !shouldMergeForward(line)
 
-  def shouldMerge(line: Line): Boolean = line.show.size < MIN_CHAR
+  def shouldMerge(line: wordBag): Boolean = line.show.size < MIN_CHAR
 
-  def parent(line: Line): Int = {
+  def parent(line: wordBag): Int = {
     parent(line.head, line)
   }
 
-  def parent(word: Word, line: Line): Int = {
+  def parent(word: Word, line: wordBag): Int = {
     val p = word.parent
     if (p < 0) p
     else {

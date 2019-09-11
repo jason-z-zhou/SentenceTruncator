@@ -23,7 +23,9 @@ class RandomTruncator(mergeBalancer: MergeBalancer, random: Random) extends Trun
         sizeSumScan.find(p => p._1 > r)
     ).map(_._2).to[SortedSet]
 
-    fixPunct(mergeBalancer(divide(sent.words, indexes)))
+    val wordBags = fixPunct(mergeBalancer(divide(sent.words, indexes)))
+
+    wordBags.map(_.show)
   }
 
 }
@@ -36,7 +38,7 @@ object RandomTruncator {
   private val OTHER_PUNCTS = Seq("”", "》", "、", "）")
   private val BREAK_PUNCTS = END_PUNCTS ++ SEPERATE_PUNCTS
 
-  def divide(line: Line, indexes: SortedSet[Int]): Seq[Line] = {
+  def divide(line: wordBag, indexes: SortedSet[Int]): Seq[wordBag] = {
     line match {
       case Nil => Seq.empty
       case head :: Nil => Seq(line)
@@ -47,7 +49,7 @@ object RandomTruncator {
     }
   }.filter(_.nonEmpty)
 
-  def shouldBreak(line: Line): Boolean = line.show.size >= MAX_CHAR
+  def shouldBreak(line: wordBag): Boolean = line.show.size >= MAX_CHAR
 
   private def isBreakPunt(word: Word) = {
     word.pos == "wp" && BREAK_PUNCTS.contains(word.content)
@@ -55,8 +57,8 @@ object RandomTruncator {
 
   private def isNotBreakPunt(word: Word) = !isBreakPunt(word)
 
-  private def fixPunct(lines: Seq[Line]): Seq[Line] = {
-    lines.zip(lines.tail :+ lines.head).map { case (curr: Line, next: Line) =>
+  private def fixPunct(lines: Seq[wordBag]): Seq[wordBag] = {
+    lines.zip(lines.tail :+ lines.head).map { case (curr: wordBag, next: wordBag) =>
       if ((BREAK_PUNCTS ++ OTHER_PUNCTS).exists(b => next.head.content.contains(b))) {
         curr :+ next.head
       } else if ((BREAK_PUNCTS ++ OTHER_PUNCTS).exists(b => curr.head.content.contains(b))) {

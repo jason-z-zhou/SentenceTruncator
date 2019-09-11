@@ -1,13 +1,13 @@
 package nl.uvt.slu.balance
 
 import nl.uvt.slu.parser.Word
-import nl.uvt.slu.truncator.{Line, LineString}
+import nl.uvt.slu.truncator.{wordBag, LineString}
 
 class BreakBalancer extends Balancer {
 
   import BreakBalancer._
 
-  override def apply(lines: Seq[Line]): Seq[Line] = {
+  override def apply(lines: Seq[wordBag]): Seq[wordBag] = {
     lines.flatMap { line =>
       if (!shouldBreak(line)) Seq(line)
       else divide(line)
@@ -19,17 +19,17 @@ class BreakBalancer extends Balancer {
 object BreakBalancer {
   private val MAX_CHAR = 10
 
-  object LineOrdering extends Ordering[Line] {
-    def compare(a: Line, b: Line) = a.head.id compare b.head.id
+  object LineOrdering extends Ordering[wordBag] {
+    def compare(a: wordBag, b: wordBag) = a.head.id compare b.head.id
   }
 
-  def shouldBreak(line: Line): Boolean = line.show.size >= MAX_CHAR
+  def shouldBreak(line: wordBag): Boolean = line.show.size >= MAX_CHAR
 
-  def divide(line: Line): Seq[Line] = {
+  def divide(line: wordBag): Seq[wordBag] = {
     divide(line, root(line))
   }
 
-  def divide(line: Line, index: Int): Seq[Line] = {
+  def divide(line: wordBag, index: Int): Seq[wordBag] = {
     line match {
       case Nil => Seq.empty
       case head :: Nil => Seq(line)
@@ -42,9 +42,9 @@ object BreakBalancer {
   }.filter(_.nonEmpty)
 
 
-  def root(line: Line): Int = root(line.head, line)
+  def root(line: wordBag): Int = root(line.head, line)
 
-  def root(word: Word, line: Line): Int = {
+  def root(word: Word, line: wordBag): Int = {
     val p = word.parent
     if (p < 0) p
     else {

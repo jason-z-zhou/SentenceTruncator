@@ -1,5 +1,5 @@
 package nl.uvt.slu.balance
 
-import nl.uvt.slu.truncator.Line
+import nl.uvt.slu.truncator.wordBag
 
-trait Balancer extends (Seq[Line] => Seq[Line])
+trait Balancer extends (Seq[wordBag] => Seq[wordBag])
