@@ -11,21 +11,28 @@ class RandomTruncator(mergeBalancer: MergeBalancer, random: Random) extends Trun
   import RandomTruncator._
 
   override def truncate(sent: Sentence): Seq[Line] = {
-    val randomInt = (1 until 20).map(i => random.nextInt(MAX_CHAR - MIN_CHAR) + MIN_CHAR).scanLeft(0)(
+
+    val sentenceStr = sent.words.show
+
+    val randomInt = (1 until 30).map(i => random.nextInt(MAX_CHAR - MIN_CHAR) + MIN_CHAR).scanLeft(0)(
       (sum,
        rand) => sum + rand
-    )
-    val sizeSumScan = sent.words.scanLeft(0)((sum, word) => sum + word.content.size).zipWithIndex
+    ).takeWhile(_ < sentenceStr.size)
 
 
-    val indexes = randomInt.flatMap(
-      r =>
-        sizeSumScan.find(p => p._1 > r)
-    ).map(_._2).to[SortedSet]
+    val indexes: Seq[Int] = randomInt.map { r =>
+      if (BREAK_PUNCTS.contains(sentenceStr.indexOf(r))) r + 1
+      else r
+    }
 
-    val wordBags = fixPunct(mergeBalancer(divide(sent.words, indexes)))
+    val begins = 0 +: indexes
+    val ends = indexes :+ sentenceStr.size
 
-    wordBags.map(_.show)
+
+    val lines: Seq[Line] = begins.zip(ends).map { case (begin, end) =>
+      sentenceStr.substring(begin, end)
+    }.filterNot(_.isEmpty)
+    lines
   }
 
 }
@@ -35,7 +42,8 @@ object RandomTruncator {
   val MAX_CHAR = 30
   private val END_PUNCTS = Seq("。", "!", "?", "……")
   private val SEPERATE_PUNCTS = Seq("，", "；", "：")
-  private val OTHER_PUNCTS = Seq("”", "》", "、", "）")
+  private val RIGHT_PUNCTS = Seq("”", "》", "、", "）")
+  private val LEFT_PUNCTS = Seq("“", "《", "（")
   private val BREAK_PUNCTS = END_PUNCTS ++ SEPERATE_PUNCTS
 
   def divide(line: wordBag, indexes: SortedSet[Int]): Seq[wordBag] = {
@@ -59,9 +67,9 @@ object RandomTruncator {
 
   private def fixPunct(lines: Seq[wordBag]): Seq[wordBag] = {
     lines.zip(lines.tail :+ lines.head).map { case (curr: wordBag, next: wordBag) =>
-      if ((BREAK_PUNCTS ++ OTHER_PUNCTS).exists(b => next.head.content.contains(b))) {
+      if ((BREAK_PUNCTS ++ RIGHT_PUNCTS).exists(b => next.head.content.contains(b))) {
         curr :+ next.head
-      } else if ((BREAK_PUNCTS ++ OTHER_PUNCTS).exists(b => curr.head.content.contains(b))) {
+      } else if ((BREAK_PUNCTS ++ RIGHT_PUNCTS).exists(b => curr.head.content.contains(b))) {
         curr.drop(1)
       } else curr
 
