@@ -29,14 +29,14 @@ class SemanticTruncator(wordDistanceCalculator: WordDistanceCalculator, mergeBal
     val lines = divide(leftWords, indexes.to[SortedSet])
 
     lines.map(_.show)
-//    val merged = mergeBalancer(lines)
-//    merged.map(_.show)
+    val merged = mergeBalancer(lines)
+    merged.map(_.show)
   }
 }
 
 
 object SemanticTruncator {
-  val THRESHOLD = 1
+  val THRESHOLD = 1.6
 
   def divide(line: wordBag, indexes: SortedSet[Int]): Seq[wordBag] = {
     line match {

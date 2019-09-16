@@ -56,7 +56,7 @@ object XtractSampleApp extends App with XmlHelper {
   val semanticDoc = semanticTruncator.truncate(content)
   val semanticResult = semanticDoc.show
   println(semanticResult)
-  val semanticPrintWriter = new PrintWriter(new File(randomOutPath))
+  val semanticPrintWriter = new PrintWriter(new File(semanticOutPath))
   semanticPrintWriter.write(semanticResult)
   semanticPrintWriter.close()
 
