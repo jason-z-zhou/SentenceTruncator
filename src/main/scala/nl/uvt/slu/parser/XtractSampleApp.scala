@@ -3,10 +3,8 @@ package nl.uvt.slu.parser
 import java.io.{File, PrintWriter}
 
 import nl.uvt.slu.balance.{BreakBalancer, MergeBalancer}
-import nl.uvt.slu.semantic.WordDistanceCalculator
-import nl.uvt.slu.truncator.{DocString, RandomTruncator, SemanticTruncator, SyntacticTruncator}
+import nl.uvt.slu.truncator.{DocString, RandomTruncator, SyntacticTruncator}
 
-import scala.io.Source
 import scala.util.Random
 
 object XtractSampleApp extends App with XmlHelper {
@@ -42,22 +40,22 @@ object XtractSampleApp extends App with XmlHelper {
   randomPrintWriter.write(randomResult)
   randomPrintWriter.close()
 
-  //semantic truncation
-  val dictionaryPath = "/Users/jaszhou/dev/ltp/word-coocurrence/word-coocurrence-dim300"
-  val dictionary: Map[String, Array[Float]] = Source.fromFile(dictionaryPath).getLines()
-    .map { line =>
-      val pars = line.split(" ")
-      (pars.head, pars.tail.map(_.toFloat))
-    }.toMap
-
-  val wordDistanceCalculator = new WordDistanceCalculator(dictionary)
-
-  val semanticTruncator = new SemanticTruncator(wordDistanceCalculator, mergeBalancer)
-  val semanticDoc = semanticTruncator.truncate(content)
-  val semanticResult = semanticDoc.show
-  println(semanticResult)
-  val semanticPrintWriter = new PrintWriter(new File(semanticOutPath))
-  semanticPrintWriter.write(semanticResult)
-  semanticPrintWriter.close()
+//  //semantic truncation
+//  val dictionaryPath = "/Users/jaszhou/dev/ltp/word-coocurrence/word-coocurrence-dim300"
+//  val dictionary: Map[String, Array[Float]] = Source.fromFile(dictionaryPath).getLines()
+//    .map { line =>
+//      val pars = line.split(" ")
+//      (pars.head, pars.tail.map(_.toFloat))
+//    }.toMap
+//
+//  val wordDistanceCalculator = new WordDistanceCalculator(dictionary)
+//
+//  val semanticTruncator = new SemanticTruncator(wordDistanceCalculator, mergeBalancer)
+//  val semanticDoc = semanticTruncator.truncate(content)
+//  val semanticResult = semanticDoc.show
+//  println(semanticResult)
+//  val semanticPrintWriter = new PrintWriter(new File(semanticOutPath))
+//  semanticPrintWriter.write(semanticResult)
+//  semanticPrintWriter.close()
 
 }
